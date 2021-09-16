@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Social Media Management/Curated content.md",
-            "mode": "source"
+            "file": "工程數學/Separable Variables.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Social Media Management/Curated content.md",
+                "file": "工程數學/Separable Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Social Media Management/Curated content.md"
+                "file": "工程數學/Separable Variables.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Social Media Management/Curated content.md",
+                "file": "工程數學/Separable Variables.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,15 +111,15 @@
   },
   "active": "a2337634d7832110",
   "lastOpenFiles": [
+    "工程數學/Separable Variables.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/Substitution Ax By C.md",
     "Social Media Management/Curated content.md",
     "Social Media Management/Goal.md",
     "Social Media Management/KPI.md",
     "Social Media Management/Jab, Jab, Punch.md",
     "Social Media Management/Content.md",
     "Social Media Management/Buying Process.md",
-    "模型/噴漆.md",
-    "電控/IMU.md",
-    "Untitled.md",
-    "工程數學/Exact Equations.md"
+    "模型/噴漆.md"
   ]
 }
