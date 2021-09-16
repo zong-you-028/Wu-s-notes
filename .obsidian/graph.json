@@ -1,0 +1,93 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#SocialMedia",
+      "color": {
+        "a": 1,
+        "rgb": 3954840
+      }
+    },
+    {
+      "query": "tag:#iTron紀錄",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#ppt",
+      "color": {
+        "a": 1,
+        "rgb": 12861213
+      }
+    },
+    {
+      "query": "tag:#工程數學",
+      "color": {
+        "a": 1,
+        "rgb": 506631
+      }
+    },
+    {
+      "query": "tag:#arduino",
+      "color": {
+        "a": 1,
+        "rgb": 3245728
+      }
+    },
+    {
+      "query": "tag:#raspberryPi",
+      "color": {
+        "a": 1,
+        "rgb": 12917322
+      }
+    },
+    {
+      "query": "tag:#電路",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#ROS",
+      "color": {
+        "a": 1,
+        "rgb": 5267626
+      }
+    },
+    {
+      "query": "tag:#linux",
+      "color": {
+        "a": 1,
+        "rgb": 15291424
+      }
+    },
+    {
+      "query": "tag:#list",
+      "color": {
+        "a": 1,
+        "rgb": 6439462
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.97948717948718,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.658119658119658,
+  "repelStrength": 12.8867521367521,
+  "linkStrength": 0.726495726495727,
+  "linkDistance": 252,
+  "scale": 0.8137713085498718,
+  "close": true
+}

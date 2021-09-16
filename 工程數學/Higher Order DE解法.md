@@ -1,0 +1,26 @@
+標籤: #list 
+
+General
+- [[Nonhomogeneous Equations]]
+
+求 complementary function
+- [[Reduction of Order]]
+- [[Auxiliary Function]]
+
+求 particular solution
+- [[Superposition Approach]]
+- [[Annihilator Approach]]
+
+[[多變數解法]]
+- [[多變數解法]]
+
+nonlinear DE
+- [[Reduction of Order]]
+- [[Taylor Series]]
+- [[Numerical Approach]]
+
+Series Solution
+- [[Series Solution of Linear Equation]]
+  - [[Bessel's Equation]]
+    - [[Gamma Function]]
+  - [[Legendre's equation]]
