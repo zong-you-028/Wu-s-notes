@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Exact Equations.md",
-            "mode": "preview"
+            "file": "Termodynamic System.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Exact Equations.md",
+                "file": "Termodynamic System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Exact Equations.md"
+                "file": "Termodynamic System.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Exact Equations.md",
+                "file": "Termodynamic System.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,15 +111,15 @@
   },
   "active": "a2337634d7832110",
   "lastOpenFiles": [
+    "Termodynamic System.md",
+    "Zeroth Law of Thermodynamics.md",
+    "Untitled.md",
+    "Second Law of Thermodynamics.md",
+    "First Law of Thermodynamics.md",
     "工程數學/Exact Equations.md",
     "工程數學/singular point.md",
     "工程數學/Bernoulli's Equations Substitution.md",
     "工程數學/Table of Integration.md",
-    "工程數學/Reduction of Order.md",
-    "工程數學/First Order Differential Equation.md",
-    "工程數學/Separable Variables.md",
-    "工程數學/Substitution Ax By C.md",
-    "Social Media Management/Curated content.md",
-    "Social Media Management/Goal.md"
+    "工程數學/Reduction of Order.md"
   ]
 }
