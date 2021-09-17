@@ -4,7 +4,10 @@
 
 # definition
 
-a device or combination of devices containing 
+a device or combination of devices containing a quantity of matter under study
+
+> ## control volume
+> 一個自己訂的邊界用於方便計算，也可以是會移動的(如活塞)
 
 ---
 
