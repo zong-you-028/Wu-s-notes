@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/singular point.md",
+            "file": "工程數學/Exact Equations.md",
             "mode": "preview"
           }
         }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/singular point.md",
+                "file": "工程數學/Exact Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/singular point.md"
+                "file": "工程數學/Exact Equations.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/singular point.md",
+                "file": "工程數學/Exact Equations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -112,12 +111,12 @@
   },
   "active": "a2337634d7832110",
   "lastOpenFiles": [
+    "工程數學/Exact Equations.md",
     "工程數學/singular point.md",
     "工程數學/Bernoulli's Equations Substitution.md",
     "工程數學/Table of Integration.md",
     "工程數學/Reduction of Order.md",
     "工程數學/First Order Differential Equation.md",
-    "工程數學/Exact Equations.md",
     "工程數學/Separable Variables.md",
     "工程數學/Substitution Ax By C.md",
     "Social Media Management/Curated content.md",
