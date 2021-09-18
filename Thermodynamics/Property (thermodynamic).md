@@ -7,7 +7,7 @@
 - intensive property: independent of mass
 - extensive property: varies of mass
 
-當描述一個物體時，會有許多 [[Property]] ，組成一個 [[State]]
+當描述一個物體時，會有許多 [[Property (thermodynamic)]] ，組成一個 [[State]]
 
 # density & specific volume
 

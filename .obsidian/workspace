@@ -7,8 +7,11 @@
         "id": "a2337634d7832110",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Property (CSS).md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Thermodynamics",
+                "query": "property",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -66,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Property (CSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Property (CSS).md"
+              }
             }
           },
           {
@@ -90,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Property (CSS).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,15 +110,15 @@
   },
   "active": "a2337634d7832110",
   "lastOpenFiles": [
+    "Untitled.md",
     "Thermodynamics/Property.md",
+    "website/html.md",
+    "website/link.md",
+    "website/selector.md",
     "Thermodynamics/Zeroth Law of Thermodynamics.md",
     "First Law of Thermodynamics.md",
     "Zeroth Law of Thermodynamics.md",
     "Termodynamic System.md",
-    "State.md",
-    "Second Law of Thermodynamics.md",
-    "Property.md",
-    "Properties.md",
-    "Untitled.md"
+    "State.md"
   ]
 }

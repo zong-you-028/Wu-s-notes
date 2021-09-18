@@ -2,8 +2,8 @@
 
 ---
 
-不同 [[Property]] 包裝成一個 [[State]]
-像是不同物體有不同狀況，一個狀況包含不同 [[Property]] ，組合成一個 [[State]]
+不同 [[Property (thermodynamic)]] 包裝成一個 [[State]]
+像是不同物體有不同狀況，一個狀況包含不同 [[Property (thermodynamic)]] ，組合成一個 [[State]]
 
 observable, macroscopic properties
 
