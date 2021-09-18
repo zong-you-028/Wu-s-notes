@@ -6,6 +6,16 @@
 
 ```css
 color: steelblue;
+color: #ba8509;
+color: rgb(186, 133, 9);
+```
+
+# background
+
+```css
+body {
+	background: rgb(204, 229, 255);
+}
 ```
 
 ---
