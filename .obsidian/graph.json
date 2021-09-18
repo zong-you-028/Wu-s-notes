@@ -15,20 +15,6 @@
       }
     },
     {
-      "query": "tag:#iTron紀錄",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:#ppt",
-      "color": {
-        "a": 1,
-        "rgb": 12861213
-      }
-    },
-    {
       "query": "tag:#工程數學",
       "color": {
         "a": 1,
@@ -76,6 +62,13 @@
         "a": 1,
         "rgb": 6439462
       }
+    },
+    {
+      "query": "tag:#Thermodynamics",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": true,
@@ -88,6 +81,6 @@
   "repelStrength": 12.8867521367521,
   "linkStrength": 0.726495726495727,
   "linkDistance": 252,
-  "scale": 0.8137713085498733,
+  "scale": 1.241454389948312,
   "close": true
 }
