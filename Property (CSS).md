@@ -16,6 +16,14 @@ color: rgb(186, 133, 9);
 body {
 	background: rgb(204, 229, 255);
 }
+
+body {
+	background: url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80");
+}
+
+body {
+	background: url("../img/img-1.jpg");
+}
 ```
 
 ---
