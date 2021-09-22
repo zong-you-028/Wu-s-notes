@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "建築/空間.md",
-            "mode": "source"
+            "file": "尺寸.md",
+            "mode": "preview"
           }
         },
         "group": "bd3171b571100f64"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "建築/空間.md",
+            "file": "尺寸.md",
             "mode": "source"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "建築/空間.md",
+                "file": "尺寸.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "建築/空間.md"
+                "file": "尺寸.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "建築/空間.md",
+                "file": "尺寸.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -125,10 +125,10 @@
   },
   "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
+    "Untitled.md",
     "建築/空間.md",
     "手的尺寸.png",
     "空間.md",
-    "Untitled.md",
     "工程數學/Linear Equations.md",
     "工程數學/多變數解法.md",
     "工程數學/Superposition Principle.md",
