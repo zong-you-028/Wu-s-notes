@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
+            "file": "工程數學/Exact Equations.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linear",
+                "query": "exact e",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "工程數學/Exact Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Equations.md"
+                "file": "工程數學/Exact Equations.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "工程數學/Exact Equations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,6 +111,7 @@
   },
   "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
+    "工程數學/Exact Equations.md",
     "工程數學/Linear Equations.md",
     "工程數學/First Order Differential Equation.md",
     "工程數學/Homogeneous Substitution.md",
@@ -118,7 +120,6 @@
     "工程數學/Auxiliary Function.md",
     "website/Property (CSS).md",
     "Property (CSS).md",
-    "website/selector.md",
-    "website/link.md"
+    "website/selector.md"
   ]
 }
