@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "尺寸.md",
+            "file": "建築/空間.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "尺寸.md",
+            "file": "建築/空間.md",
             "mode": "source"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "尺寸.md",
+                "file": "建築/空間.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "尺寸.md"
+                "file": "建築/空間.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "尺寸.md",
+                "file": "建築/空間.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -125,9 +124,9 @@
   },
   "active": "fc1a1e65f8b220a2",
   "lastOpenFiles": [
+    "建築/空間.md",
     "尺寸.md",
     "Untitled.md",
-    "建築/空間.md",
     "手的尺寸.png",
     "空間.md",
     "工程數學/Linear Equations.md",
