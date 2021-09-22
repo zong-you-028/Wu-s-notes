@@ -9,23 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Property (CSS).md",
+            "file": "工程數學/Linear Equations.md",
             "mode": "preview"
           }
-        },
-        "group": "34b7ba8276def11e"
-      },
-      {
-        "id": "a2337634d7832110",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Property (CSS).md",
-            "mode": "source"
-          }
-        },
-        "group": "34b7ba8276def11e"
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "property",
+                "query": "linear",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Property (CSS).md",
+                "file": "工程數學/Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Property (CSS).md"
+                "file": "工程數學/Linear Equations.md"
               }
             }
           },
@@ -108,31 +95,30 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Property (CSS).md",
+                "file": "工程數學/Linear Equations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "a2337634d7832110",
+  "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
+    "工程數學/Linear Equations.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/Homogeneous Substitution.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/Cauchy-Euler Equation.md",
+    "工程數學/Auxiliary Function.md",
+    "website/Property (CSS).md",
     "Property (CSS).md",
     "website/selector.md",
-    "website/link.md",
-    "website/html.md",
-    "Untitled.md",
-    "Thermodynamics/Property.md",
-    "Thermodynamics/Zeroth Law of Thermodynamics.md",
-    "First Law of Thermodynamics.md",
-    "Zeroth Law of Thermodynamics.md",
-    "Termodynamic System.md"
+    "website/link.md"
   ]
 }
