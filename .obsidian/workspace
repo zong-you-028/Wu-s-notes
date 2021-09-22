@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -123,7 +122,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fc1a1e65f8b220a2",
+  "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
     "建築/空間.md",
     "空間.md",
