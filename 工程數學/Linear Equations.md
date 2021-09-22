@@ -1,6 +1,6 @@
 標籤: #工程數學
 
-## 原理
+# 原理
 
 linear equations的長相
 $$a_1(x)\frac{dy}{dx}+a_0(x)y=g(x)$$
@@ -28,7 +28,7 @@ $$\implies du(x)=\frac{f(x)}{y_1(x)}dx \implies u(x)=\int \frac{f(x)}{y_1(x)}dx 
 
 ![[螢幕擷取畫面 (213).png]]
 
-## 五步驟解法
+# 五步驟解法
 
 ![[螢幕擷取畫面 (214).png]]
 
@@ -39,9 +39,9 @@ $$\overset{ \text{Step 3} }{ \implies } \frac{ d }{ dx } \left( e^{ -3x }y \righ
 $$\overset{ \text{Step 4} }{ \implies } e^{-3x}y = -2e^{-3x} + c$$
 $$\implies y = -2 + ce^{3x}$$
 
-## 特別題型: 要求 y(x) continuous
+# 特別題型: 要求 y(x) continuous
 
-### example
+## example
 
 $$\frac{dy}{dx} + y = f(x) \qquad y(0) = 0 \quad f(x) = \left\{ \begin{matrix} 1, \quad & 0 \leq x \leq 1 \\ 0, \quad & x > 1 \end{matrix} \right.$$
 

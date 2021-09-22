@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1a1e65f8b220a2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "建築/空間.md",
-            "mode": "preview"
-          }
-        },
-        "group": "bd3171b571100f64"
-      },
-      {
         "id": "ff40e22ddced4fdb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "建築/空間.md",
+            "file": "工程數學/Linear Equations.md",
+            "mode": "preview"
+          }
+        },
+        "group": "34b7ba8276def11e"
+      },
+      {
+        "id": "a2337634d7832110",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Equations.md",
             "mode": "source"
           }
         },
-        "group": "bd3171b571100f64"
+        "group": "34b7ba8276def11e"
       }
     ],
     "direction": "vertical"
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linear",
+                "query": "property",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "建築/空間.md",
+                "file": "工程數學/Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "建築/空間.md"
+                "file": "工程數學/Linear Equations.md"
               }
             }
           },
@@ -108,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "建築/空間.md",
+                "file": "工程數學/Linear Equations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -122,17 +123,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fc1a1e65f8b220a2",
+  "active": "a2337634d7832110",
   "lastOpenFiles": [
-    "建築/空間.md",
-    "尺寸.md",
-    "Untitled.md",
-    "手的尺寸.png",
-    "空間.md",
     "工程數學/Linear Equations.md",
-    "工程數學/多變數解法.md",
-    "工程數學/Superposition Principle.md",
-    "工程數學/Superposition Approach.md",
-    "工程數學/Annihilator Approach.md"
+    "工程數學/Exact Equations.md",
+    "Property (CSS).md",
+    "website/selector.md",
+    "website/link.md",
+    "website/html.md",
+    "Untitled.md",
+    "Thermodynamics/Property.md",
+    "Thermodynamics/Zeroth Law of Thermodynamics.md",
+    "First Law of Thermodynamics.md"
   ]
 }
