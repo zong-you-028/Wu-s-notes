@@ -16,6 +16,8 @@
 >   - [[singular solution]]
 >   - [[singular point]]
 > - [[#tips]]
+> ---
+> [[Table of Integration]]
 
 ---
 

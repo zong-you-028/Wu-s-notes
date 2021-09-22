@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Exact Equations.md",
-            "mode": "preview"
+            "file": "工程數學/Table of Integration.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exact e",
+                "query": "first order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Exact Equations.md",
+                "file": "工程數學/Table of Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Exact Equations.md"
+                "file": "工程數學/Table of Integration.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Exact Equations.md",
+                "file": "工程數學/Table of Integration.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,15 +111,15 @@
   },
   "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
+    "工程數學/Table of Integration.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/工數名詞解釋.md",
     "工程數學/Exact Equations.md",
     "工程數學/Linear Equations.md",
-    "工程數學/First Order Differential Equation.md",
     "工程數學/Homogeneous Substitution.md",
     "工程數學/Higher Order DE解法.md",
     "工程數學/Cauchy-Euler Equation.md",
     "工程數學/Auxiliary Function.md",
-    "website/Property (CSS).md",
-    "Property (CSS).md",
-    "website/selector.md"
+    "website/Property (CSS).md"
   ]
 }
