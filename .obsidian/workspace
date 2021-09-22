@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "建築/空間.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "group": "bd3171b571100f64"
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -125,6 +126,7 @@
   "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
     "建築/空間.md",
+    "手的尺寸.png",
     "空間.md",
     "Untitled.md",
     "工程數學/Linear Equations.md",
@@ -132,7 +134,6 @@
     "工程數學/Superposition Principle.md",
     "工程數學/Superposition Approach.md",
     "工程數學/Annihilator Approach.md",
-    "工程數學/First Order Differential Equation.md",
-    "工程數學/Table of Integration.md"
+    "工程數學/First Order Differential Equation.md"
   ]
 }
