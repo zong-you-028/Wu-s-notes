@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6d90eb9aad79e987",
+        "id": "fc1a1e65f8b220a2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Property (CSS).md",
+            "file": "建築/空間.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "bd3171b571100f64"
+      },
+      {
+        "id": "ff40e22ddced4fdb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "建築/空間.md",
+            "mode": "source"
+          }
+        },
+        "group": "bd3171b571100f64"
       }
     ],
     "direction": "vertical"
@@ -22,25 +35,31 @@
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "8d7a379fece6fb31",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "e631116a86ad84f7",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "7f824dad2243d6ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f80f984ff9eb29a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3a3afeb9ae69a7dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "linear",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         }
       }
@@ -52,58 +71,64 @@
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "29b5b4c473bba32f",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Property (CSS).md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "28e8eb65a57c4054",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Property (CSS).md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "3f7a5e63ce516d0b",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Property (CSS).md"
+        "id": "9f79ec7bccec673d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19c31a9631493842",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "建築/空間.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "14744aeec3cef4e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "建築/空間.md"
+              }
+            }
+          },
+          {
+            "id": "a02ad9b5f9036e5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "建築/空間.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "6d90eb9aad79e987",
+  "active": "fc1a1e65f8b220a2",
   "lastOpenFiles": [
-    "Property (CSS).md",
-    "電控/SoftwareSerial.h.md",
-    "Thermodynamics/Termodynamic System.md",
-    "工程數學/Explicit & Implicit Solution.md",
-    "工程數學/工數名詞解釋.md",
-    "1task/Kanban.md",
-    "1task/Bullet Journal.md",
-    "website/selector.md",
-    "website/link.md",
-    "website/html.md"
+    "建築/空間.md",
+    "尺寸.md",
+    "Untitled.md",
+    "手的尺寸.png",
+    "空間.md",
+    "工程數學/Linear Equations.md",
+    "工程數學/多變數解法.md",
+    "工程數學/Superposition Principle.md",
+    "工程數學/Superposition Approach.md",
+    "工程數學/Annihilator Approach.md"
   ]
 }
