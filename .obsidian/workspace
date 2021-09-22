@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "fc1a1e65f8b220a2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "空間.md",
+            "mode": "preview"
+          }
+        },
+        "group": "bd3171b571100f64"
+      },
+      {
         "id": "ff40e22ddced4fdb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
-            "mode": "preview"
+            "file": "空間.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "bd3171b571100f64"
       }
     ],
     "direction": "vertical"
@@ -48,12 +61,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -69,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "空間.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Equations.md"
+                "file": "空間.md"
               }
             }
           },
@@ -96,13 +109,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "空間.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -111,6 +125,8 @@
   },
   "active": "ff40e22ddced4fdb",
   "lastOpenFiles": [
+    "空間.md",
+    "Untitled.md",
     "工程數學/Linear Equations.md",
     "工程數學/多變數解法.md",
     "工程數學/Superposition Principle.md",
@@ -118,8 +134,6 @@
     "工程數學/Annihilator Approach.md",
     "工程數學/First Order Differential Equation.md",
     "工程數學/Table of Integration.md",
-    "工程數學/工數名詞解釋.md",
-    "工程數學/Exact Equations.md",
-    "工程數學/Homogeneous Substitution.md"
+    "工程數學/工數名詞解釋.md"
   ]
 }
