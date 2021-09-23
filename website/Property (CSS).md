@@ -35,7 +35,7 @@ background: url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ix
 background: url("../img/img-1.jpg");
 ```
 
-使用圖片，可以用
+使用圖片，可以用本地的路徑，也可以輸入圖片的網址
 
 ### rgba
 
@@ -43,12 +43,27 @@ background: url("../img/img-1.jpg");
 background: rgba(204, 229, 255, 0.4);
 ```
 
+比起 rgb ，增加了 alpha 可以設定，代表透明度
+
+在設定深淺的時候很好用
+
 ### linear-gradient
 
 ```css
 background: linear-gradient(to right, red, blue);
 background: linear-gradient(to right, red, green, blue, steelblue);
+background: linear-gradient(to right, rgb(94, 255, 126), rgba(94, 255, 126, 0));
 ```
+
+漸層，可以輸入多個顏色組合漸層，前面加上方向
+
+> #### 方向
+> 
+> - `right`
+> - `top`
+> - `bottom`
+> - `left`
+
 
 ## background color
 
