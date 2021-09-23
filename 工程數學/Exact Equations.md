@@ -1,6 +1,6 @@
 標籤: #工程數學 
 
-## Limitation
+# Limitation
 
 We can express any 1st order DE as
 $$M(x, y)dx + N(x, y)dy = 0$$
@@ -15,11 +15,11 @@ $$\frac{ \partial }{ \partial y } M(x, y) =
 
 
 
-## Modified Exact Equation
+# Modified Exact Equation
 
 如果不符合Exact Equation的條件，有可能乘上一個$\mu(y)$或$\mu(x)$就是了
 
-### 原理
+## 原理
 
 $$M(x, y)dx + N(x, y)dy = 0$$
 
@@ -53,15 +53,15 @@ $$\frac{1}{\mu}d\mu = \frac{M_y - N_x}{N}dx$$
 $$\ln\mu = \int\frac{M_y - N_x}{N}dx$$
 $$\mu(x) = e^{\int \frac{(M_y - N_x)}{N}dx}$$
 
-### 方法
+## 方法
 
 ![[螢幕擷取畫面 (223).png]]
 ![[螢幕擷取畫面 (225).png]]
 
 
-## Method
+# Method
 
-### 步驟解
+## 步驟解
 
 $$\text{Previous Step: Check whether}\; \frac{\partial M(x, y)}{\partial y} = \frac{\partial N(x, y)}{\partial x} \; \text{is satisfied}$$
 .
@@ -78,7 +78,7 @@ $$\text{Extra Steps: (a)Consider the initial value problem}$$
 
 > 這是下面圖解的解法A
 
-### 圖解
+## 圖解
 
 解法A
 
@@ -90,6 +90,6 @@ $$\text{Extra Steps: (a)Consider the initial value problem}$$
 
 > 解法A和B積分的算式分別是M和N，可以看那個比較好積而採用A或B
 
-## 例子
+# 例子
 
 ![[螢幕擷取畫面 (220).png]]
