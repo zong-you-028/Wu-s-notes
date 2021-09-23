@@ -86,6 +86,14 @@ background: radial-gradient(red, blue);
 
 從中心往外的漸層
 
+---
+
+```css
+background: radial-gradient(circle, red, blue);
+```
+
+一般的漸層會是橢圓的，在前面多加 `circle` 可以變成正圓形
+
 ## background color
 
 ```css
