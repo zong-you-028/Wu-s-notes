@@ -29,18 +29,26 @@ background-color: rgb(0,0,0);
 
 only accept color
 
+## background image
+
 ```css
-
-
-body {
-	
-}
-
-body {
-	
-	background-color: url("../img/img-1.jpg");	//works the same
-}
+background-image: url("../img/img-1.jpg");	//works the same
 ```
+
+## background repeat
+
+```css
+background-repeat: no-repeat;
+background-repeat: repeat;
+```
+
+Is set to repeat by default.
+
+當使用圖片但是圖片不夠大無法塞進去時，就會用重複的方法填滿，可以用這個 [[Property (CSS) | property]] 改善
+
+但是圖片並不會放大塞滿整個背景，其他背景的區塊會是空的
+
+
 
 ---
 
