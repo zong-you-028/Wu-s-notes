@@ -48,6 +48,14 @@ Is set to repeat by default.
 
 但是圖片並不會放大塞滿整個背景，其他背景的區塊會是空的
 
+![[css background repeat off 範例.png]]
+
+## background size
+
+```css
+background-size: 50px 100px;
+```
+
 
 
 ---
