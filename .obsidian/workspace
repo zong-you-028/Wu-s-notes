@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
+            "file": "工程數學/singular point.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "工程數學/singular point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Equations.md"
+                "file": "工程數學/singular point.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "工程數學/singular point.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,6 +111,7 @@
   },
   "active": "d001bf30693ec47f",
   "lastOpenFiles": [
+    "工程數學/singular point.md",
     "工程數學/Linear Equations.md",
     "工程數學/First Order Differential Equation.md",
     "衛星/Cube Satellite.md",
@@ -119,7 +120,6 @@
     "Property (CSS).md",
     "website/selector.md",
     "website/link.md",
-    "website/html.md",
-    "Untitled.md"
+    "website/html.md"
   ]
 }
