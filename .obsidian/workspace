@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
+            "file": "website/Property (CSS).md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "37004973af1f2950"
+      },
+      {
+        "id": "57e6a220745f3c60",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "website/Property (CSS).md",
+            "mode": "source"
+          }
+        },
+        "group": "37004973af1f2950"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "website/Property (CSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Equations.md"
+                "file": "website/Property (CSS).md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "website/Property (CSS).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,8 +122,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d001bf30693ec47f",
+  "active": "57e6a220745f3c60",
   "lastOpenFiles": [
+    "website/Property (CSS).md",
+    "website/selector.md",
     "工程數學/Linear Equations.md",
     "工程數學/singular point.md",
     "工程數學/First Order Differential Equation.md",
@@ -118,8 +133,6 @@
     "2021-09-22.md",
     "工程數學/Exact Equations.md",
     "Property (CSS).md",
-    "website/selector.md",
-    "website/link.md",
-    "website/html.md"
+    "website/link.md"
   ]
 }
