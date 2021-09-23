@@ -10,15 +10,44 @@ color: #ba8509;
 color: rgb(186, 133, 9);
 ```
 
+設定顏色
+
+可以用預設的顏色名稱，也可以用十六進位和 rgb 與 [[#rgba]]
+
 # background
+
+設定背景
 
 ## background
 
+### rgb
+
 ```css
 background: rgb(204, 229, 255);
+```
+
+使用 rgb 方法設定
+
+### url photo (external & local path)
+
+```css
 background: url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80");
 background: url("../img/img-1.jpg");
+```
+
+使用圖片，可以用
+
+### rgba
+
+```css
 background: rgba(204, 229, 255, 0.4);
+```
+
+### linear-gradient
+
+```css
+background: linear-gradient(to right, red, blue);
+background: linear-gradient(to right, red, green, blue, steelblue);
 ```
 
 ## background color
