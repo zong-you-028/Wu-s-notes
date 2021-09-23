@@ -18,7 +18,7 @@ color: rgb(186, 133, 9);
 background: rgb(204, 229, 255);
 background: url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80");
 background: url("../img/img-1.jpg");
-
+background: rgba(204, 229, 255, 0.4);
 ```
 
 ## background color
@@ -53,10 +53,15 @@ Is set to repeat by default.
 ## background size
 
 ```css
+//寬 高
 background-size: 50px 100px;
+background-size: cover;
+background-size: contain;
 ```
 
-
+1. 設定寬和高
+2. 直接設定一張圖要蓋住整個背景
+3. 設定圖為最大(但不一定可以蓋住整個畫面)
 
 ---
 
