@@ -9,23 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "衛星/Cube Satellite.md",
+            "file": "工程數學/Linear Equations.md",
             "mode": "preview"
           }
-        },
-        "group": "895665458d1ad351"
-      },
-      {
-        "id": "ff40e22ddced4fdb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "衛星/Cube Satellite.md",
-            "mode": "source"
-          }
-        },
-        "group": "895665458d1ad351"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "衛星/Cube Satellite.md",
+                "file": "工程數學/Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "衛星/Cube Satellite.md"
+                "file": "工程數學/Linear Equations.md"
               }
             }
           },
@@ -108,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "衛星/Cube Satellite.md",
+                "file": "工程數學/Linear Equations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -122,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ff40e22ddced4fdb",
+  "active": "d001bf30693ec47f",
   "lastOpenFiles": [
+    "工程數學/Linear Equations.md",
+    "工程數學/First Order Differential Equation.md",
     "衛星/Cube Satellite.md",
     "2021-09-22.md",
-    "工程數學/Linear Equations.md",
     "工程數學/Exact Equations.md",
     "Property (CSS).md",
     "website/selector.md",
     "website/link.md",
     "website/html.md",
-    "Untitled.md",
-    "Thermodynamics/Property.md"
+    "Untitled.md"
   ]
 }
