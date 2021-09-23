@@ -49,21 +49,42 @@ background: rgba(204, 229, 255, 0.4);
 
 ### linear-gradient
 
+漸層，可以輸入多個顏色組合漸層，前面加上方向
+
+#### 顏色
+
 ```css
 background: linear-gradient(to right, red, blue);
 background: linear-gradient(to right, red, green, blue, steelblue);
 background: linear-gradient(to right, rgb(94, 255, 126), rgba(94, 255, 126, 0));
+background: radial-gradient(red 20%, blue 40%, green 55%);
 ```
 
-漸層，可以輸入多個顏色組合漸層，前面加上方向
+#### 方向
 
-> #### 方向
-> 
-> - `right`
-> - `top`
-> - `bottom`
-> - `left`
+`to right`
+`to right top`
 
+- `right`
+- `top`
+- `bottom`
+- `left`
+
+可以混合用(斜的)
+
+---
+
+`260deg`
+
+也可以直接打角度
+
+---
+
+```css
+background: radial-gradient(red, blue);
+```
+
+從中心往外的漸層
 
 ## background color
 
