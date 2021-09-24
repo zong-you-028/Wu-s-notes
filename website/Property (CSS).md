@@ -15,6 +15,8 @@
 >     - [[#background image]]
 >     - [[#background repeat]]
 >     - [[#background size]]
+> - [[#text]]
+> 
 
 # color
 
@@ -149,6 +151,36 @@ background-size: contain;
 1. 設定寬和高
 2. 直接設定一張圖要蓋住整個背景
 3. 設定圖為最大(但不一定可以蓋住整個畫面)
+
+# text
+
+## text-decoration
+
+```css
+.link {
+    text-decoration: none;
+}
+```
+
+移除連結的底線
+
+```css
+text-decoration: underline;
+```
+
+連結的預設是有底線
+
+```css
+text-decoration: line-through;
+```
+
+刪除線
+
+```css
+text-decoration: overline;
+```
+
+頂部加上線
 
 ---
 
