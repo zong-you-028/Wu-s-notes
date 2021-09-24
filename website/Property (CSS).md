@@ -16,7 +16,9 @@
 >     - [[#background repeat]]
 >     - [[#background size]]
 > - [[#text]]
-> 
+>     - [[#text-decoration]]
+>     - [[#text-transform]]
+>     - [[#text-align]]
 
 # color
 
@@ -181,6 +183,44 @@ text-decoration: overline;
 ```
 
 頂部加上線
+
+## text-transform
+
+```css
+body {
+	text-transform: capitalize;
+}
+```
+
+把所有字的第一個字母變大寫
+
+```css
+text-transform: uppercase;
+```
+
+所有字母大寫
+
+```css
+text-transform: lowercase;
+```
+
+所有字母小寫
+
+## text-align
+
+```css
+body {
+	text-align: center;
+}
+```
+
+總共有四種可以選:
+- `center`
+- `right`
+- `left`
+- `justify`
+
+> `justify`: 延伸那些字到固定長度，讓每行看起來一樣寬
 
 ---
 
