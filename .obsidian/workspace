@@ -1,72 +1,137 @@
 {
   "main": {
-    "id": "d7adcc2211297bcd",
+    "id": "2a9a6dcb8a667bb7",
     "type": "split",
     "children": [
       {
-        "id": "8dab0156f21abe20",
+        "id": "d001bf30693ec47f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "website/Property (CSS).md",
+            "mode": "preview"
+          }
+        },
+        "group": "37004973af1f2950"
+      },
+      {
+        "id": "57e6a220745f3c60",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "website/Property (CSS).md",
+            "mode": "source"
+          }
+        },
+        "group": "37004973af1f2950"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "24dfe5056be109e5",
-    "type": "mobile-drawer",
+    "id": "92b924555a25b09f",
+    "type": "split",
     "children": [
       {
-        "id": "a204cd4e43bee161",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "52c73a8ab9613009",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "7f824dad2243d6ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f80f984ff9eb29a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3a3afeb9ae69a7dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "units",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 307.5107650756836
   },
   "right": {
-    "id": "67c04aeb820c250c",
-    "type": "mobile-drawer",
+    "id": "1e74d9410b234756",
+    "type": "split",
     "children": [
       {
-        "id": "cb40898e615958b9",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "9f79ec7bccec673d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19c31a9631493842",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "website/Property (CSS).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "14744aeec3cef4e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "website/Property (CSS).md"
+              }
+            }
+          },
+          {
+            "id": "a02ad9b5f9036e5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "website/Property (CSS).md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "8dab0156f21abe20",
-  "lastOpenFiles": []
+  "active": "57e6a220745f3c60",
+  "lastOpenFiles": [
+    "website/Property (CSS).md",
+    "Units.md",
+    "website/selector.md",
+    "Obsidian Template/Template.md",
+    "Untitled.md",
+    "工程數學/Linear Equations.md",
+    "工程數學/singular point.md",
+    "工程數學/First Order Differential Equation.md",
+    "衛星/Cube Satellite.md",
+    "2021-09-22.md"
+  ]
 }

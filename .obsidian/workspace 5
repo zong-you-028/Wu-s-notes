@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "fa080e35858405e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "93d2ade2da6f89ed",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "easyEDA.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c74958e28ccd45b7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fecc31a7fa6b8629",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "422f445b652d97be",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c84ab6f874178f33",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "221c15265d1c56b4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "easyEDA.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": true,
+            "unlinkedCollapsed": false
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "93d2ade2da6f89ed",
+  "lastOpenFiles": [
+    "easyEDA.md"
+  ]
+}
