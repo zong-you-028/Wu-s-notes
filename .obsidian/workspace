@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
+            "file": "Untitled.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
+            "file": "Untitled.md",
             "mode": "source"
           }
         },
@@ -61,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Equations.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -110,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -123,8 +122,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d001bf30693ec47f",
+  "active": "2c202bcdf756c52c",
   "lastOpenFiles": [
+    "Untitled.md",
     "工程數學/Linear Equations.md",
     "工程數學/Exact Equations.md",
     "工程數學/工數名詞解釋.md",
@@ -132,7 +132,6 @@
     "Units.md",
     "website/selector.md",
     "Obsidian Template/Template.md",
-    "Untitled.md",
     "工程數學/singular point.md",
     "工程數學/First Order Differential Equation.md"
   ]
