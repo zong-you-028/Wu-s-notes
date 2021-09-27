@@ -4,9 +4,13 @@
 
 # tips
 
+## 視角視窗最大化
+
 點擊兩下視角的小方框可以把它最大化占滿整個視窗
 
-![[Pasted image 20210927204844.png]]
+![[Perspective tag - rhino.png]]
+
+譬如點擊兩下 Perspective 可以把他最大化
 
 ---
 
