@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "Grasshopper.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "Grasshopper.md",
             "mode": "source"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Grasshopper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Grasshopper.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Grasshopper.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -124,6 +123,8 @@
   },
   "active": "2c202bcdf756c52c",
   "lastOpenFiles": [
+    "Grasshopper.md",
+    "機構.md",
     "Untitled.md",
     "工程數學/Linear Equations.md",
     "工程數學/Exact Equations.md",
@@ -131,8 +132,6 @@
     "website/Property (CSS).md",
     "Units.md",
     "website/selector.md",
-    "Obsidian Template/Template.md",
-    "工程數學/singular point.md",
-    "工程數學/First Order Differential Equation.md"
+    "Obsidian Template/Template.md"
   ]
 }
