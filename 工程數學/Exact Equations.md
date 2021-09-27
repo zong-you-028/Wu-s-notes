@@ -15,6 +15,45 @@ $$\frac{ \partial }{ \partial y } M(x, y) =
 
 
 
+
+
+
+# Method
+
+## 步驟解
+
+$$\text{Previous Step: Check whether}\; \frac{\partial M(x, y)}{\partial y} = \frac{\partial N(x, y)}{\partial x} \; \text{is satisfied}$$
+.
+$$\text{Step 1: Solve }\frac{\partial f(x, y)}{\partial x} = M(x, y) \implies f(x,y) = \int M(x, y)dx+g(y)$$
+.
+$$\text{Step 2: 將 }f(x,y)\text{ 代入 }\frac{\partial f(x,y)}{\partial y} = N(x,y)\text{以解出 }g(y)$$
+.
+$$\text{Step 3: Substitude }g(y) \text{ into}$$
+$$f(x,y) = \int M(x,y)dx + g(y) = c$$
+.
+$$\text{Step 4: Further computation and obtain the solution}$$
+.
+$$\text{Extra Steps: (a)Consider the initial value problem}$$
+
+> 這是下面圖解的解法A
+
+## 圖解
+
+解法A
+
+![[螢幕擷取畫面 (219).png]]
+
+解法B
+
+![[螢幕擷取畫面 (221).png]]
+
+> 解法A和B積分的算式分別是M和N，可以看那個比較好積而採用A或B
+
+# 例子
+
+![[螢幕擷取畫面 (220).png]]
+
+
 # Modified Exact Equation
 
 如果不符合Exact Equation的條件，有可能乘上一個$\mu(y)$或$\mu(x)$就是了
@@ -55,41 +94,7 @@ $$\mu(x) = e^{\int \frac{(M_y - N_x)}{N}dx}$$
 
 ## 方法
 
+
+
 ![[螢幕擷取畫面 (223).png]]
 ![[螢幕擷取畫面 (225).png]]
-
-
-# Method
-
-## 步驟解
-
-$$\text{Previous Step: Check whether}\; \frac{\partial M(x, y)}{\partial y} = \frac{\partial N(x, y)}{\partial x} \; \text{is satisfied}$$
-.
-$$\text{Step 1: Solve }\frac{\partial f(x, y)}{\partial x} = M(x, y) \implies f(x,y) = \int M(x, y)dx+g(y)$$
-.
-$$\text{Step 2: 將 }f(x,y)\text{ 代入 }\frac{\partial f(x,y)}{\partial y} = N(x,y)\text{以解出 }g(y)$$
-.
-$$\text{Step 3: Substitude }g(y) \text{ into}$$
-$$f(x,y) = \int M(x,y)dx + g(y) = c$$
-.
-$$\text{Step 4: Further computation and obtain the solution}$$
-.
-$$\text{Extra Steps: (a)Consider the initial value problem}$$
-
-> 這是下面圖解的解法A
-
-## 圖解
-
-解法A
-
-![[螢幕擷取畫面 (219).png]]
-
-解法B
-
-![[螢幕擷取畫面 (221).png]]
-
-> 解法A和B積分的算式分別是M和N，可以看那個比較好積而採用A或B
-
-# 例子
-
-![[螢幕擷取畫面 (220).png]]
