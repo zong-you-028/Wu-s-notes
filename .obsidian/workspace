@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程數學/Higher Order DE解法.md",
-                "mode": "source"
+                "file": "工程數學/Superposition Approach.md",
+                "mode": "preview"
               }
             },
             "group": "542156ac4a710c06"
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程數學/Higher Order DE解法.md",
+                "file": "工程數學/Superposition Approach.md",
                 "mode": "source"
               }
             },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Higher Order DE解法.md",
+                "file": "工程數學/Superposition Approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Higher Order DE解法.md"
+                "file": "工程數學/Superposition Approach.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Higher Order DE解法.md",
+                "file": "工程數學/Superposition Approach.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -130,8 +130,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fc1a1e65f8b220a2",
+  "active": "f7b57f87f8ba1f2d",
   "lastOpenFiles": [
+    "工程數學/Superposition Approach.md",
     "工程數學/Higher Order DE解法.md",
     "工程數學/Reduction of Order.md",
     "工程數學/First Order Differential Equation.md",
@@ -140,7 +141,6 @@
     "組成群組 - grasshopper.png",
     "機構.md",
     "Pasted image 20210927133358.png",
-    "Pasted image 20210927133337.png",
-    "Untitled.md"
+    "Pasted image 20210927133337.png"
   ]
 }
