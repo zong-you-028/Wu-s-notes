@@ -72,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -131,6 +132,7 @@
   },
   "active": "f7b57f87f8ba1f2d",
   "lastOpenFiles": [
+    "衛星組成.md",
     "Untitled.md",
     "日文.md",
     "工程數學/Reduction of Order.md",
@@ -139,7 +141,6 @@
     "工程數學/Superposition Approach.md",
     "工程數學/Auxiliary Function.md",
     "工程數學/Cauchy-Euler Equation.md",
-    "工程數學/Homogeneous Substitution.md",
-    "工程數學/First Order Differential Equation.md"
+    "工程數學/Homogeneous Substitution.md"
   ]
 }
