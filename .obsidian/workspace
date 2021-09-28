@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程數學/Superposition Approach.md",
+                "file": "工程數學/Reduction of Order.md",
                 "mode": "preview"
               }
             },
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程數學/Superposition Approach.md",
+                "file": "工程數學/Reduction of Order.md",
                 "mode": "source"
               }
             },
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linear",
+                "query": "homogeneous",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Superposition Approach.md",
+                "file": "工程數學/Reduction of Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Superposition Approach.md"
+                "file": "工程數學/Reduction of Order.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Superposition Approach.md",
+                "file": "工程數學/Reduction of Order.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -130,17 +131,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f7b57f87f8ba1f2d",
+  "active": "fc1a1e65f8b220a2",
   "lastOpenFiles": [
-    "工程數學/Superposition Approach.md",
-    "工程數學/Higher Order DE解法.md",
     "工程數學/Reduction of Order.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/Nonhomogeneous Equations.md",
+    "工程數學/Superposition Approach.md",
+    "工程數學/Auxiliary Function.md",
+    "工程數學/Cauchy-Euler Equation.md",
+    "工程數學/Homogeneous Substitution.md",
     "工程數學/First Order Differential Equation.md",
     "Rhino.md",
-    "Grasshopper.md",
-    "組成群組 - grasshopper.png",
-    "機構.md",
-    "Pasted image 20210927133358.png",
-    "Pasted image 20210927133337.png"
+    "Grasshopper.md"
   ]
 }
