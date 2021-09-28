@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8dde863be8b3df5d",
-        "type": "split",
-        "children": [
-          {
-            "id": "fc1a1e65f8b220a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工程數學/Reduction of Order.md",
-                "mode": "preview"
-              }
-            },
-            "group": "542156ac4a710c06"
-          },
-          {
-            "id": "f7b57f87f8ba1f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工程數學/Reduction of Order.md",
-                "mode": "source"
-              }
-            },
-            "group": "542156ac4a710c06"
-          }
-        ],
-        "direction": "horizontal"
+        "id": "6e65f418378291bc",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        },
+        "group": "44f713c4b76593e8"
+      },
+      {
+        "id": "145816f3dc703916",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        },
+        "group": "44f713c4b76593e8"
       }
     ],
     "direction": "vertical"
@@ -59,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "homogeneous",
+                "query": "linear",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,13 +55,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -90,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Reduction of Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工程數學/Reduction of Order.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,31 +99,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Reduction of Order.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "fc1a1e65f8b220a2",
+  "active": "145816f3dc703916",
   "lastOpenFiles": [
-    "工程數學/Reduction of Order.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/Nonhomogeneous Equations.md",
-    "工程數學/Superposition Approach.md",
-    "工程數學/Auxiliary Function.md",
-    "工程數學/Cauchy-Euler Equation.md",
-    "工程數學/Homogeneous Substitution.md",
-    "工程數學/First Order Differential Equation.md",
+    "Grasshopper.md",
+    "節點錯誤訊息 - grasshopper.png",
     "Rhino.md",
-    "Grasshopper.md"
+    "Untitled.md",
+    "正常但資訊不齊節點 - grasshopper.png",
+    "不正常節點 - grasshopper.png",
+    "grasshopper 按鈕.png",
+    "機構.md",
+    "工程數學/Linear Equations.md",
+    "工程數學/Exact Equations.md"
   ]
 }
