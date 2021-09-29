@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "家具.md",
                 "mode": "preview"
               }
             },
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "家具.md",
                 "mode": "source"
               }
             },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "家具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "家具.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "家具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,6 +131,7 @@
   },
   "active": "f7b57f87f8ba1f2d",
   "lastOpenFiles": [
+    "家具.md",
     "Untitled.md",
     "建築/空間.md",
     "工程數學/Cauchy-Euler Equation.md",
@@ -139,7 +140,6 @@
     "工程數學/Annihilator Approach.md",
     "工程數學/Reduction of Order.md",
     "工程數學/Nonhomogeneous Equations.md",
-    "工程數學/First Order Differential Equation.md",
-    "工程數學/Substitution Ax By C.md"
+    "工程數學/First Order Differential Equation.md"
   ]
 }
