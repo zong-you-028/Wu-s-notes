@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "圖學/Grasshopper.md",
+            "file": "圖學/曲線牆.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "圖學/Grasshopper.md",
+            "file": "圖學/曲線牆.md",
             "mode": "source"
           }
         },
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "圖學/Grasshopper.md",
+                "file": "圖學/曲線牆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "圖學/Grasshopper.md"
+                "file": "圖學/曲線牆.md"
               }
             }
           },
@@ -108,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "圖學/Grasshopper.md",
+                "file": "圖學/曲線牆.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -124,12 +125,12 @@
   },
   "active": "145816f3dc703916",
   "lastOpenFiles": [
+    "Untitled.md",
     "圖學/Grasshopper.md",
     "各種建築.md",
     "Grasshopper.md",
     "節點錯誤訊息 - grasshopper.png",
     "Rhino.md",
-    "Untitled.md",
     "正常但資訊不齊節點 - grasshopper.png",
     "不正常節點 - grasshopper.png",
     "grasshopper 按鈕.png",
