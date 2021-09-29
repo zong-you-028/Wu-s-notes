@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "各種建築.md",
-                "mode": "source"
+                "mode": "preview"
               }
             },
             "group": "542156ac4a710c06"
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f7b57f87f8ba1f2d",
+  "active": "fc1a1e65f8b220a2",
   "lastOpenFiles": [
-    "Untitled.md",
+    "各種建築.md",
     "Obsidian Template/Template.md",
+    "Untitled.md",
     "現代主義.md",
     "建築/空間與人.md",
     "建築/空間.md",
     "家具.md",
     "工程數學/Cauchy-Euler Equation.md",
     "工程數學/Higher Order DE解法.md",
-    "工程數學/多變數解法.md",
-    "工程數學/Annihilator Approach.md"
+    "工程數學/多變數解法.md"
   ]
 }
