@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程數學/Cauchy-Euler Equation.md",
+                "file": "Untitled.md",
                 "mode": "preview"
               }
             },
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程數學/Cauchy-Euler Equation.md",
+                "file": "Untitled.md",
                 "mode": "source"
               }
             },
@@ -68,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Cauchy-Euler Equation.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Cauchy-Euler Equation.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Cauchy-Euler Equation.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,6 +131,8 @@
   },
   "active": "f7b57f87f8ba1f2d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "建築/空間.md",
     "工程數學/Cauchy-Euler Equation.md",
     "工程數學/Higher Order DE解法.md",
     "工程數學/多變數解法.md",
@@ -139,8 +140,6 @@
     "工程數學/Reduction of Order.md",
     "工程數學/Nonhomogeneous Equations.md",
     "工程數學/First Order Differential Equation.md",
-    "工程數學/Substitution Ax By C.md",
-    "工程數學/Bernoulli's Equations Substitution.md",
-    "iTron會議紀錄/2021-07-25 iTron TDK討論.md"
+    "工程數學/Substitution Ax By C.md"
   ]
 }
