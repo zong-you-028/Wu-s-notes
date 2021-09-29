@@ -4,35 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "8dde863be8b3df5d",
-        "type": "split",
-        "children": [
-          {
-            "id": "fc1a1e65f8b220a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "各種建築.md",
-                "mode": "preview"
-              }
-            },
-            "group": "542156ac4a710c06"
-          },
-          {
-            "id": "f7b57f87f8ba1f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "各種建築.md",
-                "mode": "source"
-              }
-            },
-            "group": "542156ac4a710c06"
+        "id": "6e65f418378291bc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "圖學/Grasshopper.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "44f713c4b76593e8"
+      },
+      {
+        "id": "145816f3dc703916",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "圖學/Grasshopper.md",
+            "mode": "source"
+          }
+        },
+        "group": "44f713c4b76593e8"
       }
     ],
     "direction": "vertical"
@@ -59,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cauchy",
+                "query": "linear",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -89,13 +81,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "各種建築.md",
+                "file": "圖學/Grasshopper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -106,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "各種建築.md"
+                "file": "圖學/Grasshopper.md"
               }
             }
           },
@@ -116,30 +108,31 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "各種建築.md",
-                "linksCollapsed": false,
+                "file": "圖學/Grasshopper.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f7b57f87f8ba1f2d",
+  "active": "145816f3dc703916",
   "lastOpenFiles": [
+    "圖學/Grasshopper.md",
     "各種建築.md",
-    "Obsidian Template/Template.md",
+    "Grasshopper.md",
+    "節點錯誤訊息 - grasshopper.png",
+    "Rhino.md",
     "Untitled.md",
-    "現代主義.md",
-    "建築/空間與人.md",
-    "建築/空間.md",
-    "家具.md",
-    "工程數學/Cauchy-Euler Equation.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/多變數解法.md"
+    "正常但資訊不齊節點 - grasshopper.png",
+    "不正常節點 - grasshopper.png",
+    "grasshopper 按鈕.png",
+    "機構.md"
   ]
 }
