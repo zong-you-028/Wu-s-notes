@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "工程數學/Higher Order DE解法.md",
-                "mode": "preview"
+                "mode": "source"
               }
             },
             "group": "542156ac4a710c06"
@@ -68,13 +68,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
