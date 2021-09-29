@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "衛星組成.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "mode": "preview"
               }
             },
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "衛星組成.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "mode": "source"
               }
             },
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "homogeneous",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "衛星組成.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "衛星組成.md"
+                "file": "工程數學/Higher Order DE解法.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "衛星組成.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -130,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f7b57f87f8ba1f2d",
+  "active": "fc1a1e65f8b220a2",
   "lastOpenFiles": [
+    "工程數學/Higher Order DE解法.md",
+    "iTron會議紀錄/2021-07-25 iTron TDK討論.md",
+    "工程數學/Reduction of Order.md",
+    "工程數學/First Order Differential Equation.md",
+    "衛星/Cube Satellite.md",
+    "衛星/衛星組成.md",
     "衛星組成.md",
     "Untitled.md",
     "日文.md",
-    "工程數學/Reduction of Order.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/Nonhomogeneous Equations.md",
-    "工程數學/Superposition Approach.md",
-    "工程數學/Auxiliary Function.md",
-    "工程數學/Cauchy-Euler Equation.md",
-    "工程數學/Homogeneous Substitution.md"
+    "工程數學/Nonhomogeneous Equations.md"
   ]
 }
