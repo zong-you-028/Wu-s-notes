@@ -7,8 +7,11 @@
         "id": "853a5ee819d9b234",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "圖學/Grasshopper.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "圖學/Grasshopper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "圖學/Grasshopper.md"
+              }
             }
           },
           {
@@ -90,12 +96,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "圖學/Grasshopper.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -104,15 +112,15 @@
   },
   "active": "853a5ee819d9b234",
   "lastOpenFiles": [
+    "圖學/Grasshopper.md",
+    "圖學/Rhino.md",
+    "圖學/曲線牆.md",
     "Untitled.md",
     "工程數學/Linear Equations.md",
     "工程數學/First Order Differential Equation.md",
     "工程數學/Table of Integration.md",
     "工程數學/Bernoulli's Equations Substitution.md",
     "骨骼圖.md",
-    "等效機構.md",
-    "舵輪.md",
-    "機構.md",
-    "conflict-files-obsidian-git.md"
+    "等效機構.md"
   ]
 }
