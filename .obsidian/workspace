@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
+            "file": "工程數學/Bernoulli's Equations Substitution.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "super",
+                "query": "bernou",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "工程數學/Bernoulli's Equations Substitution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "工程數學/Bernoulli's Equations Substitution.md"
               }
             }
           },
@@ -95,31 +96,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "工程數學/Bernoulli's Equations Substitution.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "853a5ee819d9b234",
   "lastOpenFiles": [
+    "工程數學/Bernoulli's Equations Substitution.md",
+    "工程數學/First Order Differential Equation.md",
+    "骨骼圖.md",
+    "等效機構.md",
+    "舵輪.md",
+    "機構.md",
+    "Untitled.md",
     "conflict-files-obsidian-git.md",
     "工程數學/Nonhomogeneous Equations.md",
-    "工程數學/Superposition Approach.md",
-    "工程數學/Annihilator Approach.md",
-    "圖學/Grasshopper.md",
-    "圖學/曲線牆.md",
-    "圖學/Rhino.md",
-    "Untitled.md",
-    "各種建築.md",
-    "Grasshopper.md"
+    "工程數學/Superposition Approach.md"
   ]
 }
