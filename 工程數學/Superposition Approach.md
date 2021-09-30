@@ -6,13 +6,16 @@
 
 可以解 particular solution
 
-## 條件
+$g(x)$: 前面沒有 $y$ (常數項)
+$$y'' + p(x)y' + q(x)y = g(x)$$
+
+# 條件
 
 1. 線性
 2. constant coefficient
 3. $g(x), g'(x), g''(x), g'''(x), g^{(4)}(x), g^{(5)}(x),...\text{contain finite number of terms}$
 
-## 解法
+# 解法
 
 $g(x)$ 長什麼樣子，解就要長什麼樣子
 
@@ -36,9 +39,9 @@ $xe^{3x}\cos 4x$ | $(Ax + B)e^{3x}\cos 4x + (Cx + E)e^{3x}\sin 4x$
 > Form Rule:
 > $y_p$ should be a linear combination of $g(x)$, $g'(x)$, $g''(x)$, $g'''(x)$, $g^{(4)}(x)$, $g^{(5)}(x)$,...
 
-## 小缺陷
+# 小缺陷
 
-### example
+## example
 
 $$y'' - 5y' + 4y = 8e^x$$
 $$\text{Particular solution guessed by Form Rule:}$$
@@ -47,7 +50,7 @@ $$y_p'' - 5y_p' + 4y_p = Ae^x - 5Ae^x + 4Ae^x = 8e^x$$
 $$0 = 8e^x \qquad \text{(no solution)}$$
 $$\text{why?}$$
 
-### Glitch condition
+## Glitch condition
 
 The particular solution we guess belongs to the complementary function.
 .

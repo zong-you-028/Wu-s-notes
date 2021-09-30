@@ -15,6 +15,10 @@
 >     - [[#background image]]
 >     - [[#background repeat]]
 >     - [[#background size]]
+> - [[#text]]
+>     - [[#text-decoration]]
+>     - [[#text-transform]]
+>     - [[#text-align]]
 
 # color
 
@@ -149,6 +153,74 @@ background-size: contain;
 1. 設定寬和高
 2. 直接設定一張圖要蓋住整個背景
 3. 設定圖為最大(但不一定可以蓋住整個畫面)
+
+# text
+
+## text-decoration
+
+```css
+.link {
+    text-decoration: none;
+}
+```
+
+移除連結的底線
+
+```css
+text-decoration: underline;
+```
+
+連結的預設是有底線
+
+```css
+text-decoration: line-through;
+```
+
+刪除線
+
+```css
+text-decoration: overline;
+```
+
+頂部加上線
+
+## text-transform
+
+```css
+body {
+	text-transform: capitalize;
+}
+```
+
+把所有字的第一個字母變大寫
+
+```css
+text-transform: uppercase;
+```
+
+所有字母大寫
+
+```css
+text-transform: lowercase;
+```
+
+所有字母小寫
+
+## text-align
+
+```css
+body {
+	text-align: center;
+}
+```
+
+總共有四種可以選:
+- `center`
+- `right`
+- `left`
+- `justify`
+
+> `justify`: 延伸那些字到固定長度，讓每行看起來一樣寬
 
 ---
 
