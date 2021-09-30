@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "圖學/Grasshopper.md",
+            "file": "網形柱.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "圖學/Grasshopper.md",
+                "file": "網形柱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "圖學/Grasshopper.md"
+                "file": "網形柱.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "圖學/Grasshopper.md",
+                "file": "網形柱.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -112,15 +111,15 @@
   },
   "active": "853a5ee819d9b234",
   "lastOpenFiles": [
-    "圖學/Grasshopper.md",
-    "圖學/Rhino.md",
+    "網形柱.md",
     "圖學/曲線牆.md",
     "Untitled.md",
+    "圖學/Grasshopper.md",
+    "圖學/Rhino.md",
     "工程數學/Linear Equations.md",
     "工程數學/First Order Differential Equation.md",
     "工程數學/Table of Integration.md",
     "工程數學/Bernoulli's Equations Substitution.md",
-    "骨骼圖.md",
-    "等效機構.md"
+    "骨骼圖.md"
   ]
 }
