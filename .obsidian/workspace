@@ -9,10 +9,47 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Equations.md",
+            "file": "工程數學/Bernoulli's Equations Substitution.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "8cffe2e2502f5057"
+      },
+      {
+        "id": "35be2be41d2b650b",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "工程數學/Bernoulli's Equations Substitution.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "8cffe2e2502f5057"
       }
     ],
     "direction": "vertical"
@@ -52,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -68,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "工程數學/Bernoulli's Equations Substitution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Equations.md"
+                "file": "工程數學/Bernoulli's Equations Substitution.md"
               }
             }
           },
@@ -95,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
+                "file": "工程數學/Bernoulli's Equations Substitution.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -105,19 +143,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "853a5ee819d9b234",
+  "active": "35be2be41d2b650b",
   "lastOpenFiles": [
-    "工程數學/Linear Equations.md",
-    "工程數學/First Order Differential Equation.md",
     "工程數學/Bernoulli's Equations Substitution.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/Linear Equations.md",
+    "工程數學/Table of Integration.md",
     "骨骼圖.md",
     "等效機構.md",
     "舵輪.md",
     "機構.md",
     "Untitled.md",
-    "conflict-files-obsidian-git.md",
-    "工程數學/Nonhomogeneous Equations.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
