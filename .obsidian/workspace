@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "網形柱.md",
+            "file": "圖學/網形柱.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "網形柱.md",
+                "file": "圖學/網形柱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "網形柱.md"
+                "file": "圖學/網形柱.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "網形柱.md",
+                "file": "圖學/網形柱.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
