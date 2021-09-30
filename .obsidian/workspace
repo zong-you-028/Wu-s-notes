@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Bernoulli's Equations Substitution.md",
+            "file": "工程數學/Table of Integration.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "localgraph",
           "state": {
-            "file": "工程數學/Bernoulli's Equations Substitution.md",
+            "file": "工程數學/Table of Integration.md",
             "options": {
               "collapse-filter": true,
               "search": "",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Bernoulli's Equations Substitution.md",
+                "file": "工程數學/Table of Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Bernoulli's Equations Substitution.md"
+                "file": "工程數學/Table of Integration.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Bernoulli's Equations Substitution.md",
+                "file": "工程數學/Table of Integration.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -148,10 +148,10 @@
   },
   "active": "35be2be41d2b650b",
   "lastOpenFiles": [
-    "工程數學/Bernoulli's Equations Substitution.md",
-    "工程數學/First Order Differential Equation.md",
-    "工程數學/Linear Equations.md",
     "工程數學/Table of Integration.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/Bernoulli's Equations Substitution.md",
+    "工程數學/Linear Equations.md",
     "骨骼圖.md",
     "等效機構.md",
     "舵輪.md",
