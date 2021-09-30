@@ -1,7 +1,12 @@
 標籤: #list 
 
-General
+General Solution
 - [[Nonhomogeneous Equations]]
+
+> Superpostion Principle
+> 可以把解相加
+
+![[Second Order ODE cases.png]]
 
 求 complementary function
 - [[Reduction of Order]]

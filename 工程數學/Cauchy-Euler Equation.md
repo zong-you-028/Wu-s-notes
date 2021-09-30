@@ -22,13 +22,13 @@ $$m_1 = \frac{a_2 - a_1 + \sqrt{(a_1 - a_2)^2 - 4a_2a_0}}
   m_2 = \frac{a_2 - a_1 - \sqrt{(a_1 - a_2)^2 - 4a_2a_0}}
              {2a_2}$$
 .
-\[Case 1\]: $m_1 \neq m_2$ and $m_1$, $m_2$ are real
+### \[Case 1\]: $m_1 \neq m_2$ and $m_1$, $m_2$ are real
 .
 two independent solution of the homogeneous part:
 $$x^{m_1} \;\text{and}\; x^{m_2}$$
 $$y_c = c_1x^{m_1} + c_2x^{m_2}$$
 .
-\[Case 2\]: $m_1 = m_2$
+### \[Case 2\]: $m_1 = m_2$
 .
 Use the method of [[Reduction of Order]]
 $$y_1 = x^{m_1}$$
@@ -62,7 +62,7 @@ then $cy_2(x)$ is also a solution of the homogeneous DE
 If we constrain that $x > 0$, then $y_2 = x^{m_1}\ln x$
 $$y_c = c_1x^{m_1} + c_2x^{m_1}\ln x$$
 .
-\[Case 3\]: $m_1 \neq m_2$ and $m_1$, $m_2$ are the form of
+### \[Case 3\]: $m_1 \neq m_2$ and $m_1$, $m_2$ are the form of
 $$m_1 = \alpha + j\beta \qquad m_2 = \alpha - j\beta$$
 two independent solution of the homogeneous part:
 $$x^{\alpha + j\beta} \;\text{and}\; x^{\alpha - j\beta}$$
