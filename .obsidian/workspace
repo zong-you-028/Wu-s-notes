@@ -7,49 +7,9 @@
         "id": "853a5ee819d9b234",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Linear Equations.md",
-            "mode": "preview"
-          }
-        },
-        "group": "8cffe2e2502f5057"
-      },
-      {
-        "id": "35be2be41d2b650b",
-        "type": "leaf",
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "file": "工程數學/Linear Equations.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
-          }
-        },
-        "group": "8cffe2e2502f5057"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -106,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "工程數學/Linear Equations.md"
-              }
+              "state": {}
             }
           },
           {
@@ -133,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Equations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -148,6 +104,7 @@
   },
   "active": "853a5ee819d9b234",
   "lastOpenFiles": [
+    "Untitled.md",
     "工程數學/Linear Equations.md",
     "工程數學/First Order Differential Equation.md",
     "工程數學/Table of Integration.md",
@@ -156,7 +113,6 @@
     "等效機構.md",
     "舵輪.md",
     "機構.md",
-    "Untitled.md",
     "conflict-files-obsidian-git.md"
   ]
 }
