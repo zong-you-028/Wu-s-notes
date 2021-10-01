@@ -21,6 +21,8 @@
 >     - [[#text-align]]
 >     - [[#font-size]]
 >     - [[#font-weight]]
+>     - [[#font-style]]
+>     - [[#font-family]]
 
 # color
 
@@ -256,9 +258,20 @@ body {
 }
 ```
 
-更改字形
+更改字體種類(斜體)
 
 上面例子的兩個都是斜體
+
+## font-family
+
+```css
+body {
+	font-family: sans-serif;
+	font-family: "Times New Roman", serif;
+}
+```
+
+更改字形，用逗號可以說明備用的字形，如果前面的字形沒辦法用，就會用下一個
 
 ---
 
