@@ -7,8 +7,11 @@
         "id": "47dd1ce9344983d2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "website/Property (CSS).md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "website/Property (CSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "website/Property (CSS).md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "website/Property (CSS).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,15 +111,15 @@
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
+    "website/Property (CSS).md",
+    "website/selector.md",
+    "website/Units.md",
     "熱力第一次小考範圍.md",
     "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
     "Thermodynamics/Continuum.md",
     "Untitled.md",
     "Thermodynamics/State.md",
     "Thermodynamics/Property (thermodynamic).md",
-    "Quasistatic (quasi-equilibrium process).md",
-    "Pasted image 20211001193541.png",
-    "Thermodynamics/Zeroth Law of Thermodynamics.md",
-    "Thermodynamics/Termodynamic System.md"
+    "Quasistatic (quasi-equilibrium process).md"
   ]
 }

@@ -19,6 +19,7 @@
 >     - [[#text-decoration]]
 >     - [[#text-transform]]
 >     - [[#text-align]]
+>     - [[#font-size]]
 
 # color
 
@@ -221,6 +222,29 @@ body {
 - `justify`
 
 > `justify`: 延伸那些字到固定長度，讓每行看起來一樣寬
+
+## font-size
+
+```css
+body {
+	font-size: 1.25em;
+}
+```
+
+更改字體大小
+
+## font-weight
+
+```css
+body {
+	font-weight: 100;
+	font-weight: 800;
+}
+```
+
+可以更改字體的粗體，但是一種字形通常有限定幾種字體粗細
+
+在預設的羅馬體， 100 會是最細， 800 會是最粗
 
 ---
 
