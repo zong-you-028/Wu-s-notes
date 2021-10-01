@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "853a5ee819d9b234",
+        "id": "44f144d36005d70d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "圖學/網形柱.md",
-            "mode": "source"
+            "file": "圖學/Grasshopper.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bernou",
+                "query": "high order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "圖學/網形柱.md",
+                "file": "圖學/Grasshopper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "圖學/網形柱.md"
+                "file": "圖學/Grasshopper.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "圖學/網形柱.md",
+                "file": "圖學/Grasshopper.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "853a5ee819d9b234",
+  "active": "44f144d36005d70d",
   "lastOpenFiles": [
-    "網形柱.md",
-    "圖學/曲線牆.md",
-    "Untitled.md",
     "圖學/Grasshopper.md",
+    "圖學/曲線牆.md",
+    "圖學/網形柱.md",
+    "工程數學/Superposition Approach.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/Auxiliary Function.md",
+    "Untitled.md",
     "圖學/Rhino.md",
-    "工程數學/Linear Equations.md",
-    "工程數學/First Order Differential Equation.md",
-    "工程數學/Table of Integration.md",
-    "工程數學/Bernoulli's Equations Substitution.md",
-    "骨骼圖.md"
+    "各種建築.md",
+    "Grasshopper.md"
   ]
 }
