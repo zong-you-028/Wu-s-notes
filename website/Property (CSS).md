@@ -20,6 +20,7 @@
 >     - [[#text-transform]]
 >     - [[#text-align]]
 >     - [[#font-size]]
+>     - [[#font-weight]]
 
 # color
 
@@ -244,7 +245,20 @@ body {
 
 可以更改字體的粗體，但是一種字形通常有限定幾種字體粗細
 
-在預設的羅馬體， 100 會是最細， 800 會是最粗
+在預設的羅馬體， 100 會是最細， 800 會是最粗， 400 會是預設
+
+## font-style
+
+```css
+.italics {
+	font-style: italic;
+	font-style: oblique;
+}
+```
+
+更改字形
+
+上面例子的兩個都是斜體
 
 ---
 
