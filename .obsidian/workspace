@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thermodynamics/Property (thermodynamic).md",
-            "mode": "preview"
+            "file": "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thermodynamics/Property (thermodynamic).md",
+                "file": "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thermodynamics/Property (thermodynamic).md"
+                "file": "Thermodynamics/Quasistatic (quasi-equilibrium process).md"
               }
             }
           },
@@ -95,13 +95,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thermodynamics/Property (thermodynamic).md",
+                "file": "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -109,15 +110,15 @@
   },
   "active": "e5049844c796a750",
   "lastOpenFiles": [
-    "Thermodynamics/Property (thermodynamic).md",
+    "Quasistatic (quasi-equilibrium process).md",
+    "Pasted image 20211001193541.png",
     "Untitled.md",
+    "Thermodynamics/Zeroth Law of Thermodynamics.md",
+    "Thermodynamics/Termodynamic System.md",
     "Thermodynamics/Statistical Thermodynamics.md",
-    "Classical Thermodynamics.md",
-    "Dimension.md",
-    "Statistical Thermodynamics.md",
-    "statistical thermodynamics.md",
+    "Thermodynamics/State.md",
     "Thermodynamics/Second Law of Thermodynamics.md",
-    "Thermodynamics/First Law of Thermodynamics.md",
-    "Thermodynamics/Zeroth Law of Thermodynamics.md"
+    "Thermodynamics/Property (thermodynamic).md",
+    "Thermodynamics/First Law of Thermodynamics.md"
   ]
 }
