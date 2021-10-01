@@ -7,8 +7,16 @@
 
 observable, macroscopic properties
 
+# State Postulate
+
+又叫做狀態原則
+
+本身靜止且沒有受到
+
 ---
 
 參考資料:
 
 [熱力學(一) - NCTU ocw](https://ocw.nctu.edu.tw/course_detail-v.php?bgid=2&gid=0&nid=624&v5=BkyIczpA6OI)
+
+[狀態原則 - wikipedia](https://zh.wikipedia.org/wiki/%E7%8B%80%E6%85%8B%E5%8E%9F%E5%89%87)
