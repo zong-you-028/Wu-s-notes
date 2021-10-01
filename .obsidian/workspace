@@ -13,6 +13,17 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "21f72c36295746c0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "圖學/網形柱.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "圖學/網形柱.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -95,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "圖學/網形柱.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,8 +120,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "853a5ee819d9b234",
+  "active": "21f72c36295746c0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "圖學/網形柱.md",
     "網形柱.md",
     "圖學/曲線牆.md",
@@ -119,7 +131,6 @@
     "圖學/Rhino.md",
     "工程數學/Linear Equations.md",
     "工程數學/First Order Differential Equation.md",
-    "工程數學/Table of Integration.md",
-    "工程數學/Bernoulli's Equations Substitution.md"
+    "工程數學/Table of Integration.md"
   ]
 }
