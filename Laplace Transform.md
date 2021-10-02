@@ -75,8 +75,13 @@ $$L\{\alpha f(t) + \beta g(t)\} = \alpha L\{f(t)\} + \beta L\{g(t)\}$$
 
 ## 3. 並不是所有情況都可以用 Laplace Transform
 
-當以下兩種情況滿足，可以確定 Laplace Transform 存在
-<p color=red>注意不滿足時，Laplace Transform 不一定存在(但也不一定不存在)</p>
+> 當以下兩種情況滿足，可以確定 Laplace Transform 存在
+> 注意不滿足時，Laplace Transform 不一定存在(但也不一定不存在)
+> ### 反例
+> $$f(t) = t^{-1/2}$$ 不為 [[piecewise continuous]] ，但是 Laplace Transform 存在
+> $$F(s) = s^{-1/2}\sqrt{\pi}$$
+> 
+> > 算這個會需要用到 [[Gamma Function]]
 
 ### constraint 1
 
