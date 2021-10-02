@@ -57,8 +57,6 @@ $$= \frac{1}{s^2}$$
 
 # 特性
 
-laplace transform 有四個好用的特性
-
 ## 1. 可以把微分變成乘法
 
 $$\text{可以將}\; \frac{d^k}{dt^k}y(t) \; \text{變成} \; s^kY(s) \underbrace{- s^{k - 1}y(0) - s^{k - 2}y'(0) - ... - sy^{(y - 2)}(0) - y^{(k - 1)}(0)}_{\text{同時考慮 initial conditions}}$$
@@ -74,6 +72,14 @@ $$\int_0^\infty e^{-st}[\alpha f(t) + \beta g(t)]dt = \alpha \int_0^\infty e^{-s
 $$L\{\alpha f(t) + \beta g(t)\} = \alpha L\{f(t)\} + \beta L\{g(t)\}$$
 
 > 事實上，所有 [[Integral Transform]] 都有這個性質
+
+## 3. 並不是所有情況都可以用 Laplace Transform
+
+### constraint 1
+
+對於 $f(t)$ ，必須存在常數 $c$, $M > 0$, $T > 0$ ，滿足下列式子
+
+$$\vert f(t) \vert = $$
 
 ---
 
