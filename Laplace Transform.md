@@ -79,7 +79,15 @@ $$L\{\alpha f(t) + \beta g(t)\} = \alpha L\{f(t)\} + \beta L\{g(t)\}$$
 
 對於 $f(t)$ ，必須存在常數 $c$, $M > 0$, $T > 0$ ，滿足下列式子
 
-$$\vert f(t) \vert = $$
+$$\vert f(t) \vert \leq Me^{ct} \quad \text{for all} \; t > T$$
+
+也就是 $Me^{ct}\; (c > 0)$ 要增加的比 $f(t)$ 快
+
+![[Laplace Transform 存在條件一.png]]
+
+[[#拉普拉斯轉換表]] 裡面的式子全部滿足 [[#constraint 1]]
+
+#### 不滿足 [[#constraint 1]] 的例子
 
 ---
 
