@@ -39,6 +39,18 @@ $$= \frac{1}{s}$$
 > 這裡假設 $s > 0$, 所以
 > $$-\frac{e^{-s\cdot \infty}}{s} = 0$$
 
+## $L\{t\} = \frac{1}{s^2}$
+
+$$L\{t\} = \int_0^\infty te^{-st}dt \qquad 
+\begin{array}{}
+	u = t & dv = e^{-st}dt \\
+	du = 0 & v = -\frac{e^{-st}}{s}
+\end{array}$$
+.
+$$= \left. -\frac{te^{-st}}{s} \right\vert_0^\infty + \int_0^\infty\frac{e^{-st}}{s}dt$$
+.
+$$-\frac{\infty\cdot e^{-s\cdot\infty}}{s} + 0 + $$
+
 # 特性
 
 laplace transform 有四個好用的特性
