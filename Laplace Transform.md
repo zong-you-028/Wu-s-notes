@@ -16,15 +16,15 @@ Laplace Transform 是一種 [[Integral Transform]]
 
 底下這個東西要背起來
 
-| $$f(t)$$      | $$F(s)$$                 | 算法                      |
-| ------------- | ------------------------ | ------------------------- |
-| $$1$$         | $$\frac{1}{s}$$          | [[#L 1 frac 1 s \| link]] | 
-| $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ |                           |
-| $$\exp(at)$$  | $$\frac{1}{s - a}$$      |                           |
-| $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |                           |
-| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  |                           |
-| $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                           |
-| $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                           |
+| $$f(t)$$      | $$F(s)$$                 | 算法                            |
+| ------------- | ------------------------ | ------------------------------- |
+| $$1$$         | $$\frac{1}{s}$$          | [[#L 1 frac 1 s \| link (1)]]   |
+| $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ | [[#L t frac 1 s 2 \| link (t)]] |
+| $$\exp(at)$$  | $$\frac{1}{s - a}$$      |                                 |
+| $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |                                 |
+| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  |                                 |
+| $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                                 |
+| $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                                 |
 
 ## $L\{1\} = \frac{1}{s}$
 
@@ -49,7 +49,11 @@ $$L\{t\} = \int_0^\infty te^{-st}dt \qquad
 .
 $$= \left. -\frac{te^{-st}}{s} \right\vert_0^\infty + \int_0^\infty\frac{e^{-st}}{s}dt$$
 .
-$$-\frac{\infty\cdot e^{-s\cdot\infty}}{s} + 0 + $$
+$$= -\frac{\infty\cdot e^{-s\cdot\infty}}{s} + 0 - \left.\frac{e^{-st}}{s^2}\right\vert_0^\infty$$
+.
+$$= -\frac{e^{-s\cdot \infty}}{s^2} + \frac{e^{-s\cdot 0}}{s^2}$$
+.
+$$= \frac{1}{s^2}$$
 
 # 特性
 
