@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laplace Transform.md",
+            "file": "Untitled.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laplace Transform.md",
+            "file": "Untitled.md",
             "mode": "source"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laplace Transform.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laplace Transform.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laplace Transform.md",
+                "file": "Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -124,10 +123,10 @@
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
+    "Untitled.md",
     "Laplace Transform.md",
     "工程數學/piecewise continuous.md",
     "Integral Transform.md",
-    "Untitled.md",
     "工程數學/singular solution.md",
     "工程數學/First Order Differential Equation.md",
     "website/External Fonts.md",

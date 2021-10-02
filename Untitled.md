@@ -1,0 +1,1 @@
+$$xy' = y + 2x^3 \sin^2 \frac{y}{x} \quad (\text{set })$$
