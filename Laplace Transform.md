@@ -75,6 +75,9 @@ $$L\{\alpha f(t) + \beta g(t)\} = \alpha L\{f(t)\} + \beta L\{g(t)\}$$
 
 ## 3. 並不是所有情況都可以用 Laplace Transform
 
+當以下兩種情況滿足，可以確定 Laplace Transform 存在
+<p color=red>注意不滿足時，Laplace Transform 不一定存在(但也不一定不存在)</p>
+
 ### constraint 1
 
 對於 $f(t)$ ，必須存在常數 $c$, $M > 0$, $T > 0$ ，滿足下列式子
@@ -85,7 +88,7 @@ $$\vert f(t) \vert \leq Me^{ct} \quad \text{for all} \; t > T$$
 
 ![[Laplace Transform 存在條件一.png]]
 
-[[#拉普拉斯轉換表]] 裡面的式子全部滿足 [[#constraint 1]]
+> [[#拉普拉斯轉換表]] 裡面的式子全部滿足 [[#constraint 1]]
 
 #### 不滿足 [[#constraint 1]] 的例子
 

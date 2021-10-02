@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Integral Transform.md",
+            "file": "Laplace Transform.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Integral Transform.md",
+            "file": "Laplace Transform.md",
             "mode": "source"
           }
         },
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Integral Transform.md",
+                "file": "Laplace Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Integral Transform.md"
+                "file": "Laplace Transform.md"
               }
             }
           },
@@ -108,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Integral Transform.md",
+                "file": "Laplace Transform.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -118,13 +119,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
-    "Integral Transform.md",
-    "工程數學/piecewise continuous.md",
     "Laplace Transform.md",
+    "工程數學/piecewise continuous.md",
+    "Integral Transform.md",
     "Untitled.md",
     "工程數學/singular solution.md",
     "工程數學/First Order Differential Equation.md",
