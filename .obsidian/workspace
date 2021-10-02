@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "website/External Fonts.md",
-            "mode": "source"
+            "file": "工程數學/singular solution.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "website/External Fonts.md",
+                "file": "工程數學/singular solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "website/External Fonts.md"
+                "file": "工程數學/singular solution.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "website/External Fonts.md",
+                "file": "工程數學/singular solution.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -105,19 +105,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
+    "工程數學/singular solution.md",
+    "工程數學/First Order Differential Equation.md",
+    "website/External Fonts.md",
     "Untitled.md",
     "website/Property (CSS).md",
     "website/selector.md",
     "website/Units.md",
     "熱力第一次小考範圍.md",
     "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
-    "Thermodynamics/Continuum.md",
-    "Thermodynamics/State.md",
-    "Thermodynamics/Property (thermodynamic).md",
-    "Quasistatic (quasi-equilibrium process).md"
+    "Thermodynamics/Continuum.md"
   ]
 }
