@@ -89,6 +89,8 @@ $$\vert f(t) \vert \leq Me^{ct} \quad \text{for all} \; t > T$$
 
 #### 不滿足 [[#constraint 1]] 的例子
 
+$$f(t) = \exp(t^2) \quad \text{並不存在}\; c \; \text{使得} \; \vert f(t)\vert \leq Me^{ct} \quad \text{for all } t > T$$
+
 ---
 
 參考資料:
