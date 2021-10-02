@@ -12,6 +12,12 @@ $s$ 可以是任何複數 $s = \mu + j\omega$
 
 Laplace Transform 是一種 [[Integral Transform]]
 
+# 拉普拉斯轉換表
+
+| $$f(t)$$ | $$F(s)$$ |
+| -------- | -------- |
+|          |          |
+
 # 特性
 
 laplace transform 有四個好用的特性
@@ -22,7 +28,15 @@ $$\text{可以將}\; \frac{d^k}{dt^k}y(t) \; \text{變成} \; s^kY(s) \underbrac
 
 ## 2. 具有 Linear Property (可以乘進括號裡)
 
-$$\int_0^\infty e^{-st}[\alpha f(t) + \beta g(t)]dt = \alpha \int_0^\infty e^{-st}f(t)$$
+拉普拉斯轉換可以直接乘進括號裡
+
+$$\int_0^\infty e^{-st}[\alpha f(t) + \beta g(t)]dt = \alpha \int_0^\infty e^{-st}f(t)dt + \beta\int_0^\infty e^{-st}g(t)dt$$
+
+也就是
+
+$$L\{\alpha f(t) + \beta g(t)\} = \alpha L\{f(t)\} + \beta L\{g(t)\}$$
+
+> 事實上，所有 [[Integral Transform]] 都有這個性質
 
 ---
 
