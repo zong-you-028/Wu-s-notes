@@ -10,6 +10,14 @@ $$F(s) = L\{f(t)\} = \int_0^\infty e^{-st}f(t)dt$$
 
 Laplace Transform 是一種 [[Integral Transform]]
 
+# 特性
+
+laplace transform 有四個好用的特性
+
+## 1. 可以把微分變成乘法
+
+$$\text{可以將}\; \frac{d^k}{dt^k}y(t) \; \text{變成} \; s^kY(s) - s^{k - 1}y(0) - s^{k - 2}y'(0) - ... - sy^{(y - 2)}(0) - y^{(k - 1)}(0)$$
+
 ---
 
 參考資料:
