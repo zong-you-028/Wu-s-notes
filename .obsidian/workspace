@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Integral Transform.md",
+            "file": "2021-10-02 iTron Arduino 板.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Integral Transform.md",
+                "file": "2021-10-02 iTron Arduino 板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Integral Transform.md"
+                "file": "2021-10-02 iTron Arduino 板.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Integral Transform.md",
+                "file": "2021-10-02 iTron Arduino 板.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,6 +110,8 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
+    "2021-10-02.md",
+    "工程數學/Integral Transform.md",
     "Integral Transform.md",
     "Laplace Transform.md",
     "Untitled.md",
@@ -117,8 +119,6 @@
     "工程數學/singular solution.md",
     "工程數學/First Order Differential Equation.md",
     "website/External Fonts.md",
-    "website/Property (CSS).md",
-    "website/selector.md",
-    "website/Units.md"
+    "website/Property (CSS).md"
   ]
 }
