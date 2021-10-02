@@ -1,3 +1,9 @@
 標籤: #工程數學 
 
-整個不連續，但是在一個interval中連續
+整個函式不連續，但是在一個範圍中中斷的點是有限的
+
+![[piecewise continuous 例子.png]]
+
+上圖中藍線並不是 continuous 的，但是在任意區間中中斷的點有限
+
+而上圖紅線中有一大段中斷的 gap ，代表無限多個中斷點，因此紅線不是 piecewise continuous

@@ -91,6 +91,12 @@ $$\vert f(t) \vert \leq Me^{ct} \quad \text{for all} \; t > T$$
 
 $$f(t) = \exp(t^2) \quad \text{並不存在}\; c \; \text{使得} \; \vert f(t)\vert \leq Me^{ct} \quad \text{for all } t > T$$
 
+![[不滿足 constraint 1 的例子.png]]
+
+### constraint 2
+
+$f(t)$ 在 $[0, \infty)$ 中必須 [[piecewise continuous]]
+
 ---
 
 參考資料:

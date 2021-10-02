@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laplace Transform.md",
+            "file": "Integral Transform.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laplace Transform.md",
+            "file": "Integral Transform.md",
             "mode": "source"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Laplace",
+                "query": "piecewise",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laplace Transform.md",
+                "file": "Integral Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laplace Transform.md"
+                "file": "Integral Transform.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laplace Transform.md",
+                "file": "Integral Transform.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -119,20 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
-    "Laplace Transform.md",
     "Integral Transform.md",
+    "工程數學/piecewise continuous.md",
+    "Laplace Transform.md",
     "Untitled.md",
     "工程數學/singular solution.md",
     "工程數學/First Order Differential Equation.md",
     "website/External Fonts.md",
     "website/Property (CSS).md",
     "website/selector.md",
-    "website/Units.md",
-    "熱力第一次小考範圍.md"
+    "website/Units.md"
   ]
 }
