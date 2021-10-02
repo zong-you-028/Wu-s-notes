@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laplace Transform.md",
+            "file": "Integral Transform.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Laplace Transform.md",
+            "file": "Integral Transform.md",
             "mode": "source"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laplace Transform.md",
+                "file": "Integral Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laplace Transform.md"
+                "file": "Integral Transform.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laplace Transform.md",
+                "file": "Integral Transform.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -123,6 +123,7 @@
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
+    "Integral Transform.md",
     "Laplace Transform.md",
     "Untitled.md",
     "工程數學/singular solution.md",
@@ -131,7 +132,6 @@
     "website/Property (CSS).md",
     "website/selector.md",
     "website/Units.md",
-    "熱力第一次小考範圍.md",
-    "Thermodynamics/Quasistatic (quasi-equilibrium process).md"
+    "熱力第一次小考範圍.md"
   ]
 }
