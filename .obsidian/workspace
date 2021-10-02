@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-10-02 iTron Arduino 板測試.md",
-            "mode": "source"
+            "file": "電控/Serial.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "piecewise",
+                "query": "hardware serial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-10-02 iTron Arduino 板測試.md",
+                "file": "電控/Serial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-10-02 iTron Arduino 板測試.md"
+                "file": "電控/Serial.md"
               }
             }
           },
@@ -95,14 +96,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2021-10-02 iTron Arduino 板測試.md",
+                "file": "電控/Serial.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,15 +110,15 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
+    "電控/Serial.md",
+    "電控/Serial options.md",
+    "電控/tb6560步進馬達驅動板.md",
+    "2021-10-02 iTron Arduino 板測試.md",
     "2021-10-02.md",
     "工程數學/Integral Transform.md",
     "Integral Transform.md",
     "Laplace Transform.md",
     "Untitled.md",
-    "工程數學/piecewise continuous.md",
-    "工程數學/singular solution.md",
-    "工程數學/First Order Differential Equation.md",
-    "website/External Fonts.md",
-    "website/Property (CSS).md"
+    "工程數學/piecewise continuous.md"
   ]
 }

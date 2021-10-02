@@ -2,7 +2,7 @@
 
 ---
 
-用於 Serial 的腳位有不同種類
+用於 [[Serial]] 的腳位有不同種類
 
 # 1. HardwareSerial
 
