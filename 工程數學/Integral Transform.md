@@ -12,4 +12,4 @@ $$F(s) = \int_a^b \underbrace{K(s, t)}_{\rm kernal}f(t)dt$$
 
 參考資料:
 
-[Class 20 - Laplace Transform - youtube]()
+[Class 20 - Laplace Transform - youtube](https://youtu.be/m60TiMLKzvQ)

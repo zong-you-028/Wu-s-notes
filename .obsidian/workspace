@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "307e8c9ab002846c",
+        "id": "1993580c43567a7f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
-            "mode": "preview"
-          }
-        },
-        "group": "802946516e528a31"
-      },
-      {
-        "id": "47dd1ce9344983d2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
+            "file": "工程數學/Integral Transform.md",
             "mode": "source"
           }
-        },
-        "group": "802946516e528a31"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "工程數學/Integral Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "工程數學/Integral Transform.md"
               }
             }
           },
@@ -108,25 +95,25 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "工程數學/Integral Transform.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "47dd1ce9344983d2",
+  "active": "1993580c43567a7f",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Laplace Transform.md",
-    "工程數學/piecewise continuous.md",
     "Integral Transform.md",
+    "Laplace Transform.md",
+    "Untitled.md",
+    "工程數學/piecewise continuous.md",
     "工程數學/singular solution.md",
     "工程數學/First Order Differential Equation.md",
     "website/External Fonts.md",
