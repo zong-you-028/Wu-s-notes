@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "307e8c9ab002846c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Laplace Transform.md",
+            "mode": "preview"
+          }
+        },
+        "group": "802946516e528a31"
+      },
+      {
         "id": "47dd1ce9344983d2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/singular solution.md",
-            "mode": "preview"
+            "file": "Laplace Transform.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "802946516e528a31"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Laplace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/singular solution.md",
+                "file": "Laplace Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/singular solution.md"
+                "file": "Laplace Transform.md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/singular solution.md",
+                "file": "Laplace Transform.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,15 +123,15 @@
   },
   "active": "47dd1ce9344983d2",
   "lastOpenFiles": [
+    "Laplace Transform.md",
+    "Untitled.md",
     "工程數學/singular solution.md",
     "工程數學/First Order Differential Equation.md",
     "website/External Fonts.md",
-    "Untitled.md",
     "website/Property (CSS).md",
     "website/selector.md",
     "website/Units.md",
     "熱力第一次小考範圍.md",
-    "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
-    "Thermodynamics/Continuum.md"
+    "Thermodynamics/Quasistatic (quasi-equilibrium process).md"
   ]
 }
