@@ -2,7 +2,7 @@
 
 ---
 
-首先要記得在 [[html]] 的 head 裡面加上 link
+首先要記得在 [[html]] 的 head 裡面加上 [[link]]
 
 ```html
 <head>
