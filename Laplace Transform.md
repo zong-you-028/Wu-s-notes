@@ -16,21 +16,28 @@ Laplace Transform 是一種 [[Integral Transform]]
 
 底下這個東西要背起來
 
-| $$f(t)$$      | $$F(s)$$                 |
-| ------------- | ------------------------ |
-| $$1$$         | $$\frac{1}{s}$$          |
-| $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ |
-| $$\exp(at)$$  | $$\frac{1}{s - a}$$      |
-| $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |
-| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  |
-| $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |
-| $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  | 
+| $$f(t)$$      | $$F(s)$$                 | 算法                      |
+| ------------- | ------------------------ | ------------------------- |
+| $$1$$         | $$\frac{1}{s}$$          | [[#L 1 frac 1 s \| link]] | 
+| $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ |                           |
+| $$\exp(at)$$  | $$\frac{1}{s - a}$$      |                           |
+| $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |                           |
+| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  |                           |
+| $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                           |
+| $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                           |
 
 ## $L\{1\} = \frac{1}{s}$
 
 $$L\{1\} = \int_0^\infty e^{-st}dt$$
 .
-$$= \left. -\frac{e^{-st}}{s} \right$$
+$$= \left. -\frac{e^{-st}}{s} \right\vert_0^\infty$$
+.
+$$= -\frac{e^{-s\cdot\infty}}{s} - (-\frac{e^{-s\cdot 0}}{s})$$
+.
+$$= \frac{1}{s}$$
+
+> 這裡假設 $s > 0$, 所以
+> $$-\frac{e^{-s\cdot \infty}}{s} = 0$$
 
 # 特性
 
