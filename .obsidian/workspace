@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-10-02 iTron Arduino 板測試.md",
+            "file": "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md",
             "mode": "preview"
           }
         }
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-10-02 iTron Arduino 板測試.md",
+                "file": "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-10-02 iTron Arduino 板測試.md"
+                "file": "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2021-10-02 iTron Arduino 板測試.md",
+                "file": "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +110,7 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
+    "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md",
     "2021-10-02 iTron Arduino 板測試.md",
     "電控/Serial.md",
     "電控/Serial options.md",
@@ -117,7 +119,6 @@
     "工程數學/Integral Transform.md",
     "Integral Transform.md",
     "Laplace Transform.md",
-    "Untitled.md",
-    "工程數學/piecewise continuous.md"
+    "Untitled.md"
   ]
 }
