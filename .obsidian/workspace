@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/IMU.md",
-            "mode": "preview"
+            "file": "2021-10-03 衛星討論.md",
+            "mode": "source"
           }
         }
       }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電控/IMU.md",
+                "file": "2021-10-03 衛星討論.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電控/IMU.md"
+                "file": "2021-10-03 衛星討論.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電控/IMU.md",
+                "file": "2021-10-03 衛星討論.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,8 +110,8 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
-    "電控/IMU.md",
     "2021-10-03 衛星討論.md",
+    "電控/IMU.md",
     "衛星/衛星組成.md",
     "2021-10-03.md",
     "廢知識/ways of brainstorm.md",
