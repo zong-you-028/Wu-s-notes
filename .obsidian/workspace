@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-10-03 衛星討論.md",
-            "mode": "source"
+            "file": "衛星/Cube Satellite.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-10-03 衛星討論.md",
+                "file": "衛星/Cube Satellite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-10-03 衛星討論.md"
+                "file": "衛星/Cube Satellite.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2021-10-03 衛星討論.md",
+                "file": "衛星/Cube Satellite.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,15 +110,15 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
+    "衛星/Cube Satellite.md",
+    "衛星/衛星組成.md",
     "2021-10-03 衛星討論.md",
     "電控/IMU.md",
-    "衛星/衛星組成.md",
     "2021-10-03.md",
     "廢知識/ways of brainstorm.md",
     "廢知識/brainwriting.md",
     "廢知識/Alex Osborn.md",
     "廢知識/635 method.md",
-    "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md",
-    "2021-10-02 iTron Arduino 板測試.md"
+    "iTron會議紀錄/2021-10-02 iTron Arduino 板測試.md"
   ]
 }
