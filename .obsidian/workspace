@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Reduction of Order.md",
+            "file": "Untitled.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Reduction of Order.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Reduction of Order.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Reduction of Order.md",
+                "file": "Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,9 +110,9 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
+    "Untitled.md",
     "工程數學/Reduction of Order.md",
     "工程數學/Cauchy-Euler Equation.md",
-    "Untitled.md",
     "2021-10-03 衛星討論.md",
     "衛星/Cube Satellite.md",
     "衛星/衛星組成.md",
