@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "工程數學/Reduction of Order.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sate",
+                "query": "reduction of order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "工程數學/Reduction of Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "工程數學/Reduction of Order.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "工程數學/Reduction of Order.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,6 +110,8 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
+    "工程數學/Reduction of Order.md",
+    "工程數學/Cauchy-Euler Equation.md",
     "Untitled.md",
     "2021-10-03 衛星討論.md",
     "衛星/Cube Satellite.md",
@@ -117,8 +119,6 @@
     "電控/IMU.md",
     "2021-10-03.md",
     "廢知識/ways of brainstorm.md",
-    "廢知識/brainwriting.md",
-    "廢知識/Alex Osborn.md",
-    "廢知識/635 method.md"
+    "廢知識/brainwriting.md"
   ]
 }
