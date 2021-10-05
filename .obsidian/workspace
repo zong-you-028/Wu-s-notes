@@ -7,8 +7,11 @@
         "id": "f506e7264f85904a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Timing.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Timing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Timing.md"
+              }
             }
           },
           {
@@ -89,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Timing.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -103,15 +111,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Best Time to Publish.md",
+    "Daily Post Amount.md",
+    "Social Media Management/KPI.md",
+    "Social Media Management/Jab, Jab, Punch.md",
+    "Social Media Management/Goal.md",
+    "Social Media Management/Curated content.md",
+    "Social Media Management/Content.md",
+    "Social Media Management/Buying Process.md",
     "Untitled.md",
-    "website/selector.md",
-    "電控/TDK2021電路圖.md",
-    "電控/sudo command.md",
-    "工程數學/Differential Equation.md",
-    "機構/舵輪.md",
-    "Thermodynamics/熱力第一次小考範圍.md",
-    "工程數學/工數名詞解釋.md",
-    "youtube.com.md"
+    "2021-10-03 衛星討論.md"
   ]
 }
