@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Auxiliary Function.md",
+            "file": "工程數學/Superposition Approach.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Auxiliary Function.md",
+                "file": "工程數學/Superposition Approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Auxiliary Function.md"
+                "file": "工程數學/Superposition Approach.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Auxiliary Function.md",
+                "file": "工程數學/Superposition Approach.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,15 +110,15 @@
   },
   "active": "1993580c43567a7f",
   "lastOpenFiles": [
-    "工程數學/Auxiliary Function.md",
+    "工程數學/Superposition Approach.md",
     "工程數學/Higher Order DE解法.md",
+    "工程數學/Auxiliary Function.md",
     "工程數學/Nonhomogeneous Equations.md",
     "工程數學/Reduction of Order.md",
     "工程數學/Cauchy-Euler Equation.md",
     "Untitled.md",
     "2021-10-03 衛星討論.md",
     "衛星/Cube Satellite.md",
-    "衛星/衛星組成.md",
-    "電控/IMU.md"
+    "衛星/衛星組成.md"
   ]
 }
