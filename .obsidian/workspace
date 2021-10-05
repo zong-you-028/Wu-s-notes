@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Timing.md",
-            "mode": "source"
+            "file": "Social Media Management/Buying Process.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timing.md",
+                "file": "Social Media Management/Buying Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timing.md"
+                "file": "Social Media Management/Buying Process.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timing.md",
+                "file": "Social Media Management/Buying Process.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -111,15 +110,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "Best Time to Publish.md",
-    "Daily Post Amount.md",
-    "Social Media Management/KPI.md",
-    "Social Media Management/Jab, Jab, Punch.md",
-    "Social Media Management/Goal.md",
-    "Social Media Management/Curated content.md",
-    "Social Media Management/Content.md",
     "Social Media Management/Buying Process.md",
-    "Untitled.md",
-    "2021-10-03 衛星討論.md"
+    "Social Media Management/Content.md",
+    "Social Media Management/Curated content.md",
+    "Social Media Management/Goal.md",
+    "Social Media Management/Jab, Jab, Punch.md",
+    "Social Media Management/KPI.md",
+    "Social Media Management/Management App.md",
+    "Social Media Management/Timing.md",
+    "Management App.md",
+    "2021-10-05.md"
   ]
 }

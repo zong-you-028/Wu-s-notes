@@ -15,7 +15,7 @@
 - > 10k : twice a day
 - < 10k : 1-5 a month
 
-ㄧ
+貼少一點得到的觸及不會變少，但是如果要貼少要確定那些貼文是精良的
 
 ## Twitter
 
@@ -25,6 +25,26 @@
 ## Pinterest
 
 - unlimited
+
+## LinkedIn
+
+- 20 per month or 1 per day
+
+## Snapchat
+
+- 1-5 a day
+
+## Tumblr
+
+- 1-3 a day
+
+## Instagram
+
+- consistency more important than frequency
+
+## Youtube
+
+- consistency more important than frequency
 
 ---
 
