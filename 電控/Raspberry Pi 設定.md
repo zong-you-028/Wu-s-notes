@@ -4,7 +4,7 @@
 
 1. **在網站上安裝裝系統的應用程式(exe)**
 [下載點](https://www.raspberrypi.org/software/)
-![[螢幕擷取畫面 (172).png]]
+![[樹梅派下載畫面.png]]
 
 2. **將SD卡插入電腦**
 

@@ -14,7 +14,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "土樓.md",
+                "file": "附件/螢幕擷取畫面 (189).png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -37,7 +37,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.0000000000000002,
                   "close": false
                 }
               }
@@ -49,10 +49,9 @@
             "type": "leaf",
             "dimension": 73.71069182389937,
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "土樓.md",
-                "mode": "source"
+                "file": "附件/螢幕擷取畫面 (189).png"
               }
             },
             "group": "6c0a1fefd0e841b2"
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "土樓.md",
+                "file": "附件/螢幕擷取畫面 (189).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "土樓.md"
+                "file": "附件/螢幕擷取畫面 (189).png"
               }
             }
           },
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "土樓.md",
+                "file": "附件/螢幕擷取畫面 (189).png",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -154,17 +153,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f506e7264f85904a",
+  "active": "bc6b896d1fd847ed",
   "lastOpenFiles": [
+    "附件/螢幕擷取畫面 (189).png",
+    "附件/螢幕擷取畫面 (172).png",
+    "附件/217772186_933439303872744_2405863176436397946_n.png",
     "土樓.md",
     "西方家宅.md",
     "建築/各種建築.md",
     "建築/合院.md",
     "合院.md",
     "Untitled.md",
-    "Social Media Management/Buying Process.md",
-    "Social Media Management/Content.md",
-    "Social Media Management/Curated content.md",
-    "Social Media Management/Goal.md"
+    "Social Media Management/Buying Process.md"
   ]
 }
