@@ -14,7 +14,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "建築/街屋.md",
+                "file": "現代建築.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -51,8 +51,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "建築/街屋.md",
-                "mode": "preview"
+                "file": "現代建築.md",
+                "mode": "source"
               }
             },
             "group": "6c0a1fefd0e841b2"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "建築/街屋.md",
+                "file": "現代建築.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "建築/街屋.md"
+                "file": "現代建築.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "建築/街屋.md",
+                "file": "現代建築.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -156,15 +156,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "建築/街屋.md",
+    "現代建築.md",
+    "建築/三進.md",
     "建築/各種建築.md",
+    "建築/土樓.md",
+    "建築/街屋.md",
     "Untitled.md",
     "街屋.md",
-    "建築/土樓.md",
     "土樓.md",
     "附件/螢幕擷取畫面 (214).png",
-    "附件/螢幕擷取畫面 (213).png",
-    "附件/工程數學.png",
-    "附件/螢幕擷取畫面 (212).png"
+    "附件/螢幕擷取畫面 (213).png"
   ]
 }
