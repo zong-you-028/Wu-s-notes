@@ -14,7 +14,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "光源.md",
+                "file": "建築/光源.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "光源.md",
+                "file": "建築/光源.md",
                 "mode": "source"
               }
             },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "光源.md",
+                "file": "建築/光源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "光源.md"
+                "file": "建築/光源.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "光源.md",
+                "file": "建築/光源.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -156,6 +156,7 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
+    "建築/光源.md",
     "Untitled.md",
     "現代建築.md",
     "建築/三進.md",
@@ -164,7 +165,6 @@
     "建築/街屋.md",
     "街屋.md",
     "土樓.md",
-    "附件/螢幕擷取畫面 (214).png",
-    "附件/螢幕擷取畫面 (213).png"
+    "附件/螢幕擷取畫面 (214).png"
   ]
 }
