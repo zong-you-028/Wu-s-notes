@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Social Media Management/Buying Process.md",
+            "file": "工程數學/Wronskian.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reduction of order",
+                "query": "wronskian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,11 +48,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -68,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Social Media Management/Buying Process.md",
+                "file": "工程數學/Wronskian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Social Media Management/Buying Process.md"
+                "file": "工程數學/Wronskian.md"
               }
             }
           },
@@ -95,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Social Media Management/Buying Process.md",
+                "file": "工程數學/Wronskian.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,15 +112,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "Social Media Management/Buying Process.md",
-    "Social Media Management/Content.md",
-    "Social Media Management/Curated content.md",
-    "Social Media Management/Goal.md",
-    "Social Media Management/Jab, Jab, Punch.md",
-    "Social Media Management/KPI.md",
-    "Social Media Management/Management App.md",
-    "Social Media Management/Timing.md",
-    "Management App.md",
-    "2021-10-05.md"
+    "工程數學/Wronskian.md",
+    "工程數學/Higher Order DE解法.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
+    "website/selector.md",
+    "電控/TDK2021電路圖.md",
+    "電控/sudo command.md",
+    "工程數學/Differential Equation.md",
+    "機構/舵輪.md",
+    "Thermodynamics/熱力第一次小考範圍.md"
   ]
 }
