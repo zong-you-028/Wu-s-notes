@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "合院.md",
+            "file": "建築/合院.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "合院.md",
+                "file": "建築/合院.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "合院.md"
+                "file": "建築/合院.md"
               }
             }
           },
@@ -96,18 +96,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "合院.md",
+                "file": "建築/合院.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
