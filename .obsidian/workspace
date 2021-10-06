@@ -14,7 +14,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "附件/螢幕擷取畫面 (209).png",
+                "file": "附件/螢幕擷取畫面 (213).png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -37,7 +37,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.0000000000000002,
+                  "scale": 0.18462326225858133,
                   "close": false
                 }
               }
@@ -51,7 +51,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "附件/螢幕擷取畫面 (209).png"
+                "file": "附件/螢幕擷取畫面 (213).png"
               }
             },
             "group": "6c0a1fefd0e841b2"
@@ -113,14 +113,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "附件/螢幕擷取畫面 (209).png",
+                "file": "附件/螢幕擷取畫面 (213).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "附件/螢幕擷取畫面 (209).png"
+                "file": "附件/螢幕擷取畫面 (213).png"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "附件/螢幕擷取畫面 (209).png",
+                "file": "附件/螢幕擷取畫面 (213).png",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -155,15 +155,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
+    "附件/螢幕擷取畫面 (213).png",
+    "附件/工程數學.png",
+    "附件/螢幕擷取畫面 (212).png",
+    "附件/螢幕擷取畫面 (210).png",
     "附件/螢幕擷取畫面 (209).png",
     "附件/螢幕擷取畫面 (191).png",
     "附件/螢幕擷取畫面 (190).png",
     "附件/TDK車子結構.png",
     "附件/螢幕擷取畫面 (189).png",
-    "附件/螢幕擷取畫面 (172).png",
-    "附件/217772186_933439303872744_2405863176436397946_n.png",
-    "土樓.md",
-    "西方家宅.md",
-    "建築/各種建築.md"
+    "附件/螢幕擷取畫面 (172).png"
   ]
 }

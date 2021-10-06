@@ -10,7 +10,7 @@ $g(x)\neq 0:\text{nonhomogeneous}$
 如果是Homogeneous 可以用分離變數解出來
 
 $$\text{standard form: }\frac{dy}{dx}+P(x)y=f(x)$$
-![[螢幕擷取畫面 (212).png]]
+![[工程數學線性解.png]]
 子問題一 (by seperation): $$\frac{dy_c}{dx}+P(x)y_c=0$$
 $$\implies \frac{dy_c}{y_c}=-P(x)dx$$
 $$\implies ln\vert y_c\vert=\int -P(x)dx+c_1$$
