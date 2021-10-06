@@ -14,7 +14,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "街屋.md",
+                "file": "三進.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "街屋.md",
+                "file": "三進.md",
                 "mode": "source"
               }
             },
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "街屋.md",
+                "file": "三進.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "街屋.md"
+                "file": "三進.md"
               }
             }
           },
@@ -142,13 +141,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "街屋.md",
+                "file": "三進.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -157,6 +157,8 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "建築/街屋.md",
     "街屋.md",
     "建築/各種建築.md",
     "建築/土樓.md",
@@ -164,8 +166,6 @@
     "附件/螢幕擷取畫面 (214).png",
     "附件/螢幕擷取畫面 (213).png",
     "附件/工程數學.png",
-    "附件/螢幕擷取畫面 (212).png",
-    "附件/螢幕擷取畫面 (210).png",
-    "附件/螢幕擷取畫面 (209).png"
+    "附件/螢幕擷取畫面 (212).png"
   ]
 }
