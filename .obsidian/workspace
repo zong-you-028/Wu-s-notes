@@ -14,7 +14,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "附件/螢幕擷取畫面 (213).png",
+                "file": "土樓.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -49,9 +49,10 @@
             "type": "leaf",
             "dimension": 73.71069182389937,
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "附件/螢幕擷取畫面 (213).png"
+                "file": "土樓.md",
+                "mode": "source"
               }
             },
             "group": "6c0a1fefd0e841b2"
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "附件/螢幕擷取畫面 (213).png",
+                "file": "土樓.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "附件/螢幕擷取畫面 (213).png"
+                "file": "土樓.md"
               }
             }
           },
@@ -140,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "附件/螢幕擷取畫面 (213).png",
+                "file": "土樓.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -155,6 +156,8 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
+    "土樓.md",
+    "附件/螢幕擷取畫面 (214).png",
     "附件/螢幕擷取畫面 (213).png",
     "附件/工程數學.png",
     "附件/螢幕擷取畫面 (212).png",
@@ -162,8 +165,6 @@
     "附件/螢幕擷取畫面 (209).png",
     "附件/螢幕擷取畫面 (191).png",
     "附件/螢幕擷取畫面 (190).png",
-    "附件/TDK車子結構.png",
-    "附件/螢幕擷取畫面 (189).png",
-    "附件/螢幕擷取畫面 (172).png"
+    "附件/TDK車子結構.png"
   ]
 }

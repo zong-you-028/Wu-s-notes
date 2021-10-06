@@ -26,7 +26,7 @@ $$\implies y_1(x)\frac{du(x)}{dx}+u(x)\underbrace{\left(\frac{dy_1}{dx}+P(x)y_1(
 $$\implies y_1(x)\frac{du(x)}{dx}=f(x)$$
 $$\implies du(x)=\frac{f(x)}{y_1(x)}dx \implies u(x)=\int \frac{f(x)}{y_1(x)}dx \implies y_p(x)=y_1(x)\int \frac{f(x)}{y_1(x)}dx$$
 
-![[螢幕擷取畫面 (213).png]]
+![[工程數學線性解和 intergrating factor.png]]
 
 # 五步驟解法
 
