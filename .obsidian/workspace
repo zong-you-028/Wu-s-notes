@@ -4,15 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "f506e7264f85904a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "建築/合院.md",
-            "mode": "source"
+        "id": "ba09731d9b048557",
+        "type": "split",
+        "children": [
+          {
+            "id": "bc6b896d1fd847ed",
+            "type": "leaf",
+            "dimension": 26.28930817610063,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "西方家宅.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "6c0a1fefd0e841b2"
+          },
+          {
+            "id": "f506e7264f85904a",
+            "type": "leaf",
+            "dimension": 73.71069182389937,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "西方家宅.md",
+                "mode": "source"
+              }
+            },
+            "group": "6c0a1fefd0e841b2"
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "建築/合院.md",
+                "file": "西方家宅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "建築/合院.md"
+                "file": "西方家宅.md"
               }
             }
           },
@@ -96,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "建築/合院.md",
+                "file": "西方家宅.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -107,19 +153,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "合院.md",
+    "西方家宅.md",
     "建築/各種建築.md",
+    "建築/合院.md",
+    "合院.md",
     "Untitled.md",
     "Social Media Management/Buying Process.md",
     "Social Media Management/Content.md",
     "Social Media Management/Curated content.md",
     "Social Media Management/Goal.md",
-    "Social Media Management/Jab, Jab, Punch.md",
-    "Social Media Management/KPI.md",
-    "Social Media Management/Management App.md"
+    "Social Media Management/Jab, Jab, Punch.md"
   ]
 }
