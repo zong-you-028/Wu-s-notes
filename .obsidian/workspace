@@ -7,8 +7,11 @@
         "id": "cf679aed21bd7737",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "電控/TCRT5000紅外線測距避障模組.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reduction of order",
+                "query": "紅外線",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,12 +48,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "電控/TCRT5000紅外線測距避障模組.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "電控/TCRT5000紅外線測距避障模組.md"
+              }
             }
           },
           {
@@ -90,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "電控/TCRT5000紅外線測距避障模組.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,6 +111,7 @@
   },
   "active": "cf679aed21bd7737",
   "lastOpenFiles": [
+    "電控/TCRT5000紅外線測距避障模組.md",
     "建築/光源.md",
     "Untitled.md",
     "現代建築.md",
@@ -112,7 +120,6 @@
     "建築/土樓.md",
     "建築/街屋.md",
     "街屋.md",
-    "土樓.md",
-    "附件/螢幕擷取畫面 (214).png"
+    "土樓.md"
   ]
 }
