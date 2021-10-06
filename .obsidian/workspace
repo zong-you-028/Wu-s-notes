@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Variation of Parameters.md",
+            "file": "工程數學/Higher Order DE解法.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "high order",
+                "query": "higher order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Variation of Parameters.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Variation of Parameters.md"
+                "file": "工程數學/Higher Order DE解法.md"
               }
             }
           },
@@ -97,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Variation of Parameters.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -112,15 +112,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/First Order Differential Equation.md",
+    "電控/SoftwareSerial.h.md",
+    "工程數學/Exact Equations.md",
+    "工程數學/Bessel's Equation.md",
     "工程數學/Variation of Parameters.md",
     "工程數學/Wronskian.md",
-    "工程數學/Higher Order DE解法.md",
     "conflict-files-obsidian-git.md",
     "Untitled.md",
-    "website/selector.md",
-    "電控/TDK2021電路圖.md",
-    "電控/sudo command.md",
-    "工程數學/Differential Equation.md",
-    "機構/舵輪.md"
+    "website/selector.md"
   ]
 }
