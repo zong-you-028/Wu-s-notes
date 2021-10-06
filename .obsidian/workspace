@@ -4,61 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ba09731d9b048557",
-        "type": "split",
-        "children": [
-          {
-            "id": "bc6b896d1fd847ed",
-            "type": "leaf",
-            "dimension": 26.28930817610063,
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "建築/光源.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.0000000000000013,
-                  "close": false
-                }
-              }
-            },
-            "group": "6c0a1fefd0e841b2"
-          },
-          {
-            "id": "f506e7264f85904a",
-            "type": "leaf",
-            "dimension": 73.71069182389937,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "建築/光源.md",
-                "mode": "source"
-              }
-            },
-            "group": "6c0a1fefd0e841b2"
-          }
-        ],
-        "direction": "horizontal"
+        "id": "cf679aed21bd7737",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -98,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -114,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "建築/光源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "建築/光源.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "建築/光源.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +102,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f506e7264f85904a",
+  "active": "cf679aed21bd7737",
   "lastOpenFiles": [
     "建築/光源.md",
     "Untitled.md",
