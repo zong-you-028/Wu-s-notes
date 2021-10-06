@@ -15,6 +15,7 @@ General Solution
 求 particular solution
 - [[Superposition Approach]]
 - [[Annihilator Approach]]
+- [[Variation of Parameters]]
 
 [[多變數解法]]
 - [[多變數解法]]
