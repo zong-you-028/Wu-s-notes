@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "太空任務.md",
+            "file": "系統.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "太空任務.md",
+                "file": "系統.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "太空任務.md"
+                "file": "系統.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "太空任務.md",
+                "file": "系統.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,6 +111,8 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
+    "系統.md",
+    "衛星系統生命週期.md",
     "Untitled.md",
     "工程數學/Higher Order DE解法.md",
     "工程數學/First Order Differential Equation.md",
@@ -117,8 +120,6 @@
     "工程數學/Exact Equations.md",
     "工程數學/Bessel's Equation.md",
     "工程數學/Variation of Parameters.md",
-    "工程數學/Wronskian.md",
-    "conflict-files-obsidian-git.md",
-    "website/selector.md"
+    "工程數學/Wronskian.md"
   ]
 }
