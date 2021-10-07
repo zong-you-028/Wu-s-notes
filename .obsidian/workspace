@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -111,15 +110,15 @@
   },
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "系統.md",
+    "太空系統.md",
     "衛星系統生命週期.md",
+    "系統.md",
     "Untitled.md",
     "工程數學/Higher Order DE解法.md",
     "工程數學/First Order Differential Equation.md",
     "電控/SoftwareSerial.h.md",
     "工程數學/Exact Equations.md",
     "工程數學/Bessel's Equation.md",
-    "工程數學/Variation of Parameters.md",
-    "工程數學/Wronskian.md"
+    "工程數學/Variation of Parameters.md"
   ]
 }
