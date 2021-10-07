@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "4411279d32debde9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "太空系統.md",
-            "mode": "preview"
-          }
-        },
-        "group": "f95dfc01d7bf0609"
-      },
-      {
         "id": "f506e7264f85904a",
         "type": "leaf",
         "state": {
@@ -24,8 +12,7 @@
             "file": "太空系統.md",
             "mode": "source"
           }
-        },
-        "group": "f95dfc01d7bf0609"
+        }
       }
     ],
     "direction": "vertical"
