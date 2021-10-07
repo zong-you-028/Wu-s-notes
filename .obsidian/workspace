@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f506e7264f85904a",
+        "id": "ddccf59d2d650e77",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "太空系統.md",
-            "mode": "source"
+            "file": "衛星/太空任務.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "太空系統.md",
+                "file": "衛星/太空任務.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "太空系統.md"
+                "file": "衛星/太空任務.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "太空系統.md",
+                "file": "衛星/太空任務.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -105,20 +105,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "f506e7264f85904a",
+  "active": "ddccf59d2d650e77",
   "lastOpenFiles": [
-    "太空系統.md",
     "太空任務.md",
-    "衛星/衛星組成.md",
-    "衛星系統生命週期.md",
+    "衛星種類.md",
+    "衛星報告.md",
+    "衛星系統.md",
+    "系統工程.md",
     "系統.md",
+    "技術成熟度指標.md",
+    "太空系統.md",
     "Untitled.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/First Order Differential Equation.md",
-    "電控/SoftwareSerial.h.md",
-    "工程數學/Exact Equations.md"
+    "2021-10-07.md"
   ]
 }
