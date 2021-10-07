@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "cf679aed21bd7737",
+        "id": "f506e7264f85904a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "衛星系統生命週期.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reduction of order",
+                "query": "higher order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -66,12 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "衛星系統生命週期.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -81,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "衛星系統生命週期.md"
+              }
             }
           },
           {
@@ -90,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "衛星系統生命週期.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -102,17 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf679aed21bd7737",
+  "active": "f506e7264f85904a",
   "lastOpenFiles": [
-    "建築/光源.md",
     "Untitled.md",
-    "現代建築.md",
-    "建築/三進.md",
-    "建築/各種建築.md",
-    "建築/土樓.md",
-    "建築/街屋.md",
-    "街屋.md",
-    "土樓.md",
-    "附件/螢幕擷取畫面 (214).png"
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/First Order Differential Equation.md",
+    "電控/SoftwareSerial.h.md",
+    "工程數學/Exact Equations.md",
+    "工程數學/Bessel's Equation.md",
+    "工程數學/Variation of Parameters.md",
+    "工程數學/Wronskian.md",
+    "conflict-files-obsidian-git.md",
+    "website/selector.md"
   ]
 }
