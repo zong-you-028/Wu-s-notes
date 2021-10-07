@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "太空系統.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -111,6 +111,7 @@
   "active": "f506e7264f85904a",
   "lastOpenFiles": [
     "太空系統.md",
+    "衛星/衛星組成.md",
     "衛星系統生命週期.md",
     "系統.md",
     "Untitled.md",
@@ -118,7 +119,6 @@
     "工程數學/First Order Differential Equation.md",
     "電控/SoftwareSerial.h.md",
     "工程數學/Exact Equations.md",
-    "工程數學/Bessel's Equation.md",
-    "工程數學/Variation of Parameters.md"
+    "工程數學/Bessel's Equation.md"
   ]
 }
