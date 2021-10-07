@@ -4,6 +4,18 @@
     "type": "split",
     "children": [
       {
+        "id": "4411279d32debde9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "太空系統.md",
+            "mode": "preview"
+          }
+        },
+        "group": "f95dfc01d7bf0609"
+      },
+      {
         "id": "f506e7264f85904a",
         "type": "leaf",
         "state": {
@@ -12,7 +24,8 @@
             "file": "太空系統.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "f95dfc01d7bf0609"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -108,7 +122,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f506e7264f85904a",
+  "active": "4411279d32debde9",
   "lastOpenFiles": [
     "太空系統.md",
     "衛星/衛星組成.md",
