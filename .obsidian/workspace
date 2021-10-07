@@ -4,17 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ddccf59d2d650e77",
+        "id": "cf679aed21bd7737",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "電控/TCRT5000紅外線測距避障模組.md",
-=======
-            "file": "衛星/太空任務.md",
->>>>>>> refs/remotes/origin/master
-            "mode": "preview"
+            "file": "2021-10-07.md",
+            "mode": "source"
           }
         }
       }
@@ -43,11 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
                 "query": "紅外線",
-=======
-                "query": "higher order",
->>>>>>> refs/remotes/origin/master
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,11 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "電控/TCRT5000紅外線測距避障模組.md",
-=======
-                "file": "衛星/太空任務.md",
->>>>>>> refs/remotes/origin/master
+                "file": "2021-10-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,11 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "電控/TCRT5000紅外線測距避障模組.md"
-=======
-                "file": "衛星/太空任務.md"
->>>>>>> refs/remotes/origin/master
+                "file": "2021-10-07.md"
               }
             }
           },
@@ -111,11 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "電控/TCRT5000紅外線測距避障模組.md",
-=======
-                "file": "衛星/太空任務.md",
->>>>>>> refs/remotes/origin/master
+                "file": "2021-10-07.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -125,32 +105,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "ddccf59d2d650e77",
+  "active": "cf679aed21bd7737",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "2021-10-07.md",
+    "Untitled.md",
+    "工程數學/Laplace Transform.md",
     "電控/TCRT5000紅外線測距避障模組.md",
     "建築/光源.md",
-    "Untitled.md",
     "現代建築.md",
     "建築/三進.md",
     "建築/各種建築.md",
     "建築/土樓.md",
-    "建築/街屋.md",
-    "街屋.md",
-    "土樓.md"
-=======
-    "太空任務.md",
-    "衛星種類.md",
-    "衛星報告.md",
-    "衛星系統.md",
-    "系統工程.md",
-    "系統.md",
-    "技術成熟度指標.md",
-    "太空系統.md",
-    "Untitled.md",
-    "2021-10-07.md"
->>>>>>> refs/remotes/origin/master
+    "建築/街屋.md"
   ]
 }
