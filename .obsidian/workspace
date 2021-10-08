@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ddccf59d2d650e77",
+        "id": "41f641a1f3592009",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Laplace Transform.md",
+            "file": "電控/TCRT5000紅外線測距避障模組.md",
             "mode": "preview"
           }
-        },
-        "group": "2967c898039231e5"
-      },
-      {
-        "id": "b8241ab98e06f2e7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Laplace Transform.md",
-            "mode": "source"
-          }
-        },
-        "group": "2967c898039231e5"
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "higher order",
+                "query": "紅外線",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Laplace Transform.md",
+                "file": "電控/TCRT5000紅外線測距避障模組.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Laplace Transform.md"
+                "file": "電控/TCRT5000紅外線測距避障模組.md"
               }
             }
           },
@@ -108,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Laplace Transform.md",
+                "file": "電控/TCRT5000紅外線測距避障模組.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -121,8 +109,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b8241ab98e06f2e7",
+  "active": "41f641a1f3592009",
   "lastOpenFiles": [
+    "電控/TCRT5000紅外線測距避障模組.md",
+    "2021-10-07.md",
     "工程數學/Laplace Transform.md",
     "Laplace Transform 解法.md",
     "Laplace Transform 快速法.md",
@@ -130,8 +120,6 @@
     "工數報告.md",
     "Transform of Derivatives.md",
     "工程數學/Auxiliary Function.md",
-    "2021-10-07.md",
-    "Untitled.md",
-    "衛星/太空任務.md"
+    "Untitled.md"
   ]
 }
