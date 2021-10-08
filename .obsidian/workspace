@@ -4,12 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "ed9a72104292ce18",
+        "id": "ddccf59d2d650e77",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Laplace Transform.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2967c898039231e5"
+      },
+      {
+        "id": "b8241ab98e06f2e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Laplace Transform.md",
+            "mode": "source"
+          }
+        },
+        "group": "2967c898039231e5"
       }
     ],
     "direction": "vertical"
@@ -36,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "紅外線",
+                "query": "higher order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工程數學/Laplace Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "工程數學/Laplace Transform.md"
+              }
             }
           },
           {
@@ -89,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "工程數學/Laplace Transform.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -101,39 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ed9a72104292ce18",
+  "active": "b8241ab98e06f2e7",
   "lastOpenFiles": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "衛星/太空任務.md",
-    "太空任務.md",
-    "衛星種類.md",
-    "衛星報告.md",
-    "衛星系統.md",
-    "系統工程.md",
-    "系統.md",
-    "技術成熟度指標.md",
-    "太空系統.md",
-    "Untitled.md"
-=======
-    "2021-10-07.md",
-=======
-    "工數報告.md",
->>>>>>> 0e31d11b5fb34347a76494fb51a9c3151d2cd7e5
-    "Untitled.md",
-    "2021-10-07.md",
     "工程數學/Laplace Transform.md",
-    "電控/TCRT5000紅外線測距避障模組.md",
-    "建築/光源.md",
-    "現代建築.md",
-    "建築/三進.md",
-    "建築/各種建築.md",
-<<<<<<< HEAD
-    "建築/土樓.md",
-    "建築/街屋.md"
->>>>>>> d18f86a4ec943cf5c6e567939f18db012eb76bd6
-=======
-    "建築/土樓.md"
->>>>>>> 0e31d11b5fb34347a76494fb51a9c3151d2cd7e5
+    "Laplace Transform 解法.md",
+    "Laplace Transform 快速法.md",
+    "Inverse Laplace Transform.md",
+    "工數報告.md",
+    "Transform of Derivatives.md",
+    "工程數學/Auxiliary Function.md",
+    "2021-10-07.md",
+    "Untitled.md",
+    "衛星/太空任務.md"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:建築",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -81,6 +81,6 @@
   "repelStrength": 12.8867521367521,
   "linkStrength": 0.726495726495727,
   "linkDistance": 252,
-  "scale": 2.0204412146812585,
+  "scale": 0.32133638605035914,
   "close": false
 }

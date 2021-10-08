@@ -105,6 +105,27 @@ $$f(t) = \exp(t^2) \quad \text{並不存在}\; c \; \text{使得} \; \vert f(t)\
 
 $f(t)$ 在 $[0, \infty)$ 中必須 [[piecewise continuous]]
 
+# 用 Laplace Transform 解 DE
+
+$$y''(t) - 3y'(t) + 2y(t) = e^{-4t} \qquad \begin{array}{} y(0) = 1 \\ y'(0) = 5 \end{array}$$
+
+## Step 1 auxiliary Laplace
+
+使用 [[Laplace Transform 快速法]]
+
+$$(s^2 - 3s + 2)Y(s) = s + 2 + \frac{1}{s + 4}$$
+
+## Step 2 分解
+
+$$Y(s) = \frac{s + 2}{s^2 - 3s + 2} + \frac{1}{(s^2 - 3s + 2)(s + 4)}$$
+$$ = \frac{s + 2}{(s - 1)(s - 2)} + \frac{1}{(s - 1)(s - 2)(s + 4)}$$
+$$ = -\frac{3}{s - 1} + \frac{4}{s - 2} - \frac{1}{5}\frac{1}{s - 1} + \frac{1}{6}\frac{1}{s - 2} + \frac{1}{30}\frac{1}{s + 4}$$
+$$ = -\frac{16}{5}\frac{1}{s - 1} + \frac{25}{6}\frac{1}{s - 2} + \frac{1}{30}\frac{1}{s + 4}$$
+
+## Step 3 inverse
+
+$$y(t) = -\frac{16}{5}e^t + \frac{25}{6}e^{2t} + \frac{1}{30}e^{-4t}$$
+
 ---
 
 參考資料:
