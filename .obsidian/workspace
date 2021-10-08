@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "41f641a1f3592009",
+        "id": "ddccf59d2d650e77",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/TCRT5000紅外線測距避障模組.md",
+            "file": "Step Function.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "2967c898039231e5"
+      },
+      {
+        "id": "b8241ab98e06f2e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Step Function.md",
+            "mode": "source"
+          }
+        },
+        "group": "2967c898039231e5"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "紅外線",
+                "query": "higher order",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +61,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -69,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電控/TCRT5000紅外線測距避障模組.md",
+                "file": "Step Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電控/TCRT5000紅外線測距避障模組.md"
+                "file": "Step Function.md"
               }
             }
           },
@@ -96,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電控/TCRT5000紅外線測距避障模組.md",
+                "file": "Step Function.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "41f641a1f3592009",
+  "active": "b8241ab98e06f2e7",
   "lastOpenFiles": [
-    "電控/TCRT5000紅外線測距避障模組.md",
-    "2021-10-07.md",
-    "工程數學/Laplace Transform.md",
+    "Step Function.md",
+    "Translation Theorem.md",
     "Laplace Transform 解法.md",
     "Laplace Transform 快速法.md",
+    "Transform of Derivatives.md",
+    "Untitled.md",
+    "工程數學/Laplace Transform.md",
     "Inverse Laplace Transform.md",
     "工數報告.md",
-    "Transform of Derivatives.md",
-    "工程數學/Auxiliary Function.md",
-    "Untitled.md"
+    "工程數學/Auxiliary Function.md"
   ]
 }
