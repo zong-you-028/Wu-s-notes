@@ -131,3 +131,5 @@ $$y(t) = -\frac{16}{5}e^t + \frac{25}{6}e^{2t} + \frac{1}{30}e^{-4t}$$
 參考資料:
 
 [Class 20 - Chapter 7 The Laplace Transform - youtube](https://youtu.be/m60TiMLKzvQ)
+
+[[Laplace Transform 解法]]

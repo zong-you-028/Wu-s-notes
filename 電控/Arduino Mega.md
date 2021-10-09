@@ -13,3 +13,4 @@ Mega 的 SPI pin 和一般的 arduino 不同，如下:
 ---
 
 [[TDK2021電路圖]]
+[[USB_Host_Shield_2.0]]

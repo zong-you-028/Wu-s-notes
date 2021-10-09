@@ -46,3 +46,5 @@ $$L > 1 \;\text{if}\;\vert x - x_0 \vert > R$$
 參考資料:
 
 [Series Solutions of Linear Equations](https://youtu.be/2ARH7cnl2vk)
+
+[[工數名詞解釋]]

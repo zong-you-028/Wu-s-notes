@@ -1,86 +1,22 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "tag:#Mechanics-and-Materials",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "tag:#SocialMedia",
-      "color": {
-        "a": 1,
-        "rgb": 3954840
-      }
-    },
-    {
-      "query": "tag:#工程數學",
-      "color": {
-        "a": 1,
-        "rgb": 506631
-      }
-    },
-    {
-      "query": "tag:#arduino",
-      "color": {
-        "a": 1,
-        "rgb": 3245728
-      }
-    },
-    {
-      "query": "tag:#raspberryPi",
-      "color": {
-        "a": 1,
-        "rgb": 12917322
-      }
-    },
-    {
-      "query": "tag:#電路",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
-      "query": "tag:#ROS",
-      "color": {
-        "a": 1,
-        "rgb": 5267626
-      }
-    },
-    {
-      "query": "tag:#linux",
-      "color": {
-        "a": 1,
-        "rgb": 15291424
-      }
-    },
-    {
-      "query": "tag:#list",
-      "color": {
-        "a": 1,
-        "rgb": 6439462
-      }
-    },
-    {
-      "query": "tag:#Thermodynamics",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.97948717948718,
+  "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.658119658119658,
-  "repelStrength": 12.8867521367521,
-  "linkStrength": 0.726495726495727,
-  "linkDistance": 252,
-  "scale": 0.21063547197394542,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.2414543899483157,
   "close": true
 }

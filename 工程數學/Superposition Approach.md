@@ -73,3 +73,5 @@ $$y = c_1e^x + c_2e^{4x} - \frac{8}{3}xe^x$$
 
 [Class 10: Solving the Linear and Constant Coefficient DE](https://youtu.be/4yTXud2Ig88)
 [Class 11: Annilator Approach](https://youtu.be/JcgQYtArOWA)
+
+[[Higher Order DE解法]]

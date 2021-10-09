@@ -1,4 +1,4 @@
-標籤: #list 
+標籤: #list #arduino #電路 
 
 ---
 
@@ -30,3 +30,4 @@
 
 [AltSoftSerial Library](https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html#speed)
 [[Arduino 和 樹莓派一起使用]]
+[[NACK]]

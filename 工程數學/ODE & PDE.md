@@ -10,3 +10,7 @@
 > Example:
 > $\frac{\partial^2u}{\partial x^2}+ \frac{\partial^2u}{\partial y^2} = 0$ , $\frac{\partial x}{\partial t} = \frac{\partial y}{\partial t}$
 > This is PDE
+
+---
+
+[[工數名詞解釋]]

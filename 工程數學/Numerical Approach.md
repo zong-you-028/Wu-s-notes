@@ -48,3 +48,5 @@ $$u(x_{n + 1}) = u(x_n) +
 參考資料:
 
 [Systems of Linear DEs; Nonlinear DEs](https://youtu.be/4g4Jft-3LCU)
+
+[[Higher Order DE解法]]

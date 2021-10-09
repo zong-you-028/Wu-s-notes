@@ -17,3 +17,4 @@ $$\implies \underbrace{(s^2 - 3s + 2)}_{\text{auxiliary}}Y(s) = \underbrace{s + 
 
 [工數OCW - Class 21 - youtube](https://youtu.be/0sAa2XUDXMs)
 [[Auxiliary Function]]
+[[Laplace Transform 解法]]

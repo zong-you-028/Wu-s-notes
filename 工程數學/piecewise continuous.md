@@ -11,3 +11,7 @@
 > 注意例外
 > $$f(t) = 1/t$$
 > 不為 piecewise continuous
+
+---
+
+[[工數名詞解釋]]

@@ -87,3 +87,4 @@ Serial.read();
 [[TDK2021電路圖]]
 [[Arduino 和 樹莓派一起使用]]
 [[Arduino Nano]]
+[[USB_Host_Shield_2.0]]

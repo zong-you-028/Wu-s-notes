@@ -61,3 +61,4 @@ $$L^{-1}\left\{ \frac{1}{s - 4}e^{-2s} \right\} = e^{4(t - 2)}u(t - 2)$$
 
 [工數OCW - Class 21 - youtube](https://youtu.be/0sAa2XUDXMs)
 [[Laplace Transform]]
+[[Laplace Transform 解法]]

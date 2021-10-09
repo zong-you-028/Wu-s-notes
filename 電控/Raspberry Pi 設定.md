@@ -46,3 +46,4 @@
 
 > [參考資料 控制系統建置](https://chtseng.wordpress.com/2015/11/27/diy-%E6%A9%9F%E6%88%BF%E7%92%B0%E6%8E%A7%E7%B3%BB%E7%B5%B1%E5%BB%BA%E7%BD%AE-raspberry-pi%EF%BC%88%E4%B8%83%EF%BC%89/)
 > [參考資料 遠端控制](https://ithelp.ithome.com.tw/articles/10235452)
+> [[su command]]

@@ -141,3 +141,4 @@ $$y = c_4e^{c_2x}\quad (c_4 = \pm e^{c_3})$$
 參考資料:
 
 [Systems of Linear DEs; Nonlinear DEs](https://youtu.be/4g4Jft-3LCU)
+[[Higher Order DE解法]]

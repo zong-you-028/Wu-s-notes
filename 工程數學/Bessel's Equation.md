@@ -35,3 +35,5 @@ $$J_{-\frac{1}{2}}(x) = \sqrt{\frac{2}{\pi x}}\cos x$$
 參考資料:
 
 [Solutions About Singular Points](https://youtu.be/Nw39CK6x5VE)
+
+[[Higher Order DE解法]]

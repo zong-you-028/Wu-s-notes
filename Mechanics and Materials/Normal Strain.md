@@ -21,3 +21,4 @@ $$\varepsilon = \frac{\delta}{L}$$
 參考資料:
 
 [Mechanics and Materials - Fundamentals of Stress & Strain and Axial Loading - coursera](https://www.coursera.org/learn/mechanics-1/home/week/1)
+[[Normal Stress]]

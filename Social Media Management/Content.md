@@ -122,3 +122,5 @@
 參考資料:
 
 [Introduction to Content - Udemy](https://www.udemy.com/course/social-media-management-complete-manager-bootcamp/learn/lecture/7686306#overview)
+
+[[Goal]]

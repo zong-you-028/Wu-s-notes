@@ -15,3 +15,6 @@
 參考資料:
 
 [social media management](https://www.udemy.com/course/social-media-management-complete-manager-bootcamp/learn/lecture/7754244#questions)
+
+[[Timing]]
+[[Jab, Jab, Punch]]

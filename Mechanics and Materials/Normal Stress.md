@@ -31,3 +31,4 @@ $$\sigma_{\text{max}}\;\text{occurs at}\; 0\degree,\; 180\degree$$
 參考資料:
 
 [Mechanics and Materials - Fundamentals of Stress & Strain and Axial Loading - coursera](https://www.coursera.org/learn/mechanics-1/home/week/1)
+[[Shear Stress]]

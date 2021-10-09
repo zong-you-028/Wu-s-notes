@@ -78,3 +78,4 @@ $$e^{\alpha x} \sin (\beta x ), x e^{\alpha x}\sin(\beta x), x^2 e^{\alpha x}\si
 ---
 
 [Class 10: Solving the Linear and Constant Coefficient DE](https://youtu.be/4yTXud2Ig88)
+[[Higher Order DE解法]]

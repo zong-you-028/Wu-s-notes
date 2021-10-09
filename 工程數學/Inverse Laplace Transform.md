@@ -275,3 +275,5 @@ $$
 參考資料:
 
 [工數OCW - Class 21 - youtube](https://youtu.be/0sAa2XUDXMs)
+
+[[Laplace Transform 解法]]
