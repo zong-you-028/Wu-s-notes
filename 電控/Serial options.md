@@ -29,3 +29,4 @@
 ---
 
 [AltSoftSerial Library](https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html#speed)
+[[Arduino 和 樹莓派一起使用]]

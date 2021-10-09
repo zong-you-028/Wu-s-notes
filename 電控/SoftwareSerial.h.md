@@ -703,3 +703,4 @@ void loop() {
 [SoftwareSerial.h println](https://www.arduino.cc/en/Reference/SoftwareSerialPrint)
 [SoftwareSerial.h listen](https://www.arduino.cc/en/Reference/SoftwareSerialListen)
 [SoftwareSerial.h write](https://www.arduino.cc/en/Reference/SoftwareSerialWrite)
+[[Arduino 和 樹莓派一起使用]]
