@@ -11,6 +11,7 @@ General Solution
 求 complementary function
 - [[Reduction of Order]]
 - [[Auxiliary Function]]
+- [[Cauchy-Euler Equation]]
 
 求 particular solution
 - [[Superposition Approach]]

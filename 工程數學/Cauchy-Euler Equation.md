@@ -10,7 +10,7 @@
 
 ## 2nd order
 
-$$a_2x^2y''(x) + a_1x'y(x) + a_0y = 0$$
+$$a_2x^2y''(x) + a_1xy'(x) + a_0y = 0$$
 .
 [[auxiliary function]]:
 $$a_2m(m - 1) + a_1m + a_0 = 0 \qquad
