@@ -19,20 +19,21 @@ $$y'' + p(x)y' + q(x)y = g(x)$$
 
 $g(x)$ 長什麼樣子，解就要長什麼樣子
 
-$g(x)$ | $Form\, of \, y_p$
---- | ---
-$1(\text{any constant})$ | $A$
-$5x + 7$ | $Ax + B$
-$3x^2 - 2$ | $Ax^2 + Bx + C$
-$x^3 - x + 1$ | $Ax^3 + Bx^2 + Cx + E$
-$\sin 4x$ | $A\cos 4x + B\sin 4x$
-$\cos 4x$ | $A\cos 4x + B\sin 4x$
-$e^{5x}$ | $Ae^{5x}$
-$(9x - 2)e^{5x}$ | $(Ax + B)e^{5x}$
-$x^2e^{5x}$ | $(Ax^2 + Bx + C)e^{5x}$
-$e^{3x}\sin 4x$ | $Ae^{3x}\cos 4x + Be^{3x}\sin 4x$
-$5x^2\sin 4x$ | $(Ax^2 + Bx + C)\cos 4x + (Ex^2 + Fx + G)\sin 4x$
-$xe^{3x}\cos 4x$ | $(Ax + B)e^{3x}\cos 4x + (Cx + E)e^{3x}\sin 4x$
+| $g(x)$                   | $Form\, of \, y_p$                                |
+| ------------------------ | ------------------------------------------------- |
+| $1(\text{any constant})$ | $A$                                               |
+| $5x + 7$                 | $Ax + B$                                          |
+| $3x^2 - 2$               | $Ax^2 + Bx + C$                                   |
+| $x^3 - x + 1$            | $Ax^3 + Bx^2 + Cx + E$                            |
+| $\sin 4x$                | $A\cos 4x + B\sin 4x$                             |
+| $\cos 4x$                | $A\cos 4x + B\sin 4x$                             |
+| $\cosh 4x$               | $Ae^{4x} + Be^{-4x}$                              | 
+| $e^{5x}$                 | $Ae^{5x}$                                         |
+| $(9x - 2)e^{5x}$         | $(Ax + B)e^{5x}$                                  |
+| $x^2e^{5x}$              | $(Ax^2 + Bx + C)e^{5x}$                           |
+| $e^{3x}\sin 4x$          | $Ae^{3x}\cos 4x + Be^{3x}\sin 4x$                 |
+| $5x^2\sin 4x$            | $(Ax^2 + Bx + C)\cos 4x + (Ex^2 + Fx + G)\sin 4x$ |
+| $xe^{3x}\cos 4x$         | $(Ax + B)e^{3x}\cos 4x + (Cx + E)e^{3x}\sin 4x$   |
 
 這張表依照 Form Rule
 

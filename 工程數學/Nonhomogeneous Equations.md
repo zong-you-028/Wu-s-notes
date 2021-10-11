@@ -38,3 +38,4 @@ $$y(x) = c_1y_1(x) + c_2y_2(x) + ... + c_ny_n(x) + y_p(x)$$
 
 [[Higher Order DE解法]]
 [[Auxiliary Function]]
+[[Superposition Approach]]
