@@ -2,7 +2,7 @@
 
 ---
 
-$$\sigma = E\varepsilon$$
+$$\varepsilon_T = \alpha (\Delta T)$$
 
 ---
 
@@ -14,6 +14,5 @@ Mechanics and Materials online course - coursera
 
 link:
 
-[[Normal Stress]]
-[[Stiffness (young's modulus)]]
 [[Normal Strain]]
+[[Shear Strain]]

@@ -10,6 +10,8 @@ $A$: cross area
 
 # Shear Stress on Inclined Planes
 
+## with angle
+
 ![[Shear Stress on Inclined Planes.jpg]]
 
 $$\tau = \frac{V}{A}$$
@@ -27,7 +29,19 @@ $$P\sin\theta = V = \frac{A_t\tau}{\cos\theta}$$
 $$\tau = \frac{P\sin\theta\cos\theta}{A_t}$$
 $$\tau = \underline{\frac{P\sin2\theta }{2A_t}}_{\#}$$
 .
-$$\tau_{\text{max}}\;\text{occurs at}\; 45\degree ,\; 135\degree$$
+$$\underline{\tau_{\text{max}}\;\text{occurs at}\; 45\degree ,\; 135\degree}_{\#}$$
+
+## with stress
+
+![[convert stresses to forces.png]]
+
+$$\tau_{nt}dA - (\tau_{xy}dA\cos\theta)\cos\theta + (\tau_{yx}dA\sin\theta)\sin\theta + (\sigma_xdA\cos\theta)\sin\theta - (\sigma_ydA\sin\theta)\cos\theta = 0$$
+
+$$\tau_{nt} = -(\sigma_x - \sigma_y)\sin\theta\cos\theta + \tau_{xy}(\cos^2\theta - \sin^2\theta)$$
+
+$$ = -(\sigma_x - \sigma_y)(\frac{\sin2\theta}{2}) + \tau_{xy}(\frac{1 + \cos2\theta}{2} - \frac{1 - \cos2\theta}{2})$$
+
+$$\tau_{nt} = \underline{-(\frac{\sigma_x - \sigma_y}{2})\sin2\theta + \tau_{xy}\cos2\theta}_{\#}$$
 
 ---
 

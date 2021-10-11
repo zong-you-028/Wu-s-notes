@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#工程數學",
+  "search": "tag:#Mechanics-and-Materials",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8137713085498782,
+  "scale": 0.8137713085498791,
   "close": true
 }

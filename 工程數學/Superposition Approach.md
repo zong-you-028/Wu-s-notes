@@ -75,3 +75,4 @@ $$y = c_1e^x + c_2e^{4x} - \frac{8}{3}xe^x$$
 [Class 11: Annilator Approach](https://youtu.be/JcgQYtArOWA)
 
 [[Higher Order DE解法]]
+[[Nonhomogeneous Equations]]

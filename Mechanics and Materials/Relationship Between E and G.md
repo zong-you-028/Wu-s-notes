@@ -2,7 +2,11 @@
 
 ---
 
-$$\sigma = E\varepsilon$$
+$$G = \frac{E}{2(1 + \nu)}$$
+
+$G$: Modulus of Rigidity
+$E$: [[Stiffness (young's modulus)]]
+$\nu$: [[Poisson's Ratio]]
 
 ---
 
@@ -14,6 +18,3 @@ Mechanics and Materials online course - coursera
 
 link:
 
-[[Normal Stress]]
-[[Stiffness (young's modulus)]]
-[[Normal Strain]]
