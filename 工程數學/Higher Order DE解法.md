@@ -3,7 +3,7 @@
 General Solution
 - [[Nonhomogeneous Equations]]
 
-> Superpostion Principle
+> [[Superposition Principle]]
 > 可以把解相加
 
 ![[Second Order ODE cases.png]]
@@ -31,3 +31,7 @@ Series Solution
   - [[Bessel's Equation]]
     - [[Gamma Function]]
   - [[Legendre's equation]]
+
+---
+
+[[First Order Differential Equation]]
