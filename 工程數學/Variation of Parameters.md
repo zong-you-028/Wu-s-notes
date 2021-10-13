@@ -106,3 +106,5 @@ y = c_1e^2x + c_2xe^{2x} +
 參考資料:
 
 [Class 12 - Variation of Parameters and Cauchy-Euler Equation](https://youtu.be/TWnudCfwofE)
+
+[[Higher Order DE解法]]

@@ -55,3 +55,5 @@ $$y(x) = -1 + x - x^2 + \frac{2}{3}x^3 - \frac{1}{3}x^4 + \frac{1}{5}x^5 ...$$
 參考資料:
 
 [Systems of Linear DEs; Nonlinear DEs](https://youtu.be/4g4Jft-3LCU)
+
+[[Higher Order DE解法]]

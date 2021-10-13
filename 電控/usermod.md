@@ -86,3 +86,8 @@ $ usermod -s /usr/bin/ksh littled3092
 ```bash
 $ usermod -u 1002 littled3092
 ```
+
+---
+
+[[sudoers設定檔]]
+[[root account]]

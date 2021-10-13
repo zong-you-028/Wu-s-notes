@@ -4,8 +4,9 @@
 
 性質，譬如 temperature, pressure, density...
 
-- intensive property: independent of mass
-- extensive property: varies of mass
+> - intensive property: independent of mass
+> - extensive property: varies of mass
+> - specific property: extensive property per unit mass ($v = V/m$, $e = E/m$)
 
 當描述一個物體時，會有許多 [[Property (thermodynamic)]] ，組成一個 [[State]]
 

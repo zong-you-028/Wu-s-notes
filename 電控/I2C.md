@@ -288,3 +288,4 @@ void requestEvent()
 
 > 參考資料: 
 > [Arduino Wire.h](https://www.arduino.cc/en/reference/wire)
+> [[Arduino 和 樹莓派一起使用]]

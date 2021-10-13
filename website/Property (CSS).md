@@ -1,4 +1,4 @@
-標籤: #CSS 
+標籤: #website 
 
 ---
 
@@ -19,6 +19,10 @@
 >     - [[#text-decoration]]
 >     - [[#text-transform]]
 >     - [[#text-align]]
+>     - [[#font-size]]
+>     - [[#font-weight]]
+>     - [[#font-style]]
+>     - [[#font-family]]
 
 # color
 
@@ -222,8 +226,58 @@ body {
 
 > `justify`: 延伸那些字到固定長度，讓每行看起來一樣寬
 
+## font-size
+
+```css
+body {
+	font-size: 1.25em;
+}
+```
+
+更改字體大小
+
+## font-weight
+
+```css
+body {
+	font-weight: 100;
+	font-weight: 800;
+}
+```
+
+可以更改字體的粗體，但是一種字形通常有限定幾種字體粗細
+
+在預設的羅馬體， 100 會是最細， 800 會是最粗， 400 會是預設
+
+## font-style
+
+```css
+.italics {
+	font-style: italic;
+	font-style: oblique;
+}
+```
+
+更改字體種類(斜體)
+
+上面例子的兩個都是斜體
+
+## font-family
+
+```css
+body {
+	font-family: sans-serif;
+	font-family: "Times New Roman", serif;
+}
+```
+
+更改字形，用逗號可以說明備用的字形，如果前面的字形沒辦法用，就會用下一個
+
 ---
 
 參考資料:
 
 [CSS tutorial - youtube](https://youtu.be/1Rs2ND1ryYc)
+
+[[selector]]
+[[Units]]

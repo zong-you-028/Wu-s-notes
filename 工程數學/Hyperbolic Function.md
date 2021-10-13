@@ -31,3 +31,5 @@ $$\frac{d}{dx}{\rm csch}(ax) = -a{\rm csch}(ax){\rm coth}(ax) \qquad \qquad \cos
 ---
 
 [Class 10: Solving the Linear and Constant Coefficient DE](https://youtu.be/4yTXud2Ig88)
+
+[[工數名詞解釋]]

@@ -30,3 +30,6 @@ body
 參考資料:
 
 [css tutorial - youtube](https://youtu.be/1Rs2ND1ryYc)
+
+[[Property (CSS)]]
+[[selector]]

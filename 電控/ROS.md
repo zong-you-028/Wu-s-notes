@@ -204,3 +204,4 @@ catkin
 參考資料:
 
 [專業課程 ROS 1 簡介 1](https://youtu.be/FX8HAkR7SFw)
+[[ROS暑期課程播放清單]]

@@ -75,3 +75,5 @@ $$\text{Step 3: } y = y_c + y_p = c_1e^{-x} + c_2e^{-2x} + 7 - 6x + 2x^2$$
 參考資料:
 
 [Class 11: Annilator Approach](https://youtu.be/JcgQYtArOWA)
+
+[[Higher Order DE解法]]

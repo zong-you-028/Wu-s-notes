@@ -20,3 +20,4 @@ ROS 2 是去中心化的， [[ROS]] 1 則有一個中心在
 參考資料:
 
 [ROS 2 簡介 DDS 通訊機制 - youtube](https://youtu.be/3e3Nn8ERTJ0)
+[[ROS暑期課程播放清單]]

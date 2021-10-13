@@ -4,3 +4,7 @@ Explicit Solution for [[Differential Equation]] look like this $y = g(x)$, other
 
 > Example:
 > $y = \sqrt{c-\frac{x^2}{2}}$
+
+---
+
+[[工數名詞解釋]]

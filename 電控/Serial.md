@@ -84,3 +84,7 @@ Serial.read();
 [arduino Serial write](https://www.arduino.cc/reference/en/language/functions/communication/serial/write/)
 [arduino Serial available](https://www.arduino.cc/reference/en/language/functions/communication/serial/available/)
 [arduino Serial read](https://www.arduino.cc/reference/en/language/functions/communication/serial/read/)
+[[TDK2021電路圖]]
+[[Arduino 和 樹莓派一起使用]]
+[[Arduino Nano]]
+[[USB_Host_Shield_2.0]]
