@@ -41,3 +41,10 @@
 > $$y(x)=5+\frac{\sqrt{\pi}}{2}(erfc(3)-erfc(x))$$
 
 3. when $dy/dx$ is not easy to calculate, try to calculate $dx/dy$
+
+
+---
+
+link:
+
+[[Higher Order DE解法]]

@@ -77,3 +77,4 @@ $$y = c_1e^x + c_2e^{4x} - \frac{8}{3}xe^x$$
 
 [[Higher Order DE解法]]
 [[Nonhomogeneous Equations]]
+[[Superposition Principle]]

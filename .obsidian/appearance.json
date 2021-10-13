@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "baseFontSize": 19,
+=======
+  "baseFontSize": 20,
+>>>>>>> a76e9b2ff5ee3cfa9e9970a2c1f9b524b7d486fc
   "cssTheme": "Obsidian gruvbox",
   "theme": "obsidian"
 }
