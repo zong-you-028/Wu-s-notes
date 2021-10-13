@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#工程數學",
+  "search": "tag:#建築",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -12,26 +12,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.97948717948718,
   "lineSizeMultiplier": 1,
-<<<<<<< HEAD
-  "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 12.6629213483146,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.8137713085498801,
-  "close": true
-=======
   "collapse-forces": true,
   "centerStrength": 0.658119658119658,
   "repelStrength": 12.8867521367521,
   "linkStrength": 0.726495726495727,
   "linkDistance": 252,
-<<<<<<< HEAD
-  "scale": 0.8854989543150439,
-  "close": true
-=======
-  "scale": 0.8854989543150434,
+  "scale": 1.2414543899483135,
   "close": false
->>>>>>> f31cd963c11bddb9003044af40a2f5dfaf25ebea
->>>>>>> a76e9b2ff5ee3cfa9e9970a2c1f9b524b7d486fc
 }
