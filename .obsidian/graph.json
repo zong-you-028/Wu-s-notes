@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#Mechanics-and-Materials",
+  "search": "tag:#Thermodynamics",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.5255568449083805,
+  "scale": 1.0000000000000013,
   "close": false
 }
