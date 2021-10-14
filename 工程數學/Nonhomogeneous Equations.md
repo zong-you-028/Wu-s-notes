@@ -33,3 +33,9 @@ $$y_p(x) = y_{p_1}(x) + y_{p_2}(x) + ... + y_{p_k}(x)$$
 
 最後可以得到一個 general solution
 $$y(x) = c_1y_1(x) + c_2y_2(x) + ... + c_ny_n(x) + y_p(x)$$
+
+---
+
+[[Higher Order DE解法]]
+[[Auxiliary Function]]
+[[Superposition Approach]]

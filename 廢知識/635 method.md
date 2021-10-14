@@ -13,3 +13,5 @@
 參考資料:
 
 [brainstorm](https://zapier.com/blog/brainstorming/)
+
+[[ways of brainstorm]]

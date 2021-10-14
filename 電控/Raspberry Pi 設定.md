@@ -4,7 +4,7 @@
 
 1. **在網站上安裝裝系統的應用程式(exe)**
 [下載點](https://www.raspberrypi.org/software/)
-![[螢幕擷取畫面 (172).png]]
+![[樹梅派下載畫面.png]]
 
 2. **將SD卡插入電腦**
 
@@ -38,7 +38,7 @@
 5. 在電腦上安裝vnc viewer
 
 6. 打開他，在上面的欄位填入raspberry pi的 ip
-![[螢幕擷取畫面 (191).png]]
+![[VNC樹梅派遠端操控選單.png]]
 
 7. 使用者名稱是`pi`，密碼是裝系統時設定的密碼
 
@@ -46,3 +46,4 @@
 
 > [參考資料 控制系統建置](https://chtseng.wordpress.com/2015/11/27/diy-%E6%A9%9F%E6%88%BF%E7%92%B0%E6%8E%A7%E7%B3%BB%E7%B5%B1%E5%BB%BA%E7%BD%AE-raspberry-pi%EF%BC%88%E4%B8%83%EF%BC%89/)
 > [參考資料 遠端控制](https://ithelp.ithome.com.tw/articles/10235452)
+> [[su command]]

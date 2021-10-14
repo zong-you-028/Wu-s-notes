@@ -29,3 +29,5 @@ $$\Gamma(-\frac{1}{2}) = -2\sqrt{\pi}$$
 參考資料:
 
 [Solutions about Singular Points](https://youtu.be/Nw39CK6x5VE)
+
+[[Higher Order DE解法]]

@@ -14,3 +14,5 @@
 參考資料:
 
 [Series Solutions of Linear Equations](https://www.youtube.com/watch?v=2ARH7cnl2vk&list=PLil-R4o6jmGgW4ydGzlvoMawM5qklb8_Q&index=17&t=4052s)
+
+[[工數名詞解釋]]

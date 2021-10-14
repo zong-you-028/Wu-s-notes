@@ -138,6 +138,53 @@ $$y = c_4e^{c_2x}\quad (c_4 = \pm e^{c_3})$$
 
 ---
 
+# Case 3: if one solution is known
+
+如果有一個解已知，也可以使用 Reduction of Order 來解出答案
+
+這個方法需要 DE 是 homogeneous $g(x) = 0$
+
+基本想法是假設 $y_2 = u(x)y_1$, 然後把它代入並整理
+
+---
+
+題目DE:
+$$y''+ p(x)y' + q(x)y = 0$$
+.
+Step 1, 代入
+$$
+\left\{
+	\begin{array}{l}
+		y & = & y_2 & = & uy_1 \\
+		y' & = & y_2' & = & u'y_1 + uy_1' \\
+		y'' & = & y_2'' & = & u''y_1 + 2u'y_1' + uy_1''
+	\end{array}
+\right.
+$$
+得到
+$$u''y_1 + 2u'y_1' + uy_1'' + p(u'y_1 + uy_1') + quy_1 = 0$$
+$$\implies u''y_1 + u'(2y_1' + py_1) + u(y_1'' + py_1' + qy_1) = 0$$
+.
+Step 2, 消去$u$
+$$\because y'' + p(x)y' + q(x)y = 0$$
+$$\therefore \implies u''y_1 + u'(2y_1' + py_1) = 0$$
+.
+Step 3, use reduction of order [[#Case 1]]
+$$u' = U\qquad u'' = U'$$
+$$U' + U(\frac{2y_1' + py_1}{y_1}) = 0$$
+$$U' + (\frac{2y_1'}{y_1} + p)U = 0$$
+.
+Step 4, use [[Separable Variables]] 得出解
+
+---
+
 參考資料:
 
 [Systems of Linear DEs; Nonlinear DEs](https://youtu.be/4g4Jft-3LCU)
+工程數學課本
+
+---
+
+link:
+
+[[Higher Order DE解法]]

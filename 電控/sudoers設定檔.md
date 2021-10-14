@@ -1,6 +1,6 @@
 標籤: #linux 
 
-sodoers的設定檔位於`/etc/sudoers`，因為[[sudo command]]不需要root的密碼，因此需要一個表來管理可以使用這個指令的使用者
+sodoers的設定檔位於`/etc/sudoers`，因為[[sudo command]]不需要[[root account| root]]的密碼，因此需要一個表來管理可以使用這個指令的使用者
 
 > 在更改sudoers的檔案時，可以使用`visudo`來編輯，這樣[[vi]]文字編輯器就會在最後檢查是否可以使用，避免出錯而無法使用
 
@@ -15,10 +15,10 @@ sodoers的設定檔位於`/etc/sudoers`，因為[[sudo command]]不需要root的
 範例1: `littled3092   ALL=(ALL)    ALL`
 
 範例2: `accmgr        ALL=(root)   /usr/bin/passwd`
-> 假設accmgr是專門修改使用者密碼的使用者，這個設定檔可以讓accmgr使用更改密碼的指令，但是這有一個漏洞，因為這個帳號同時也可以更改root的密碼，從而獲取更高的權限，因此應該這樣寫:
+> 假設accmgr是專門修改使用者密碼的使用者，這個設定檔可以讓accmgr使用更改密碼的指令，但是這有一個漏洞，因為這個帳號同時也可以更改[[root account| root]]的密碼，從而獲取更高的權限，因此應該這樣寫:
 `accmgr   ALL=(root)   !/usr/bin/passwd, /usr/bin/passwd [A-Za-z]*, !usr/bin/passwd root`
 
-這樣一來可以禁止accmgr直接使用`/usr/bin/passwd`，並且限制他只能用這個指令加上一般使用者帳號，然後不能更改root帳號的密碼
+這樣一來可以禁止accmgr直接使用`/usr/bin/passwd`，並且限制他只能用這個指令加上一般使用者帳號，然後不能更改[[root account|root]]帳號的密碼
 
 
 # 群組設定
