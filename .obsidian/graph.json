@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#iTron紀錄",
+  "search": "tag:#工程數學",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9426765736876717,
-  "close": false
+  "scale": 0.9426765736876722,
+  "close": true
 }
