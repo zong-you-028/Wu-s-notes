@@ -7,8 +7,11 @@
         "id": "6047730191cabdd5",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Engineering Mathematics Project 1.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -54,6 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Engineering Mathematics Project 1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -70,6 +74,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Engineering Mathematics Project 1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -80,12 +85,16 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Engineering Mathematics Project 1.md"
+          }
         }
       }
     ],
     "currentTab": 0
   },
   "active": "6047730191cabdd5",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Engineering Mathematics Project 1.md"
+  ]
 }
