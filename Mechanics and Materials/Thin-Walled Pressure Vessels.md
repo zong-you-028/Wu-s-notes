@@ -21,6 +21,12 @@ $$\underline{\sigma_{\text{LONG}} = \frac{PD}{4t}}_{\#}$$
 $$\sigma_{\text{LOOP}} \cdot tL \cdot 2 - PLD = 0$$
 $$\underline{\sigma_{\text{hoop}} = \frac{PD}{2t}}_{\#}$$
 
+# Mohr's Circle
+
+![[Mohrs Circle for Plane Stress vessel.jpg|500]]
+
+$$\tau_{\text{max}} = \frac{\sigma_{\text{HOOP}} - \sigma_{\text{LONG}}}{2}$$
+
 ---
 
 參考資料:
@@ -32,3 +38,4 @@ Mechanics and Materials online course - coursera
 link:
 
 [[Normal Stress]]
+[[Mohr's Circle]]
