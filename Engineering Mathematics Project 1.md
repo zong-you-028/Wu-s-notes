@@ -61,8 +61,8 @@ $$\implies (\frac{1}{y_0} - \frac{B}{A})e^{At_0} = \underline{c}_{\#}$$
 ---
 
 $$\text{6. }$$
-![[y=1000e^{0.5x}.png|500]]
-$$y = 1000e^{0.5t}$$
+> ![[y=1000e^{0.5x}.png|500]]
+> $$y = 1000e^{0.5t}$$
 
 ---
 
@@ -204,17 +204,26 @@ $$\implies
 	\end{array}
 \right.$$
 .
-![[y=0.5cos(sqrt{10}t).png|500]]
-$$y(t) = 0.5\cdot \cos(\sqrt{10}t)$$
+
+> ![[y=0.5cos(sqrt{10}t).png|500]]
+> $$y(t) = 0.5\cdot \cos(\sqrt{10}t)$$
+
 .
-![[y=1cos(sqrt{10}t).png|500]]
-$$y(t) = 1\cdot \cos(\sqrt{10}t)$$
+
+> ![[y=1cos(sqrt{10}t).png|500]]
+> $$y(t) = 1\cdot \cos(\sqrt{10}t)$$
+
 .
-![[y=2cos(sqrt{10}t).png|500]]
-$$y(t) = 2\cdot \cos(\sqrt{10}t)$$
+
+> ![[y=2cos(sqrt{10}t).png|500]]
+> $$y(t) = 2\cdot \cos(\sqrt{10}t)$$
+
 .
-![[y=4cos(sqrt{10}t).png|500]]
-$$y(t) = 4\cdot \cos(\sqrt{10}t)$$
+
+> ![[y=4cos(sqrt{10}t).png|500]]
+> $$y(t) = 4\cdot \cos(\sqrt{10}t)$$
+
+$$\text{The period of oscillation on plot matches}\; \omega_0 = \sqrt{\frac{k}{m}}$$
 
 ---
 
@@ -240,13 +249,25 @@ $$\implies
 \right\}0\leq t\leq 10$$
 $$\text{Does oscillation frequency change? \quad no}$$
 
+> ![[y=0.5cos omega t-frac{0.5}{sqrt{10}}sin omega t.png|500]]
+> $$y(t) = 0.5\cos\omega t - \frac{0.5}{\sqrt{10}}\sin\omega t$$
+
+> ![[y=0.5cos omega t+frac{0.5}{sqrt{10}}sin omega t.png|500]]
+> $$y(t) = 0.5\cos\omega t + \frac{0.5}{\sqrt{10}}\sin\omega t$$
+
+> ![[y=0.5cos omega t+frac{1}{sqrt{10}}sin omega.png|500]]
+> $$y(t) = 0.5\cos\omega t + \frac{1}{\sqrt{10}}\sin\omega$$
+
+> ![[y=0.5cos omega t+frac{2}{sqrt{10}}sin omega t.png|500]]
+> $$y(t) = 0.5\cos\omega t + \frac{2}{\sqrt{10}}\sin\omega t$$
+
 ---
 
 $$3. \ \ \ (\text{vi})$$
 $$y(0) = 0.5, \quad y'(0) = 0\implies y(t) = 0.5\cos\omega t$$
 $$k = 10\frac{N}{M}$$
 $$\left\{
-\begin{array}{}
+\begin{array}{l}
 	m = 1 \implies \omega = \sqrt{10} \\
 	m = 2 \implies \omega = \sqrt{5} \\
 	m = 4 \implies \omega = \sqrt{\frac{5}{2}} \\
@@ -258,11 +279,23 @@ $$\left\{
 		y(t) = 0.5\cos\sqrt{10}t \\
 		y(t) = 0.5\cos\sqrt{5}t \\
 		y(t) = 0.5\cos\sqrt{\frac{5}{2}}t \\
-		y(t) = 0.25\cos\sqrt{5}t
+		y(t) = 0.5\cos\frac{\sqrt{5}}{2}t
 	\end{array}
 \right.
 \quad,\; 0\leq t\leq 10$$
 $$\text{Does the graph's frequencies match}\; \omega_0 = \sqrt{\frac{k}{m}}$$
+
+> ![[y=0.5cos sqrt{10}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{10}t$$
+
+> ![[y=0.5cos sqrt{5}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{5}t$$
+
+> ![[y=0.5cos sqrt{frac{5}{2}}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{\frac{5}{2}}t$$
+
+> ![[y=0.5cos frac{sqrt{5}}{2}t.png|500]]
+> $$y(t) = 0.5\cos\frac{\sqrt{5}}{2}t$$
 
 ---
 
@@ -292,6 +325,20 @@ $$k =
 		y(t) = 0.5\cos\sqrt{80}t
 	\end{array}
 \right.$$
+
+> ![[y=0.5cos sqrt{10}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{10}t$$
+
+> ![[y=0.5cos sqrt{20}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{20}t$$
+
+> ![[y=0.5cos sqrt{40}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{40}t$$
+
+> ![[y=0.5cos sqrt{80}t.png|500]]
+> $$y(t) = 0.5\cos\sqrt{80}t$$
+
+$$\text{The frequence match}\; \omega_0 = \sqrt{\frac{k}{m}}$$
 
 ---
 
@@ -347,7 +394,8 @@ $$\implies
 $$\implies y(t) = 0.5e^{-\sqrt{\frac{k}{m}}t},\quad m = 1\text{kg}, \quad k = 10 \;\text{N/m}$$
 $$y(t) = 0.5e^{-\sqrt{10}t} \qquad (0 \leq t \leq 20)$$
 
-![[y=0.5e^{-sqrt{10}x}.png|500]]
+> ![[y=0.5e^{-sqrt{10}x}.png|500]]
+> $$y(t) = 0.5e^{-\sqrt{10}t} \qquad (0 \leq t \leq 20)$$
 
 ---
 
@@ -363,17 +411,24 @@ $$\implies
 	\end{array}
 \right.$$
 .
-![[y=0.5e^{-frac{sqrt{10}}{4}t}.png|500]]
-$$y_{0.25(+)} = 0.5e^{-\frac{\sqrt{10}}{4}t}$$
+
+> ![[y=0.5e^{-frac{sqrt{10}}{4}t}.png|500]]
+> $$y_{0.25(+)} = 0.5e^{-\frac{\sqrt{10}}{4}t}$$
+
 .
-![[y=0.5e^{-frac{sqrt{10}}{2}t}.png|500]]
-$$y_{0.5(+)} = 0.5e^{-\frac{\sqrt{10}}{2}t}$$
+
+> ![[y=0.5e^{-frac{sqrt{10}}{2}t}.png|500]]
+> $$y_{0.5(+)} = 0.5e^{-\frac{\sqrt{10}}{2}t}$$
+
 .
-![[y=0.5e^{-2sqrt{10}t}.png|500]]
-$$y_{2(+)} = 0.5e^{-2\sqrt{10}t}$$
+
+> ![[y=0.5e^{-2sqrt{10}t}.png|500]]
+> $$y_{2(+)} = 0.5e^{-2\sqrt{10}t}$$
+
 .
-![[y=0.5e^{-4sqrt{10}t}.png|500]]
-$$y_{4(+)} = 0.5e^{-4\sqrt{10}t}$$
+
+> ![[y=0.5e^{-4sqrt{10}t}.png|500]]
+> $$y_{4(+)} = 0.5e^{-4\sqrt{10}t}$$
 
 ---
 
