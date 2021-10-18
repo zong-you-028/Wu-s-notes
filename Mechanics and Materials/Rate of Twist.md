@@ -24,3 +24,4 @@ Mechanics and Materials online course - coursera
 
 link:
 
+[[Shear Strain]]
