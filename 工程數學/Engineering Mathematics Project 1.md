@@ -1,3 +1,7 @@
+標籤: #工程數學 
+
+---
+
 # Engineering Mathematics Project 1
 
 > Group: iTron
@@ -465,3 +469,11 @@ $$6.$$
 $$\text{A sports car need a stiffer spring because it needs stiff springs to}$$
 $$\text{make car steady at high speed. }$$
 $$\text{However, it will become uncomfortable.}$$
+
+---
+
+links:
+
+[[Bernoulli's Equations Substitution]]
+[[Separable Variables]]
+[[First Order Differential Equation]]
