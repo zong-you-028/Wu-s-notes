@@ -7,7 +7,7 @@
 - Snapchat & Youtube: No sharing
 - Instagram: Only with permission and credit
 - Pinterest: Share images
-- Facebook, Twitter, Tumblr & LinkedIn: Share any [[content]] type
+- Facebook, Twitter, Tumblr & LinkedIn: Share any [[Content]] type
 
 ---
 

@@ -14,6 +14,8 @@ Laplace Transform 是一種 [[Integral Transform]]
 
 # 拉普拉斯轉換表
 
+## 一般式子的轉換
+
 底下這個東西要背起來
 
 | $$f(t)$$      | $$F(s)$$                 | 算法                            |
@@ -26,7 +28,7 @@ Laplace Transform 是一種 [[Integral Transform]]
 | $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                                 |
 | $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                                 |
 
-## $L\{1\} = \frac{1}{s}$
+### $L\{1\} = \frac{1}{s}$
 
 $$L\{1\} = \int_0^\infty e^{-st}dt$$
 .
@@ -39,7 +41,7 @@ $$= \frac{1}{s}$$
 > 這裡假設 $s > 0$, 所以
 > $$-\frac{e^{-s\cdot \infty}}{s} = 0$$
 
-## $L\{t\} = \frac{1}{s^2}$
+### $L\{t\} = \frac{1}{s^2}$
 
 $$L\{t\} = \int_0^\infty te^{-st}dt \qquad 
 \begin{array}{}
@@ -54,6 +56,18 @@ $$= -\frac{\infty\cdot e^{-s\cdot\infty}}{s} + 0 - \left.\frac{e^{-st}}{s^2}\rig
 $$= -\frac{e^{-s\cdot \infty}}{s^2} + \frac{e^{-s\cdot 0}}{s^2}$$
 .
 $$= \frac{1}{s^2}$$
+
+## 七大各種微積分轉換
+
+| input                                                                    | Laplace transform                                                                       |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Differentiation $$f^{(n)}(t)$$                                           | $$s^nF(s) - s^{n - 1}f(0) - s^{n - 2}f'(0) - \dots - sf^{(n - 2)}(0) - f^{(n - 1)}(0)$$ |
+| [[Derivatives of Transforms\|Multiplication by]] $t$ $$t^nf(t)$$         | $$(-1)^n\frac{d^n}{ds^n}F(s)$$                                                          |
+| [[Integration with Laplace\|Integration]] $$\int_0^tf(\tau)d\tau$$       | $$\frac{F(s)}{ds}$$                                                                     |
+| Multiplication by exp $$e^{at}f(t)$$                                     | $$F(s - a)$$                                                                            |
+| Translation $$f(t - a)u(t - a)$$ $$g(t)u(t - a)$$                        | $$e^{-as}F(s)$$ $$e^{-as}L\{g(t + a)\}$$                                                |
+| [[Convolution Theorem\|Convolution]] $$\int_0^tf(\tau)g(t - \tau)d\tau$$ | $$F(s)G(s)$$                                                                            |
+| [[Transform of a Periodic Fuction\|Periodic Input]] $$f(t) = f(t + T)$$  | $$\frac{1}{1 - e^{-st}}\int_0^Te^{-st}f(t)dt$$                                          |
 
 # 特性
 
@@ -131,5 +145,6 @@ $$y(t) = -\frac{16}{5}e^t + \frac{25}{6}e^{2t} + \frac{1}{30}e^{-4t}$$
 參考資料:
 
 [Class 20 - Chapter 7 The Laplace Transform - youtube](https://youtu.be/m60TiMLKzvQ)
+[工程數學 class 22 - properties of laplace transform - youtube](https://youtu.be/46CiHQ3EYeY)
 
 [[Laplace Transform 解法]]
