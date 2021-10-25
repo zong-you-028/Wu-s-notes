@@ -8,24 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#python",
+      "query": "tag:#機構",
       "color": {
         "a": 1,
         "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#ROS",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:linux",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
       }
     }
   ],
@@ -39,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8360386601669487,
-  "close": false
+  "scale": 0.8360386601669523,
+  "close": true
 }
