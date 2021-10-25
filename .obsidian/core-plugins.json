@@ -1,7 +1,6 @@
 [
   "file-explorer",
   "global-search",
-  "switcher",
   "graph",
   "backlink",
   "outgoing-link",
@@ -10,7 +9,6 @@
   "templates",
   "note-composer",
   "command-palette",
-  "random-note",
   "outline",
   "word-count",
   "slides",

@@ -1,10 +1,5 @@
 [
-<<<<<<< HEAD
-  "obsidian-git",
   "sliding-panes-obsidian",
-  "table-editor-obsidian"
-=======
   "table-editor-obsidian",
-  "sliding-panes-obsidian"
->>>>>>> 056b540f59cd88c580f6b4274f5f5ddd19748844
+  "obsidian-git"
 ]

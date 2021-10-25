@@ -22,3 +22,4 @@ link:
 
 [[骨骼圖]]
 [[等效機構]]
+[[types of kinematic pairs]]
