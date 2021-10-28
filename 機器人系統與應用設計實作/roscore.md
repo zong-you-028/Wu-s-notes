@@ -23,3 +23,4 @@ link:
 [[ROS]]
 [[time]]
 [[time.sleep()]]
+[[ros setup.bash]]
