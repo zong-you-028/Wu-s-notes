@@ -12,6 +12,16 @@
 
 在這兩個之間是文件的內容
 
+# document structure
+
+```latex
+\section{}
+\subsection{}
+\subsubsection{}
+```
+
+就是每章節的小標題
+
 ---
 
 參考資料:

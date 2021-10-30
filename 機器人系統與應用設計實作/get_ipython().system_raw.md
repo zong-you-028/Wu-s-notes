@@ -27,3 +27,4 @@ link:
 [[time]]
 [[time.sleep()]]
 [[roscore]]
+[[ros setup.bash]]
