@@ -1,6 +1,5 @@
 [
-  "obsidian-kanban",
+  "sliding-panes-obsidian",
   "table-editor-obsidian",
-  "obsidian-git",
-  "find-unlinked-files"
+  "obsidian-git"
 ]

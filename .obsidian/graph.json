@@ -1,22 +1,47 @@
 {
+<<<<<<< HEAD
   "collapse-filter": false,
   "search": "tag:#建築",
+=======
+  "collapse-filter": true,
+  "search": "",
+>>>>>>> 64a25bf195ab47a1b0b02c06a5856bd1a7c449fa
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
+<<<<<<< HEAD
   "colorGroups": [],
+=======
+  "colorGroups": [
+    {
+      "query": "tag:#Thermodynamics",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+>>>>>>> 64a25bf195ab47a1b0b02c06a5856bd1a7c449fa
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.97948717948718,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
+<<<<<<< HEAD
   "centerStrength": 0.658119658119658,
   "repelStrength": 12.8867521367521,
   "linkStrength": 0.726495726495727,
   "linkDistance": 252,
   "scale": 1.2414543899483148,
+=======
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.0041303413837164,
+>>>>>>> 64a25bf195ab47a1b0b02c06a5856bd1a7c449fa
   "close": false
 }
