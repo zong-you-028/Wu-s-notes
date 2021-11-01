@@ -8,31 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ros",
+      "query": "tag:#Thermodynamics",
       "color": {
         "a": 1,
         "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#linux",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:#機器人",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "tag:#python",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
       }
     }
   ],
@@ -46,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0041303413837273,
-  "close": true
+  "scale": 1.0041303413837164,
+  "close": false
 }
