@@ -16,3 +16,6 @@ A homogeneous and invariable chemical composition, may exist in more than one ph
 
 link:
 
+[[Saturated vapor]]
+[[Saturated liquid]]
+[[Saturated liquid-vapor mixture]]
