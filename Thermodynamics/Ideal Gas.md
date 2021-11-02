@@ -2,7 +2,9 @@
 
 ---
 
-# mole basis
+# 理想氣體方程式
+
+## mole basis
 
 以莫爾數來表示理想氣體方程式:
 
@@ -12,7 +14,7 @@ $$\bar{ R }: \text{ universal gas constant }$$
 
 $$ = 8.3145 \; \frac{ { \rm kJ } }{ { \rm kmol \cdot K} }$$
 
-# mass basis
+## mass basis
 
 $$R = \frac{ \bar{ R } }{ M }$$
 (查表可以得出)
@@ -26,6 +28,12 @@ $$
 	\end{array}
 \right.
 $$
+
+# 理想氣體條件
+
+1. low pressure is OK (regardless of temperature)
+2. [[Reduced Temperature|At high temperature]] ($T_r > 2$), it is good [[Reduced Pressure|until]] ($P_r = 4 ~ 5$)
+3. other regions may consider using Thermodynamic tables
 
 ---
 

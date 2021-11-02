@@ -2,7 +2,7 @@
 
 ---
 
-因為氣體通常都不是理想氣體，所以用一個常數 $z$ 修正
+因為氣體通常都不是[[Ideal Gas|理想氣體]]，所以用一個常數 $z$ 修正
 
 $$z = \frac{ P \nu }{ RT } \qquad z = 1 \text{ for ideal gas }$$
 
