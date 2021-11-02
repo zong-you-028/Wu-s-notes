@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Thermodynamics",
+      "query": "tag:#Mechanics-and-Materials",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9628318124429058,
+  "scale": 0.14683584358514531,
   "close": false
 }
