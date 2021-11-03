@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Thermodynamics",
+      "query": "tag:#Mechanics-and-Materials",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -18,13 +18,21 @@
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.97948717948718,
+  "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
+<<<<<<< HEAD
   "centerStrength": 0.658119658119658,
   "repelStrength": 12.8867521367521,
   "linkStrength": 0.726495726495727,
   "linkDistance": 252,
   "scale": 0.22920135941749456,
+=======
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.2553655468371214,
+>>>>>>> 69045d0a3382026a993e6d5bfc031dfd42741939
   "close": false
 }
