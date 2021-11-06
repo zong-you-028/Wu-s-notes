@@ -103,6 +103,12 @@ Most linear systems consist of multiple linear ODEs, with unknown function $y_1(
 > \right]
 > $$
 
+## Main Diagonal
+
+左上到右下的 [[Entries]]
+
+$$a_{ 11 }, \; a_{ 22 }, \; \dots , \; a_{ nn }$$
+
 ---
 
 參考資料:
@@ -113,3 +119,4 @@ Most linear systems consist of multiple linear ODEs, with unknown function $y_1(
 
 link:
 
+[[Matrix Multiplication]]
