@@ -57,3 +57,4 @@ Mechanics and Materials online course - coursera
 
 link:
 
+[[First Moment of Area]]

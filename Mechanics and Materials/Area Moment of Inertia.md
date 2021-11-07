@@ -11,7 +11,11 @@ For composite shapes:
 $$\underline{ I_{ \text{ Rectangle } } = 
 \frac{ b h^3 }{ 12 } }_{ \# }$$
 
-$$I_{ \text{ neutral axis } }$$
+$$\underline{ I_{ \text{ neutral axis } } = I_{ \text{ standard shape's neutral axis } } + A d^2 }_{ \# }$$
+
+所以上圖中 I beam 的 Area Moment of Inertia:
+
+$$I_{ \text{ N.A. composite } } = \left( \frac{ 1 }{ 12 } a b^3 + a b d_1^2 \right) + \left( \frac{ 1 }{ 12 } d c^3 + c d d_2^2 \right) + \left( \frac{ 1 }{ 12 } f e^3 + e f d_3^2 \right)$$
 
 ---
 

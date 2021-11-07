@@ -27,18 +27,36 @@ $$ = \underline{ -\kappa y }_{ \# }$$
 - (+) elongation
 - (-) shortening
 
+# content
+
 > Beam Bending Content:
 > - [[Beam]]
 > - [[Differential Beam Element]]
+> - [[Plastic and Elastic of Bending]]
+> - [[Pure Beam Bending]]
+> - [[Non - Uniform Beam Bending]]
+> - [[Plastic and Elastic of Bending]]
+> 
+> Relationship:
 > - [[Moment Curvature Relationship of Bending]]
-> - [[Fluxtural Rigidity of Bending]]
 > - [[Strain - Curvature Relationship of Bending]]
 > - [[Stress - Strain Relationship of Bending]]
+> 
+> Constants:
+> - [[Fluxtural Rigidity of Bending]]
+> - [[Section Modulus]]
+> - [[First Moment of Area]]
+> - [[First Moment of Outward Area]]
 > 
 > Important:
 > - [[Elastic Fluxtural Formula of Beam Bending]]
 > - [[Location of Neutral Axis]]
 > - [[Area Moment of Inertia]]
+> - [[Shear Force in Non - Uniform Beam Bending]]
+> 
+> Example:
+> - [[Bridge Bending Problem]]
+> - [[Full Plastic Example]]
 
 
 ---
