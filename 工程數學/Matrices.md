@@ -1,4 +1,4 @@
-標籤: #工程數學 
+標籤: #工程數學 #list 
 
 ---
 
@@ -103,11 +103,18 @@ Most linear systems consist of multiple linear ODEs, with unknown function $y_1(
 > \right]
 > $$
 
-## Main Diagonal
+## [[Main Diagonal]]
 
 左上到右下的 [[Entries]]
 
 $$a_{ 11 }, \; a_{ 22 }, \; \dots , \; a_{ nn }$$
+
+# Matrix Calculations
+
+> content:
+> - [[Matrix Multiplication]]
+> - [[Matrix Transposition]]
+> - [[Inverse of Matrix]]
 
 ---
 
