@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#建築",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#建築",
+      "query": "tag:#Mechanics-and-Materials",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.255365546837136,
+  "scale": 1.2553655468371403,
   "close": true
 }

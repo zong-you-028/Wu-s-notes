@@ -1,4 +1,4 @@
-標籤: #Mechanics-and-Materials 
+標籤: #Mechanics-and-Materials #list 
 
 ---
 
@@ -12,10 +12,10 @@ $$\underline{ \kappa = \frac{ 1 }{ \rho } = \frac{ d\theta }{ dx } }_{ \# }$$
 
 ![[Beam Bending length of line y from neutral axis.jpg]]
 
-length of line $y$ from neutral axis:
+## length of line $y$ from neutral axis:
 $$( \rho - y ) \cancel{ d\theta }^{ \frac{ dx }{ \rho } } = \underline{ dx - \frac{ y }{ \rho } dx }_{ \# }$$
 
-Strain - Curvature Relationship:
+## [[Strain - Curvature Relationship of Bending]]:
 
 > Recall:
 > $$\varepsilon = \frac{ \delta }{ L }$$
@@ -26,6 +26,20 @@ $$ = \underline{ -\kappa y }_{ \# }$$
 
 - (+) elongation
 - (-) shortening
+
+> Beam Bending Content:
+> - [[Beam]]
+> - [[Differential Beam Element]]
+> - [[Moment Curvature Relationship of Bending]]
+> - [[Fluxtural Rigidity of Bending]]
+> - [[Strain - Curvature Relationship of Bending]]
+> - [[Stress - Strain Relationship of Bending]]
+> 
+> Important:
+> - [[Elastic Fluxtural Formula of Beam Bending]]
+> - [[Location of Neutral Axis]]
+> - [[Area Moment of Inertia]]
+
 
 ---
 
@@ -39,3 +53,4 @@ link:
 
 [[Differential Beam Element]]
 [[Normal Strain]]
+[[Beam]]
