@@ -11,7 +11,7 @@ observable, macroscopic properties
 
 又叫做狀態原則
 
-描述系統本身靜止且沒有受到電磁力、重力、表面張力的影響，應該可以用最少的兩個互相獨立的 [[Property (thermodynamic) | Property]] 描述
+描述系統可以用最少的兩個互相獨立的 [[Property (thermodynamic) | Property]] 描述
 
 > 兩個 [[Property (thermodynamic) | Property]] 獨立:
 > 
