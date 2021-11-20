@@ -57,6 +57,15 @@ $$ = \underline{ -\kappa y }_{ \# }$$
 > Example:
 > - [[Bridge Bending Problem]]
 > - [[Full Plastic Example]]
+> 
+> # Ch 6 Shearing Stress in Beams and Thin-Walled Members
+> ## Horizontal Shearing Stress in Beams
+> ### Shear on the Horizontal Face of a Beam Element
+> - [[Horizontal Shear Per Unit Length in Beam]]
+> ### Shearing Stresses in a Beam
+> - [[Horizontal Shearing Stress in a Beam]]
+> ### Unsymmetric Loading of Thin-Walled Members and Shear Center
+> - [[Shear Center]]
 
 
 ---
