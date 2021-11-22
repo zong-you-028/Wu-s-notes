@@ -39,16 +39,7 @@ x_2
 \right]
 $$
 
-炸開
-
-$$
-\begin{array}{}
-(a_{ 11 } - \lambda)x_1 & + & a_{ 12 }x_2          & = & 0 \\
-a_{ 21 }x_1             & + & (a_{ 22 } - \lambda)x_2 & = & 0
-\end{array}
-$$
-
-先求出 [[Eigenvalue]]，帶入上式就可以解出 eigenvector
+先求出 [[Eigenvalue]]，帶入上式並使用 [[Augmented Matrix Method]] 就可以解出 eigenvector
 
 ---
 

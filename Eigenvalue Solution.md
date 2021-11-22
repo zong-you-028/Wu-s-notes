@@ -379,11 +379,27 @@ $$
 
 $$y = c_1x^{ (1) }e^{ \lambda_1 t } + c_2x^{ (2) }e^{ \lambda_2 t } + \dots + c_nx^{ (n) }e^{ \lambda_n t }$$
 
+### 重根
+
+直接看例子
+
+> Example:
+> $$
+> \vec{ y' } = A \vec{ y } = 
+> \left[
+> \begin{array}{}
+>     4 & 1 \\
+>     -1 & 2
+> \end{array}
+> \right]
+> $$
+
 ---
 
 參考資料:
 
 工數課本P131
+工數PPT 4.0~4.1 P51
 
 ---
 
