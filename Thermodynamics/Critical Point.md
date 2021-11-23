@@ -2,7 +2,7 @@
 
 ---
 
-[[critical point.png]]
+![[critical point.png]]
 
 above this pressure there is no boiling
 

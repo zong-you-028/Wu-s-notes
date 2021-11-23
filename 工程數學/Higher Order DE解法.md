@@ -6,6 +6,8 @@ General Solution
 > [[Superposition Principle]]
 > 可以把解相加
 
+- [[Eigenvalue Solution]]
+
 ![[Second Order ODE cases.png]]
 
 求 complementary function

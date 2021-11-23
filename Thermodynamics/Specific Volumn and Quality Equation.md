@@ -2,7 +2,7 @@
 
 ---
 
-在 [[Saturated liquid-vapor mixture]] 時，使用 specific volumn 和 [[Quality]] 的等式
+在 [[Saturated liquid-vapor mixture]] 時，使用 specific volume 和 [[Quality]] 的等式
 
 # 證明
 
@@ -47,3 +47,4 @@ $$ = \underline{ 0.0895 \; {\rm m^3/kg} }_{\#}$$
 
 link:
 
+[[Specific Heat and Quality Equation]]
