@@ -8,11 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-<<<<<<< HEAD
-      "query": "",
-=======
-      "query": "tag:#Thermodynamics",
->>>>>>> 4115dafc1824a75134ef82adb1475c17f83b4f3b
+      "query": "tag:#工程數學",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -29,10 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-<<<<<<< HEAD
-  "scale": 0.16348370567220596,
-=======
-  "scale": 1.1922022566849177,
->>>>>>> 4115dafc1824a75134ef82adb1475c17f83b4f3b
+  "scale": 0.8854989543150455,
   "close": false
 }
