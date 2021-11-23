@@ -7,3 +7,4 @@
 - [[Transform of Derivatives]]
 - [[Laplace Transform 快速法]]
 - [[Translation Theorem]]
+- [[Integral Transform]]

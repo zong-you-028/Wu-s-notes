@@ -29,8 +29,6 @@ ROS 的安裝與開啟過程繁瑣，因此通常使用這個工具
 > config設定：
 > `~/ros_menu/config.yaml`
 
-> [[Linux 快捷鍵]]
-
 ---
 
 ## 測試ROS 1
