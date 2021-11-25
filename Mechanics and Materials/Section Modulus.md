@@ -15,6 +15,12 @@ For design:
 
 $$S \geq \frac{ M_{ \text{ max } } }{ \sigma_{ \text{ actual(allowed) } } }$$
 
+# 各種形狀的 Section Modulus
+
+| 形狀   | Section Modulus($S$) |
+| ------ | -------------------- |
+| 長方形 | $$S = \frac{ 1 }{ 6 }bh^2$$                     |
+
 ---
 
 參考資料:

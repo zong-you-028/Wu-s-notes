@@ -43,7 +43,36 @@ $$y_p = u_1(x)y_1(x) + u_2(x)y_2(x)$$
 
 ## higher order
 
-和 [[Wronskian]] 類似， $W$ 的意思就是 [[Wronskian]]
+high order ODE 長這樣
+$$a_n(x)y^{ (n) }(x) + a_{ n - 1 }(x)y^{ (n - 1) }(x) + \dots + a_1(x)y'(x) + a_0(x)y = g(x)$$
+
+$$u_k'(x) = \frac{ W_k }{ W }$$
+
+$$W = 
+\left\vert
+	\begin{array}{}
+		y_1 & y_2 & y_3 & \dots & y_n \\
+		y_1' & y_2' & y_3' & \dots & y_n' \\
+		y_1'' & y_2'' & y_3'' & \dots & y_n'' \\
+		\vdots & \vdots & \vdots & \ddots & \vdots \\
+		y_1^{(n - 1)} & y_2^{(n - 1)} & y_3^{(n - 1)} & \dots & y_n^{(n - 1)}
+	\end{array}
+\right\vert$$
+
+$$
+W_k = 
+\left\vert
+	\begin{array}{}
+		y_1 & y_2 & \dots & y_{ k - 1 } & 0 & y_{ k + 1 } & \dots & y_n \\
+		y_1' & y_2' & \dots & y_{ k - 1 }' & 0 & y_{ k + 1 }' & \dots & y_n' \\
+		\vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+		y_1^{ (n - 2) } & y_2^{(n - 2)} & \dots & y_{k - 1}^{(n - 2)} & 0 & y_{k + 1}^{(n - 2)} & \dots & y_n^{(n - 2)} \\
+		y_1^{ (n - 1) } & y_2^{(n - 1)} & \dots & y_{k - 1}^{(n - 1)} & f(x) & y_{k + 1}^{(n - 1)} & \dots & y_n^{(n - 1)}
+	\end{array}
+\right\vert
+$$
+
+> $$f(x) = \frac{ g(x) }{ a_n(x) }$$
 
 # 例子
 

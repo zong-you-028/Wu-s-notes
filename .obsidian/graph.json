@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#工程數學",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
       "query": "tag:#Mechanics-and-Materials",
       "color": {
         "a": 1,
@@ -32,10 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-<<<<<<< HEAD
-  "scale": 0.8854989543150455,
-=======
-  "scale": 0.8347535002403115,
->>>>>>> 72a6507d4dc4a989873d805c186898c21352cd87
+  "scale": 1.2734639161028376,
   "close": false
 }

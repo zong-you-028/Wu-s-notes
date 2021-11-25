@@ -29,6 +29,7 @@ $$ = \underline{ -\kappa y }_{ \# }$$
 
 # content
 
+> # ch 4 Pure Bending
 > Beam Bending Content:
 > - [[Beam]]
 > - [[Differential Beam Element]]
@@ -57,6 +58,7 @@ $$ = \underline{ -\kappa y }_{ \# }$$
 > Example:
 > - [[Bridge Bending Problem]]
 > - [[Full Plastic Example]]
+> - [[Beam Compose with Different Material Problem]]
 > 
 > # Ch 6 Shearing Stress in Beams and Thin-Walled Members
 > ## Horizontal Shearing Stress in Beams
