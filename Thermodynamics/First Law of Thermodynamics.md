@@ -2,7 +2,14 @@
 
 ---
 
+# 簡介
+
 能量守恆
+
+# 公式
+
+$$\text{ cyclic integral of the heat (Q) } = \text{ cyclic integral of the work (W) }$$
+$$\implies \oint \delta Q = \oint \delta W$$
 
 ---
 

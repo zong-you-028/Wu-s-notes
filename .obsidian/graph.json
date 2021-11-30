@@ -8,17 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#工程數學",
+      "query": "tag:#Thermodynamics",
       "color": {
         "a": 1,
         "rgb": 14048348
-      }
-    },
-    {
-      "query": "tag:#satellite",
-      "color": {
-        "a": 1,
-        "rgb": 14069084
       }
     }
   ],
@@ -32,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8347535002403222,
-  "close": true
+  "scale": 0.8347535002403266,
+  "close": false
 }
