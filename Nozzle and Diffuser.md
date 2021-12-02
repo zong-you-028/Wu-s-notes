@@ -4,14 +4,25 @@
 
 噴嘴和升壓器
 
-Nozzle:
+- will not do any work $\dot{ W }_{ cv } = 0$
+- little or no heat transfer $\dot{ Q }_{ cv } = 0$
+- $\Delta PE \approx 0$, $\Delta KE \neq 0$
+- only enthapy and kinetic energy
+
+# Nozzle
+
 ![[Nozzle.png]]
+
+create a high velocity fluid stream at the expense of fluid's pressure
 
 - $v_2 > v_1$
 - $P_2 < P_1$
 
-Diffuser:
+# Diffuser
+
 ![[Diffuser.png]]
+
+opposite of nozzle
 
 - $v_2 < v_1$
 - $P_2 > P_1$

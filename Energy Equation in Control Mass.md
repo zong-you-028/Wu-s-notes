@@ -99,6 +99,7 @@ $$\implies \underline{ \dot{ Q }_{ cv } + \sum \dot{ m }_{ i }(h_i + \frac{ v_i^
 
 - [[Heat Exchanger]]
 - [[Nozzle and Diffuser]] 噴嘴和升壓器
+- [[Throttle]]
 
 ---
 
