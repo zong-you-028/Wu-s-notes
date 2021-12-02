@@ -104,6 +104,32 @@ $$\implies \underline{ \dot{ Q }_{ cv } + \sum \dot{ m }_{ i }(h_i + \frac{ v_i^
 - [[Turbine]]
 - [[Compressor and Pump]]
 
+# [[Transient Process]] (Unsteady)
+
+## For Mass Balance
+
+$$m_{ in } - m_{ out } = \Delta m_{ system }$$
+$$(m_2 - m_1)_{ cv } + \sum m_e - \sum m_i = 0$$
+
+## For Energy Equation
+
+$$\dot{ Q }_{ cv } + \sum \dot{ m }_i (h_i + \frac{ v_i^2 }{ 2 } + gz_i) = \underbrace{ \frac{ dE_{ cv } }{ dt } }_{ \text{ unsteady } } + \sum \dot{ m }_e(h_e + \frac{ v_e^2 }{ 2 } + gz_e) + \dot{ W }_{ cv }$$
+
+$$\text{ where } E_{ cv } = m(u + \frac{ v^2 }{ 2 } + gz)$$
+
+.
+
+> $$\int_0^t \frac{ dE_{ cv } }{ dt } = E_2 - E_1$$
+> 
+> $$ = m_2(u_2 + \frac{ v_2^2 }{ 2 } + gz_2) - m_1( u_1 + \frac{ v_1^2 }{ 2 } + gz_1 )$$
+
+$$\implies \underline{ Q_{ cv } + \sum m_i (h_i + \frac{ v_i^2 }{ 2 } + gz_i) = \sum m_e (h_e + \frac{ v_e^2 }{ 2 } + gz_e) + \left[ m_2(u_2 + \frac{ v_2^2 }{ 2 } + gz_2) - m_1(u_1 + \frac{ v_1^2 }{ 2 } + gz_1) \right] + W_{ cv } }_{ \# }$$
+
+## Assumption
+
+1. The state within the control volume may change with time, but is uniform throughout the entire control volume at any instant time
+2. The fluid flow at inlet / exit is uniform and steady
+
 ---
 
 參考資料:
