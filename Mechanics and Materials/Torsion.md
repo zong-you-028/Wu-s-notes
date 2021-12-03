@@ -1,4 +1,4 @@
-標籤: #Mechanics-and-Materials 
+標籤: #Mechanics-and-Materials #list 
 
 ---
 
@@ -11,6 +11,12 @@ $$s = r\phi$$
 $$\tan\gamma \approx \gamma = \frac{s}{L}$$
 
 $$\underline{\gamma_\text{MAX} = \frac{r\phi}{L}}_{\#}$$
+
+> - [[Angle of Twist]]
+> - [[Elastic Torsion Formula]]
+> - [[Inelastic Torsion]]
+> - [[Polar Moment of Inertia]]
+> - [[Rate of Twist]]
 
 ---
 

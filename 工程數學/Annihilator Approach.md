@@ -58,7 +58,7 @@ $$L_1[L(y)] = L_1[g(x)] = 0$$
 .
 $$\text{Step 2-2: }D^3(D^2 + 3D + 2)y = 0$$
 .
-$$\text{Step 2-3: auxiliary function} m^3(m^2 + 3m + 2) = 0$$
+$$\text{Step 2-3: auxiliary function} \; m^3(m^2 + 3m + 2) = 0$$
 $$\text{roots: }m_1 = m_2 = m_3 = 0, m_4 = -1, m_5 = -2$$
 $$\text{Solution for }L_1[L(\tilde{y})] = 0 \text{:}$$
 $$\tilde{y} = d_1 + d_2x + d_3x^2 + \underbrace{d_4e^{-x} + d_5e^{-2x}}_{\text{移除和complementary function 相同的部分}}$$
