@@ -7,8 +7,11 @@
         "id": "122b1e80b4f6c494",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "電控/tb6560步進馬達驅動板.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -32,7 +35,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Tb6560",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -42,7 +45,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "86430c099ea03e1b",
@@ -54,6 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "電控/tb6560步進馬達驅動板.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -70,6 +74,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "電控/tb6560步進馬達驅動板.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -80,7 +85,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "電控/tb6560步進馬達驅動板.md"
+          }
         }
       }
     ],
@@ -88,12 +95,15 @@
   },
   "active": "122b1e80b4f6c494",
   "lastOpenFiles": [
-    "Thermodynamics/Termodynamic System.md",
+    "電控/tb6560步進馬達驅動板.md",
+    "電控/PS2X_lib.h.md",
+    "Thermodynamics/Statistical Thermodynamics.md",
+    "Thermodynamics/Thermodynamic System.md",
     "Thermodynamics/熱力第一次小考範圍.md",
     "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
-    "Thermodynamics/Dimensional Homogeneity.md",
     "Thermodynamics/Dimension.md",
     "Thermodynamics/Continuum.md",
-    "Thermodynamics/Property (thermodynamic).md"
+    "電控/TCRT5000紅外線測距避障模組.md",
+    "電控/SG90 Servo.md"
   ]
 }
