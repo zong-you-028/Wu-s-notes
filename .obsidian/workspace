@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/tb6560步進馬達驅動板.md",
+            "file": "Daily Notes/2021-12-08.md",
             "mode": "preview"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "電控/tb6560步進馬達驅動板.md",
+            "file": "Daily Notes/2021-12-08.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,7 +74,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "電控/tb6560步進馬達驅動板.md",
+            "file": "Daily Notes/2021-12-08.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -86,24 +86,32 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "電控/tb6560步進馬達驅動板.md"
+            "file": "Daily Notes/2021-12-08.md"
           }
+        }
+      },
+      {
+        "id": "26be295717b5ae61",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "active": "122b1e80b4f6c494",
   "lastOpenFiles": [
+    "Daily Notes/2021-12-08.md",
+    "Daily Notes/2021-12-07.md",
+    "Daily Notes/2021-12-06.md",
+    "Daily Notes/2021-12-05.md",
+    "Daily Notes/2021-12-04.md",
+    "Daily Notes/2021-12-03.md",
     "電控/tb6560步進馬達驅動板.md",
     "電控/PS2X_lib.h.md",
     "Thermodynamics/Statistical Thermodynamics.md",
-    "Thermodynamics/Thermodynamic System.md",
-    "Thermodynamics/熱力第一次小考範圍.md",
-    "Thermodynamics/Quasistatic (quasi-equilibrium process).md",
-    "Thermodynamics/Dimension.md",
-    "Thermodynamics/Continuum.md",
-    "電控/TCRT5000紅外線測距避障模組.md",
-    "電控/SG90 Servo.md"
+    "Thermodynamics/Thermodynamic System.md"
   ]
 }
