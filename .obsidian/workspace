@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "6bccf5f4de282b17",
+    "id": "2a9a6dcb8a667bb7",
     "type": "split",
     "children": [
       {
-        "id": "122b1e80b4f6c494",
+        "id": "76e803bdeb80a4d5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Daily Notes/2021-12-06.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -18,100 +18,115 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "82bc0d055390540a",
-    "type": "mobile-drawer",
+    "id": "92b924555a25b09f",
+    "type": "split",
     "children": [
       {
-        "id": "d1be47bd16e230f4",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "d3120f7e14575a85",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Tb6560",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "7f824dad2243d6ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f80f984ff9eb29a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3a3afeb9ae69a7dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "frobenius",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 307.5107650756836
   },
   "right": {
-    "id": "86430c099ea03e1b",
-    "type": "mobile-drawer",
+    "id": "1e74d9410b234756",
+    "type": "split",
     "children": [
       {
-        "id": "605c6721bf173337",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Daily Notes/2021-12-06.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "9f79ec7bccec673d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19c31a9631493842",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/2021-12-06.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "14744aeec3cef4e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2021-12-06.md"
+              }
+            }
+          },
+          {
+            "id": "a02ad9b5f9036e5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Notes/2021-12-06.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "879964c52c3cfc4f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "0b31c250bd40c761",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Daily Notes/2021-12-06.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "e719b562a0b6b57e",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Daily Notes/2021-12-06.md"
-          }
-        }
-      },
-      {
-        "id": "26be295717b5ae61",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
+        ],
+        "currentTab": 3
       }
     ],
-    "currentTab": 3
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "122b1e80b4f6c494",
+  "active": "76e803bdeb80a4d5",
   "lastOpenFiles": [
     "Daily Notes/2021-12-06.md",
-    "Daily Notes/2021-12-09.md",
     "Daily Notes/2021-12-08.md",
     "Daily Notes/2021-12-07.md",
-    "Daily Notes/2021-12-05.md",
-    "Daily Notes/2021-12-04.md",
-    "Daily Notes/2021-12-03.md",
-    "電控/tb6560步進馬達驅動板.md",
-    "電控/PS2X_lib.h.md",
-    "Thermodynamics/Statistical Thermodynamics.md"
+    "Daily Notes/2021-12-09.md",
+    "工程數學/Series Solution of Linear Equation.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/多變數解法.md",
+    "Archived/剪片/Davinci Resolve.md",
+    "Archived/故事創作與影像敘事/影像.md",
+    "Eigenvalue Solution.md"
   ]
 }
