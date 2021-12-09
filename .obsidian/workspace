@@ -1,16 +1,21 @@
 {
   "main": {
-    "id": "eb3f8f561869b1ae",
+    "id": "d4afe8b615d13ff9",
     "type": "split",
     "children": [
       {
-        "id": "780f22dc5e599372",
+        "id": "a6383bdd4a52f210",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "電控/I2C.md",
             "mode": "preview"
+=======
+            "file": "Daily Notes/2021-12-09.md",
+            "mode": "source"
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
           }
         }
       }
@@ -18,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "92b924555a25b09f",
+    "id": "b16290c47905b733",
     "type": "split",
     "children": [
       {
-        "id": "7f824dad2243d6ba",
+        "id": "3f2149313afcd8d6",
         "type": "tabs",
         "children": [
           {
-            "id": "3f80f984ff9eb29a",
+            "id": "78c41ec687be2194",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +39,16 @@
             }
           },
           {
-            "id": "3a3afeb9ae69a7dd",
+            "id": "6ce04b9c149ff820",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "i2c",
+=======
+                "query": "",
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,30 +62,47 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 312.5,
     "collapsed": true
+=======
+    "width": 300
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
   },
   "right": {
-    "id": "1e74d9410b234756",
+    "id": "f6829760cc8f06c7",
     "type": "split",
     "children": [
       {
-        "id": "9f79ec7bccec673d",
+        "id": "d0c1645141898c24",
         "type": "tabs",
         "children": [
           {
-            "id": "19c31a9631493842",
+            "id": "146bc99b675a86d5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "80e78e7cc39dbb7f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "電控/I2C.md",
+=======
+                "file": "Daily Notes/2021-12-09.md",
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+<<<<<<< HEAD
                 "unlinkedCollapsed": false
               }
             }
@@ -88,39 +114,48 @@
               "type": "outline",
               "state": {
                 "file": "電控/I2C.md"
+=======
+                "unlinkedCollapsed": true
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
               }
             }
           },
           {
-            "id": "a02ad9b5f9036e5b",
+            "id": "0ad75674c46975c2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "電控/I2C.md",
+=======
+                "file": "Daily Notes/2021-12-09.md",
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a54ea28461d6e3a4",
+            "id": "ca747de8d018e3ad",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2021-12-09.md"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "780f22dc5e599372",
+  "active": "a6383bdd4a52f210",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "電控/I2C.md",
     "iTron會議紀錄/2021-08-03 iTron TDK 討論.md",
     "Daily Notes/2021-12-08.md",
@@ -131,5 +166,9 @@
     "工程數學/Legendre's equation.md",
     "Energy Equation in Control Mass.md",
     "Compressor and Pump.md"
+=======
+    "Daily Notes/2021-12-09.md",
+    "Daily Notes/2021-12-08.md"
+>>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
   ]
 }
