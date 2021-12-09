@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-08.md",
+            "file": "電控/I2C.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "leg",
+                "query": "i2c",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,11 +48,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -68,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-08.md",
+                "file": "電控/I2C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2021-12-08.md"
+                "file": "電控/I2C.md"
               }
             }
           },
@@ -95,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2021-12-08.md",
+                "file": "電控/I2C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -114,10 +116,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "780f22dc5e599372",
   "lastOpenFiles": [
+    "電控/I2C.md",
+    "iTron會議紀錄/2021-08-03 iTron TDK 討論.md",
     "Daily Notes/2021-12-08.md",
     "Daily Notes/2021-12-09.md",
     "Daily Notes/2021-12-07.md",
@@ -125,8 +130,6 @@
     "Daily Notes/2021-12-02.md",
     "工程數學/Legendre's equation.md",
     "Energy Equation in Control Mass.md",
-    "Compressor and Pump.md",
-    "Thermodynamics/Boundary Work for Polytropic.md",
-    "Thermodynamics/Transient Process.md"
+    "Compressor and Pump.md"
   ]
 }
