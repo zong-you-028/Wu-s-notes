@@ -1,35 +1,15 @@
 {
   "main": {
-<<<<<<< HEAD
     "id": "eb3f8f561869b1ae",
     "type": "split",
     "children": [
       {
         "id": "780f22dc5e599372",
-=======
-    "id": "82e749b8b9a85879",
-    "type": "split",
-    "children": [
-      {
-        "id": "00c726f211ae8160",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
-      },
-      {
-        "id": "05a15793228a0d62",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
             "file": "電控/IMU.md",
-=======
-            "file": "ROS 期末報告 node 圖.md",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
             "mode": "preview"
           }
         }
@@ -38,7 +18,6 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
     "id": "92b924555a25b09f",
     "type": "split",
     "children": [
@@ -48,17 +27,6 @@
         "children": [
           {
             "id": "3f80f984ff9eb29a",
-=======
-    "id": "fb71a95a838000c0",
-    "type": "split",
-    "children": [
-      {
-        "id": "43308c1ede1b488c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0a18862bcffd7fb",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -66,20 +34,12 @@
             }
           },
           {
-<<<<<<< HEAD
             "id": "3a3afeb9ae69a7dd",
-=======
-            "id": "a208f910fff84cf3",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
                 "query": "陀螺儀",
-=======
-                "query": "```mer",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +52,6 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
     "width": 312.5
   },
   "right": {
@@ -105,86 +64,45 @@
         "children": [
           {
             "id": "19c31a9631493842",
-=======
-    "width": 300,
-    "collapsed": true
-  },
-  "right": {
-    "id": "2b98f3b73718d425",
-    "type": "split",
-    "children": [
-      {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "電控/IMU.md",
-=======
-                "file": "ROS 期末報告 node 圖.md",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-<<<<<<< HEAD
                 "unlinkedCollapsed": false
-=======
-                "unlinkedCollapsed": true
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
               }
             }
           },
           {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-<<<<<<< HEAD
-                "file": "電控/IMU.md"
-=======
-                "file": "ROS 期末報告 node 圖.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
-              }
-            }
-          },
-          {
-<<<<<<< HEAD
-            "id": "a02ad9b5f9036e5b",
-=======
-            "id": "541aca282ec79817",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
+            "id": "14744aeec3cef4e7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "電控/IMU.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-=======
-                "file": "ROS 期末報告 node 圖.md"
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
+                "file": "電控/IMU.md"
               }
             }
           },
           {
-<<<<<<< HEAD
+            "id": "a02ad9b5f9036e5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "電控/IMU.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
             "id": "a54ea28461d6e3a4",
-=======
-            "id": "2f9d0fd4da0d1db9",
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -198,12 +116,11 @@
     "direction": "horizontal",
     "width": 300
   },
-<<<<<<< HEAD
   "active": "780f22dc5e599372",
   "lastOpenFiles": [
     "電控/IMU.md",
     "Daily Notes/2021-12-09.md",
-    "2021-12-17.md",
+    "Daily Notes/2021-12-17.md",
     "Daily Notes/2021-12-08.md",
     "電控/I2C.md",
     "iTron會議紀錄/2021-08-03 iTron TDK 討論.md",
@@ -211,19 +128,5 @@
     "Daily Notes/2021-12-06.md",
     "Daily Notes/2021-12-02.md",
     "工程數學/Legendre's equation.md"
-=======
-  "active": "05a15793228a0d62",
-  "lastOpenFiles": [
-    "ROS 期末報告 node 圖.md",
-    "satellite/技術成熟度指標.md",
-    "電控/Arduino Mega.md",
-    "Thermodynamics/Statistical Thermodynamics.md",
-    "電控/脈衝訊號寬度.md",
-    "Thermodynamics/Ideal Gas.md",
-    "電控/類比搖桿模組.md",
-    "website/External Fonts.md",
-    "satellite/國家太空科技發展長期計畫各期目標.md",
-    "Daily Notes/2021-12-03.md"
->>>>>>> 622f2970e8eb84489f80dc8c7ed51d1322d29cec
   ]
 }
