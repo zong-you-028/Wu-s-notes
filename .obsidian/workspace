@@ -1,21 +1,24 @@
 {
   "main": {
-    "id": "d4afe8b615d13ff9",
+    "id": "82e749b8b9a85879",
     "type": "split",
     "children": [
       {
-        "id": "a6383bdd4a52f210",
+        "id": "00c726f211ae8160",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "05a15793228a0d62",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "電控/I2C.md",
+            "file": "ROS 期末報告 node 圖.md",
             "mode": "preview"
-=======
-            "file": "Daily Notes/2021-12-09.md",
-            "mode": "source"
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
           }
         }
       }
@@ -23,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b16290c47905b733",
+    "id": "fb71a95a838000c0",
     "type": "split",
     "children": [
       {
-        "id": "3f2149313afcd8d6",
+        "id": "43308c1ede1b488c",
         "type": "tabs",
         "children": [
           {
-            "id": "78c41ec687be2194",
+            "id": "e0a18862bcffd7fb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,110 +42,17 @@
             }
           },
           {
-            "id": "6ce04b9c149ff820",
+            "id": "a208f910fff84cf3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "i2c",
-=======
-                "query": "",
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+                "query": "```mer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 312.5,
-    "collapsed": true
-=======
-    "width": 300
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
-  },
-  "right": {
-    "id": "f6829760cc8f06c7",
-    "type": "split",
-    "children": [
-      {
-        "id": "d0c1645141898c24",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "146bc99b675a86d5",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "80e78e7cc39dbb7f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-<<<<<<< HEAD
-                "file": "電控/I2C.md",
-=======
-                "file": "Daily Notes/2021-12-09.md",
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-<<<<<<< HEAD
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "14744aeec3cef4e7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "電控/I2C.md"
-=======
-                "unlinkedCollapsed": true
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
-              }
-            }
-          },
-          {
-            "id": "0ad75674c46975c2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-<<<<<<< HEAD
-                "file": "電控/I2C.md",
-=======
-                "file": "Daily Notes/2021-12-09.md",
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "ca747de8d018e3ad",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Daily Notes/2021-12-09.md"
               }
             }
           }
@@ -153,22 +63,80 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a6383bdd4a52f210",
+  "right": {
+    "id": "2b98f3b73718d425",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ROS 期末報告 node 圖.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ROS 期末報告 node 圖.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ROS 期末報告 node 圖.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "05a15793228a0d62",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "電控/I2C.md",
-    "iTron會議紀錄/2021-08-03 iTron TDK 討論.md",
-    "Daily Notes/2021-12-08.md",
-    "Daily Notes/2021-12-09.md",
-    "Daily Notes/2021-12-07.md",
-    "Daily Notes/2021-12-06.md",
-    "Daily Notes/2021-12-02.md",
-    "工程數學/Legendre's equation.md",
-    "Energy Equation in Control Mass.md",
-    "Compressor and Pump.md"
-=======
-    "Daily Notes/2021-12-09.md",
-    "Daily Notes/2021-12-08.md"
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+    "ROS 期末報告 node 圖.md",
+    "satellite/技術成熟度指標.md",
+    "電控/Arduino Mega.md",
+    "Thermodynamics/Statistical Thermodynamics.md",
+    "電控/脈衝訊號寬度.md",
+    "Thermodynamics/Ideal Gas.md",
+    "電控/類比搖桿模組.md",
+    "website/External Fonts.md",
+    "satellite/國家太空科技發展長期計畫各期目標.md",
+    "Daily Notes/2021-12-03.md"
   ]
 }
