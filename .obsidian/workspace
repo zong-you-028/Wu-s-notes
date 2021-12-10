@@ -1,21 +1,16 @@
 {
   "main": {
-    "id": "d4afe8b615d13ff9",
+    "id": "eb3f8f561869b1ae",
     "type": "split",
     "children": [
       {
-        "id": "a6383bdd4a52f210",
+        "id": "780f22dc5e599372",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "電控/I2C.md",
+            "file": "電控/IMU.md",
             "mode": "preview"
-=======
-            "file": "Daily Notes/2021-12-09.md",
-            "mode": "source"
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
           }
         }
       }
@@ -23,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b16290c47905b733",
+    "id": "92b924555a25b09f",
     "type": "split",
     "children": [
       {
-        "id": "3f2149313afcd8d6",
+        "id": "7f824dad2243d6ba",
         "type": "tabs",
         "children": [
           {
-            "id": "78c41ec687be2194",
+            "id": "3f80f984ff9eb29a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,16 +34,12 @@
             }
           },
           {
-            "id": "6ce04b9c149ff820",
+            "id": "3a3afeb9ae69a7dd",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "i2c",
-=======
-                "query": "",
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+                "query": "陀螺儀",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,52 +48,33 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 312.5,
-    "collapsed": true
-=======
-    "width": 300
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+    "width": 312.5
   },
   "right": {
-    "id": "f6829760cc8f06c7",
+    "id": "1e74d9410b234756",
     "type": "split",
     "children": [
       {
-        "id": "d0c1645141898c24",
+        "id": "9f79ec7bccec673d",
         "type": "tabs",
         "children": [
           {
-            "id": "146bc99b675a86d5",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "80e78e7cc39dbb7f",
+            "id": "19c31a9631493842",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "電控/I2C.md",
-=======
-                "file": "Daily Notes/2021-12-09.md",
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+                "file": "電控/IMU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-<<<<<<< HEAD
                 "unlinkedCollapsed": false
               }
             }
@@ -113,62 +85,48 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電控/I2C.md"
-=======
-                "unlinkedCollapsed": true
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+                "file": "電控/IMU.md"
               }
             }
           },
           {
-            "id": "0ad75674c46975c2",
+            "id": "a02ad9b5f9036e5b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "電控/I2C.md",
-=======
-                "file": "Daily Notes/2021-12-09.md",
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+                "file": "電控/IMU.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "ca747de8d018e3ad",
+            "id": "a54ea28461d6e3a4",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Daily Notes/2021-12-09.md"
-              }
+              "type": "calendar",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a6383bdd4a52f210",
+  "active": "780f22dc5e599372",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "電控/IMU.md",
+    "Daily Notes/2021-12-09.md",
+    "2021-12-17.md",
+    "Daily Notes/2021-12-08.md",
     "電控/I2C.md",
     "iTron會議紀錄/2021-08-03 iTron TDK 討論.md",
-    "Daily Notes/2021-12-08.md",
-    "Daily Notes/2021-12-09.md",
     "Daily Notes/2021-12-07.md",
     "Daily Notes/2021-12-06.md",
     "Daily Notes/2021-12-02.md",
-    "工程數學/Legendre's equation.md",
-    "Energy Equation in Control Mass.md",
-    "Compressor and Pump.md"
-=======
-    "Daily Notes/2021-12-09.md",
-    "Daily Notes/2021-12-08.md"
->>>>>>> dae54709a9bccea82171e80b037f841bf9243c7c
+    "工程數學/Legendre's equation.md"
   ]
 }
