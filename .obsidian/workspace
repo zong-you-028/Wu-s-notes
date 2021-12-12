@@ -17,8 +17,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thermodynamics/Energy Reservoir.md",
-            "mode": "preview"
+            "file": "Daily Notes/2021-12-12.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thermodynamics/Energy Reservoir.md",
+                "file": "Daily Notes/2021-12-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thermodynamics/Energy Reservoir.md"
+                "file": "Daily Notes/2021-12-12.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thermodynamics/Energy Reservoir.md",
+                "file": "Daily Notes/2021-12-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,15 +126,15 @@
   },
   "active": "fac36a0dab4c35bb",
   "lastOpenFiles": [
-    "Thermodynamics/Energy Reservoir.md",
+    "Daily Notes/2021-12-12.md",
     "Daily Notes/2021-12-11.md",
+    "Thermodynamics/Energy Reservoir.md",
     "Daily Notes/2021-12-17.md",
     "Thermodynamics/Second Law of Thermodynamics.md",
     "Thermodynamics/Clausius Inequality.md",
     "Thermodynamics/Carnot Cycle.md",
     "Thermodynamics/Reversible and Irreversible Process.md",
     "Thermodynamics/Clausius Statement.md",
-    "Thermodynamics/Heat Engine and Refrigerator.md",
-    "Thermodynamics/Coefficient of Performance.md"
+    "Thermodynamics/Heat Engine and Refrigerator.md"
   ]
 }
