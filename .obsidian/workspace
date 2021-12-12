@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5e56bf0d4683dd49",
+        "id": "780f22dc5e599372",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-08.md",
+            "file": "Itron木櫃子整理.md",
             "mode": "source"
           }
         }
@@ -65,7 +65,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily Notes/2021-12-08.md",
+            "file": "Itron木櫃子整理.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -82,7 +82,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Daily Notes/2021-12-08.md",
+            "file": "Itron木櫃子整理.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -94,24 +94,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Daily Notes/2021-12-08.md"
+            "file": "Itron木櫃子整理.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "5e56bf0d4683dd49",
+  "active": "780f22dc5e599372",
   "lastOpenFiles": [
-    "Daily Notes/2021-12-11.md",
-    "Daily Notes/2021-12-10.md",
-    "Daily Notes/2021-12-17.md",
-    "Daily Notes/2021-12-18.md",
-    "Daily Notes/2021-12-09.md",
-    "電控/IMU.md",
+    "Itron木櫃子整理.md",
     "Daily Notes/2021-12-08.md",
-    "電控/I2C.md",
-    "iTron會議紀錄/2021-08-03 iTron TDK 討論.md",
-    "Daily Notes/2021-12-07.md"
+    "Daily Notes/2021-12-09.md",
+    "Daily Notes/2021-12-07.md",
+    "Daily Notes/2021-12-06.md",
+    "Daily Notes/2021-12-02.md",
+    "工程數學/Legendre's equation.md",
+    "Energy Equation in Control Mass.md",
+    "Compressor and Pump.md",
+    "Thermodynamics/Boundary Work for Polytropic.md"
   ]
 }
