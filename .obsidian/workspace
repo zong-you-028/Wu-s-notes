@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "aa5223d72806de4f",
         "type": "leaf",
         "state": {
@@ -13,12 +14,20 @@
       },
       {
         "id": "fac36a0dab4c35bb",
+=======
+        "id": "780f22dc5e599372",
+>>>>>>> 939ec9093b684a0ffb8ce792d5e3b0886381d5fe
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Daily Notes/2021-12-11.md",
             "mode": "preview"
+=======
+            "file": "Itron木櫃子整理.md",
+            "mode": "source"
+>>>>>>> 939ec9093b684a0ffb8ce792d5e3b0886381d5fe
           }
         }
       }
@@ -26,104 +35,90 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "92b924555a25b09f",
-    "type": "split",
+    "id": "d2708eb649f6448a",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "7f824dad2243d6ba",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3f80f984ff9eb29a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "3a3afeb9ae69a7dd",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "陀螺儀",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "a25e05157ade816d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "84bd892412bab4cd",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 312.5
+    "currentTab": 0
   },
   "right": {
-    "id": "1e74d9410b234756",
-    "type": "split",
+    "id": "792d28fab2926420",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "9f79ec7bccec673d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "19c31a9631493842",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Daily Notes/2021-12-11.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "14744aeec3cef4e7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Daily Notes/2021-12-11.md"
-              }
-            }
-          },
-          {
-            "id": "a02ad9b5f9036e5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Daily Notes/2021-12-11.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "a54ea28461d6e3a4",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "176d27a7d65e5db4",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "0095cb6eb628e87f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Itron木櫃子整理.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 3
+        }
+      },
+      {
+        "id": "6bb0be846be39dfd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Itron木櫃子整理.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e23fd6815d6e4858",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Itron木櫃子整理.md"
+          }
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
+<<<<<<< HEAD
   "active": "fac36a0dab4c35bb",
   "lastOpenFiles": [
     "Daily Notes/2021-12-11.md",
@@ -136,5 +131,19 @@
     "Heat Engine and Refrigerator.md",
     "Coefficient of Performance.md",
     "Kelvin-Plank Statement.md"
+=======
+  "active": "780f22dc5e599372",
+  "lastOpenFiles": [
+    "Itron木櫃子整理.md",
+    "Daily Notes/2021-12-08.md",
+    "Daily Notes/2021-12-09.md",
+    "Daily Notes/2021-12-07.md",
+    "Daily Notes/2021-12-06.md",
+    "Daily Notes/2021-12-02.md",
+    "工程數學/Legendre's equation.md",
+    "Energy Equation in Control Mass.md",
+    "Compressor and Pump.md",
+    "Thermodynamics/Boundary Work for Polytropic.md"
+>>>>>>> 939ec9093b684a0ffb8ce792d5e3b0886381d5fe
   ]
 }
