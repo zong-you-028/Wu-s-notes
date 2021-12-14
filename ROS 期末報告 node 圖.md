@@ -21,7 +21,7 @@ id1[ ] -- /image_rect_color --> id3(apriltag_ros) -- /tf --> apriltag_to_goal
 apriltag_to_goal <-- /request_stage --> stage_switch
 apriltag_to_goal -- /current_stage --> stage_switch
 id4(gasping) <-- /request_stage --> stage_switch
-id4(gasping) -- /current_stage --> stage_switch
+stage_switch -- /current_stage --> id4(gasping)
 
 apriltag_to_goal <-- /pos_cmd --> id5(navigation)
 stage_switch <-- /request_stage --> id5(navigation)
