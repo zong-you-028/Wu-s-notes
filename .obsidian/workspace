@@ -1,23 +1,23 @@
 {
   "main": {
-    "id": "eb3f8f561869b1ae",
+    "id": "c0f16c375ed690e0",
     "type": "split",
     "children": [
       {
-        "id": "aa5223d72806de4f",
+        "id": "cdb98aaa7a166001",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       },
       {
-        "id": "fac36a0dab4c35bb",
+        "id": "45b086f5889abc5d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-12-14.md",
+            "file": "conflict-files-obsidian-git.md",
             "mode": "preview"
           }
         }
@@ -26,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "92b924555a25b09f",
+    "id": "70f58685602e8ef0",
     "type": "split",
     "children": [
       {
-        "id": "7f824dad2243d6ba",
+        "id": "0553e6e781000d5b",
         "type": "tabs",
         "children": [
           {
-            "id": "3f80f984ff9eb29a",
+            "id": "94f974ea2fa06dee",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -42,12 +42,12 @@
             }
           },
           {
-            "id": "3a3afeb9ae69a7dd",
+            "id": "e037cb6e205fbf82",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "陀螺儀",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,81 +60,72 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 300
   },
   "right": {
-    "id": "1e74d9410b234756",
+    "id": "e97bed8f7c839505",
     "type": "split",
     "children": [
       {
-        "id": "9f79ec7bccec673d",
+        "id": "452471477f078cd5",
         "type": "tabs",
         "children": [
           {
-            "id": "19c31a9631493842",
+            "id": "3ce8d1837238765f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee02afcc0b2ae14e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-12-14.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "14744aeec3cef4e7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2021-12-14.md"
-              }
-            }
-          },
-          {
-            "id": "a02ad9b5f9036e5b",
+            "id": "539ef2e0f36ba3fe",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2021-12-14.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a54ea28461d6e3a4",
+            "id": "19faa8158aad7682",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "fac36a0dab4c35bb",
+  "active": "45b086f5889abc5d",
   "lastOpenFiles": [
-    "2021-12-14.md",
-    "Daily Notes/2021-12-18.md",
-    "Daily Notes/2021-12-17.md",
-    "Daily Notes/2021-12-12.md",
-    "Daily Notes/2021-12-20.md",
-    "ROS 期末報告 node 圖.md",
-    "Daily Notes/2021-12-11.md",
-    "Thermodynamics/Energy Reservoir.md",
-    "Thermodynamics/Second Law of Thermodynamics.md",
-    "Thermodynamics/Clausius Inequality.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
