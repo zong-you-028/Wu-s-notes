@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Itron木櫃子整理.md",
-            "mode": "source"
+            "file": "電控/PS2X_lib.h.md",
+            "mode": "preview"
           }
         }
       }
@@ -35,7 +35,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Ps2",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -45,7 +45,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "792d28fab2926420",
@@ -65,7 +65,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Itron木櫃子整理.md",
+            "file": "電控/PS2X_lib.h.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -82,7 +82,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Itron木櫃子整理.md",
+            "file": "電控/PS2X_lib.h.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -94,7 +94,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Itron木櫃子整理.md"
+            "file": "電控/PS2X_lib.h.md"
           }
         }
       }
@@ -103,6 +103,8 @@
   },
   "active": "780f22dc5e599372",
   "lastOpenFiles": [
+    "電控/PS2X_lib.h.md",
+    "電控/類比搖桿模組.md",
     "Itron木櫃子整理.md",
     "Daily Notes/2021-12-08.md",
     "Daily Notes/2021-12-09.md",
@@ -110,8 +112,6 @@
     "Daily Notes/2021-12-06.md",
     "Daily Notes/2021-12-02.md",
     "工程數學/Legendre's equation.md",
-    "Energy Equation in Control Mass.md",
-    "Compressor and Pump.md",
-    "Thermodynamics/Boundary Work for Polytropic.md"
+    "Energy Equation in Control Mass.md"
   ]
 }
