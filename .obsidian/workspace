@@ -1,15 +1,23 @@
 {
   "main": {
-    "id": "eb3f8f561869b1ae",
+    "id": "5cdcea0cd7de6a35",
     "type": "split",
     "children": [
       {
-        "id": "780f22dc5e599372",
+        "id": "ad851f43dca114ab",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "5478df0325513f76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/PS2X_lib.h.md",
+            "file": "Daily Notes/2021-12-17.md",
             "mode": "preview"
           }
         }
@@ -18,100 +26,115 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d2708eb649f6448a",
-    "type": "mobile-drawer",
+    "id": "70f58685602e8ef0",
+    "type": "split",
     "children": [
       {
-        "id": "a25e05157ade816d",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "84bd892412bab4cd",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Ps2",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "0553e6e781000d5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94f974ea2fa06dee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e037cb6e205fbf82",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ps2",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "792d28fab2926420",
-    "type": "mobile-drawer",
+    "id": "e97bed8f7c839505",
+    "type": "split",
     "children": [
       {
-        "id": "176d27a7d65e5db4",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "0095cb6eb628e87f",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "電控/PS2X_lib.h.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "452471477f078cd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ce8d1837238765f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee02afcc0b2ae14e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Notes/2021-12-17.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "539ef2e0f36ba3fe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Notes/2021-12-17.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "19faa8158aad7682",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/2021-12-17.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "6bb0be846be39dfd",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "電控/PS2X_lib.h.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "e23fd6815d6e4858",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "電控/PS2X_lib.h.md"
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "780f22dc5e599372",
+  "active": "5478df0325513f76",
   "lastOpenFiles": [
+    "Daily Notes/2021-12-17.md",
+    "2021-12-26.md",
+    "Daily Notes/2021-12-18.md",
+    "2021-12-15.md",
     "電控/PS2X_lib.h.md",
-    "電控/類比搖桿模組.md",
-    "Itron木櫃子整理.md",
-    "Daily Notes/2021-12-08.md",
-    "Daily Notes/2021-12-09.md",
-    "Daily Notes/2021-12-07.md",
-    "Daily Notes/2021-12-06.md",
-    "Daily Notes/2021-12-02.md",
-    "工程數學/Legendre's equation.md",
-    "Energy Equation in Control Mass.md"
+    "2021-12-14.md",
+    "Thermodynamics/Coefficient of Performance.md",
+    "Thermodynamics/Carnot Cycle.md",
+    "Thermodynamics/Second Law of Thermodynamics.md",
+    "Thermodynamics/Reversible and Irreversible Process.md"
   ]
 }
