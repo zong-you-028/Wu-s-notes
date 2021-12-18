@@ -17,7 +17,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-17.md",
+            "file": "Daily Notes/2021-12-18.md",
             "mode": "preview"
           }
         }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-17.md",
+                "file": "Daily Notes/2021-12-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2021-12-17.md",
+                "file": "Daily Notes/2021-12-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2021-12-17.md"
+                "file": "Daily Notes/2021-12-18.md"
               }
             }
           }
@@ -126,15 +125,15 @@
   },
   "active": "5478df0325513f76",
   "lastOpenFiles": [
-    "Daily Notes/2021-12-17.md",
-    "2021-12-26.md",
     "Daily Notes/2021-12-18.md",
-    "2021-12-15.md",
+    "Daily Notes/2021-12-14.md",
+    "Daily Notes/2021-12-22.md",
+    "Daily Notes/2021-12-17.md",
+    "Daily Notes/2021-12-26.md",
+    "Daily Notes/2021-12-15.md",
     "電控/PS2X_lib.h.md",
-    "2021-12-14.md",
     "Thermodynamics/Coefficient of Performance.md",
     "Thermodynamics/Carnot Cycle.md",
-    "Thermodynamics/Second Law of Thermodynamics.md",
-    "Thermodynamics/Reversible and Irreversible Process.md"
+    "Thermodynamics/Second Law of Thermodynamics.md"
   ]
 }
