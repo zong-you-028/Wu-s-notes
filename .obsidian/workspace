@@ -1,15 +1,23 @@
 {
   "main": {
-    "id": "eb3f8f561869b1ae",
+    "id": "5cdcea0cd7de6a35",
     "type": "split",
     "children": [
       {
-        "id": "780f22dc5e599372",
+        "id": "ad851f43dca114ab",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "5478df0325513f76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/PS2X_lib.h.md",
+            "file": "Daily Notes/2021-12-18.md",
             "mode": "preview"
           }
         }
@@ -18,38 +26,44 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d2708eb649f6448a",
-    "type": "mobile-drawer",
+    "id": "70f58685602e8ef0",
+    "type": "split",
     "children": [
       {
-        "id": "a25e05157ade816d",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "84bd892412bab4cd",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Ps2",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "0553e6e781000d5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94f974ea2fa06dee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e037cb6e205fbf82",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ps2",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "792d28fab2926420",
-    "type": "mobile-drawer",
+    "id": "e97bed8f7c839505",
+    "type": "split",
     "children": [
       {
         "id": "0095cb6eb628e87f",
@@ -69,10 +83,17 @@
         }
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "780f22dc5e599372",
+  "active": "5478df0325513f76",
   "lastOpenFiles": [
+    "Daily Notes/2021-12-18.md",
+    "Daily Notes/2021-12-14.md",
+    "Daily Notes/2021-12-22.md",
+    "Daily Notes/2021-12-17.md",
+    "Daily Notes/2021-12-26.md",
+    "Daily Notes/2021-12-15.md",
     "電控/PS2X_lib.h.md",
     "ROS 期末報告 node 圖.md",
     "電控/類比搖桿模組.md",
