@@ -45,20 +45,12 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "792d28fab2926420",
     "type": "mobile-drawer",
     "children": [
-      {
-        "id": "176d27a7d65e5db4",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
       {
         "id": "0095cb6eb628e87f",
         "type": "leaf",
@@ -75,28 +67,6 @@
             "unlinkedCollapsed": true
           }
         }
-      },
-      {
-        "id": "6bb0be846be39dfd",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "電控/PS2X_lib.h.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "e23fd6815d6e4858",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "電控/PS2X_lib.h.md"
-          }
-        }
       }
     ],
     "currentTab": 0
@@ -104,6 +74,7 @@
   "active": "780f22dc5e599372",
   "lastOpenFiles": [
     "電控/PS2X_lib.h.md",
+    "ROS 期末報告 node 圖.md",
     "電控/類比搖桿模組.md",
     "Itron木櫃子整理.md",
     "Daily Notes/2021-12-08.md",
@@ -111,7 +82,6 @@
     "Daily Notes/2021-12-07.md",
     "Daily Notes/2021-12-06.md",
     "Daily Notes/2021-12-02.md",
-    "工程數學/Legendre's equation.md",
-    "Energy Equation in Control Mass.md"
+    "工程數學/Legendre's equation.md"
   ]
 }
