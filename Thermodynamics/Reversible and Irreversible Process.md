@@ -14,6 +14,11 @@ ex.單擺, Quasi-equilibrium expansion and compresion
 3. Heat transfer through a finite temperature difference
 4. Mixing of two different substances
 
+# Work of Reversible Work
+
+$$\text{ close system: }\quad Work = Pd\nu$$
+$$\text{ open system: }\quad Work = \nu dP$$
+
 ---
 
 參考資料:

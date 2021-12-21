@@ -51,3 +51,4 @@ $$COP_{ H } = \frac{ Q_H }{ Q_H - Q_L } = \frac{ T_H }{ T_H - T_L }$$
 
 link:
 
+[[Coefficient of Performance]]

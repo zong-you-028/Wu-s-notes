@@ -4,13 +4,17 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "a6383bdd4a52f210",
+=======
+        "id": "780f22dc5e599372",
+>>>>>>> 70651364f71e81320f44e394d80fa9a2d3253d8d
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-12.md",
-            "mode": "source"
+            "file": "Thermodynamics/Reversible and Irreversible Process.md",
+            "mode": "preview"
           }
         }
       }
@@ -18,6 +22,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "b16290c47905b733",
     "type": "split",
     "children": [
@@ -47,10 +52,36 @@
                 "sortOrder": "alphabetical"
               }
             }
+=======
+    "id": "d2708eb649f6448a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a25e05157ade816d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "84bd892412bab4cd",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Ps2",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+>>>>>>> 70651364f71e81320f44e394d80fa9a2d3253d8d
           }
-        ]
+        }
       }
     ],
+<<<<<<< HEAD
     "direction": "horizontal",
     "width": 300
   },
@@ -110,15 +141,53 @@
             }
           }
         ]
+=======
+    "currentTab": 0
+  },
+  "right": {
+    "id": "792d28fab2926420",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0095cb6eb628e87f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Thermodynamics/Reversible and Irreversible Process.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+>>>>>>> 70651364f71e81320f44e394d80fa9a2d3253d8d
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
+<<<<<<< HEAD
   "active": "a6383bdd4a52f210",
   "lastOpenFiles": [
     "Daily Notes/2021-12-12.md",
     "Daily Notes/2021-12-09.md",
     "Daily Notes/2021-12-08.md"
+=======
+  "active": "780f22dc5e599372",
+  "lastOpenFiles": [
+    "Thermodynamics/Reversible and Irreversible Process.md",
+    "Thermodynamics/Second Law of Thermodynamics.md",
+    "電控/PS2X_lib.h.md",
+    "ROS 期末報告 node 圖.md",
+    "電控/類比搖桿模組.md",
+    "Itron木櫃子整理.md",
+    "Daily Notes/2021-12-08.md",
+    "Daily Notes/2021-12-09.md",
+    "Daily Notes/2021-12-07.md",
+    "Daily Notes/2021-12-06.md"
+>>>>>>> 70651364f71e81320f44e394d80fa9a2d3253d8d
   ]
 }
