@@ -1,117 +1,126 @@
 {
   "main": {
-    "id": "eb3f8f561869b1ae",
+    "id": "82e749b8b9a85879",
     "type": "split",
     "children": [
       {
-        "id": "780f22dc5e599372",
+        "id": "f976e4a1a6d4e299",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電控/PS2X_lib.h.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d2708eb649f6448a",
-    "type": "mobile-drawer",
+    "id": "fb71a95a838000c0",
+    "type": "split",
     "children": [
       {
-        "id": "a25e05157ade816d",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "84bd892412bab4cd",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Ps2",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "i2c",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "792d28fab2926420",
-    "type": "mobile-drawer",
+    "id": "2b98f3b73718d425",
+    "type": "split",
     "children": [
       {
-        "id": "176d27a7d65e5db4",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "0095cb6eb628e87f",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "電控/PS2X_lib.h.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "6bb0be846be39dfd",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "電控/PS2X_lib.h.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "e23fd6815d6e4858",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "電控/PS2X_lib.h.md"
-          }
-        }
+        ],
+        "currentTab": 3
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "780f22dc5e599372",
+  "active": "f976e4a1a6d4e299",
   "lastOpenFiles": [
-    "電控/PS2X_lib.h.md",
+    "電控/I2C.md",
+    "ROS 期末報告 node 圖.md",
+    "satellite/技術成熟度指標.md",
+    "電控/Arduino Mega.md",
+    "Thermodynamics/Statistical Thermodynamics.md",
+    "電控/脈衝訊號寬度.md",
+    "Thermodynamics/Ideal Gas.md",
     "電控/類比搖桿模組.md",
-    "Itron木櫃子整理.md",
-    "Daily Notes/2021-12-08.md",
-    "Daily Notes/2021-12-09.md",
-    "Daily Notes/2021-12-07.md",
-    "Daily Notes/2021-12-06.md",
-    "Daily Notes/2021-12-02.md",
-    "工程數學/Legendre's equation.md",
-    "Energy Equation in Control Mass.md"
+    "website/External Fonts.md",
+    "satellite/國家太空科技發展長期計畫各期目標.md"
   ]
 }
