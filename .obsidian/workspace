@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "82e749b8b9a85879",
+    "id": "1a39ae1e8a0ad77a",
     "type": "split",
     "children": [
       {
-        "id": "f976e4a1a6d4e299",
+        "id": "74befa9fe5ec67cf",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "i2c",
+                "query": "sys.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md"
+              }
             }
           },
           {
@@ -110,8 +117,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f976e4a1a6d4e299",
+  "active": "74befa9fe5ec67cf",
   "lastOpenFiles": [
+    "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
     "電控/I2C.md",
     "ROS 期末報告 node 圖.md",
     "satellite/技術成熟度指標.md",
@@ -120,7 +128,6 @@
     "電控/脈衝訊號寬度.md",
     "Thermodynamics/Ideal Gas.md",
     "電控/類比搖桿模組.md",
-    "website/External Fonts.md",
-    "satellite/國家太空科技發展長期計畫各期目標.md"
+    "website/External Fonts.md"
   ]
 }
