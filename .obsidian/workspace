@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "74befa9fe5ec67cf",
+        "id": "efb1c2264569fb64",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
-            "mode": "preview"
+            "file": "2021-12-24.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+                "file": "2021-12-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+                "file": "2021-12-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "機器人系統與應用設計實作/ROS 期末報告 node 圖.md"
+                "file": "2021-12-24.md"
               }
             }
           },
@@ -114,20 +115,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "74befa9fe5ec67cf",
+  "active": "efb1c2264569fb64",
   "lastOpenFiles": [
+    "2021-12-24.md",
+    "2022-01-03.md",
+    "Daily Notes/2021-12-28.md",
+    "Daily Notes/2021-12-22.md",
+    "Daily Notes/2021-12-21.md",
+    "2021-12-23.md",
     "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
     "電控/I2C.md",
     "ROS 期末報告 node 圖.md",
-    "satellite/技術成熟度指標.md",
-    "電控/Arduino Mega.md",
-    "Thermodynamics/Statistical Thermodynamics.md",
-    "電控/脈衝訊號寬度.md",
-    "Thermodynamics/Ideal Gas.md",
-    "電控/類比搖桿模組.md",
-    "website/External Fonts.md"
+    "satellite/技術成熟度指標.md"
   ]
 }
