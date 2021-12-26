@@ -4,12 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "efb1c2264569fb64",
+        "id": "5190a464735df364",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "cc5acaa19d191bc7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021-12-24.md",
+            "file": "Daily Notes/2021-12-26.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sys.",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021-12-24.md",
+                "file": "Daily Notes/2021-12-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2021-12-24.md",
+                "file": "Daily Notes/2021-12-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2021-12-24.md"
+                "file": "Daily Notes/2021-12-26.md"
               }
             }
           },
@@ -117,17 +126,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "efb1c2264569fb64",
+  "active": "cc5acaa19d191bc7",
   "lastOpenFiles": [
-    "2021-12-24.md",
-    "2022-01-03.md",
-    "Daily Notes/2021-12-28.md",
-    "Daily Notes/2021-12-22.md",
-    "Daily Notes/2021-12-21.md",
-    "2021-12-23.md",
-    "機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
-    "電控/I2C.md",
-    "ROS 期末報告 node 圖.md",
-    "satellite/技術成熟度指標.md"
+    "Daily Notes/2021-12-26.md",
+    "2021-12-25.md",
+    "Mechanics and Materials/Area Moment of Inertia.md",
+    "Mechanics and Materials/Normal Strain.md",
+    "Mechanics and Materials/Shear Strain.md",
+    "Mechanics and Materials/Mohr's Circle.md",
+    "Mechanics and Materials/Hooke's Law in Shear.md",
+    "Mechanics and Materials/Poisson's Ratio.md",
+    "Mechanics and Materials/Relationship Between E and G.md",
+    "Mechanics and Materials/Stiffness (young's modulus).md"
   ]
 }
