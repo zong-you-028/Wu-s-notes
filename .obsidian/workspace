@@ -17,9 +17,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2021-12-26.md",
-            "mode": "source",
-            "source": false
+            "file": "Daily Notes/2021-12-28.md",
+            "mode": "source"
           }
         }
       }
@@ -48,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "樹梅派",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2021-12-26.md",
+                "file": "Daily Notes/2021-12-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2021-12-26.md",
+                "file": "Daily Notes/2021-12-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2021-12-26.md"
+                "file": "Daily Notes/2021-12-28.md"
               }
             }
           },
@@ -128,15 +127,15 @@
   },
   "active": "cc5acaa19d191bc7",
   "lastOpenFiles": [
-    "Daily Notes/2021-12-26.md",
+    "Daily Notes/2021-12-28.md",
+    "2021-12-27.md",
+    "Daily Notes/2022-01-03.md",
+    "Daily Notes/2021-12-22.md",
+    "Daily Notes/2021-12-23.md",
+    "Daily Notes/2021-12-24.md",
     "2021-12-25.md",
-    "Mechanics and Materials/Area Moment of Inertia.md",
-    "Mechanics and Materials/Normal Strain.md",
-    "Mechanics and Materials/Shear Strain.md",
-    "Mechanics and Materials/Mohr's Circle.md",
-    "Mechanics and Materials/Hooke's Law in Shear.md",
-    "Mechanics and Materials/Poisson's Ratio.md",
-    "Mechanics and Materials/Relationship Between E and G.md",
-    "Mechanics and Materials/Stiffness (young's modulus).md"
+    "Daily Notes/2021-12-26.md",
+    "Daily Notes/2021-12-07.md",
+    "Daily Notes/2021-12-20.md"
   ]
 }
