@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-01-01.md",
+            "file": "Daily Notes/2022-01-03.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rankine",
+                "query": "EI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +48,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-01-01.md",
+                "file": "Daily Notes/2022-01-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-01-01.md",
+                "file": "Daily Notes/2022-01-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-01-01.md"
+                "file": "Daily Notes/2022-01-03.md"
               }
             }
           },
@@ -119,15 +119,15 @@
   },
   "active": "5c6ca8bcbe61df11",
   "lastOpenFiles": [
-    "2022-01-01.md",
-    "2021-12-31.md",
-    "2021-12-30.md",
-    "2021-12-29.md",
-    "Daily Notes/2021-12-11.md",
-    "Daily Notes/2021-12-12.md",
-    "Daily Notes/2021-12-19.md",
-    "Daily Notes/2021-12-18.md",
-    "Daily Notes/2021-12-17.md",
-    "Daily Notes/2021-12-15.md"
+    "Daily Notes/2022-01-03.md",
+    "Mechanics and Materials/Shear Force in Non - Uniform Beam Bending.md",
+    "Mechanics and Materials/Moment Curvature Relationship of Bending.md",
+    "Mechanics and Materials/Location of Neutral Axis.md",
+    "Mechanics and Materials/Fluxtural Rigidity of Bending.md",
+    "Mechanics and Materials/Elastic Fluxtural Formula of Beam Bending.md",
+    "Mechanics and Materials/Beam Compose with Different Material Problem.md",
+    "Mechanics and Materials/Strain - Curvature Relationship of Bending.md",
+    "Mechanics and Materials/Non - Uniform Beam Bending.md",
+    "Mechanics and Materials/Horizontal Shear Per Unit Length in Beam.md"
   ]
 }
