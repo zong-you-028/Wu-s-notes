@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2022-01-03.md",
+            "file": "2022-01-04.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "EI",
+                "query": "area moment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2022-01-03.md",
+                "file": "2022-01-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2022-01-03.md",
+                "file": "2022-01-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2022-01-03.md"
+                "file": "2022-01-04.md"
               }
             }
           },
@@ -119,15 +118,15 @@
   },
   "active": "5c6ca8bcbe61df11",
   "lastOpenFiles": [
+    "2022-01-04.md",
+    "2022-01-17.md",
     "Daily Notes/2022-01-03.md",
-    "Mechanics and Materials/Shear Force in Non - Uniform Beam Bending.md",
-    "Mechanics and Materials/Moment Curvature Relationship of Bending.md",
-    "Mechanics and Materials/Location of Neutral Axis.md",
-    "Mechanics and Materials/Fluxtural Rigidity of Bending.md",
+    "Mechanics and Materials/Area Moment of Inertia.md",
+    "Mechanics and Materials/Torsion.md",
+    "Mechanics and Materials/Angle of Twist.md",
+    "Mechanics and Materials/Polar Moment of Inertia.md",
+    "Mechanics and Materials/Elastic Torsion Formula.md",
     "Mechanics and Materials/Elastic Fluxtural Formula of Beam Bending.md",
-    "Mechanics and Materials/Beam Compose with Different Material Problem.md",
-    "Mechanics and Materials/Strain - Curvature Relationship of Bending.md",
-    "Mechanics and Materials/Non - Uniform Beam Bending.md",
-    "Mechanics and Materials/Horizontal Shear Per Unit Length in Beam.md"
+    "Mechanics and Materials/Moment Curvature Relationship of Bending.md"
   ]
 }
