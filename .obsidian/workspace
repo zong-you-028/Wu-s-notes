@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-01-04.md",
-            "mode": "source"
+            "file": "Daily Notes/2022-01-06.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "area moment",
+                "query": "energy equation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-01-04.md",
+                "file": "Daily Notes/2022-01-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-01-04.md",
+                "file": "Daily Notes/2022-01-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-01-04.md"
+                "file": "Daily Notes/2022-01-06.md"
               }
             }
           },
@@ -118,15 +118,15 @@
   },
   "active": "5c6ca8bcbe61df11",
   "lastOpenFiles": [
-    "2022-01-04.md",
-    "2022-01-17.md",
+    "Daily Notes/2022-01-06.md",
+    "Daily Notes/2022-01-04.md",
+    "Daily Notes/2022-01-05.md",
+    "Thermodynamics/Energy Equation in Control Mass.md",
+    "Daily Notes/2022-01-17.md",
     "Daily Notes/2022-01-03.md",
     "Mechanics and Materials/Area Moment of Inertia.md",
     "Mechanics and Materials/Torsion.md",
     "Mechanics and Materials/Angle of Twist.md",
-    "Mechanics and Materials/Polar Moment of Inertia.md",
-    "Mechanics and Materials/Elastic Torsion Formula.md",
-    "Mechanics and Materials/Elastic Fluxtural Formula of Beam Bending.md",
-    "Mechanics and Materials/Moment Curvature Relationship of Bending.md"
+    "Mechanics and Materials/Polar Moment of Inertia.md"
   ]
 }
