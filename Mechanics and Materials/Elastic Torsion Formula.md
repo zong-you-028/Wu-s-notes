@@ -5,6 +5,8 @@
 $$\underline{\tau = \frac{T\rho}{J}}_{\#}$$
 
 $\tau$: shearing stress $\rho$ away from center
+$\rho$: radius from center
+$J$: [[Polar Moment of Inertia]]
 
 ---
 

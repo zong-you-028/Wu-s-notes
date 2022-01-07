@@ -28,5 +28,7 @@
     "margin": "0",
     "downscalePercent": 80
   },
-  "attachmentFolderPath": "附件"
+  "attachmentFolderPath": "附件",
+  "legacyEditor": true,
+  "livePreview": true
 }

@@ -69,6 +69,14 @@ $$= \frac{1}{s^2}$$
 | [[Convolution Theorem\|Convolution]] $$\int_0^tf(\tau)g(t - \tau)d\tau$$ | $$F(s)G(s)$$                                                                            |
 | [[Transform of a Periodic Fuction\|Periodic Input]] $$f(t) = f(t + T)$$  | $$\frac{1}{1 - e^{-st}}\int_0^Te^{-st}f(t)dt$$                                          |
 
+## Properties 補充
+
+| input                                                                                                                                                      | Laplace transform            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| Scaling $$f(t/a)$$                                                                                                                                         | $$aF(as)$$                   |
+| Multiple Integrations $$\int_0^t \int_0^{ \tau_n } \dots \int_0^{ \tau_3 } \int_0^{ \tau_2 } f(\tau_1)d\tau_1 d\tau_2 \dots d\tau_{ n - 1 } d_{ \tau_n }$$ | $$\frac{ F(s) }{ s^n }$$     |
+| Integration for $s$ $$f(t) / t$$                                                                                                                           | $$\int_s^\infty F(s_1)ds_1$$ | 
+
 # 特性
 
 ## 1. 可以把微分變成乘法
