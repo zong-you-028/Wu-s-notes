@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mechanics and Materials/Beam Bending.md",
+            "file": "Thermodynamics/Coefficient of Performance.md",
             "mode": "preview"
           }
         }
@@ -35,7 +35,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Coefficient of performance",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -45,7 +45,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "08a127d107bebe63",
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Mechanics and Materials/Beam Bending.md",
+            "file": "Thermodynamics/Coefficient of Performance.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -67,43 +67,21 @@
             "unlinkedCollapsed": true
           }
         }
-      },
-      {
-        "id": "e3245e19f0ad6621",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Mechanics and Materials/Beam Bending.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "bc92cb554e5c316a",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Mechanics and Materials/Beam Bending.md"
-          }
-        }
       }
     ],
     "currentTab": 0
   },
   "active": "d54f64dfe1f6cfad",
   "lastOpenFiles": [
+    "Thermodynamics/Coefficient of Performance.md",
+    "附件/Thermal Efficiency and Coefficient of Performance.jpeg",
+    "Thermodynamics/Thermal Efficiency.md",
+    "Thermodynamics/Adiabatic Process.md",
+    "Thermodynamics/Carnot Cycle.md",
     "Mechanics and Materials/Beam Bending.md",
     "Mechanics and Materials/Shear Center.md",
     "Mechanics and Materials/Horizontal Shearing Stress in a Beam.md",
     "Mechanics and Materials/Horizontal Shear Per Unit Length in Beam.md",
-    "Beam Compose with Different Material Problem.md",
-    "Mechanics and Materials/Full Plastic Example.md",
-    "Mechanics and Materials/Bridge Bending Problem.md",
-    "Mechanics and Materials/Shear Force in Non - Uniform Beam Bending.md",
-    "Mechanics and Materials/Area Moment of Inertia.md",
-    "Mechanics and Materials/Location of Neutral Axis.md"
+    "Beam Compose with Different Material Problem.md"
   ]
 }
