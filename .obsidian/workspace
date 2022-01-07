@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "ec84b8e1d9afba10",
+    "id": "9fc9e12524f9f1a0",
     "type": "split",
     "children": [
       {
-        "id": "6047730191cabdd5",
+        "id": "d54f64dfe1f6cfad",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Mathematics Project 1.md",
+            "file": "Mechanics and Materials/Beam Bending.md",
             "mode": "preview"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Engineering Mathematics Project 1.md",
+            "file": "Mechanics and Materials/Beam Bending.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,7 +74,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Engineering Mathematics Project 1.md",
+            "file": "Mechanics and Materials/Beam Bending.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -86,15 +86,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Engineering Mathematics Project 1.md"
+            "file": "Mechanics and Materials/Beam Bending.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "6047730191cabdd5",
+  "active": "d54f64dfe1f6cfad",
   "lastOpenFiles": [
-    "Engineering Mathematics Project 1.md"
+    "Mechanics and Materials/Beam Bending.md",
+    "Mechanics and Materials/Shear Center.md",
+    "Mechanics and Materials/Horizontal Shearing Stress in a Beam.md",
+    "Mechanics and Materials/Horizontal Shear Per Unit Length in Beam.md",
+    "Beam Compose with Different Material Problem.md",
+    "Mechanics and Materials/Full Plastic Example.md",
+    "Mechanics and Materials/Bridge Bending Problem.md",
+    "Mechanics and Materials/Shear Force in Non - Uniform Beam Bending.md",
+    "Mechanics and Materials/Area Moment of Inertia.md",
+    "Mechanics and Materials/Location of Neutral Axis.md"
   ]
 }
