@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thermodynamics/Coefficient of Performance.md",
+            "file": "2022-01-07.md",
             "mode": "preview"
           }
         }
@@ -35,7 +35,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Coefficient of performance",
+            "query": "Polytropic",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Thermodynamics/Coefficient of Performance.md",
+            "file": "2022-01-07.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -67,12 +67,22 @@
             "unlinkedCollapsed": true
           }
         }
+      },
+      {
+        "id": "a9488a21d9f58999",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "active": "d54f64dfe1f6cfad",
   "lastOpenFiles": [
+    "2022-01-07.md",
+    "Thermodynamics/Boundary Work for Polytropic.md",
     "Thermodynamics/Coefficient of Performance.md",
     "附件/Thermal Efficiency and Coefficient of Performance.jpeg",
     "Thermodynamics/Thermal Efficiency.md",
@@ -80,8 +90,6 @@
     "Thermodynamics/Carnot Cycle.md",
     "Mechanics and Materials/Beam Bending.md",
     "Mechanics and Materials/Shear Center.md",
-    "Mechanics and Materials/Horizontal Shearing Stress in a Beam.md",
-    "Mechanics and Materials/Horizontal Shear Per Unit Length in Beam.md",
-    "Beam Compose with Different Material Problem.md"
+    "Mechanics and Materials/Horizontal Shearing Stress in a Beam.md"
   ]
 }
