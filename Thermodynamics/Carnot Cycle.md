@@ -6,7 +6,7 @@ The most efficient cycle that can operate between two constant temperature reser
 
 # Four Reversible Processes
 
-## (a) Isothermal Expansion (Heating) (1~2)
+## (a) Isothermal Expansion (Heating) (1 $\rightarrow$ 2)
 
 ![[Isothermal Expansion.jpg]]
 

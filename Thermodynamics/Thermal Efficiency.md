@@ -16,6 +16,8 @@ $$
 \end{array}
 $$
 
+![[Thermal Efficiency and Coefficient of Performance.jpeg]]
+
 ---
 
 參考資料:
