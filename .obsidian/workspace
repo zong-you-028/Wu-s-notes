@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-01-07.md",
-            "mode": "source"
+            "file": "Daily Notes/2022-01-07.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-01-07.md",
+                "file": "Daily Notes/2022-01-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-01-07.md",
+                "file": "Daily Notes/2022-01-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-01-07.md"
+                "file": "Daily Notes/2022-01-07.md"
               }
             }
           },
@@ -114,11 +114,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "5c6ca8bcbe61df11",
   "lastOpenFiles": [
-    "2022-01-07.md",
+    "Daily Notes/2022-01-07.md",
     "Daily Notes/2022-01-06.md",
     "Daily Notes/2022-01-04.md",
     "Daily Notes/2022-01-05.md",
