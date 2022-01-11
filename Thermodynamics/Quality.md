@@ -19,3 +19,5 @@ $$x = \frac{m_{\text{vapor}}}{m_{\text{total}}}$$
 link:
 
 [[Saturated liquid-vapor mixture]]
+[[Specific Heat and Quality Equation]]
+[[Specific Volumn and Quality Equation]]

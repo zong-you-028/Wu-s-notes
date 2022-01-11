@@ -35,7 +35,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Polytropic",
+            "query": "Clausius",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -82,14 +82,14 @@
   "active": "d54f64dfe1f6cfad",
   "lastOpenFiles": [
     "2022-01-07.md",
-    "Thermodynamics/Boundary Work for Polytropic.md",
-    "Thermodynamics/Coefficient of Performance.md",
-    "附件/Thermal Efficiency and Coefficient of Performance.jpeg",
+    "Thermodynamics/Clausius Inequality.md",
+    "Thermodynamics/Reversible and Irreversible Process.md",
+    "Thermodynamics/Clausius Statement.md",
     "Thermodynamics/Thermal Efficiency.md",
-    "Thermodynamics/Adiabatic Process.md",
-    "Thermodynamics/Carnot Cycle.md",
-    "Mechanics and Materials/Beam Bending.md",
-    "Mechanics and Materials/Shear Center.md",
-    "Mechanics and Materials/Horizontal Shearing Stress in a Beam.md"
+    "Thermodynamics/Specific Heat and Quality Equation.md",
+    "Thermodynamics/Quality.md",
+    "Thermodynamics/Saturated vapor.md",
+    "Thermodynamics/Saturated liquid-vapor mixture.md",
+    "Thermodynamics/Heat.md"
   ]
 }
