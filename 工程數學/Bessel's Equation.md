@@ -9,7 +9,7 @@ $$\text{solution:}\; c_1J_v(x) + c_2Y_v(x)$$
 $$\left\{
 	\begin{array}{l}
 		J_v(x) = \sum_{n = 0}^\infty\frac{(-1)^n}{n!\Gamma(1 + v + n)}(\frac{x}{2})^{2n + v} & \text{first kind bessel function} \\
-		Y_v(x) = \frac{\cos v\pi J_v(x) - J_{-v}(x)}{\sin vx} & \text{second kind bessel function}
+		Y_v(x) = \frac{\cos v\pi J_v(x) - J_{-v}(x)}{\sin v\pi} & \text{second kind bessel function}
 	\end{array}
 \right.$$
 .

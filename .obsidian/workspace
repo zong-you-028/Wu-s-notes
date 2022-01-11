@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2022-01-09.md",
-            "mode": "source"
+            "file": "工程數學/Bessel's Equation.md",
+            "mode": "preview"
           }
         }
       }
@@ -35,7 +35,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Clausius",
+            "query": "besse",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily Notes/2022-01-09.md",
+            "file": "工程數學/Bessel's Equation.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -81,15 +81,15 @@
   },
   "active": "d54f64dfe1f6cfad",
   "lastOpenFiles": [
-    "Daily Notes/2022-01-09.md",
-    "2022-01-07.md",
-    "Thermodynamics/Clausius Inequality.md",
-    "Thermodynamics/Reversible and Irreversible Process.md",
-    "Thermodynamics/Clausius Statement.md",
-    "Thermodynamics/Thermal Efficiency.md",
-    "Thermodynamics/Specific Heat and Quality Equation.md",
-    "Thermodynamics/Quality.md",
-    "Thermodynamics/Saturated vapor.md",
-    "Thermodynamics/Saturated liquid-vapor mixture.md"
+    "工程數學/Bessel's Equation.md",
+    "工程數學/singular point.md",
+    "工程數學/Series Solution of Linear Equation.md",
+    "工程數學/Bernoulli's Equations Substitution.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/Legendre's equation.md",
+    "工程數學/Gamma Function.md",
+    "工程數學/Dirac Delta Function.md",
+    "工程數學/Taylor Series.md",
+    "Daily Notes/2022-01-09.md"
   ]
 }
