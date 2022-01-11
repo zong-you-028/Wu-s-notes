@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "9fc9e12524f9f1a0",
     "type": "split",
     "children": [
       {
-        "id": "5c6ca8bcbe61df11",
+        "id": "d54f64dfe1f6cfad",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Daily Notes/2022-01-09.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -18,8 +18,8 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
-    "type": "split",
+    "id": "25901b941b7fb61e",
+    "type": "mobile-drawer",
     "children": [
       {
         "id": "76bae2ebab366a3d",
@@ -42,76 +42,46 @@
             "extraContext": false,
             "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 1
   },
   "right": {
-    "id": "2b98f3b73718d425",
-    "type": "split",
+    "id": "08a127d107bebe63",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Daily Notes/2022-01-09.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Daily Notes/2022-01-09.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Daily Notes/2022-01-09.md"
-              }
-            }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "7e1a8a9b33817f67",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Daily Notes/2022-01-09.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 3
+        }
+      },
+      {
+        "id": "a9488a21d9f58999",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 1
   },
-  "active": "5c6ca8bcbe61df11",
+  "active": "d54f64dfe1f6cfad",
   "lastOpenFiles": [
+    "Daily Notes/2022-01-09.md",
     "2022-01-07.md",
     "Thermodynamics/Clausius Inequality.md",
     "Thermodynamics/Reversible and Irreversible Process.md",
@@ -120,7 +90,6 @@
     "Thermodynamics/Specific Heat and Quality Equation.md",
     "Thermodynamics/Quality.md",
     "Thermodynamics/Saturated vapor.md",
-    "Thermodynamics/Saturated liquid-vapor mixture.md",
-    "Thermodynamics/Heat.md"
+    "Thermodynamics/Saturated liquid-vapor mixture.md"
   ]
 }
