@@ -48,3 +48,4 @@ $$L > 1 \;\text{if}\;\vert x - x_0 \vert > R$$
 [Series Solutions of Linear Equations](https://youtu.be/2ARH7cnl2vk)
 
 [[工數名詞解釋]]
+[[Series Solution of Linear Equation]]

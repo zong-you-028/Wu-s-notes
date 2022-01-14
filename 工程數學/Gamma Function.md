@@ -9,7 +9,7 @@ $$\Gamma(x) = \int_{0}^{\infty}t^{x - 1}e^{-t}dt$$
 ## 1.階乘
 
 $$\Gamma(n + 1) = n! \qquad n \; \text{is a positive integer}$$
-$$r(1) = 0! = 1$$
+$$\Gamma(1) = 0! = 1$$
 
 ## 2.提出
 
