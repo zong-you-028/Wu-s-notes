@@ -127,7 +127,7 @@ $$
 
 $$
 \begin{array}{}
-\text{ ODE } \implies \left(\frac{ -k }{ 400\pi^2 } + 3.03 \times \frac{ M }{ 20\pi } + 170K\right)\cos\frac{ t }{ 20\pi } \\
+\text{ ODE } \implies \left(\frac{ -K }{ 400\pi^2 } + 3.03 \times \frac{ M }{ 20\pi } + 170K\right)\cos\frac{ t }{ 20\pi } \\
 + \left( \frac{ -M }{ 400\pi^2 } - 3.03\times \frac{ K }{ 20\pi } + 170M \right)\sin\frac{ t }{ 20\pi } = 25\times \frac{ t }{ 20\pi }
 \end{array}
 $$
@@ -136,8 +136,8 @@ $$
 \implies
 \left\{
 	\begin{array}{}
-		-\frac{ k }{ 400\pi^2 } + 3.03 \times \frac{ M }{ 20\pi } + 170K = 0 \\
-		\frac{ -M }{ 400\pi^2 } - 3.03\times \frac{ k }{ 20\pi } + 170M = 25
+		-\frac{ K }{ 400\pi^2 } + 3.03 \times \frac{ M }{ 20\pi } + 170K = 0 \\
+		\frac{ -M }{ 400\pi^2 } - 3.03\times \frac{ K }{ 20\pi } + 170M = 25
 	\end{array}
 \right.
 $$
@@ -192,7 +192,7 @@ $$
 
 ## 5.
 
-![[earthquake diagram.png]]
+![[earth quake graph math project.png]]
 
 # Section 3: Solving the ODE using Laplace Transform
 
@@ -295,10 +295,13 @@ $$
 
 $$\implies f(t) = \frac{ P }{ \Delta t }( u(t - 1) - u( t - ( 1 + \Delta t ) ) )$$
 
-$$\implies \text{ function: } m\frac{ d^2y }{ dt^2 } = -ky - c\frac{ dy }{ dt } + \frac{ P }{ \Delta t }[ u(t - 1) - u(t - (1 + \Delta t)) ]$$
+$$
+\implies \text{ function: } m\frac{ d^2y }{ dt^2 } = -ky - c\frac{ dy }{ dt } + \frac{ P }{ \Delta t }[ u(t - 1) 
+- u(t - (1 + \Delta t)) ]
+$$
 
 ## 4.3
 
-$$\text{ Amplitude } = \frac{ P }{ \Delta t } = \sin(2\pi ft) = \sin(20\pi t)$$
+$$\text{ Amplitude } = \frac{ P }{ \Delta t } = \sin(2\pi ft) = \sin(\frac{ t }{ 20\pi })$$
 
-$$\implies m\frac{ d^2y }{ dt^2 } = -ky-c\frac{ dy }{ dt } + \sin(20\pi t)[u(t - 1) - u(t - (1 + \Delta t))]$$
+$$\implies m\frac{ d^2y }{ dt^2 } = -ky-c\frac{ dy }{ dt } + \sin(\frac{ t }{ 20\pi })[u(t - 1) - u(t - (1 + \Delta t))]$$
