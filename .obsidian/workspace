@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Dirac Delta Function.md",
+            "file": "工程數學 final project.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sift",
+                "query": "earthquake dia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Dirac Delta Function.md",
+                "file": "工程數學 final project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Dirac Delta Function.md",
+                "file": "工程數學 final project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Dirac Delta Function.md"
+                "file": "工程數學 final project.md"
               }
             }
           },
@@ -119,15 +120,15 @@
   },
   "active": "6758b420d1d3e9b1",
   "lastOpenFiles": [
+    "工程數學 final project.md",
+    "建築概論期末報告.md",
+    "附件/earthquake diagram.png",
+    "工程數學/Table of Integration.md",
+    "工程數學/Laplace Transform.md",
+    "satellite/衛星final.md",
     "工程數學/Dirac Delta Function.md",
-    "衛星final.md",
     "satellite/衛星電機流程圖.md",
     "satellite/衛星報告.md",
-    "satellite/Cube Satellite.md",
-    "iTron會議紀錄/2021-07-27 iTron TDK討論.md",
-    "satellite/2021-10-26 陽明交通大學機械系 - 第二組.md",
-    "satellite/2021-11-23 衛星作業.md",
-    "2021-10-26 衛星科技.md",
-    "衛星作業六 - 衛星姿控作業.md"
+    "satellite/Cube Satellite.md"
   ]
 }
