@@ -175,3 +175,76 @@ $$\implies y(t) = -1.516\times 10^{ -5 } \times e^{ -7.435t } + 1.516 \times 10^
 ## 5.
 
 ![[earthquake diagram.png]]
+
+# Section 3: Solving the ODE using Laplace Transform
+
+## 1.
+
+$$6.6\times 10^5 y'' + 2 \times 10^6 y' + 1.1188 \times 10^8y = 1.65 \times 10^7 \times \sin(\frac{ t }{ 20\pi })$$
+
+$$y(0) = 0, \qquad y'(0) = \frac{ 1 }{ 2\pi }$$
+
+$$\implies 6.6\times 10^5 \mathscr{ L }\{ y'' \} + 2 \times 10^6 \mathscr{ L }\{ y' \} + 1.1188 \times 10^8 \mathscr{ L }\{ y \} = 1.65 \times 10^7 \mathscr{ L }\left\{ \sin\frac{ t }{ 20\pi } \right\}$$
+
+$$\implies Y( 6.6 \times 10^5 s^2 + 2 \times 10^6s + 1.1188 \times 10^8 ) = \frac{ \frac{ 8.25 }{ \pi } \times 10^5 }{ s^2 + \frac{ 1 }{ 400\pi^2 } } + \frac{ 6.6 \times 10^5 }{ 20\pi }$$
+
+$$\implies Y = \frac{ 2.62606 \times 10^5 + \frac{ 6.6 \times 10^5 }{  20 \pi} ( s^2 + \frac{ 1 }{ 400\pi^2 } ) }{ s^2 + \frac{ 1 }{ 400\pi^2 } } \times \frac{ 1 }{ 6.6 \times 10^5s^2 + 2 \times 10^6s + 1.1188 \times 10^8 }$$
+
+$$\implies Y = \frac{ 262606.0007 + 2.66075s^2 }{ ( s^2 + \frac{ 1 }{ 400 \pi^2 } )( 6.6\times 10^5s^2 + 2\times 10^6s + 1.1188 \times 10^8 ) }$$
+
+$$= \frac{ As + B }{ s^2 + \frac{ 1 }{ 400\pi^2 } } + \frac{ Cs + D }{ 6.6 \times 10^5s^2 + 2 \times 10^6s + 1.1188 \times 10^8 }$$
+
+$$
+\implies
+\left\{
+	\begin{array}{rcc}
+		(6.6 \times 10^5A + C)s^3 & = & 0 \\
+		(2 \times 10^6 + 6.6 \times 10^5B + D)s^2 & = & 2.66075s^2 \\
+		(1.1188 \times 10^8 A + 2 \times 10^6B + \frac{ C }{ 400\pi^2 })s & = & 0 \\
+		(1.1188 \times 10^8B + \frac{ D }{ 400\pi^2 }) & = & 262606.0007
+	\end{array}
+\right.
+$$
+
+$$
+\implies 
+\left\{
+	\begin{array}{}
+		A & = & -0.00040 \\
+		B & = & 0.02211 \\
+		C & = & 260.80512 \\
+		D & = & -13796.43713
+	\end{array}
+\right.
+$$
+
+$$
+\implies
+Y = 
+\frac{ -0.0004s }{ s^2 + \frac{ 1 }{ 400\pi^2 } } +
+1.38921 \times \frac{ \frac{ 1 }{ 20\pi } }{ s^2 + \frac{ 1 }{ 400\pi^2 } } + 
+\frac{ 260.80512s - 13796.43713 }{ 6.6 \times 10^5s^2 + 2 \times 10^6 + 1.1188 \times 10^8 }
+$$
+
+$$ = -0.0004\mathscr{ L }\left\{ \cos\frac{ t }{ 20\pi } \right\} + 1.38921 \mathscr{ L }\left\{ \sin\frac{ t }{ 20\pi } \right\} + \frac{ 3.95159 \times 10^{ -4 }s - 0.02090 }{ s^2 + \frac{ 100s }{ 33 } + \frac{ 5594 }{ 33 } }$$
+
+$$
+\begin{array}{}
+= -0.0004\mathscr{ L }\left\{ \cos\frac{ t }{ 20\pi } \right\} + 1.38921 \mathscr{ L }\left\{ \sin\frac{ t }{ 20\pi } \right\} + \frac{ 3.95159 \times 10^{ -4 } ( s + \frac{ 50 }{ 33 } ) }{ ( s + \frac{ 50 }{ 33 } )^2 + 167.21947 } \\
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad - 1.28566 \times 10^{ -4 } \times \frac{ 167.21947 }{ ( s + \frac{ 50 }{ 33 } ) + 167.21947 }
+\end{array}
+$$
+
+$$
+\begin{array}{}
+= -0.0004 \mathscr{ L }\left\{ \cos\frac{ t }{ 20\pi } \right\} + 1.38921 \mathscr{ L }\left\{ \sin\frac{ t }{ 20\pi } \right\} + 3.95159\times 10^{ -4 }\mathscr{ L }\left\{ e^{ -\frac{ 50 }{ 33 }t }\cos(167.21947t) \right\} \\
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad - 1.28566 \times 10^{ -4 }\mathscr{ L }\left\{ e^{ -\frac{ 50 }{ 33 }t }\sin(167.21947t) \right\}
+\end{array}
+$$
+
+$$
+\begin{array}{}
+\implies y(t) = \underline{ -0.0004\cos\frac{ t }{ 20\pi } + 1.38921\sin\frac{ t }{ 20\pi } + 3.95159\times 10^4 e^{ -\frac{ 50 }{ 33 }t }\cos(167.21947t) } \\ 
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\underline{ - 1.28566\times 10^{ -4 } e^{ -\frac{ 50 }{ 33 }t }\sin( 167.21947t ) }_{ \# }
+\end{array}
+$$
