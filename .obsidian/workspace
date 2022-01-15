@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "工程數學/Auxiliary Function.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": false
           }
         }
       },
@@ -21,7 +22,8 @@
           "type": "markdown",
           "state": {
             "file": "工程數學 final project.md",
-            "mode": "preview"
+            "mode": "source",
+            "source": false
           }
         }
       }
