@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5c6ca8bcbe61df11",
+        "id": "6758b420d1d3e9b1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2022-01-09.md",
+            "file": "工程數學/Dirac Delta Function.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "energy equation",
+                "query": "sift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2022-01-09.md",
+                "file": "工程數學/Dirac Delta Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2022-01-09.md",
+                "file": "工程數學/Dirac Delta Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2022-01-09.md"
+                "file": "工程數學/Dirac Delta Function.md"
               }
             }
           },
@@ -114,19 +114,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "5c6ca8bcbe61df11",
+  "active": "6758b420d1d3e9b1",
   "lastOpenFiles": [
-    "Daily Notes/2022-01-09.md",
-    "Daily Notes/2022-01-07.md",
-    "日文/日文期末報告.md",
-    "Daily Notes/2022-01-06.md",
-    "Daily Notes/2022-01-04.md",
-    "Daily Notes/2022-01-05.md",
-    "Thermodynamics/Energy Equation in Control Mass.md",
-    "Daily Notes/2022-01-17.md",
-    "Daily Notes/2022-01-03.md",
-    "Mechanics and Materials/Area Moment of Inertia.md"
+    "工程數學/Dirac Delta Function.md",
+    "衛星final.md",
+    "satellite/衛星電機流程圖.md",
+    "satellite/衛星報告.md",
+    "satellite/Cube Satellite.md",
+    "iTron會議紀錄/2021-07-27 iTron TDK討論.md",
+    "satellite/2021-10-26 陽明交通大學機械系 - 第二組.md",
+    "satellite/2021-11-23 衛星作業.md",
+    "2021-10-26 衛星科技.md",
+    "衛星作業六 - 衛星姿控作業.md"
   ]
 }
