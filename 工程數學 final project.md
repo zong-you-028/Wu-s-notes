@@ -128,7 +128,7 @@ $$
 $$
 \begin{array}{}
 \text{ ODE } \implies \left(\frac{ -K }{ 400\pi^2 } + 3.03 \times \frac{ M }{ 20\pi } + 170K\right)\cos\frac{ t }{ 20\pi } \\
-+ \left( \frac{ -M }{ 400\pi^2 } - 3.03\times \frac{ K }{ 20\pi } + 170M \right)\sin\frac{ t }{ 20\pi } = 25\times \frac{ t }{ 20\pi }
+\qquad\qquad\qquad\qquad\qquad\qquad+ \left( \frac{ -M }{ 400\pi^2 } - 3.03\times \frac{ K }{ 20\pi } + 170M \right)\sin\frac{ t }{ 20\pi } = 25\times \frac{ t }{ 20\pi }
 \end{array}
 $$
 
@@ -147,7 +147,7 @@ $$
 \left\{
 	\begin{array}{l}
 		K = -4.17 \times 10^{ -5 } \\
-		M = 1.47 \times 10^{ -2 }
+		M = 0.147
 	\end{array}
 \right.
 $$
@@ -155,7 +155,7 @@ $$
 $$
 \begin{array}{}
 y(t) = y_h + y_p = e^{ 1.515t }(A\cos12.9501t + B\sin12.9501t) - 4.17 \times 10^{ -5 }\cos\frac{ t }{ 20\pi } \\
-\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad + 1.47 \times 10^{ -2 } \sin\frac{ t }{ 20\pi }
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad + 0.147 \times 10^{ -1 } \sin\frac{ t }{ 20\pi }
 \end{array}
 $$
 
@@ -168,7 +168,7 @@ $$
 \left\{
 	\begin{array}{}
 		A = 4.17 \times 10^{ -5 } = 0 \\
-		1.515A + 12.950113 + \frac{ 1.47 \times 10^{ -2 } }{ 20\pi } = \frac{ 1 }{ 20\pi }
+		1.515A + 12.950113 + \frac{ 0.147 }{ 20\pi } = \frac{ 1 }{ 20\pi }
 	\end{array}
 \right.
 $$
@@ -178,21 +178,21 @@ $$
 \left\{
 	\begin{array}{}
 		A = 4.17 \times 10^{ -5 } \\
-		B = 1.206 \times 10^{ -3 }
+		B = 1.043 \times 10^{ -3 }
 	\end{array}
 \right.
 $$
 
 $$
 \begin{array}{}
-\implies y(t) = e^{ -1.515t }( 4.17 \times 10^{ -5 }\cos12.9501t + 1.206 \times 10^{ -3 }\sin 12.9501t ) \\
-\qquad\qquad\qquad\qquad\qquad\qquad- 4.17 \times 10^{ -5 }\cos\frac{ t }{ 20\pi } + 1.47\times 10^{ -2 }\sin\frac{ 20\pi }{ t }
+\implies y(t) = e^{ -1.515t }( 4.17 \times 10^{ -5 }\cos12.9501t + 1.043 \times 10^{ -3 }\sin 12.9501t ) \\
+\qquad\qquad\qquad\qquad\qquad\qquad- 4.17 \times 10^{ -5 }\cos\frac{ t }{ 20\pi } + 1.47\times 10^{ -1 }\sin\frac{ 20\pi }{ t }
 \end{array}
 $$
 
 ## 5.
 
-![[earth quake graph math project.png]]
+![[earth quake graph math project 3.png]]
 
 # Section 3: Solving the ODE using Laplace Transform
 
@@ -276,6 +276,40 @@ $$
 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\underline{ - 1.05476\times 10^{ -5 } e^{ -\frac{ 50 }{ 33 }t }\sin( 12.9313t ) }_{ \# }
 \end{array}
 $$
+
+## 2
+
+$$
+\begin{array}{}
+\text{ Laplace transform's result: }
+\implies y(t) =  -0.00004\cos\frac{ t }{ 20\pi } + 0.14765\sin\frac{ t }{ 20\pi } \\ 
+\qquad\qquad+ 0.00004 e^{ -\frac{ 50 }{ 33 }t }\cos(12.9313t)  
+ - 1.05476\times 10^{ -5 } e^{ -\frac{ 50 }{ 33 }t }\sin( 12.9313t )
+\end{array}
+$$
+
+$$
+\begin{array}{l}
+\text{ Undetermined coefficient: } \\
+\implies y(t) = e^{ -1.515t }( 4.17 \times 10^{ -5 }\cos12.9501t + 1.043 \times 10^{ -3 }\sin 12.9501t ) \\
+\qquad\qquad\qquad\qquad\qquad\qquad- 4.17 \times 10^{ -5 }\cos\frac{ t }{ 20\pi } + 1.47\times 10^{ -1 }\sin\frac{ 20\pi }{ t }
+\end{array}
+$$
+
+$$\implies \text{ they are same }$$
+## 3
+
+$x$ axis: time
+$y$ axis: position
+
+![[earth quake graph math project 3.png]]
+
+## 4
+
+$$\text{ transfer function } = \frac{ 1.65 \times 10^7 }{ 
+6.6 \times 10^5s^2 + 2 \times 10^6s + 1.1188 \times 10^8 }$$
+
+Transfer function makes the relation between input and output clear.
 
 # Section 4: Impulse Forcing
 
