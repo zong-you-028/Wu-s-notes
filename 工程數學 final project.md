@@ -248,3 +248,29 @@ $$
 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\underline{ - 1.28566\times 10^{ -4 } e^{ -\frac{ 50 }{ 33 }t }\sin( 167.21947t ) }_{ \# }
 \end{array}
 $$
+
+# Section 4: Impulse Forcing
+
+## 4.2
+
+$$\text{ In 2nd Newton law: } \Delta P = m \int_1^2 f(t)dt$$
+
+$$
+f(t) = 
+\left\{
+	\begin{array}{}
+		F & 1\leq t\leq 1 + \Delta t \\
+		0 & \text{ otherwise }
+	\end{array}
+\right. , \qquad F = \frac{ P }{ \Delta t }
+$$
+
+$$\implies f(t) = \frac{ P }{ \Delta t }( u(t - 1) - u( t - ( 1 + \Delta t ) ) )$$
+
+$$\implies \text{ function: } m\frac{ d^2y }{ dt^2 } = -ky - c\frac{ dy }{ dt } + \frac{ P }{ \Delta t }[ u(t - 1) - u(t - (1 + \Delta t)) ]$$
+
+## 4.3
+
+$$\text{ Amplitude } = \frac{ P }{ \Delta t } = \sin(2\pi ft) = \sin(20\pi t)$$
+
+$$\implies m\frac{ d^2y }{ dt^2 } = -ky-c\frac{ dy }{ dt } + \sin(20\pi t)[u(t - 1) - u(t - (1 + \Delta t))]$$
