@@ -8,7 +8,7 @@ $$
 \delta_a(t - t_0) = 
 \left\{
 	\begin{array}{l}
-		0 & \text{ for } & t < t_0 - a & \text{ or } & t > t_0 + a \\
+		0 & \text{ for } & t < t_0 - a \quad \text{ or } \quad t > t_0 + a \\
 		\frac{ 1 }{ 2a } & \text{ for } & t_0 - a \leq t \leq t_0 + a
 	\end{array}
 \right.

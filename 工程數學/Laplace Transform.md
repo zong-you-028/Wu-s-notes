@@ -156,3 +156,5 @@ $$y(t) = -\frac{16}{5}e^t + \frac{25}{6}e^{2t} + \frac{1}{30}e^{-4t}$$
 [工程數學 class 22 - properties of laplace transform - youtube](https://youtu.be/46CiHQ3EYeY)
 
 [[Laplace Transform 解法]]
+[[Inverse Laplace Transform]]
+[[Convolution Theorem]]

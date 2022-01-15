@@ -13,7 +13,7 @@ $$y_2(x) = c_0\left[ x - \frac{(n - 1)(n + 2)}{3!}x^3 + \frac{(n - 3)(n - 1)(n +
 
 # Legendre polynomials
 
-one of the solution
+將 $n$ 帶入後的結果
 
 ---
 
