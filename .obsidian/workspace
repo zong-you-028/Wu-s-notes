@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "1a39ae1e8a0ad77a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6758b420d1d3e9b1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Auxiliary Function.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "1fcb0558178116b0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學 final project.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb71a95a838000c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "high order",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2b98f3b73718d425",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工程數學 final project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工程數學 final project.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "工程數學 final project.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1fcb0558178116b0",
+  "lastOpenFiles": [
+    "工程數學 final project.md",
+    "工程數學/Auxiliary Function.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/多變數解法.md",
+    "工程數學/Laplace Transform.md",
+    "工程數學/Laplace Transform 解法.md",
+    "工程數學/Laplace Transform 快速法.md",
+    "建築概論期末報告.md",
+    "附件/earthquake diagram.png",
+    "工程數學/Table of Integration.md"
+  ]
+}
