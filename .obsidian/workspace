@@ -10,19 +10,19 @@
           "type": "markdown",
           "state": {
             "file": "工程數學 final project.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
       },
       {
-        "id": "98ee7cc3b2aff5b6",
+        "id": "2b07b866f920fb34",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Laplace Transform.md",
-            "mode": "preview",
+            "file": "Daily Notes/2022-01-17.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -133,6 +134,7 @@
   "active": "1fcb0558178116b0",
   "lastOpenFiles": [
     "工程數學 final project.md",
+    "Daily Notes/2022-01-17.md",
     "工程數學/Laplace Transform.md",
     "工程數學/Convolution.md",
     "工程數學/Auxiliary Function.md",
@@ -140,7 +142,6 @@
     "工程數學/多變數解法.md",
     "工程數學/Laplace Transform 解法.md",
     "工程數學/Laplace Transform 快速法.md",
-    "建築概論期末報告.md",
-    "附件/earthquake diagram.png"
+    "建築概論期末報告.md"
   ]
 }

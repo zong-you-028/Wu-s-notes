@@ -372,7 +372,7 @@ $$
 
 ## 4.5
 
-$$my'' + cy' + ky = \sin(\frac{ t }{ 20\pi })[u(t - 1) - u(u - 2)], \quad y(0) = 0,\quad y'(0) = \frac{ 1 }{ 20\pi }$$
+$$my'' + cy' + ky = \sin(\frac{ t }{ 20\pi })[u(t - 1) - u(t - 2)], \quad y(0) = 0,\quad y'(0) = \frac{ 1 }{ 20\pi }$$
 
 $$
 \begin{array}{}
@@ -458,6 +458,27 @@ $$
 \end{array}
 $$
 
+> ![[Delta t=4.png]]
+> $\Delta t = 4$
+
+> ![[delta t = 2.png]]
+> $\Delta t = 2$
+
+> ![[Pasted image 20220117213148.png]]
+> $\Delta t = 1$
+
+> ![[Pasted image 20220117213230.png]]
+> $\Delta t = 0.5$
+
+> ![[delta t=0.25.png]]
+> $\Delta t = 0.25$
+
+> ![[delta t=0.125.png]]
+> $\Delta t = 0.125$
+
+> ![[delta t=0.0625.png]]
+> $\Delta t = 0.0625$
+
 ## 4.7
 
 $$my'' + cy' + ky = \sin\frac{ t }{ 20\pi }\delta(t - 1) \qquad y(0) = 0 \qquad y'(0) = \frac{ 1 }{ 20\pi }$$
@@ -473,10 +494,16 @@ $$
 \begin{array}{}
 \implies y = e^{ -1.515t }(4.17 \times 10^{ -5 }\cos12.9501t + 1.206 \times 10^{ -3 }\sin12.9501t) \\
 \qquad\qquad\qquad - u(t - 1) \times (4.17 \times 10^{ -5 }\cos\frac{ t }{ 
-20\pi } + 1.47 \times 10^{ -2 }\sin\frac{ 20\pi }{ t })
+20\pi } + 1.47 \times 10^{ -2 }\sin\frac{ t }{ 20\pi })
 \end{array}
 $$
 
 ## 4.8
 
 Yes, it does.
+
+![[graph project 3.png]]
+
+# Section 5: Conclude
+
+When facing step functions or delta functions, Undetermined Coefficient or Variatoin of Parameter method is hard to calculate, since they have to be calculated in different intervals, but Laplace Transform don't.
