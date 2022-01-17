@@ -382,7 +382,7 @@ $$
 $$
 
 $$\implies (ms^2 + cs + k)Y = \frac{ m }{ 20\pi } + e^{ 
--s }\frac{ \frac{ 1 }{ 20\pi } }{ (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 }$$
+-s }\frac{ \frac{ 1 }{ 20\pi } }{ (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 } - e^{ -2s }\frac{ \frac{ 1 }{ 20\pi } }{ (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 }$$
 
 $$
 \begin{array}{}
