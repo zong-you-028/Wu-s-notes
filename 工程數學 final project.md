@@ -315,16 +315,16 @@ Transfer function makes the relation between input and output clear.
 
 ## 4.2
 
-$$\text{ In 2nd Newton law: } \Delta P = m \int_1^2 f(t)dt$$
+$$\text{ In 2nd Newton law: } \Delta P = \int_1^2 f(t)dt$$
 
 $$
 f(t) = 
 \left\{
 	\begin{array}{}
-		F & 1\leq t\leq 1 + \Delta t \\
-		0 & \text{ otherwise }
+		F, & 1\leq t\leq 1 + \Delta t \\
+		0, & \text{ otherwise }
 	\end{array}
-\right. , \qquad F = \frac{ P }{ \Delta t }
+\right. \qquad F = \frac{ P }{ \Delta t }
 $$
 
 $$\implies f(t) = \frac{ P }{ \Delta t }( u(t - 1) - u( t - ( 1 + \Delta t ) ) )$$
@@ -334,13 +334,41 @@ $$
 - u(t - (1 + \Delta t)) ]
 $$
 
+$$
+\begin{array}{}
+\implies 6.6 \times 10^5 \frac{ d^2y }{ dt^2 } = -111880000y - 2000000\frac{ dy }{ dt } + \frac{ P }{ \Delta t }[ u(t - 1) \\
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad - u(t - (1 + \Delta t)) ]
+\end{array}
+$$
+
 ## 4.3
 
 $$\text{ Amplitude } = \frac{ P }{ \Delta t } = \sin(2\pi ft) = \sin(\frac{ t }{ 20\pi })$$
 
-$$\implies m\frac{ d^2y }{ dt^2 } = -ky-c\frac{ dy }{ dt } + \sin(\frac{ t }{ 20\pi })[u(t - 1) - u(t - (1 + \Delta t))]$$
+$$
+\begin{array}{}
+\implies 6.6\times 10^5\frac{ d^2y }{ dt^2 } = -111880000y-2000000\frac{ dy }{ dt } + \sin(\frac{ t }{ 20\pi })[u(t - 1) \\
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad - u(t - (1 + \Delta t))]
+\end{array}
+$$
 
 ## 4.4
+
+$$
+\left\{ 
+	\begin{array}{}
+		0 \leq t \leq 1: & y(t) = e^{ -1.515t }(4.17\times 10^{ -5 }\cos12.9501t \\
+		& \qquad\qquad + 1.206 \times 10^{ 
+-3 }\sin12.9501t) \\
+		1 \leq t \leq 2: & y(t) = e^{ -1.515t }(4.17\times 10^{ -5 }\cos12.9501t \\
+		& + 1.206 \times 10^{ -3 }\sin12.9501t) - 4.17\times 10^{ -5 }\cos\frac{ t }{ 20\pi } \\
+		& \qquad\qquad\qquad\qquad\qquad\qquad+ 1.47 \times 10^{ -2 } \sin\frac{ 20\pi }{ t } \\
+		t > 2: & y(t) = e^{ -1.515t }(4.17\times 10^{ -5 }\cos12.9501t \\
+		& \qquad\qquad + 1.206 \times 10^{ 
+-3 }\sin12.9501t) \\
+	\end{array}
+\right.
+$$
 
 ## 4.5
 
@@ -363,4 +391,92 @@ $$
 \end{array}
 $$
 
-$$\implies Y = \frac{ 1 }{ 20\pi }\cdot \frac{ 1 }{ (s^2 + \frac{ c }{ m }s + \frac{ c^2 }{ 2m^2 }) + \frac{ k }{ m } - \frac{ c^2 }{ 4m^2 } }$$
+$$
+\begin{array}{}
+\implies Y = \frac{ 1 }{ 20\pi }\cdot \frac{ 1 }{ (s^2 + \frac{ c }{ m }s + \frac{ c^2 }{ 2m^2 }) + \frac{ k }{ m } - \frac{ c^2 }{ 4m^2 } } \\ 
+\qquad+ \frac{ e^{ -s } }{ 20\pi }\left(\frac{ As + B }{ (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 } + \frac{ Cs + D }{ ms^2 + cs + k }\right) \\ 
+\qquad- \frac{ e^{ -2s } }{ 20\pi }\left( \frac{ Os + P }{ (s + 2)^2 + (\frac{1}{ 20\pi })^2 } + \frac{ Qs + R }{ ms^2 + cs + k } \right)
+\end{array}
+$$
+
+Find: $ABCD$
+$I. (As + B)(ms^2 + cs + k) + (Cs + D)( (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 ) = 1$
+$II. (Os + P)(ms^2 + cs + k) + (Qs + R)((s + 2)^2 + (\frac{ 1 }{ 20\pi })^2)=1$
+
+$I.$
+$s^3: Am + C = 0$
+$s^2: Ac + Bm + 2C + D = 0$
+$s^1: Ak + Bc + (\frac{ 1 }{ 400\pi^2 } + 1)C + 2D = 0$
+$s^0: Bk + D( \frac{ 1 }{ 400\pi^2 } + 1 ) = 1$
+
+$A = 4.5902$
+$B = -7.4159$
+$C = -0.003030$
+$D = 0.4863$
+
+$II.$
+$s^3: mO + Q = 0$
+$s^2: Oc + Pm + 4Q + R = 0$
+$s^1: Ok + Pm + (\frac{1}{ 400\pi^2 } + 4)Q + 4R = 0$
+$s^0: Pk + R(\frac{ 1 }{ 400\pi^2 } + 4) = 1$
+
+$O = -2.8838$
+$P = -5.0377$
+$Q = 0.001903$
+$R = 0.3306$
+
+$$
+\begin{array}{}
+Y = \frac{ 1 }{ 20\pi }\left[ \frac{ 1 }{ (s + 85)^2 + 10577^2 } + e^{ -s }\left( \frac{ 4.5902(s + 1) - 11.9249 }{ (s + 1)^2 + \frac{ 1 }{ (20\pi)^2 } } \right) + e^{ -s }\left( \frac{ -0.00303(s + 85) + 0.7439 }{ (s + 85)^2 + 10577^2 }\right) \right.\\
+\qquad\qquad\qquad\qquad\qquad\qquad\left. + e^{ -2s }\frac{ 2.8838(s + 2) - 0.7299 }{ (s + 2)^2 + (\frac{1}{ 20\pi })^2 } - \frac{ 0.001903(s + 85) + 0.16885 }{ (s + 85)^2 + 10577^2 }  \right]
+\end{array}
+$$
+
+$$
+\begin{array}{}
+\implies y = \mathscr{ L }^{ -1 }\{ Y \} = \underline{ \frac{ 1 }{ 
+20\pi }\left[ \frac{ e^{ -85t }\sin10577t }{ 10577 } \right. }\\
+\underline{ \left.+ u(t - 1)\left( 4.5092e^{ -t }\cos\frac{t}{20\pi} - \frac{11.9249}{\frac{1}{400\pi}}e^{ -t }\sin\frac{ t }{ 20\pi } - 0.00303e^{ -85t }\cos10577t \right.\right. }\\
+\underline{ \left.\left.+ \frac{ 0.7439 }{ 
+10577 }e^{ -85t }\sin10577t \right) + u(t - 2)\left( 
+2.8838e^{ -2t }\cos\frac{ t }{ 20\pi } - \frac{ 0.7299 }{ 
+\frac{ 1 }{ 400\pi^2 } }e^{ -2t }\sin\frac{ t }{ 20\pi } \right.\right. }\\
+\underline{ \left.\left.- 0.001903e^{ -85t }\cos10577t - \frac{ 0.16885 }{ 10577 }e^{ -85t }\sin10577t\right) \right] }_{ \# }
+\end{array}
+$$
+
+## 4.6
+
+Above, we can simplify the solution
+
+$$
+\begin{array}{}
+\implies y = \frac{ 1 }{ 20\pi }\left[ u(t - 1)\left( 
+4.5092e^{ -t }\cos\frac{ t }{ 20\pi } - 11.9249\times 400\pi^2e^{ -t }\sin\frac{ t }{ 20\pi } \right) \right.
+\\
+\qquad\qquad\qquad\qquad\left.+ u(t - 2)(2.8838e^{ -2t }\cos\frac{ t }{ 20\pi } - \frac{ 0.7299 }{ \frac{ 1 }{ 400\pi^2 } }e^{ -2t }\sin\frac{ t }{ 20\pi }) \right]
+\end{array}
+$$
+
+## 4.7
+
+$$my'' + cy' + ky = \sin\frac{ t }{ 20\pi }\delta(t - 1) \qquad y(0) = 0 \qquad y'(0) = \frac{ 1 }{ 20\pi }$$
+
+$$\implies m(s^2Y - sy(0) - y'(0)) + c(sY - y(0)) + kY = \frac{ \frac{ 1 }{ 20\pi } }{ s^2 + (\frac{ 1 }{ 20\pi })^2 }e^{ -s }$$
+
+$$\implies (ms^2 + cs + k)Y = \frac{m}{20\pi} + \frac{\frac{1}{ 20\pi }}{s^2 + (\frac{1}{20\pi})^2}e^{-s}$$
+
+$$Y = \frac{m}{20\pi}\frac{1}{ms^2 + cs + k} + \frac{1}{20\pi}\frac{1}{ms^2 + cs + k}\frac{ 1 }{ s^2 + (\frac{ 1 }{ 20\pi })^2 }e^{-s}$$
+
+$$\implies y = \mathscr{ L }^{ -1 }\{Y\}$$
+$$
+\begin{array}{}
+\implies y = e^{ -1.515t }(4.17 \times 10^{ -5 }\cos12.9501t + 1.206 \times 10^{ -3 }\sin12.9501t) \\
+\qquad\qquad\qquad - u(t - 1) \times (4.17 \times 10^{ -5 }\cos\frac{ t }{ 
+20\pi } + 1.47 \times 10^{ -2 }\sin\frac{ 20\pi }{ t })
+\end{array}
+$$
+
+## 4.8
+
+Yes, it does.
