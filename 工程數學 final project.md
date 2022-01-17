@@ -339,3 +339,28 @@ $$
 $$\text{ Amplitude } = \frac{ P }{ \Delta t } = \sin(2\pi ft) = \sin(\frac{ t }{ 20\pi })$$
 
 $$\implies m\frac{ d^2y }{ dt^2 } = -ky-c\frac{ dy }{ dt } + \sin(\frac{ t }{ 20\pi })[u(t - 1) - u(t - (1 + \Delta t))]$$
+
+## 4.4
+
+## 4.5
+
+$$my'' + cy' + ky = \sin(\frac{ t }{ 20\pi })[u(t - 1) - u(u - 2)], \quad y(0) = 0,\quad y'(0) = \frac{ 1 }{ 20\pi }$$
+
+$$
+\begin{array}{}
+\implies m\left(s^2Y - sy(0) - y'(0)\right) + c(sY - y(0)) + kY = e^{ -1s }\mathscr{ L }\left\{ \sin\frac{ t + 1 }{ 20\pi } \right\} \\ 
+\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad - e^{ -2s }\mathscr{ L }\left\{ \sin\frac{ t + 2 }{ 20\pi } \right\}
+\end{array}
+$$
+
+$$\implies (ms^2 + cs + k)Y = \frac{ m }{ 20\pi } + e^{ 
+-s }\frac{ \frac{ 1 }{ 20\pi } }{ (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 }$$
+
+$$
+\begin{array}{}
+\implies Y = \frac{ m }{ 20\pi }\cdot \frac{ 1 }{ ms^2 + cs + k } + \frac{ e^{ -s } }{ 20\pi } \cdot \frac{ 1 }{ (s + 1)^2 + (\frac{ 1 }{ 20\pi })^2 }\cdot \frac{ 1 }{ ms^2 + cs + k } \\ 
+- \frac{ e^{ -2s } }{ 20\pi } \cdot \frac{ 1 }{ (s + 2)^2 + (\frac{ 1 }{ 20\pi })^2 }\cdot\frac{ 1 }{ ms^2 + cs + k }
+\end{array}
+$$
+
+$$\implies Y = \frac{ 1 }{ 20\pi }\cdot \frac{ 1 }{ (s^2 + \frac{ c }{ m }s + \frac{ c^2 }{ 2m^2 }) + \frac{ k }{ m } - \frac{ c^2 }{ 4m^2 } }$$
