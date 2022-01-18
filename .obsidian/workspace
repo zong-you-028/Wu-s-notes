@@ -1,16 +1,15 @@
 {
   "main": {
-    "id": "deea0f575721f0ef",
+    "id": "a5d4689d4f4542fb",
     "type": "split",
     "children": [
       {
-        "id": "4f665fd193e2aac8",
+        "id": "98af0e4f20073542",
         "type": "leaf",
         "state": {
           "type": "kanban",
           "state": {
-            "file": "Daily Notes/2022-01-17.md",
-            "mode": "source"
+            "file": "Main Kanban.md"
           }
         }
       }
@@ -18,85 +17,70 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "84b64b5b0ba8ca55",
-    "type": "split",
+    "id": "50989b2a63aca991",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "24e50982ade835b6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4e84d76ae350cfe8",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "836498582ff97b4a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "0a46c145c22ca1b5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "0c6a150c7e606ddc",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "58385d2040df1ce4",
-    "type": "split",
+    "id": "19f0df9298b3c500",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "566f64d640533f17",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1932d14115ef145f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "1ac7af89b0aaa689",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Main Kanban.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "92427fb6aa6df7ca",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Main Kanban.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
-  "active": "4f665fd193e2aac8",
+  "active": "98af0e4f20073542",
   "lastOpenFiles": [
     "Main Kanban.md",
-    "2022-01-18.md",
-    "Daily Notes/2022-01-17.md"
+    "Daily Notes/2022-01-17.md",
+    "Daily Notes/2022-01-14.md",
+    "工程數學/Auxiliary Function.md",
+    "工程數學 final project.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/多變數解法.md",
+    "工程數學/Laplace Transform.md",
+    "Daily Notes/2022-01-09.md",
+    "工程數學/Step Function.md"
   ]
 }
