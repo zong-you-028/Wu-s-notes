@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "9fc9e12524f9f1a0",
+    "id": "a5d4689d4f4542fb",
     "type": "split",
     "children": [
       {
-        "id": "d54f64dfe1f6cfad",
+        "id": "98af0e4f20073542",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/2022-01-14.md",
+            "file": "Daily Notes/2022-01-17.md",
             "mode": "preview"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily Notes/2022-01-14.md",
+            "file": "Daily Notes/2022-01-17.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -68,11 +68,11 @@
           }
         }
       }
-    ],
-    "currentTab": 0
+    ]
   },
-  "active": "6758b420d1d3e9b1",
+  "active": "98af0e4f20073542",
   "lastOpenFiles": [
+    "Daily Notes/2022-01-17.md",
     "Daily Notes/2022-01-14.md",
     "工程數學/Auxiliary Function.md",
     "工程數學 final project.md",
@@ -81,12 +81,6 @@
     "工程數學/Laplace Transform.md",
     "Daily Notes/2022-01-09.md",
     "工程數學/Step Function.md",
-    "工程數學/Dirac Delta Function.md",
-    "工程數學/Weight Function.md",
-    "工程數學/Integral Transform.md",
-    "工程數學/Laplace Transform 解法.md",
-    "工程數學/Laplace Transform 快速法.md",
-    "建築概論期末報告.md",
-    "附件/earthquake diagram.png"
+    "工程數學/Dirac Delta Function.md"
   ]
 }
