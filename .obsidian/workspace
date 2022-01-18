@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "9fc9e12524f9f1a0",
     "type": "split",
     "children": [
       {
-        "id": "6758b420d1d3e9b1",
+        "id": "d54f64dfe1f6cfad",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -79,6 +79,11 @@
     "工程數學/Higher Order DE解法.md",
     "工程數學/多變數解法.md",
     "工程數學/Laplace Transform.md",
+    "Daily Notes/2022-01-09.md",
+    "工程數學/Step Function.md",
+    "工程數學/Dirac Delta Function.md",
+    "工程數學/Weight Function.md",
+    "工程數學/Integral Transform.md",
     "工程數學/Laplace Transform 解法.md",
     "工程數學/Laplace Transform 快速法.md",
     "建築概論期末報告.md",
