@@ -1,29 +1,16 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "d4afe8b615d13ff9",
     "type": "split",
     "children": [
       {
-        "id": "6b1b25c44f7796d8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學 final project.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8a37e56081e588db",
+        "id": "be7b74b58ecdaa3a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Daily Notes/2022-01-17.md",
-            "mode": "source",
-            "source": false
+            "mode": "preview"
           }
         }
       }
@@ -31,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
+    "id": "b16290c47905b733",
     "type": "split",
     "children": [
       {
-        "id": "43308c1ede1b488c",
+        "id": "3f2149313afcd8d6",
         "type": "tabs",
         "children": [
           {
-            "id": "e0a18862bcffd7fb",
+            "id": "78c41ec687be2194",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +34,12 @@
             }
           },
           {
-            "id": "a208f910fff84cf3",
+            "id": "6ce04b9c149ff820",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "high order",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,20 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "2b98f3b73718d425",
+    "id": "f6829760cc8f06c7",
     "type": "split",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
+        "id": "d0c1645141898c24",
         "type": "tabs",
         "children": [
           {
-            "id": "689e38306ca8c5ee",
+            "id": "80e78e7cc39dbb7f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學 final project.md",
+                "file": "Daily Notes/2022-01-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,29 +80,7 @@
             }
           },
           {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "工程數學 final project.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "工程數學 final project.md"
-              }
-            }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
+            "id": "d9efa9ec7d0d81b0",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -123,24 +88,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "6b1b25c44f7796d8",
+  "active": "be7b74b58ecdaa3a",
   "lastOpenFiles": [
-    "工程數學 final project.md",
     "Daily Notes/2022-01-17.md",
-    "Daily Notes/2022-01-14.md",
-    "satellite/2022-01-10.md",
-    "工程數學/Auxiliary Function.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/多變數解法.md",
-    "工程數學/Laplace Transform.md",
-    "工程數學/Laplace Transform 解法.md",
-    "工程數學/Laplace Transform 快速法.md"
+    "2022-01-07.md",
+    "Daily Notes/2022-01-06.md",
+    "Daily Notes/2021-12-21.md",
+    "Untitled.md",
+    "Daily Notes/2021-12-18.md",
+    "Daily Notes/2021-12-20.md",
+    "Daily Notes/2021-12-12.md",
+    "Daily Notes/2021-12-09.md",
+    "Daily Notes/2021-12-08.md"
   ]
 }
