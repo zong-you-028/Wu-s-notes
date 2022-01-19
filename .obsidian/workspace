@@ -7,10 +7,9 @@
         "id": "1fcb0558178116b0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "STM32 筆記.md",
-            "mode": "source"
+            "file": "Main Kanban.md"
           }
         }
       }
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STM32 筆記.md",
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STM32 筆記.md",
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STM32 筆記.md"
+                "file": "Main Kanban.md"
               }
             }
           },
@@ -119,8 +118,8 @@
   },
   "active": "1fcb0558178116b0",
   "lastOpenFiles": [
-    "STM32 筆記.md",
     "Main Kanban.md",
+    "STM32 筆記.md",
     "建築/建築概論筆記整合(期中).md",
     "建築/本福寺水御堂.md",
     "建築/建築概論期末報告.md",

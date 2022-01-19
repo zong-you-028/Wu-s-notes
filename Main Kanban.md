@@ -15,7 +15,7 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] 包硬幣
-- [ ] 學stm32 [stm32 教學](https://ithelp.ithome.com.tw/articles/10264112)
+- [ ] 學stm32 [stm32 教學](https://ithelp.ithome.com.tw/articles/10265758)
 
 
 ## Done
