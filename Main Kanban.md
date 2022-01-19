@@ -15,8 +15,7 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] 包硬幣
-- [ ] 學stm32
-- [ ] 3d列印 @{2022-01-19}
+- [ ] 學stm32 [stm32 教學](https://ithelp.ithome.com.tw/articles/10264112)
 
 
 ## Done
