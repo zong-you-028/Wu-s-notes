@@ -7,9 +7,11 @@
         "id": "1fcb0558178116b0",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "Archived/故事創作與影像敘事/故事.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Archived/故事創作與影像敘事/故事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,20 +114,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "1fcb0558178116b0",
   "lastOpenFiles": [
+    "Archived/故事創作與影像敘事/故事.md",
+    "Archived/故事創作與影像敘事/虛擬實境.md",
+    "Archived/故事創作與影像敘事/劇本.md",
+    "Archived/故事創作與影像敘事/影像.md",
     "Main Kanban.md",
-    "STM32 筆記.md",
     "建築/建築概論筆記整合(期中).md",
     "建築/本福寺水御堂.md",
     "建築/建築概論期末報告.md",
     "Daily Notes/2022-01-17.md",
-    "建築概論期末報告.md",
-    "工程數學 final project.md",
-    "工程數學/Laplace Transform.md",
-    "工程數學/Convolution.md"
+    "建築概論期末報告.md"
   ]
 }
