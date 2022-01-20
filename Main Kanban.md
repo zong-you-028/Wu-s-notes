@@ -14,7 +14,6 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 跟家人說下禮拜再回去
 - [ ] 剪片 @{2022-01-20}
 - [ ] 學stm32 [stm32 教學](https://ithelp.ithome.com.tw/articles/10265758)
 
@@ -28,6 +27,7 @@ kanban-plugin: basic
 
 ## Archive
 
+- [x] 跟家人說下禮拜再回去
 - [x] 登記統編 @{2022-01-20}
 - [x] 包硬幣
 - [x] 建築概論筆記 (due 1/19) @{2022-01-19}
