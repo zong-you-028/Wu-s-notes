@@ -7,9 +7,10 @@
         "id": "1fcb0558178116b0",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "git 教學.md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "git 教學.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,10 +113,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "1fcb0558178116b0",
   "lastOpenFiles": [
+    "git 教學.md",
     "Main Kanban.md",
     "Archived/故事創作與影像敘事/故事.md",
     "Archived/故事創作與影像敘事/虛擬實境.md",
