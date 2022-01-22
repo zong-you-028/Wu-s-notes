@@ -14,7 +14,6 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 剪片 @{2022-01-20}
 - [ ] 學stm32 [stm32 教學](https://ithelp.ithome.com.tw/articles/10265758)
 
 
@@ -27,6 +26,7 @@ kanban-plugin: basic
 
 ## Archive
 
+- [x] 剪片 @{2022-01-20}
 - [x] 跟家人說下禮拜再回去
 - [x] 登記統編 @{2022-01-20}
 - [x] 包硬幣
