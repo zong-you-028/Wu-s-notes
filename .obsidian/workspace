@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5035c12a957fd9f8",
+        "id": "b74f9d640e969aef",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -12,12 +12,12 @@
         }
       },
       {
-        "id": "f08080112083ab25",
+        "id": "ddb73fbf1e2245b4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Entropy.md",
+            "file": "Thermodynamics/Entropy.md",
             "mode": "preview"
           }
         }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entropy.md",
+                "file": "Thermodynamics/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Entropy.md",
+                "file": "Thermodynamics/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -106,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entropy.md"
+                "file": "Thermodynamics/Entropy.md"
               }
             }
           },
@@ -126,17 +125,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f08080112083ab25",
+  "active": "ddb73fbf1e2245b4",
   "lastOpenFiles": [
-    "Entropy.md",
+    "Thermodynamics/Entropy.md",
+    "Thermodynamics/Gibbs Function.md",
+    "README.md",
     "Thermodynamics/Second Law of Thermodynamics.md",
     "Thermodynamics/Enthalpy.md",
     "工程數學/Laplace Transform.md",
     "工程數學/power series.md",
     "工程數學/Series Solution of Linear Equation.md",
     "工程數學/Taylor Series.md",
-    "Radius of Convergence.md",
-    "Root Test.md",
-    "Ratio Test.md"
+    "工程數學/Radius of Convergence.md"
   ]
 }
