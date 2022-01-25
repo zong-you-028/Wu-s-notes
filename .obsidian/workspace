@@ -7,9 +7,18 @@
         "id": "5035c12a957fd9f8",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "graph",
+          "state": {}
+        }
+      },
+      {
+        "id": "f08080112083ab25",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "Entropy.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lap",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -47,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -67,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,9 +94,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Entropy.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -96,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "Entropy.md"
               }
             }
           },
@@ -108,24 +118,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "5035c12a957fd9f8",
+  "active": "f08080112083ab25",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "STM32 筆記.md",
-    "iTron會議紀錄/git 教學.md",
-    "iTron會議紀錄/2022 iTron 教學組寒假規劃.md",
-    "建築/建築概論筆記整合(期中).md",
-    "建築/本福寺水御堂.md",
-    "建築/建築概論期末報告.md",
-    "Daily Notes/2022-01-17.md",
-    "建築概論期末報告.md",
-    "工程數學 final project.md"
+    "Entropy.md",
+    "Thermodynamics/Second Law of Thermodynamics.md",
+    "Thermodynamics/Enthalpy.md",
+    "工程數學/Laplace Transform.md",
+    "工程數學/power series.md",
+    "工程數學/Series Solution of Linear Equation.md",
+    "工程數學/Taylor Series.md",
+    "Radius of Convergence.md",
+    "Root Test.md",
+    "Ratio Test.md"
   ]
 }

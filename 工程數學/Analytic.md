@@ -2,7 +2,7 @@
 
 ---
 
-如果一個算式可以被表示成 [[power series]] ，並且 radius of convergence 不是零，那這個算式就是 analytic
+如果一個算式可以被表示成 [[power series]] ，並且 [[Radius of Convergence]] 不是零，那這個算式就是 analytic
 
 # 簡單判斷的方法
 

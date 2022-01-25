@@ -65,7 +65,7 @@ $$= \frac{1}{s^2}$$
 | [[Derivatives of Transforms\|Multiplication by]] $t$ $$t^nf(t)$$         | $$(-1)^n\frac{d^n}{ds^n}F(s)$$                                                          |
 | [[Integration with Laplace\|Integration]] $$\int_0^tf(\tau)d\tau$$       | $$\frac{F(s)}{ds}$$                                                                     |
 | Multiplication by exp $$e^{at}f(t)$$                                     | $$F(s - a)$$                                                                            |
-| Translation $$f(t - a)u(t - a)$$ $$g(t)u(t - a)$$                        | $$e^{-as}F(s)$$ $$e^{-as}L\{g(t + a)\}$$                                                |
+| Translation $$f(t - a)u(t - a)$$ $$g(t)u(t - a)$$ $$u(t - a)$$           | $$e^{-as}F(s)$$ $$e^{-as}L\{g(t + a)\}$$ $$\frac{ e^{ as } }{ s }$$                                                |
 | [[Convolution Theorem\|Convolution]] $$\int_0^tf(\tau)g(t - \tau)d\tau$$ | $$F(s)G(s)$$                                                                            |
 | [[Transform of a Periodic Fuction\|Periodic Input]] $$f(t) = f(t + T)$$  | $$\frac{1}{1 - e^{-st}}\int_0^Te^{-st}f(t)dt$$                                          |
 

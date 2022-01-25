@@ -251,4 +251,8 @@ $$ = y_1(x)\ln x + \left[-1 - \frac{1}{2}x + \frac{1}{2}x^2 + \dots\right]$$
 [Solution about Ordinary Points](https://youtu.be/CLeQRM83n9Y)
 [Solution about Singular Points](https://youtu.be/Nw39CK6x5VE)
 
+---
+
+link:
+
 [[Higher Order DE解法]]

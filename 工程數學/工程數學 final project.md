@@ -507,3 +507,10 @@ Yes, it does.
 # Section 5: Conclude
 
 When facing step functions or delta functions, Undetermined Coefficient or Variatoin of Parameter method is hard to calculate, since they have to be calculated in different intervals, but Laplace Transform don't.
+
+---
+
+link:
+
+[[Higher Order DE解法]]
+[[Laplace Transform 解法]]
