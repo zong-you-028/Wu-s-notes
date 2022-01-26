@@ -8,6 +8,8 @@ $$(f_1, f_2) = \int_a^b f_1(x)f_2(x) = 0 \qquad (f_1,\ f_2 \text{ 為 real 時 }
 
 $$\text{ 或 }(f_1, f_2) = \int_a^b f_1(x)f_2^*(x)dx = 0 \qquad \text{ (more standard version) }$$
 
+- 任何 even function ($f(x) = f(-x)$) 和任何 odd function 在 $[-a, a]$ 之間必為 orthogonal
+
 # 例子
 
 > 當 interval $[a, b] = [-1, 1]$
@@ -16,6 +18,12 @@ $$\text{ 或 }(f_1, f_2) = \int_a^b f_1(x)f_2^*(x)dx = 0 \qquad \text{ (more sta
 $$\int_{ -1 }^{ 1 }1 \cdot x^k dx$$
 
 $$ = \left.\frac{ x^{ k + 1 } }{ k + 1 }\right\vert_{ -1 }^{ 1 }$$
+
+$$ = \frac{ 1^{ k + 1 } - (-1)^{ k + 1 } }{ k + 1 }$$
+
+$$ = \frac{ 1 - 1 }{ k + 1 } = 1$$
+
+$$ = 0$$
 
 ---
 
