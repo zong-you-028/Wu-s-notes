@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5806e826383ce535",
+        "id": "7698e134637e75ea",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "工程數學/Orthogonal Functions/Orthogonal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "工程數學/Orthogonal Functions/Orthogonal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "工程數學/Orthogonal Functions/Orthogonal.md"
               }
             }
           },
@@ -108,25 +109,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "5806e826383ce535",
+  "active": "7698e134637e75ea",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "Mechanics and Materials/Deflection.md",
-    "Mechanics and Materials/Singularity Functions.md",
-    "Mechanics and Materials/Moment Curvature Relationship of Bending.md",
-    "Thermodynamics/Entropy.md",
-    "Thermodynamics/Gibbs Function.md",
-    "README.md",
-    "Thermodynamics/Second Law of Thermodynamics.md",
-    "Thermodynamics/Enthalpy.md",
-    "工程數學/Laplace Transform.md"
+    "工程數學/Orthogonal Functions/Orthogonal.md",
+    "工程數學/Orthogonal Equations.md",
+    "工程數學/Orthogonal Functions/Inner Product.md",
+    "工程數學/Higher Order DE/Wronskian.md",
+    "工程數學/Higher Order DE解法.md",
+    "工程數學/Laplace/Weight Function.md",
+    "工程數學/Higher Order DE/Variation of Parameters.md",
+    "工程數學/Higher Order DE/Unit Matrix.md",
+    "工程數學/Laplace/Translation Theorem.md",
+    "工程數學/First Order DE/transient term & stable term.md"
   ]
 }

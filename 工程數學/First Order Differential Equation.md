@@ -3,7 +3,7 @@
 > 解法: 
 > 
 > - [[Solution Curves without a Solution]]
-> - [[工程數學/Numerical Method]]
+> - [[Numerical Method]]
 > - [[Separable Variables]]
 > - [[Linear Equations]]
 > - [[Exact Equations]]

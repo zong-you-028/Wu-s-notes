@@ -12,7 +12,7 @@
 
 $$a_2x^2y''(x) + a_1xy'(x) + a_0y = 0$$
 .
-[[auxiliary function]]:
+[[Auxiliary Function]]:
 $$a_2m(m - 1) + a_1m + a_0 = 0 \qquad
   a_2m^2 + (a_1 - a_2)m + a_0 = 0$$
 .
@@ -90,11 +90,11 @@ $$y_c = x^\alpha [
 
 ### case 1
 
-若 [[auxiliary function]] 在 $m_0$ 的地方只有一個根
+若 [[Auxiliary Function]] 在 $m_0$ 的地方只有一個根
 $$x^{m_0}$$
 
 ### case 2
-若 [[auxiliary function]] 在 $m_0$ 的地方有 $k$ 個重根
+若 [[Auxiliary Function]] 在 $m_0$ 的地方有 $k$ 個重根
 $$x^{m_0},\; 
   x^{m_0}\ln x,\; 
   x^{m_0}(\ln x)^2,\; ... , \;
@@ -102,12 +102,12 @@ $$x^{m_0},\;
 
 ### case 3
 
-若 [[auxiliary function]] 在 $\alpha + j\beta$ 和 $\alpha - j\beta$ 的地方各有一個根(未出現重根)
+若 [[Auxiliary Function]] 在 $\alpha + j\beta$ 和 $\alpha - j\beta$ 的地方各有一個根(未出現重根)
 $$x^\alpha\cos(\beta\ln x), \; x^\alpha\sin(\beta\ln x)$$
 
 ### case 4
 
-若 [[auxiliary function]] 在 $\alpha + j\beta$ 和 $\alpha - j\beta$ 的地方皆有 $k$ 個重根
+若 [[Auxiliary Function]] 在 $\alpha + j\beta$ 和 $\alpha - j\beta$ 的地方皆有 $k$ 個重根
 $$x^\alpha\cos(\beta\ln x),\;
   x^\alpha\cos(\beta\ln x)\ln x,\;
   x^\alpha\cos(\beta\ln x)(\ln x)^2,\; ..., \;
