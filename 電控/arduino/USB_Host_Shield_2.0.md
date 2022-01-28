@@ -4,7 +4,7 @@
 
 # 支援的板子
 
-- 全部的 AVR 板子([[Arduino Uno]], Duemilanove, [[Arduino Mega]], [[Arduino Mega]] 2560...)
+- 全部的 AVR 板子([[Arduino UNO]], Duemilanove, [[Arduino Mega]], [[Arduino Mega]] 2560...)
 - Arduino Due, Intel Galileo, Intel Galileo 2, Intel Edison
 - Teensy
 - Balanduino

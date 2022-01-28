@@ -11,7 +11,6 @@ kanban-plugin: basic
 
 ## 工程數學 TODO
 
-- [ ] 微分方程OCW 25 @{2022-01-29}
 - [ ] 微分方程OCW 26 @{2022-02-02}
 - [ ] 微分方程OCW 27 @{2022-02-05}
 - [ ] 微分方程OCW 28 @{2022-02-08}
@@ -63,13 +62,13 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] STM32 blog<br>- [ ] day 3<br>- [ ] day 4 @{2022-01-27}
-- [ ] 自習時間 @{2022-01-28}
+- [ ] 微分方程OCW 25 @{2022-01-29}
 
 
 ## Done
 
 **Complete**
+- [x] 自習時間 @{2022-01-28}
 
 
 ***
@@ -78,6 +77,7 @@ kanban-plugin: basic
 
 - [x] 規劃寒假
 - [x] 微分方程OCW 24 @{2022-01-26}
+- [x] STM32 blog<br>- [x] day 3<br>- [x] day 4 @{2022-01-27}
 
 %% kanban:settings
 ```
