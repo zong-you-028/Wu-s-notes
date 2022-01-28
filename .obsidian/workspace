@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3f70ee189283dd3e",
+        "id": "ddfa0ddcbb3fc01c",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -67,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3f70ee189283dd3e",
+  "active": "ddfa0ddcbb3fc01c",
   "lastOpenFiles": [
+    "unlinked files output.md",
+    "附件/Mass Spring Damper System Schematic.png",
+    "附件/mass spring damper system.png",
+    "附件/Pasted image 20220115140444.png",
+    "附件/1.8 compare.png",
     "Main Kanban.md",
     "電控/stm32/STM32CubeIDE.md",
     "STM32 筆記.md",
     "電控/linux/usermod.md",
-    "電控/arduino/USB_Host_Shield_2.0.md",
-    "電控/linux/Unix like.md",
-    "電控/arduino/tft.md",
-    "電控/arduino/TCRT5000紅外線測距避障模組.md",
-    "電控/arduino/tb6560步進馬達驅動板.md",
-    "電控/linux/sudoers設定檔.md"
+    "電控/arduino/USB_Host_Shield_2.0.md"
   ]
 }
