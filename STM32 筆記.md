@@ -28,3 +28,28 @@ I 指快閃記憶體大小
 | 7    | 48            | G    | 1024          |
 | 8    | 64            | H    | 1536          |
 | 9    | 72            | I    | 2048          | 
+
+# IDE main.c
+
+最前面有一些註解是使用者可以自行定義的地方。
+
+```c
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+/* USER CODE END PD */
+```
+
+例如這裡，可以把定義寫在 `USER CODE BEGIN` 和 `USER CODE END` 之間，如果放在這之外的地方的話 IDE 會清除這些程式碼(因為這個 IDE 會自己產生程式碼在 `USER CODE BEGIN` 和 `USER CODE END` 以外的地方)。
