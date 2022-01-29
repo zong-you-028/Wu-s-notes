@@ -15,6 +15,9 @@ Basics:
 - [[Generalized Fourier Series]]
 - [[Weight Function]]
 
+Fourier Series:
+- [[Fourier Series]]
+
 ---
 
 參考資料:

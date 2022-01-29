@@ -7,8 +7,11 @@
         "id": "e1a6ce7ade1381f5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "weight function",
+                "query": "fourier series",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工程數學/Orthogonal Functions/Fourier Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +118,15 @@
   },
   "active": "e1a6ce7ade1381f5",
   "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "工程數學/Orthogonal Functions.md",
+    "Trigonometric Functions.md",
     "工程數學/Orthogonal Functions/Generalized Fourier Series.md",
     "iTron會議紀錄/2022 iTron 教學組寒假規劃.md",
-    "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
     "Main Kanban.md",
     "工程數學/Orthogonal Equations.md",
     "unlinked files output.md",
-    "附件/Mass Spring Damper System Schematic.png",
-    "附件/mass spring damper system.png",
-    "附件/Pasted image 20220115140444.png"
+    "附件/Mass Spring Damper System Schematic.png"
   ]
 }
