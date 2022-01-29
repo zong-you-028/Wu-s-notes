@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "ddfa0ddcbb3fc01c",
+        "id": "e1a6ce7ade1381f5",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ddfa0ddcbb3fc01c",
+  "active": "e1a6ce7ade1381f5",
   "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Generalized Fourier Series.md",
+    "iTron會議紀錄/2022 iTron 教學組寒假規劃.md",
+    "工程數學/Orthogonal Functions.md",
+    "工程數學/Orthogonal Functions/Orthogonal.md",
+    "Main Kanban.md",
+    "工程數學/Orthogonal Equations.md",
     "unlinked files output.md",
     "附件/Mass Spring Damper System Schematic.png",
     "附件/mass spring damper system.png",
-    "附件/Pasted image 20220115140444.png",
-    "附件/1.8 compare.png",
-    "Main Kanban.md",
-    "電控/stm32/STM32CubeIDE.md",
-    "STM32 筆記.md",
-    "電控/linux/usermod.md",
-    "電控/arduino/USB_Host_Shield_2.0.md"
+    "附件/Pasted image 20220115140444.png"
   ]
 }
