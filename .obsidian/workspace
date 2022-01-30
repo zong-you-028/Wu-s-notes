@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "9fc9e12524f9f1a0",
+    "id": "88fe62cfe8d61af5",
     "type": "split",
     "children": [
       {
-        "id": "d54f64dfe1f6cfad",
+        "id": "75a2f02fb72e7f88",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -75,7 +75,7 @@
     ],
     "currentTab": 1
   },
-  "active": "d54f64dfe1f6cfad",
+  "active": "75a2f02fb72e7f88",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2022-01-28 14.09.09.excalidraw.md",
     "Daily Notes/2022-01-17.md",
