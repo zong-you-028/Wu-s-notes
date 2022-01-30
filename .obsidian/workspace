@@ -1,145 +1,80 @@
 {
   "main": {
-<<<<<<< master-origin
-    "id": "88fe62cfe8d61af5",
+    "id": "6865114a7d40b782",
     "type": "split",
     "children": [
       {
-        "id": "75a2f02fb72e7f88",
-=======
-    "id": "1a39ae1e8a0ad77a",
-    "type": "split",
-    "children": [
-      {
-        "id": "1ee4fd372d6c5299",
->>>>>>> origin/master
+        "id": "e3712798fe488424",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "iTron會議紀錄/2022-01-30 Struct and Class.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
-    "type": "split",
+    "id": "8e3111bc16b0c7aa",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "43308c1ede1b488c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0a18862bcffd7fb",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "a208f910fff84cf3",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "fourier series",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "eab1ff2afc48c00f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "a646c322a9e7625d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "2b98f3b73718d425",
-    "type": "split",
+    "id": "30540c080e418885",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "iTron會議紀錄/2022-01-30 Struct and Class.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Main Kanban.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Main Kanban.md"
-              }
-            }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "ce0e4f02d431f1ff",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "bd78a6fa119f1018",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-<<<<<<< master-origin
-  "active": "75a2f02fb72e7f88",
-=======
-  "active": "1ee4fd372d6c5299",
->>>>>>> origin/master
-  "lastOpenFiles": [
-    "iTron會議紀錄/2022-01-30 Struct and Class.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/Orthogonal Functions.md",
-    "Trigonometric Functions.md",
-    "工程數學/Orthogonal Functions/Generalized Fourier Series.md",
-    "iTron會議紀錄/2022-01-22 2022 iTron 教學組寒假規劃.md",
-    "工程數學/Orthogonal Functions/Orthogonal.md",
-    "Main Kanban.md",
-    "工程數學/Orthogonal Equations.md",
-    "unlinked files output.md"
-  ]
+  "active": "e3712798fe488424",
+  "lastOpenFiles": []
 }
