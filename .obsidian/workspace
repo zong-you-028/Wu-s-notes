@@ -1,112 +1,133 @@
 {
   "main": {
-    "id": "6865114a7d40b782",
+    "id": "1a39ae1e8a0ad77a",
     "type": "split",
     "children": [
       {
-        "id": "e3712798fe488424",
+        "id": "72a4feb7634cc5cf",
         "type": "leaf",
         "state": {
-<<<<<<< master
           "type": "markdown",
           "state": {
-            "file": "iTron會議紀錄/2022-01-30 Struct and Class.md",
-            "mode": "source"
+            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
+            "mode": "preview",
+            "source": false
           }
-=======
-          "type": "empty",
-          "state": {}
->>>>>>> origin/master
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< master
-    "id": "076d6d34bace9a91",
-    "type": "mobile-drawer",
+    "id": "fb71a95a838000c0",
+    "type": "split",
     "children": [
       {
-        "id": "e401a7d888caeed1",
-=======
-    "id": "8e3111bc16b0c7aa",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "eab1ff2afc48c00f",
->>>>>>> origin/master
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-<<<<<<< master
-        "id": "42dfa9a38d25cec7",
-=======
-        "id": "a646c322a9e7625d",
->>>>>>> origin/master
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-<<<<<<< master
-    "id": "be1b1ee82b4fd473",
-    "type": "mobile-drawer",
+    "id": "2b98f3b73718d425",
+    "type": "split",
     "children": [
       {
-        "id": "3cd9a0f717442f4b",
-=======
-    "id": "30540c080e418885",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "ce0e4f02d431f1ff",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
-        "id": "bd78a6fa119f1018",
->>>>>>> origin/master
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-<<<<<<< master
-            "file": "iTron會議紀錄/2022-01-30 Struct and Class.md",
-=======
->>>>>>> origin/master
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工程數學/Orthogonal Functions/Fourier Series.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "e3712798fe488424",
-  "lastOpenFiles": []
+  "active": "72a4feb7634cc5cf",
+  "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "工程數學/Orthogonal Functions.md",
+    "Main Kanban.md",
+    "電控/stm32/STM32CubeIDE.md",
+    "電控/stm32/STM32 命名方法.md",
+    "電控/stm32/ioc file.md",
+    "電控/電路/GPIO.md",
+    "iTron會議紀錄/2022-01-30 Struct and Class.md",
+    "Trigonometric Functions.md",
+    "工程數學/Orthogonal Functions/Generalized Fourier Series.md"
+  ]
 }
