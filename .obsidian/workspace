@@ -1,28 +1,41 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "6865114a7d40b782",
     "type": "split",
     "children": [
       {
-        "id": "1ee4fd372d6c5299",
+        "id": "e3712798fe488424",
         "type": "leaf",
         "state": {
+<<<<<<< master
           "type": "markdown",
           "state": {
             "file": "iTron會議紀錄/2022-01-30 Struct and Class.md",
             "mode": "source"
           }
+=======
+          "type": "empty",
+          "state": {}
+>>>>>>> origin/master
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master
     "id": "076d6d34bace9a91",
     "type": "mobile-drawer",
     "children": [
       {
         "id": "e401a7d888caeed1",
+=======
+    "id": "8e3111bc16b0c7aa",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "eab1ff2afc48c00f",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -30,7 +43,11 @@
         }
       },
       {
+<<<<<<< master
         "id": "42dfa9a38d25cec7",
+=======
+        "id": "a646c322a9e7625d",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "search",
@@ -48,16 +65,35 @@
     "currentTab": 0
   },
   "right": {
+<<<<<<< master
     "id": "be1b1ee82b4fd473",
     "type": "mobile-drawer",
     "children": [
       {
         "id": "3cd9a0f717442f4b",
+=======
+    "id": "30540c080e418885",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ce0e4f02d431f1ff",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "bd78a6fa119f1018",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+<<<<<<< master
             "file": "iTron會議紀錄/2022-01-30 Struct and Class.md",
+=======
+>>>>>>> origin/master
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -71,17 +107,6 @@
     ],
     "currentTab": 0
   },
-  "active": "1ee4fd372d6c5299",
-  "lastOpenFiles": [
-    "iTron會議紀錄/2022-01-30 Struct and Class.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/Orthogonal Functions.md",
-    "Trigonometric Functions.md",
-    "工程數學/Orthogonal Functions/Generalized Fourier Series.md",
-    "iTron會議紀錄/2022-01-22 2022 iTron 教學組寒假規劃.md",
-    "工程數學/Orthogonal Functions/Orthogonal.md",
-    "Main Kanban.md",
-    "工程數學/Orthogonal Equations.md",
-    "unlinked files output.md"
-  ]
+  "active": "e3712798fe488424",
+  "lastOpenFiles": []
 }
