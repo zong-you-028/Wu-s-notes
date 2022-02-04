@@ -11,7 +11,6 @@ kanban-plugin: basic
 
 ## 工程數學 TODO
 
-- [ ] 微分方程OCW 27 @{2022-02-05}
 - [ ] 微分方程OCW 28 @{2022-02-08}
 - [ ] 微分方程OCW 29 @{2022-02-10}
 - [ ] 微分方程OCW 30 @{2022-02-13}
@@ -30,7 +29,6 @@ kanban-plugin: basic
 
 ## 教學組 TODO
 
-- [ ] 自習時間 @{2022-02-04}
 - [ ] 電路圖教學 @{2022-02-07}
 - [ ] 自習時間 @{2022-02-11}
 
@@ -42,8 +40,8 @@ kanban-plugin: basic
 
 ## STM32 TODO
 
-- [ ] STM32 blog<br>- [ ] day 7<br>- [ ] day 8 @{2022-02-03}
 - [ ] STM32 blog<br>- [ ] day 9<br>- [ ] day 10 @{2022-02-06}
+- [ ] STM32 blog<br>- [ ] day 7<br>- [ ] day 8 @{2022-02-06}
 - [ ] STM32 blog<br>- [ ] day 11<br>- [ ] day 12 @{2022-02-09}
 - [ ] STM32 blog<br>- [ ] day 13<br>- [ ] day 14 @{2022-02-12}
 - [ ] STM32 blog<br>- [ ] day 15<br>- [ ] day 16
@@ -58,7 +56,9 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 微分方程OCW 26 @{2022-02-02}
+- [ ] 自習時間 @{2022-02-04}
+- [ ] 微分方程OCW 26 @{2022-02-05}
+- [ ] 微分方程OCW 27 @{2022-02-05}
 
 
 ## Done
