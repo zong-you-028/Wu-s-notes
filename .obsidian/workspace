@@ -7,11 +7,9 @@
         "id": "3700446842d03dd0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "工程數學/Orthogonal Functions.md",
-            "mode": "source",
-            "source": false
+            "file": "Main Kanban.md"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Orthogonal Functions.md",
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,11 +117,11 @@
   },
   "active": "3700446842d03dd0",
   "lastOpenFiles": [
+    "Main Kanban.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
     "工程數學/First Order Differential Equation.md",
-    "Main Kanban.md",
     "電控/stm32/STM32CubeIDE.md",
     "電控/stm32/STM32 命名方法.md",
     "電控/stm32/ioc file.md",
