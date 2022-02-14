@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## TODO
 
+- [ ] 澆水 @{2022-03-01}
 
 
 ## 工程數學 TODO

@@ -7,8 +7,10 @@
         "id": "80d994219df648a0",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -65,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
           },
           {
@@ -111,12 +117,12 @@
   },
   "active": "80d994219df648a0",
   "lastOpenFiles": [
+    "Main Kanban.md",
     "工程數學/Linear Algebra/Matrix.md",
     "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
     "工程數學/Linear Algebra/Basic Arrays.md",
     "電工學/Resistine Element.md",
     "電工學/電工學符號.md",
-    "Main Kanban.md",
     "學弟報告.md",
     "Main Kanban_REMOTE_1948.md",
     "Main Kanban_LOCAL_1948.md",
