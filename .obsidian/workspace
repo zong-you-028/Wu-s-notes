@@ -9,17 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Matrix.md",
+            "file": "工程數學/Linear Algebra/Matrix.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "8f8522185e442bf7",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
@@ -76,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrix.md",
+                "file": "工程數學/Linear Algebra/Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrix.md",
+                "file": "工程數學/Linear Algebra/Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrix.md"
+                "file": "工程數學/Linear Algebra/Matrix.md"
               }
             }
           },
@@ -126,7 +118,7 @@
   },
   "active": "70bcba7b7631e355",
   "lastOpenFiles": [
-    "Matrix.md",
+    "工程數學/Linear Algebra/Matrix.md",
     "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
     "工程數學/Linear Algebra/Basic Arrays.md",
     "電工學/Resistine Element.md",
