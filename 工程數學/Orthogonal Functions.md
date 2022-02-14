@@ -18,6 +18,9 @@ Basics:
 Fourier Series:
 - [[Fourier Series]]
 
+Fourier Intrgral
+- [[Integral Transform Method]]
+
 ---
 
 參考資料:

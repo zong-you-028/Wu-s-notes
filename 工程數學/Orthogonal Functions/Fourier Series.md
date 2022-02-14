@@ -6,6 +6,8 @@
 
 > - [[#Trigonometric Functions]]
 > - [[#Fourier Cosine and Sine Functions]]
+> - [[#Half-range Expansion]]
+> - [[#Solving Particular Solution]]
 
 # Trigonometric Functions
 
@@ -261,11 +263,178 @@ $$ = \frac{ 4 }{ n\pi }(-1)^{ n + 1 }$$
 
 $$f(x) = \sum_{ n = 1 }^{ \infty } \frac{ 4(-1)^{ n + 1 } }{ n\pi }\sin\frac{ n \pi }{ 2 }x$$
 
+# Half-range Expansion
+
+若 function 只有一邊，如 $f(x) = x^2, \ 0 < x < L$ 只有正的地方有定義
+
+## (a) in a cosine series
+
+假設 $f(x) = f(-x) \qquad \text{ for }\  -L < x < 0 \qquad$ (假設 $f(x)$ 是一個 even function)
+
+原本的 [[#Fourier Cosine Series]] 公式
+
+$$f(x) = \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }a_n\cos\frac{ n\pi }{ p }x$$
+
+$$a_0 = \frac{ 2 }{ p }\int_0^p f(x)dx$$
+
+$$a_n = \frac{ 2 }{ p }\int_0^p f(x)\cos\frac{ n\pi }{ p }xdx$$
+
+將 $p$ 改成 $L$
+
+$$f(x) = \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }a_n\cos\frac{ n\pi }{ L }x$$
+
+$$a_0 = \frac{ 2 }{ L }\int_0^p f(x)dx$$
+
+$$a_n = \frac{ 2 }{ L }\int_0^p f(x)\cos\frac{ n\pi }{ L }xdx$$
+
+1. interval: $[-L, L]$
+2. 所有公式的 $p$ 由 $L$ 取代
+3. 結果是 even
+
+## (b) in a sine series
+
+和 [[#a in a cosine series]] 一樣
+
+1. interval: $[-L, L]$
+2. 所有公式的 $p$ 由 $L$ 取代
+3. 結果為 odd
+
+## (c) in a fourier series
+
+和 [[#a in a cosine series]] 和 [[#b in a sine series]] 不同的是，週期從 $L$ 改為 $2L$
+
+[[#Fourier Series|原本的公式]]:
+
+$$f(x) = \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
+a_n\cos\frac{ n\pi }{ p }x + b_n\sin\frac{ n\pi }{ p }x \right)$$
+
+$$a_0 = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)dx$$
+
+$$a_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\cos\frac{ n\pi }{ p }xdx$$
+
+$$b_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\sin\frac{ n\pi }{ p }xdx$$
+
+將 $p$ 由 $\frac{ L }{ 2 }$ 取代:
+
+$$f(x) = \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
+a_n\cos\frac{ 2n\pi }{ L }x + b_n\sin\frac{ 2n\pi }{ L }x \right)$$
+
+$$a_0 = \frac{ 2 }{ L }\int_{ 0 }^{ L }f(x)dx$$
+
+$$a_n = \frac{ 2 }{ L }\int_{ 0 }^{ L }f(x)\cos\frac{ 2n\pi }{ L }xdx$$
+
+$$b_n = \frac{ 2 }{ L }\int_{ 0 }^{ L }f(x)\sin\frac{ 2n\pi }{ L }xdx$$
+
+注意積分的範圍 $0 \sim L$ ，不是 $-\frac{ L }{ 2 } \sim \frac{ L }{ 2 }$
+
+1. interval $[-L, L]$
+2. 所有公式的 $p$ 由 $\frac{ L }{ 2 }$ 取代
+
+## 三個結果比較
+
+$$f(x) = x^2,\qquad 0 < x < L$$
+
+### cosine series
+
+![[cosine series half range expansion.png]]
+
+### sine series
+
+![[sine series half range expansion.png]]
+
+### fourier series
+
+![[fourier series half range expansion.png]]
+
+# Solving Particular Solution
+
+$$a_ny^{ (n) }(t) + a_{ n - 1 }y^{ (n - 1) }(t) + \dots + a_1y'(t) + a_0y(t) = f(t)$$
+
+## 限制
+
+$$f(t) = f(t + 2p)$$
+
+## 步驟
+
+- 以下步驟不包含解 homogeneous solution ，若要解的話還是需要 [[Higher Order DE解法]]
+
+### step 1
+
+將 $f(t)$ 表示成 [[#Fourier Series]]
+
+$$f(x) = \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
+a_n\cos\frac{ n\pi }{ p }t + b_n\sin\frac{ n\pi }{ p }t \right)$$
+
+或 [[#cosine series]] (當 $f(t)$ 為 even)
+或 [[#sine series]] (當 $f(t)$ 為 odd)
+
+### step 2
+
+假設 particular solution 的型態為
+
+$$y_p(t) = A_0 + \sum_{ n = 1 }^{ \infty }\left( A_n\cos\frac{ n\pi }{ p }t + B_n\sin\frac{ n\pi }{ p }t \right)$$
+
+### step 3
+
+代回原式，比較係數，將 $A_0, A_n, B_n$ 解出來
+
+若所假設的 particular solution 和 homogeneous solution 有相同的地方，則要乘上 $t$
+
+## 例題
+
+$$\frac{ 1 }{ 16 }\frac{ d^2 x }{ dt^2 } + 4x = f(t)$$
+
+$$f(t) = \pi t \qquad \text{ for } -1 < t < 1$$
+
+$$f(t) = f(t - 2)$$
+
+### step 1
+
+假設 
+$$f(t) = \sum_{ n = 1 }^{ \infty } b_n\sin n\pi t$$
+(因為 $f(t)$ 是 odd)
+
+$$b_n = 2\int_0^1\pi t\sin(n\pi t)dt$$
+
+$$ = \left. -2\frac{ t }{ n }\cos(n\pi t) \right\vert_0^1 + \int_0^1\frac{ 2 }{ n }\cos(n\pi t)dt$$
+
+$$ = -2\frac{ 1 }{ n }(-1)^n - 0 + \left. \frac{ 2 }{ n^2\pi }\sin(n\pi t)\right\vert_0^1$$
+
+$$ = \frac{ 2 }{ n }(-1)^{ n + 1 }$$
+
+$$f(t) = \sum_{ n = 1 }^\infty \frac{ 2 }{ n }(-1)^{ n + 1 }\sin(n\pi t)$$
+
+### step 2
+
+假設 particular solution 為
+
+$$x_p(t) = \sum_{ n = 1 }^\infty(A_n\cos n\pi t + B_n\sin n\pi t) \qquad (p = 1)$$
+
+### step 3
+
+將 $x_p(t)$ 和 [[#step 1]] 的結果代入
+
+$$\frac{ 1 }{ 16 }\frac{ d^2x }{ dt^2 } + 4x = f(t)$$
+
+$$\implies \sum_{ n = 1 }^{ \infty }\left( -\frac{ 1 }{ 16 }A_n\frac{ n^2\pi^2 }{ 4 }\cos n\pi t - \frac{ 1 }{ 16 }B_n\frac{ n^2\pi }{ p^2 }\sin n\pi t \right) + \sum_{ n = 1 }^\infty (4A_n\cos n\pi t + 4B_n\sin n \pi t) = \sum_{ n = 1 }^\infty\frac{ 2 }{ n }(-1)^{ n + 1 }\sin n\pi t$$
+
+$$\implies \left\{ \begin{array}{l} -\frac{ 1 }{ 16 }A_n\frac{ n^2\pi^2 }{ 4 } & + & 4 A_n & = & 0 \\ -\frac{ 1 }{ 16 }B_n n^2\pi^2 & + & 4B_n & = & \frac{ 2 }{ n }(-1)^{ n + 1 } \end{array}\right.$$
+
+$$\implies \left\{ \begin{array}{l} A_n & = & 0 \\ B_n & = & \frac{ 32(-1)^{ n + 1 } }{ n(64 - n^2\pi^2) } \end{array} \right.$$
+
+$$\implies x_p(t) = \sum_{ n = 1 }^{ \infty }\frac{ 32(-1)^{ n - 1 } }{ 
+n(64 - n^2\pi^2) }\sin\frac{ n\pi }{ p }t$$
+
+### General Solution
+
+$$x(t) = c_1 \cos(8t) + c_2\sin(8t) + \sum_{ n = 1 }^\infty \frac{ 32(-1)^{ n - 1 } }{ n(64 - n^2\pi^2) }$$
+
 ---
 
 參考資料:
 
 [[微分方程]第25講、Sections 11-2 and 11-3 Fourier Series, Fourier Cosine and Sine Series](https://youtu.be/Yrg5hIHcbn4)
+[[微分方程]第26講、Section 11-3 Fourier Cosine and Sine Series](https://youtu.be/l3VGEy4CSms)
 
 ---
 

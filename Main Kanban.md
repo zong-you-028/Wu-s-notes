@@ -6,15 +6,15 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] 買書 @{2022-02-21}
+- [ ] 澆水 @{2022-03-01}
 
 
 ## 工程數學 TODO
 
-- [ ] 微分方程OCW 27 @{2022-02-05}
-- [ ] 微分方程OCW 28 @{2022-02-08}
-- [ ] 微分方程OCW 29 @{2022-02-10}
-- [ ] 微分方程OCW 30 @{2022-02-13}
+- [ ] 微分方程OCW 27
+- [ ] 微分方程OCW 28
+- [ ] 微分方程OCW 29
+- [ ] 微分方程OCW 30
 - [ ] 工程數學課本習題<br>7<br>	- [ ] 7.1<br>	- [ ] 7.2<br>	- [ ] 7.3<br>	- [ ] 7.4<br>	- [ ] 7.5
 - [ ] 工程數學課本習題<br>7<br>	- [ ] 7.6<br>	- [ ] 7.7<br>	- [ ] 7.8<br>	- [ ] 7.9<br>8<br>	- [ ] 8.1
 - [ ] 工程數學課本習題<br>8<br>	- [ ] 8.2<br>	- [ ] 8.3<br>	- [ ] 8.4<br>	- [ ] 8.5<br>9<br>	- [ ] 9.1
@@ -30,9 +30,6 @@ kanban-plugin: basic
 
 ## 教學組 TODO
 
-- [ ] 自習時間 @{2022-02-04}
-- [ ] 電路圖教學 @{2022-02-07}
-- [ ] 自習時間 @{2022-02-11}
 
 
 ## turtlebot TODO
@@ -42,10 +39,10 @@ kanban-plugin: basic
 
 ## STM32 TODO
 
-- [ ] STM32 blog<br>- [ ] day 7<br>- [ ] day 8 @{2022-02-03}
-- [ ] STM32 blog<br>- [ ] day 9<br>- [ ] day 10 @{2022-02-06}
-- [ ] STM32 blog<br>- [ ] day 11<br>- [ ] day 12 @{2022-02-09}
-- [ ] STM32 blog<br>- [ ] day 13<br>- [ ] day 14 @{2022-02-12}
+- [ ] STM32 blog<br>- [ ] day 7<br>- [ ] day 8
+- [ ] STM32 blog<br>- [ ] day 9<br>- [ ] day 10
+- [ ] STM32 blog<br>- [ ] day 11<br>- [ ] day 12
+- [ ] STM32 blog<br>- [ ] day 13<br>- [ ] day 14
 - [ ] STM32 blog<br>- [ ] day 15<br>- [ ] day 16
 - [ ] STM32 blog<br>- [ ] day 17<br>- [ ] day 18
 - [ ] STM32 blog<br>- [ ] day 19<br>- [ ] day 20
@@ -58,12 +55,12 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 微分方程OCW 26 @{2022-02-02}
 
 
 ## Done
 
 **Complete**
+- [x] 自習時間 @{2022-02-11}
 
 
 ***
@@ -77,6 +74,10 @@ kanban-plugin: basic
 - [x] 微分方程OCW 25 @{2022-01-29}
 - [x] class 教學 @{2022-01-31}
 - [x] STM32 blog<br>- [x] day 5<br>- [x] day 6 @{2022-02-01}
+- [x] 自習時間 @{2022-02-04}
+- [x] 微分方程OCW 26 @{2022-02-05}
+- [x] 電路圖教學 @{2022-02-07}
+- [x] 買書 @{2022-02-21}
 
 %% kanban:settings
 ```

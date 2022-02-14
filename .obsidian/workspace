@@ -4,68 +4,105 @@
     "type": "split",
     "children": [
       {
-        "id": "72a4feb7634cc5cf",
+        "id": "8582d24806419b9b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "903dd4902e7a75b0",
-    "type": "mobile-drawer",
+    "id": "fb71a95a838000c0",
+    "type": "split",
     "children": [
       {
-        "id": "1c288676ea716941",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "e000adee7f5c9f6e",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "array",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "66bc0e75535dd0be",
-    "type": "mobile-drawer",
+    "id": "2b98f3b73718d425",
+    "type": "split",
     "children": [
       {
-        "id": "52502cd40f913102",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
+<<<<<<< master-origin
         }
       },
       {
@@ -75,21 +112,26 @@
           "type": "calendar",
           "state": {}
         }
+=======
+        ]
+>>>>>>> origin/master
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "72a4feb7634cc5cf",
+  "active": "8582d24806419b9b",
   "lastOpenFiles": [
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/Orthogonal Functions.md",
     "Main Kanban.md",
-    "電控/stm32/STM32CubeIDE.md",
-    "電控/stm32/STM32 命名方法.md",
-    "電控/stm32/ioc file.md",
-    "電控/電路/GPIO.md",
-    "iTron會議紀錄/2022-01-30 Struct and Class.md",
-    "Trigonometric Functions.md",
-    "工程數學/Orthogonal Functions/Generalized Fourier Series.md"
+    "工程數學/Linear Algebra/Matrix.md",
+    "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
+    "工程數學/Linear Algebra/Basic Arrays.md",
+    "電工學/Resistine Element.md",
+    "電工學/電工學符號.md",
+    "學弟報告.md",
+    "Main Kanban_REMOTE_1948.md",
+    "Main Kanban_LOCAL_1948.md",
+    "Main Kanban_BASE_1948.md"
   ]
 }
