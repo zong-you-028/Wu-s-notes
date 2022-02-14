@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] 買書 @{2022-02-21}
 
 
 ## 工程數學 TODO
@@ -30,7 +29,6 @@ kanban-plugin: basic
 
 ## 教學組 TODO
 
-- [ ] 自習時間 @{2022-02-11}
 
 
 ## turtlebot TODO
@@ -61,6 +59,7 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
+- [x] 自習時間 @{2022-02-11}
 
 
 ***
@@ -77,6 +76,7 @@ kanban-plugin: basic
 - [x] 自習時間 @{2022-02-04}
 - [x] 微分方程OCW 26 @{2022-02-05}
 - [x] 電路圖教學 @{2022-02-07}
+- [x] 買書 @{2022-02-21}
 
 %% kanban:settings
 ```
