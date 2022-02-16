@@ -7,7 +7,7 @@
 ## Addition
 
 $$\left[ 
-\beign{array}{}
+\begin{array}{}
 a_{ 11 } & a_{ 12 } \\
 a_{ 21 } & a_{ 22 }
 \end{array}
@@ -77,16 +77,18 @@ $$
 
 ### Array Multiplication (Element-wise Multiplication)
 
-$$A _.* B = 
+$$A \ _.* B = 
 \left[
 \begin{array}{}
 a_{ 11 } & a_{ 12 } \\
 a_{ 21 } & a_{ 22 }
 \end{array}
-\right] _.*
+\right] \ _.*
 \left[
+\begin{array}{}
 b_{ 11 } & b_{ 12 } \\
 b_{ 21 } & b_{ 22 }
+\end{array}
 \right] = 
 \left[
 \begin{array}{}
@@ -103,6 +105,38 @@ $$A = [a_{ ji }] \ \rightarrow \ A^T = [a_{ ij }]$$
 - $(A + B)^T = A^T + B^T$
 - $(cA)^T = cA^T$
 - $(AB)^T = B^T A^T$
+
+# Others
+
+- Symmetric
+
+$$A^T = A$$
+
+- Skew Symmetric 
+
+$$A^T = -A$$
+
+- Diagnol Matrix
+
+$$\left[
+\begin{array}{}
+a & 0 & 0 \\
+0 & b & 0 \\
+0 & 0 & c
+\end{array}
+\right]$$
+
+- Identity Matrix
+
+$$
+\left[
+\begin{array}{}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{array}
+\right]
+$$
 
 ---
 
