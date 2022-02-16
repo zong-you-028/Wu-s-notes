@@ -68,7 +68,6 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] 資料結構 Lec 1
-- [ ] 動力學 ~12.3 @{2022-02-16}
 
 
 ## Done
@@ -93,6 +92,7 @@ kanban-plugin: basic
 - [x] 買書 @{2022-02-21}
 - [x] 自習時間 @{2022-02-11}
 - [x] 買墨水 @{2022-02-15}
+- [x] 動力學 ~12.3 @{2022-02-16}
 
 %% kanban:settings
 ```

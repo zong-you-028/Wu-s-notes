@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "8582d24806419b9b",
+        "id": "194debe72f820373",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "工程數學/Higher Order DE解法.md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "工程數學/Higher Order DE解法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "工程數學/Higher Order DE解法.md"
               }
             }
           },
@@ -115,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8582d24806419b9b",
+  "active": "194debe72f820373",
   "lastOpenFiles": [
+    "工程數學/Higher Order DE解法.md",
     "Main Kanban.md",
     "2022-02-15 資料結構.md",
+    "學弟報告.md",
+    "2022-02-16 週六用.md",
+    "README.md",
+    "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
     "工程數學/Linear Algebra/Linear System of Algebraic Equation.md",
     "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
-    "工程數學/Linear Algebra/Basic Arrays.md",
-    "電工學/Resistine Element.md",
-    "電工學/電工學符號.md",
-    "學弟報告.md",
-    "Main Kanban_REMOTE_1948.md"
+    "工程數學/Linear Algebra/Matrix vs Array vs Vector.md"
   ]
 }
