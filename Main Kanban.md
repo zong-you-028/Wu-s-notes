@@ -62,7 +62,7 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 資料結構 Lec 1
+- [ ] 資料結構
 
 
 ## Done
