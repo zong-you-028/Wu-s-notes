@@ -60,11 +60,6 @@ kanban-plugin: basic
 - [ ] 演算法 1~24
 
 
-## 資料結構
-
-- [ ] 資料結構 Lec 2~26
-
-
 ## In Progress
 
 - [ ] 資料結構 Lec 1
