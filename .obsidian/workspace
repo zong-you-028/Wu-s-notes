@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "762c0157464b3d3b",
+        "id": "1fcb0558178116b0",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -17,70 +17,115 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8417e939bab7d48c",
-    "type": "mobile-drawer",
+    "id": "fb71a95a838000c0",
+    "type": "split",
     "children": [
       {
-        "id": "8c3cc5d91cab81e6",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "029d57772ae4f68e",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "lap",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "ff3e0a736b744ea8",
-    "type": "mobile-drawer",
+    "id": "2b98f3b73718d425",
+    "type": "split",
     "children": [
       {
-        "id": "ab3f646464415a70",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Main Kanban.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "762c0157464b3d3b",
+  "active": "1fcb0558178116b0",
   "lastOpenFiles": [
     "Main Kanban.md",
     "學弟報告.md",
-    "Main Kanban_REMOTE_1948.md",
-    "Main Kanban_LOCAL_1948.md",
-    "Main Kanban_BASE_1948.md",
-    "Main Kanban_BACKUP_1948.md",
-    "conflict-files-obsidian-git.md",
-    "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "工程數學/Orthogonal Functions.md",
-    "工程數學/Orthogonal Functions/Orthogonal.md"
+    "2022-02-15 資料結構.md",
+    "STM32 筆記.md",
+    "建築/建築概論筆記整合(期中).md",
+    "建築/本福寺水御堂.md",
+    "建築/建築概論期末報告.md",
+    "Daily Notes/2022-01-17.md",
+    "建築概論期末報告.md",
+    "工程數學 final project.md"
   ]
 }
