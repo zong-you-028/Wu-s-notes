@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "1fcb0558178116b0",
+        "id": "5ab6da3b0d35ab69",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "資料結構/Linked List.md",
+            "mode": "source"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lap",
+                "query": "array",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "資料結構/Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,9 +85,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "資料結構/Linked List.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "資料結構/Linked List.md"
               }
             }
           },
@@ -115,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1fcb0558178116b0",
+  "active": "5ab6da3b0d35ab69",
   "lastOpenFiles": [
+    "資料結構/Linked List.md",
+    "資料結構/Selection Sort.md",
+    "資料結構/Abstract Data Type.md",
     "Main Kanban.md",
-    "學弟報告.md",
-    "2022-02-15 資料結構.md",
-    "STM32 筆記.md",
-    "建築/建築概論筆記整合(期中).md",
-    "建築/本福寺水御堂.md",
-    "建築/建築概論期末報告.md",
-    "Daily Notes/2022-01-17.md",
-    "建築概論期末報告.md",
-    "工程數學 final project.md"
+    "電工學/Kirchhoff's Law.md",
+    "電工學/Resistine Element.md",
+    "電工學/Ohm's Law.md",
+    "電工學/電工學符號.md",
+    "動力學/極座標.md",
+    "學弟報告.md"
   ]
 }

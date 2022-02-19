@@ -2,8 +2,6 @@
 
 ---
 
-# Selection Sort
-
 From those integers that are currently unsorted, find the smallest and place it next in the sorted list.
 
 ```c

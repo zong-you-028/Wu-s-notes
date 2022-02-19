@@ -18,3 +18,4 @@ $$\frac{ v }{ i } = \underbrace{ \frac{ 1 }{ q_e n_e \mu_e } }_{ \text{ resistiv
 
 link:
 
+[[Resistivity]]
