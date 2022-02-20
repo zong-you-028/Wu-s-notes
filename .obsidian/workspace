@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "電控/arduino/nRF24L01.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arduino uno",
+                "query": "source",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -120,14 +121,14 @@
   "active": "baddaddaee08c03c",
   "lastOpenFiles": [
     "電控/arduino/nRF24L01.md",
+    "Archived/機器人系統與應用設計實作/catkin make.md",
+    "Archived/機器人系統與應用設計實作/source.md",
+    "電控/arduino/SG90 Servo.md",
     "電控/arduino/Arduino UNO.md",
     "Main Kanban.md",
     "資料結構/Linked List.md",
     "動力學/極座標.md",
     "conflict-files-obsidian-git.md",
-    "資料結構/Selection Sort.md",
-    "資料結構/Abstract Data Type.md",
-    "電工學/Kirchhoff's Law.md",
-    "電工學/Resistine Element.md"
+    "資料結構/Selection Sort.md"
   ]
 }
