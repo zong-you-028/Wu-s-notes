@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## TODO
 
-- [ ] 看pchome @{2022-02-19}
+- [ ] 動力學題目 12.8
 - [ ] 澆水 @{2022-03-01}
 
 
@@ -35,7 +35,6 @@ kanban-plugin: basic
 
 ## turtlebot TODO
 
-- [ ] - [ ] 改裝 ubuntu<br>- [ ] 裝電池上去<br>- [ ] 裝 ROS @{2022-02-21}
 
 
 ## STM32 TODO
@@ -62,14 +61,14 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] 資料結構
-- [ ] 動力學題目 12.8
-- [ ] 麗文書局領書 @{2022-02-19}
+- [ ] - [ ] 改裝 ubuntu<br>- [ ] 裝電池上去<br>- [ ] 裝 ROS @{2022-02-21}
+- [ ] 麗文書局領書 @{2022-02-21}
+- [ ] 拿 pchome @{2022-02-20}
 
 
 ## Done
 
 **Complete**
-- [x] 電工學作業1
 
 
 ***
@@ -90,6 +89,7 @@ kanban-plugin: basic
 - [x] 自習時間 @{2022-02-11}
 - [x] 買墨水 @{2022-02-15}
 - [x] 動力學 ~12.3 @{2022-02-16}
+- [x] 電工學作業1
 
 %% kanban:settings
 ```

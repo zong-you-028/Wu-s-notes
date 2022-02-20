@@ -7,8 +7,11 @@
         "id": "baddaddaee08c03c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "電控/arduino/nRF24L01.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "array",
+                "query": "arduino uno",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "電控/arduino/nRF24L01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "電控/arduino/nRF24L01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -91,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "電控/arduino/nRF24L01.md"
+              }
             }
           },
           {
@@ -111,15 +119,15 @@
   },
   "active": "baddaddaee08c03c",
   "lastOpenFiles": [
+    "電控/arduino/nRF24L01.md",
+    "電控/arduino/Arduino UNO.md",
+    "Main Kanban.md",
     "資料結構/Linked List.md",
+    "動力學/極座標.md",
     "conflict-files-obsidian-git.md",
     "資料結構/Selection Sort.md",
     "資料結構/Abstract Data Type.md",
-    "Main Kanban.md",
     "電工學/Kirchhoff's Law.md",
-    "電工學/Resistine Element.md",
-    "電工學/Ohm's Law.md",
-    "電工學/電工學符號.md",
-    "動力學/極座標.md"
+    "電工學/Resistine Element.md"
   ]
 }
