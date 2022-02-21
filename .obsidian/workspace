@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1fcb0558178116b0",
+        "id": "3e65511c935638f3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "1d42b90dc831f861",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -79,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -127,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1d42b90dc831f861",
+  "active": "3e65511c935638f3",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
-    "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+    "電工學/Resistive Circuit.md",
+    "電工學/Kirchhoff's Law.md",
+    "電工學/Ohm's Law.md",
+    "電工學/Resistine Element.md",
+    "電工學/Cramer's Rule.md",
+    "電工學/Circuit Analysis.md",
     "Main Kanban.md",
-    "學弟報告.md",
-    "2022-02-15 資料結構.md",
-    "STM32 筆記.md",
-    "建築/建築概論筆記整合(期中).md",
-    "建築/本福寺水御堂.md",
-    "建築/建築概論期末報告.md"
+    "conflict-files-obsidian-git.md",
+    "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+    "學弟報告.md"
   ]
 }

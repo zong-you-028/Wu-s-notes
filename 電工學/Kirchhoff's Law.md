@@ -9,11 +9,11 @@
 
 # Node(Voltage Node)
 
-Node are labelled the same when the voltage are identical
+A connected wire or plate shared the same voltage
 
 # Arc
 
-Elements (電阻，電池等元件)
+A one port element which has two terminals
 
 # 用文字表示電路
 
@@ -40,6 +40,29 @@ $L$: loops (只計最小的 node)
 $N$: node 的數量
 $A$: arc 的數量
 
+# Kirchhoff Law
+
+- Kirchhoff Current Law: The total current entering a "node" is zero
+- Kirchhoff Voltage Law: The sum of all voltages on the individual "elements" on a "loop" is zero
+
+## Open Circuit
+
+![[Open Circuit.png]]
+
+$$R_L = \underbrace{ \infty }_{ \text{ Light Load 輕載 } } \text{ : open circuit }$$
+
+$$\implies i_L = 0$$
+
+$$v_L = v_{ oc }$$
+
+$v_{ oc }$ is called open circuit voltage
+
+---
+
+$$R_L = \underbrace{ 0 }_{ \text{ Heavy Load 重載 } } \text{ : short circuit }$$
+
+$i_L$ to be solved, known to the short circuit current
+
 ---
 
 參考資料:
@@ -50,3 +73,4 @@ $A$: arc 的數量
 
 link:
 
+[[Cramer's Rule]]

@@ -29,14 +29,6 @@ kanban-plugin: basic
 - [ ] 工程數學課本習題<br>12<br>	- [ ] 12.9<br>	- [ ] 12.10<br>	- [ ] 12.11<br>	- [ ] 12.12
 
 
-## 教學組 TODO
-
-
-
-## turtlebot TODO
-
-
-
 ## STM32 TODO
 
 - [ ] STM32 blog<br>- [ ] day 7<br>- [ ] day 8
@@ -60,10 +52,10 @@ kanban-plugin: basic
 
 ## In Progress
 
+- [ ] 工程數學 ~7.4
+- [ ] 電工學 ~Ch2
 - [ ] 資料結構
-- [ ] - [ ] 改裝 ubuntu<br>- [ ] 裝電池上去<br>- [ ] 裝 ROS @{2022-02-21}
-- [ ] 麗文書局領書 @{2022-02-21}
-- [ ] 拿 pchome @{2022-02-20}
+- [ ] 麗文書局領書 @{2022-02-22}
 
 
 ## Done
