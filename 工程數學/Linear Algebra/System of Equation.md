@@ -205,7 +205,7 @@ What is allowed:
 	$m$: number of equations
 	$n$: number of variables
 
-# Rank
+# [[Rank]]
 
 $$
 A = 
@@ -257,13 +257,156 @@ If the matrix formed by P-vectors as rows $\rightarrow$ rank $=$ P
 
 The P-vectors are linearly independent
 
+## Theorem 3
+
+$$rank(A) = rank(A^T)$$
+
+$$rank_{ row }(A) = rank_{ col }(A)$$
+
+- $row$: row-operation
+- $col$: column-operation
+
+A matrix contains the same amount of unique info in row and column
+
+### Proof
+
+Let $A$ be an $m \times n$ matrix
+
+Let $A$ have rank $r$
+
+$$r = 3, \qquad n = 5$$
+
+$$r = 3 \quad \text{ means } \quad A \quad \text{ can be made from: }$$
+$$
+\left.
+\begin{array}{}
+\vec{ v }_{ (1) } & = & [ & v_{ 11 } & v_{ 12 } & v_{ 13 } & v_{ 14 } & v_{ 15 } & ] \\
+\vec{ v }_{ (2) } & = & [ & v_{ 21 } & v_{ 22 } & v_{ 23 } & v_{ 24 } & v_{ 25 } & ] \\
+\vec{ v }_{ (2) } & = & [ & v_{ 31 } & v_{ 32 } & v_{ 33 } & v_{ 34 } & v_{ 35 } & ]
+\end{array}
+\right\}
+\text{ linearly independent } \rightarrow \text{ 
+basis for } A
+$$
+
+$$
+\begin{array}{}
+\text{ To proof } rank(A) & = & rank(A^T) \\
+& = & rank(B)
+\end{array}
+$$
+
+Let $B$ be a matrix formed using the basis $\vec{ v }_{ (1) },\ \vec{ v }_{ (2) }, \ \vec{ v }_{ (3) }$, but let's try to make $B$ with as many linearly-independent column as possible.
+
+$$\implies B = 
+\left[
+\begin{array}{}
+\vec{ b }_{ (1) } \\
+\vec{ b }_{ (2) } \\
+\vdots \\
+\vec{ b }_{ (m) }
+\end{array}
+\right] = 
+\left[
+\begin{array}{}
+c_{ 11 }\vec{ v }_{ (1) } & + & c_{ 12 }\vec{ v }_{ (2) } & + & c_{ 13 }\vec{ v }_{ (3) } \\
+c_{ 21 }\vec{ v }_{ (1) } & + & c_{ 22 }\vec{ v }_{ (2) } & + & c_{ 23 }\vec{ v }_{ (3) } \\
+&& \vdots\\
+c_{ m1 }\vec{ v }_{ (1) } & + & c_{ m2 }\vec{ v }_{ (2) } & + & c_{ m3 }\vec{ v }_{ (3) } 
+\end{array}
+\right]
+$$
+
+we get $k^{ th }$ column from $B$
+
+$$\implies 
+\left[
+\begin{array}{}
+b_{ 1k } \\
+b_{ 2k } \\
+\vdots \\
+b_{ mk }
+\end{array}
+\right] = 
+v_{ 1k }
+\underbrace{
+\left[
+\begin{array}{}
+c_{ 11 } \\
+c_{ 21 } \\
+\vdots \\
+c_{ m1 }
+\end{array}
+\right] }_{ \vec{ c }_1 }
++
+v_{ 2k }
+\underbrace{
+\left[
+\begin{array}{}
+c_{ 12 } \\
+c_{ 22 } \\
+\vdots \\
+c_{ m2 }
+\end{array}
+\right] }_{ \vec{ c }_2 }
++
+v_{ 3k }
+\underbrace{
+\left[
+\begin{array}{}
+c_{ 13 } \\
+c_{ 23 } \\
+\vdots \\
+c_{ m3 }
+\end{array}
+\right] }_{ \vec{ c }_3 }
+$$
+
+$$
+\begin{array}{l}
+\implies \text{ above vector has } & \text{ 3-column basis from } & \vec{ c }_1, & \vec{ c }_2, & \vec{ c }_3 \\
+& \text{ 3-row basis from } & v_{ 1k }, & v_{ 2k }, & v_{ 3k }
+\end{array}
+$$
+
+$$
+\begin{array}{}
+\implies & rank(A) & = & rank_{ col }(A) \\
+&& = & rank(A^T)
+\end{array}
+$$
+
+## Theorem 4
+
+- Given $P$-vectors with $n$-component each
+- If $n < P$, then there are linearly dependent vectors in the system
+
+## Theorem 5
+
+Vector space $R^n$ consisteing of all vectors with $n$-component has $n$ dimension
+
+## Theorem 6
+
+Let say I have matrix $A_{ m\times n }$ 
+
+$rank(A) = r$, $r \leq m$
+$\rightarrow$ there are $r$ independent vectors that I can get from $A$
+
+$rank(A^T) = r$
+$\rightarrow$ there are $r$ independent vectors that I can get from $A^T$
+
+$$\implies \text{ vectors from the row of } A \text{ and column of } A \text{ have same vector space }$$
+
 ---
 
 參考資料:
 
 工程數學上課 2022-02-21
+工程數學上課 2022-02-23
 
 ---
 
 link:
 
+[[Vector Space]]
+[[Subspace]]
