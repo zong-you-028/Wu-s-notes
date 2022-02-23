@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4abaee0fd99a7225",
+        "id": "9192fded9ed7c6b6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Algebra/Matrix.md",
-            "mode": "source",
+            "file": "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Algebra/Matrix.md",
+                "file": "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,9 +86,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Algebra/Matrix.md",
+                "file": "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Algebra/Matrix.md"
+                "file": "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md"
               }
             }
           },
@@ -118,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4abaee0fd99a7225",
+  "active": "9192fded9ed7c6b6",
   "lastOpenFiles": [
-    "工程數學/Linear Algebra/Matrix.md",
+    "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
     "Main Kanban.md",
     "動力學/極座標.md",
-    "動力學/切線座標.md",
-    "工程數學/Linear Algebra/System of Equation.md",
-    "工程數學/Linear Algebra/Basic Arrays.md",
     "電工學/Resistive Circuit.md",
+    "電工學/Cramer's Rule.md",
+    "電工學/Circuit Analysis.md",
+    "電工學/Resistine Element.md",
     "電工學/Kirchhoff's Law.md",
     "電工學/Ohm's Law.md",
-    "電工學/Resistine Element.md"
+    "工程數學/Linear Algebra/Matrix.md"
   ]
 }

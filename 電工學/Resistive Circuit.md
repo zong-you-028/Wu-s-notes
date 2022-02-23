@@ -31,9 +31,9 @@ $$i_1 = \frac{ R_2 }{ R_1 + R_2 } \cdot i_R \qquad \text{ current divider }$$
 
 灰色框框是可以簡化的部份，簡化過後變成下圖
 
-![[Wheuston bridge.png]]
+![[Wheatstone bridge.png]]
 
-上面的是 Wheuston Bridge
+上面的是 Wheatstone Bridge
 
 $$
 \begin{array}{l}

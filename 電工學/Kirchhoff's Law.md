@@ -57,7 +57,7 @@ $$v_L = v_{ oc }$$
 
 $v_{ oc }$ is called open circuit voltage
 
----
+## Short Circuit
 
 $$R_L = \underbrace{ 0 }_{ \text{ Heavy Load 重載 } } \text{ : short circuit }$$
 
