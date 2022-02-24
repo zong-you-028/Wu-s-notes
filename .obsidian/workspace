@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "精密測量/精密製造.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -35,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Sifting",
+            "query": "ㄨㄟㄈ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -45,7 +46,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "ff3e0a736b744ea8",
