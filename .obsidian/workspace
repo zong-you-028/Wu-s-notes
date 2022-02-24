@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "精密測量/精密製造.md",
-            "mode": "source",
+            "file": "工程數學/First Order DE/Table of Integration.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -36,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "ㄨㄟㄈ",
+            "query": "Different",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -46,7 +46,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "ff3e0a736b744ea8",
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "精密測量/精密製造.md",
+            "file": "工程數學/First Order DE/Table of Integration.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,15 +74,15 @@
   },
   "active": "762c0157464b3d3b",
   "lastOpenFiles": [
+    "工程數學/First Order DE/Table of Integration.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/First Order DE/Differential Equation.md",
     "精密測量/精密製造.md",
     "精密測量/校正.md",
     "Main Kanban.md",
     "工程數學/Laplace/Dirac Delta Function.md",
     "學弟報告.md",
     "Main Kanban_REMOTE_1948.md",
-    "Main Kanban_LOCAL_1948.md",
-    "Main Kanban_BASE_1948.md",
-    "Main Kanban_BACKUP_1948.md",
-    "conflict-files-obsidian-git.md"
+    "Main Kanban_LOCAL_1948.md"
   ]
 }
