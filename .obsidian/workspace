@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "電控/stm32/STM32 命名方法.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -75,6 +75,7 @@
   "active": "b0c25557519d2827",
   "lastOpenFiles": [
     "電控/stm32/STM32 命名方法.md",
+    "附件/Stm32 規格表.jpeg",
     "工程數學/Higher Order DE/Eigenvalue Solution.md",
     "Main Kanban.md"
   ]
