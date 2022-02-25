@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Higher Order DE/Eigenvalue Solution.md",
+            "file": "電控/stm32/STM32 命名方法.md",
             "mode": "preview",
             "source": false
           }
@@ -46,7 +46,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "cb424c9010c8f1e0",
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工程數學/Higher Order DE/Eigenvalue Solution.md",
+            "file": "電控/stm32/STM32 命名方法.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,6 +74,7 @@
   },
   "active": "b0c25557519d2827",
   "lastOpenFiles": [
+    "電控/stm32/STM32 命名方法.md",
     "工程數學/Higher Order DE/Eigenvalue Solution.md",
     "Main Kanban.md"
   ]
