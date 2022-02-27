@@ -1,15 +1,17 @@
 {
   "main": {
-    "id": "4b7a16f48212572e",
+    "id": "1a39ae1e8a0ad77a",
     "type": "split",
     "children": [
       {
-        "id": "b0c25557519d2827",
+        "id": "72a4feb7634cc5cf",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "移位暫存器.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -17,11 +19,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c115a938860bcc22",
+    "id": "903dd4902e7a75b0",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "5e73f9c4a78c790a",
+        "id": "1c288676ea716941",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -29,12 +31,12 @@
         }
       },
       {
-        "id": "423a34684d39832b",
+        "id": "e000adee7f5c9f6e",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "Euler formula",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -47,16 +49,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "cb424c9010c8f1e0",
+    "id": "66bc0e75535dd0be",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "43c89c1fe794ed6c",
+        "id": "52502cd40f913102",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Main Kanban.md",
+            "file": "移位暫存器.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -66,15 +68,29 @@
             "unlinkedCollapsed": true
           }
         }
+      },
+      {
+        "id": "9ea15216ea2844de",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
   },
-  "active": "b0c25557519d2827",
+  "active": "72a4feb7634cc5cf",
   "lastOpenFiles": [
+    "移位暫存器.md",
     "Main Kanban.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "工程數學/Orthogonal Functions.md",
+    "電控/stm32/STM32CubeIDE.md",
     "電控/stm32/STM32 命名方法.md",
-    "附件/Stm32 規格表.jpeg",
-    "工程數學/Higher Order DE/Eigenvalue Solution.md"
+    "電控/stm32/ioc file.md",
+    "電控/電路/GPIO.md",
+    "iTron會議紀錄/2022-01-30 Struct and Class.md",
+    "Trigonometric Functions.md"
   ]
 }
