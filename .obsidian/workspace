@@ -1,16 +1,17 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "4b7a16f48212572e",
     "type": "split",
     "children": [
       {
-        "id": "9192fded9ed7c6b6",
+        "id": "b0c25557519d2827",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Table of Differentiation.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -18,116 +19,67 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
-    "type": "split",
+    "id": "c115a938860bcc22",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "43308c1ede1b488c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0a18862bcffd7fb",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "a208f910fff84cf3",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "skew",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "5e73f9c4a78c790a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "423a34684d39832b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Table of Integration",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    ]
   },
   "right": {
-    "id": "2b98f3b73718d425",
-    "type": "split",
+    "id": "cb424c9010c8f1e0",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Table of Differentiation.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Table of Differentiation.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Table of Differentiation.md"
-              }
-            }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "43c89c1fe794ed6c",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Table of Differentiation.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "pinned": true
   },
-  "active": "9192fded9ed7c6b6",
+  "active": "b0c25557519d2827",
   "lastOpenFiles": [
     "Table of Differentiation.md",
-    "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/First Order DE/Table of Integration.md",
+    "工程數學/First Order DE/Separable Variables.md",
     "Main Kanban.md",
-    "動力學/極座標.md",
-    "電工學/Resistive Circuit.md",
-    "電工學/Cramer's Rule.md",
-    "電工學/Circuit Analysis.md",
-    "電工學/Resistine Element.md",
-    "電工學/Kirchhoff's Law.md",
-    "電工學/Ohm's Law.md"
+    "電控/stm32/STM32 命名方法.md",
+    "附件/Stm32 規格表.jpeg",
+    "工程數學/Higher Order DE/Eigenvalue Solution.md"
   ]
 }
