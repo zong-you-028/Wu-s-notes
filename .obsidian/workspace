@@ -7,9 +7,11 @@
         "id": "b0c25557519d2827",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "Table of Differentiation.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -34,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Euler formula",
+            "query": "Table of Integration",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -56,22 +58,26 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Main Kanban.md",
+            "file": "Table of Differentiation.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
             "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+            "unlinkedCollapsed": false
           }
         }
       }
     ],
-    "currentTab": 0
+    "pinned": true
   },
   "active": "b0c25557519d2827",
   "lastOpenFiles": [
+    "Table of Differentiation.md",
+    "工程數學/First Order DE/Table of Integration.md",
+    "工程數學/First Order DE/Separable Variables.md",
+    "工程數學/First Order Differential Equation.md",
     "Main Kanban.md",
     "電控/stm32/STM32 命名方法.md",
     "附件/Stm32 規格表.jpeg",
