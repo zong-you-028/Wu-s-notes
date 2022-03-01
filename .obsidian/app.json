@@ -30,5 +30,5 @@
   },
   "attachmentFolderPath": "附件",
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": false
 }
