@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Table of Differentiation.md",
+            "file": "移位暫存器.md",
             "mode": "preview",
             "source": true
           }
@@ -45,7 +45,8 @@
           }
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "right": {
     "id": "cb424c9010c8f1e0",
@@ -57,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Table of Differentiation.md",
+            "file": "移位暫存器.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,6 +74,7 @@
   },
   "active": "b0c25557519d2827",
   "lastOpenFiles": [
+    "移位暫存器.md",
     "Table of Differentiation.md",
     "工程數學/First Order Differential Equation.md",
     "工程數學/First Order DE/Table of Integration.md",
