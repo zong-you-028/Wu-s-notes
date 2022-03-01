@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Table of Differentiation.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -46,7 +46,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "cb424c9010c8f1e0",
@@ -75,9 +75,9 @@
   "active": "b0c25557519d2827",
   "lastOpenFiles": [
     "Table of Differentiation.md",
+    "工程數學/First Order Differential Equation.md",
     "工程數學/First Order DE/Table of Integration.md",
     "工程數學/First Order DE/Separable Variables.md",
-    "工程數學/First Order Differential Equation.md",
     "Main Kanban.md",
     "電控/stm32/STM32 命名方法.md",
     "附件/Stm32 規格表.jpeg",

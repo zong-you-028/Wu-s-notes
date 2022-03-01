@@ -3,7 +3,8 @@
 ---
 
 | $$f(x)$$  | $$f(x)'$$ |
-| $$\frac{d\sec x}{dx}$$ | 
+| --- | --- |
+| $$\frac{d\sec x}{dx}$$ | $$\tan x \cdot \sec x$$ |
 
 ---
 
