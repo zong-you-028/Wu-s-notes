@@ -63,6 +63,16 @@ $$R_L = \underbrace{ 0 }_{ \text{ Heavy Load 重載 } } \text{ : short circuit }
 
 $i_L$ to be solved, known to the short circuit current
 
+# Ways of Analysis
+
+## Classic Kirchhoff
+
+use [[#Kirchhoff Law]] ，標每個 arc 的電流
+
+## Branch Current Method
+
+
+
 ---
 
 參考資料:

@@ -7,9 +7,10 @@
         "id": "e3a69c4f4b5b91d8",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "電工學/Kirchhoff's Law.md",
+            "mode": "source"
           }
         }
       }
@@ -51,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "電工學/Kirchhoff's Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "電工學/Kirchhoff's Law.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "電工學/Kirchhoff's Law.md"
               }
             }
           },
@@ -118,15 +118,15 @@
   },
   "active": "e3a69c4f4b5b91d8",
   "lastOpenFiles": [
+    "電工學/Kirchhoff's Law.md",
+    "電工學/Resistive Circuit.md",
+    "電工學/Circuit Analysis.md",
     "Main Kanban.md",
-    "移位暫存器.md",
+    "電控/arduino/移位暫存器.md",
     "工程數學/First Order DE/Table of Differentiation.md",
     "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
     "動力學/極座標.md",
-    "電工學/Resistive Circuit.md",
     "電工學/Cramer's Rule.md",
-    "電工學/Circuit Analysis.md",
-    "電工學/Resistine Element.md",
-    "電工學/Kirchhoff's Law.md"
+    "電工學/Resistine Element.md"
   ]
 }
