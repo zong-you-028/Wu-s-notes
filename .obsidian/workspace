@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f66d0419b50e6a3a",
+        "id": "07f29e7eb9689052",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "動力學/切線座標.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "skew",
+                "query": "differential table",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/切線座標.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/切線座標.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "動力學/切線座標.md"
               }
             }
           },
@@ -115,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f66d0419b50e6a3a",
+  "active": "07f29e7eb9689052",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "電工學/Kirchhoff's Law.md",
-    "電工學/Resistive Circuit.md",
-    "電工學/Circuit Analysis.md",
-    "電控/arduino/移位暫存器.md",
+    "動力學/切線座標.md",
+    "工程數學/Linear Algebra/Determinant.md",
     "工程數學/First Order DE/Table of Differentiation.md",
-    "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
-    "動力學/極座標.md",
     "電工學/Cramer's Rule.md",
-    "電工學/Resistine Element.md"
+    "工程數學/Linear Algebra/System of Equation.md",
+    "工程數學/Linear Algebra/Augmented Matrix.md",
+    "工程數學/Higher Order DE/Augmented Matrix Method.md",
+    "電工學/Kirchhoff's Law.md",
+    "附件/Nodal Voltage Method.png",
+    "Main Kanban.md"
   ]
 }

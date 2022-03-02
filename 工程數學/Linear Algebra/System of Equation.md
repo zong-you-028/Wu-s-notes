@@ -29,7 +29,7 @@ b_m
 \right]
 $$
 
-# Augmented Matrix
+# [[Augmented Matrix]]
 
 $$\widetilde{ A } = 
 \left[
@@ -397,6 +397,105 @@ $\rightarrow$ there are $r$ independent vectors that I can get from $A^T$
 
 $$\implies \text{ vectors from the row of } A \text{ and column of } A \text{ have same vector space }$$
 
+# Existence
+
+Rouché-Capelli Theorem:
+
+$$A \vec{ x } = \vec{ b }$$
+
+Solution(s) exist if and only if ("iff")
+
+$$rank(A) = rank(\underbrace{ \widetilde{ A } }_{ [A\vert \vec{ b }] })$$
+[[Augmented Matrix]]
+
+==Proof==:
+
+Let there be a system:
+
+$$
+\begin{array}{}
+a_{ 11 }x_1 & + & a_{ 12 }x_2 & + & \dots & + & a_{ 1n }x_n & = & b_1 \\
+a_{ 21 }x_1 & + & a_{ 22 }x_2 & + & \dots & + & a_{ 2n }x_n & = & b_2 \\
+&&&& \vdots \\
+a_{ m1 }x_1 & + & a_{ m2 }x_2 & + & \dots & + & a_{ mn }x_n & = & b_m \\
+\end{array}
+$$
+
+$$\implies A \vec{ x } = \vec{ b }$$
+
+$$\implies \vec{ c }_{ (1) }x_1 + \vec{ c }_{ (2) }x_2 + \dots + \vec{ c }_{ (n) }x_n = \vec{ b }$$
+
+$$\because 
+\left\{
+\begin{array}{}
+\widetilde{ A } = [A \vert \vec{ b } ] \\
+rank_{ row }(A) = rank_{ col }(A)
+\end{array}
+\right.
+$$
+
+$$\therefore rank(\widetilde{ A }) = rank(A) \quad \text{ or } \quad rank(A) + 1$$
+
+- $rank(A)$: if the system above is consistent ($b$ is derived from $A$)
+- $rank(A) + 1$: if the system above is inconsistent ($b$ is new)
+
+# Uniqueness
+
+To have a unique solution: $rank(A) = rank(\widetilde{ A }) = n$
+
+$n$: number of variable
+
+==Proof==:
+
+$$\vec{ c }_{ (1) }x_1 + \vec{ c }_{ (2) }x_2 + \dots + \vec{ c }_{ (n) }x_n = \vec{ b } \quad , \quad rank(A) = n$$
+
+If solution is not unique, we have multiple solution
+
+$$
+\left\{
+\begin{array}{}
+\vec{ c }_{ (1) }x_1 + \dots + \vec{ c }_{ (n) }x_n = \vec{ b } \\
+\vec{ c }_{ (1) }\hat{ x }_{ 1 } + \dots + \vec{ c }_{ (n) }\hat{ x }_{ (n) } = \vec{ b }
+\end{array}
+\right.
+$$
+
+$$\implies \vec{ c }_{ (1) }x_1 + \dots + \vec{ c }_{ (n) }x_n = \vec{ c }_{ (1) }\hat{ x }_{ 1 } + \dots + \vec{ c }_{ (n) }\hat{ x }_{ (n) }$$
+
+$$\implies \vec{ c }_{ (1) }(x_1 - \hat{ x }_{ 1 }) + \dots + \vec{ c }_{ (n) }(x_n - \hat{ x }_{ (n) }) = 0$$
+
+$$\because rank(A) = n \quad , \quad \vec{ c }_{ (1) }, \ \vec{ c }_{ (2) },\ \vec{ c }_{ (3) } \text{ is linearly independent }$$
+
+$$
+\implies
+\left\{
+\begin{array}{}
+x_1 - \hat{ x }_1 = 0 \\
+x_2 - \hat{ x }_2 = 0 \\
+\vdots \\
+x_n - \hat{ x }_n = 0 
+\end{array}
+\right.
+$$
+
+$$
+\implies
+\left\{
+\begin{array}{}
+x_1 = \hat{ x }_1 \\
+x_2 = \hat{ x }_2 \\
+\vdots \\
+x_n = \hat{ x }_n
+\end{array}
+\right.
+$$
+
+# Infinite Number of Solution
+
+$$rank(A) < n$$
+
+$$rank(A) = rank(\widetilde{ A })$$
+
 ---
 
 參考資料:
@@ -410,3 +509,4 @@ link:
 
 [[Vector Space]]
 [[Subspace]]
+[[Augmented Matrix]]
