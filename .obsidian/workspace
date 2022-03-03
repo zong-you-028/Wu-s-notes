@@ -23,6 +23,17 @@
             "file": "Main Kanban.md"
           }
         }
+      },
+      {
+        "id": "c3da4e4963b94ed4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -126,10 +137,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "754924ec7f354880",
+  "active": "c3da4e4963b94ed4",
   "lastOpenFiles": [
-    "Main Kanban.md",
     "conflict-files-obsidian-git.md",
+    "Main Kanban.md",
     "工程數學/Laplace/Convolution.md",
     "Table of Differentiation.md",
     "精密測量/古代的標準.md",
