@@ -12,6 +12,17 @@
             "file": "Main Kanban.md"
           }
         }
+      },
+      {
+        "id": "6f85e26e22eedd23",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -67,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -116,8 +127,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d7c68efe63cde002",
+  "active": "6f85e26e22eedd23",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Main Kanban.md",
     "python/numpy.md",
     "python/time/time.time().md",
@@ -126,7 +138,6 @@
     "python/time/time.asctime().md",
     "python/time/time.sleep().md",
     "python/time/time.localtime().md",
-    "python/time/time.gmtime().md",
-    "python/time/time.ctime().md"
+    "python/time/time.gmtime().md"
   ]
 }
