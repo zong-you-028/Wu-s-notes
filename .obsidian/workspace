@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Kirchhoff's Law.md",
-            "mode": "source",
+            "file": "動力學/極座標.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "電工學/Kirchhoff's Law.md",
+            "file": "動力學/極座標.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,6 +74,7 @@
   },
   "active": "e3a69c4f4b5b91d8",
   "lastOpenFiles": [
+    "動力學/極座標.md",
     "電工學/Kirchhoff's Law.md",
     "電工學/Resistive Circuit.md",
     "電工學/Circuit Analysis.md",
@@ -81,7 +82,6 @@
     "電控/arduino/移位暫存器.md",
     "工程數學/First Order DE/Table of Differentiation.md",
     "Archived/機器人系統與應用設計實作/ROS 期末報告 node 圖.md",
-    "動力學/極座標.md",
     "電工學/Cramer's Rule.md",
     "電工學/Resistine Element.md"
   ]
