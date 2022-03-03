@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "電工學/Kirchhoff's Law.md",
-            "mode": "source"
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -18,103 +19,58 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
-    "type": "split",
+    "id": "85538da418dc03d7",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "43308c1ede1b488c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0a18862bcffd7fb",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "a208f910fff84cf3",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "skew",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "2b17c762c360d4ec",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "31ed6ebebca9d282",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "2b98f3b73718d425",
-    "type": "split",
+    "id": "281345fbdefb23bc",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "電工學/Kirchhoff's Law.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "電工學/Kirchhoff's Law.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "電工學/Kirchhoff's Law.md"
-              }
-            }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "f40237482987a997",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "電工學/Kirchhoff's Law.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "e3a69c4f4b5b91d8",
   "lastOpenFiles": [
