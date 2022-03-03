@@ -110,6 +110,7 @@ $$
 $$
 
 Step 3. Row Operation
+[[Row Reduction]]
 
 $$\text{ 目標: } \widetilde{ A } = 
 \left[
@@ -510,3 +511,4 @@ link:
 [[Vector Space]]
 [[Subspace]]
 [[Augmented Matrix]]
+[[Row Reduction]]
