@@ -4,34 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "7cf88b2062d8e07c",
+        "id": "d7c68efe63cde002",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Laplace/Convolution.md",
+            "file": "python/numpy.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "754924ec7f354880",
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
-        }
-      },
-      {
-        "id": "c3da4e4963b94ed4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
           }
         }
       }
@@ -89,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "python/numpy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "python/numpy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "python/numpy.md"
               }
             }
           },
@@ -130,24 +109,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "c3da4e4963b94ed4",
+  "active": "d7c68efe63cde002",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Main Kanban.md",
-    "工程數學/Laplace/Convolution.md",
-    "Table of Differentiation.md",
-    "精密測量/古代的標準.md",
-    "精密測量/精密製造.md",
-    "精密測量/校正.md",
-    "工程數學/Linear Algebra/System of Equation.md",
-    "工程數學/Linear Algebra/Subspace.md",
-    "工程數學/Linear Algebra/Vector Space.md"
+    "python/numpy.md",
+    "python/time/time.time().md",
+    "python/time/time.md",
+    "python/time/struct_time.md",
+    "python/time/time.asctime().md",
+    "python/time/time.sleep().md",
+    "python/time/time.localtime().md",
+    "python/time/time.gmtime().md",
+    "python/time/time.ctime().md",
+    "Main Kanban.md"
   ]
 }
