@@ -71,13 +71,106 @@ use [[#Kirchhoff Law]] ，標每個 arc 的電流
 
 ## Branch Current Method
 
+![[Branch Current Method.png]]
 
+One current for each individual loop
+
+$$
+\begin{array}{l}
+1. & 7 = i_1 + i_2 \\
+2. & 11 - i_1 \cdot 9 - v_7 = 0 \\
+3. & v_7 + i_2 \cdot 4 = 0
+\end{array}
+$$
+
+$1.\ , \ 2.$ 是 $\text{ KVL }$
+
+## Nodal Voltage Method
+
+![[Nodal Voltage Method.png]]
+
+$$N = 4$$
+
+$$2 \text{ KCL equations are needed }$$
+
+$$
+\begin{array}{}
+\text{ Node } e_1 \text{ : } & \frac{ v - e_1 }{ x } = \frac{ e_1 }{ 4 } + \frac{ e_1 - e_2 }{ 6 } \\
+\text{ Node } e_2 \text{ : } & \frac{ v - e_2 }{ 10 } + \frac{ e_1 - e_2 }{ 6 } = \frac{ e_2 }{ 2 }
+\end{array}
+$$
+
+$$\implies 
+\left[
+\begin{array}{}
+5x + 12 & -2x \\
+-5 & 23
+\end{array}
+\right]
+\left[
+\begin{array}{}
+e_1 \\
+e_2
+\end{array}
+\right]
+=
+\left[
+12v \\
+3v
+\right]
+$$
+
+$$e_1 = \frac{ 276 + 6x }{ 105x + 276 }v$$
+
+$$e_2 = \frac{ 96 + 15x }{ 105x + 276 }v$$
+
+$$i = \frac{ 39 + 3x }{ 92 + 35x }v$$
+
+### e.g.
+
+![[Example of Nodal Voltage Method.png]]
+
+$$
+\left\{
+\begin{array}{}
+\frac{ 10 - e_1 }{ 2 } = \frac{ e_1 }{ 4 } + \frac{ e_1 - e_2 }{ 2.5 } \\
+\frac{ e_1 - e_2 }{ 2.5 } = \frac{ e_2 }{ 5 } + \frac{ e_2 - 4 }{ 1 }
+\end{array}
+\right.
+$$
+
+$$
+\left[
+\begin{array}{}
+23 & -8 \\
+-2 & 8
+\end{array}
+\right]
+\left[
+\begin{array}{}
+e_1 \\
+e_2
+\end{array}
+\right]
+=
+\left[
+\begin{array}{}
+100 \\
+20
+\end{array}
+\right]
+$$
+
+$$e_1 = \frac{ 960 }{ 168 }$$
+
+$$e_2 = \frac{ 660 }{ 168 }$$
 
 ---
 
 參考資料:
 
 電工學上課 2022-02-17
+電工學上課 2022-02-24
 
 ---
 
