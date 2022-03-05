@@ -7,8 +7,12 @@
         "id": "774d475a8fdd3157",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "電控/stm32/ioc file.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -54,6 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "電控/stm32/ioc file.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -68,5 +73,7 @@
     "currentTab": 0
   },
   "active": "774d475a8fdd3157",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "電控/stm32/ioc file.md"
+  ]
 }
