@@ -7,9 +7,10 @@
         "id": "2ca163ce55be6548",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "2022-03-05 出遊分錢.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "matrix",
+                "query": "nrf24l01",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "2022-03-05 出遊分錢.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "2022-03-05 出遊分錢.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "2022-03-05 出遊分錢.md"
               }
             }
           },
@@ -118,15 +119,15 @@
   },
   "active": "2ca163ce55be6548",
   "lastOpenFiles": [
+    "2022-03-05 出遊分錢.md",
+    "電工學/Resistive Circuit.md",
+    "電工學/Resistine Element.md",
+    "電工學/Kirchhoff's Law.md",
+    "電工學/Circuit Analysis.md",
     "Main Kanban.md",
+    "電控/arduino/nRF24L01.md",
+    "電控/arduino/Serial.md",
     "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/System of Equation.md",
-    "工程數學/Linear Algebra/Row Reduction.md",
-    "工程數學/Linear Algebra/Subspace.md",
-    "工程數學/Linear Algebra/Rank.md",
-    "工程數學/Linear Algebra/Determinant.md",
-    "工程數學/Linear Algebra/Basic Arrays.md",
-    "工程數學/Linear Algebra/Augmented Matrix.md",
-    "動力學/極座標.md"
+    "工程數學/Linear Algebra/System of Equation.md"
   ]
 }
