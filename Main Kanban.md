@@ -8,6 +8,14 @@ kanban-plugin: basic
 
 
 
+## TDK
+
+- [ ] [莫煩 numpy 教學](https://mofanpy.com/tutorials/data-manipulation/numpy/)
+- [ ] [莫煩 tensorflow 教學](https://mofanpy.com/tutorials/machine-learning/tensorflow/)
+- [ ] [莫煩 pytorch 教學](https://mofanpy.com/tutorials/machine-learning/torch/)
+- [ ] [python & opencv](https://youtu.be/oXlwWbU8l2o)
+
+
 ## 工程數學 TODO
 
 - [ ] 微分方程OCW 27
@@ -51,8 +59,6 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 電工學 HW3 @{2022-03-07}
-- [ ] 電工學 2.1~2.5
 - [ ] 工程數學 7.5
 - [ ] 工程數學 7.6
 - [ ] 資料結構
@@ -63,7 +69,6 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
-- [x] 澆水 @{2022-03-01}
 
 
 ***
@@ -90,6 +95,9 @@ kanban-plugin: basic
 - [x] 動力學 Ch12.8~12.10 @{2022-02-24}
 - [x] 機械製造 ch36
 - [x] 工程數學 7.4
+- [x] 澆水 @{2022-03-01}
+- [x] 電工學 HW3 @{2022-03-07}
+- [x] 電工學 2.1~2.5
 
 %% kanban:settings
 ```
