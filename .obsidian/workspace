@@ -4,14 +4,22 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master
         "id": "774d475a8fdd3157",
+=======
+        "id": "2ca163ce55be6548",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
+<<<<<<< master
             "file": "電控/stm32/ioc file.md",
             "mode": "source",
             "source": false
+=======
+            "file": "Main Kanban.md"
+>>>>>>> origin/master
           }
         }
       }
@@ -19,6 +27,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master
     "id": "5668959cc33d2455",
     "type": "mobile-drawer",
     "children": [
@@ -42,13 +51,46 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+    "id": "fb71a95a838000c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "matrix",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
+<<<<<<< master
     "id": "653d0d8ed567056a",
     "type": "mobile-drawer",
     "children": [
@@ -75,5 +117,81 @@
   "active": "774d475a8fdd3157",
   "lastOpenFiles": [
     "電控/stm32/ioc file.md"
+=======
+    "id": "2b98f3b73718d425",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2ca163ce55be6548",
+  "lastOpenFiles": [
+    "Main Kanban.md",
+    "工程數學/Linear Algebra/Matrix.md",
+    "工程數學/Linear Algebra/System of Equation.md",
+    "工程數學/Linear Algebra/Row Reduction.md",
+    "工程數學/Linear Algebra/Subspace.md",
+    "工程數學/Linear Algebra/Rank.md",
+    "工程數學/Linear Algebra/Determinant.md",
+    "工程數學/Linear Algebra/Basic Arrays.md",
+    "工程數學/Linear Algebra/Augmented Matrix.md",
+    "動力學/極座標.md"
+>>>>>>> origin/master
   ]
 }

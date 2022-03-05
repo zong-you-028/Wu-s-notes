@@ -26,7 +26,7 @@ a\det\left(\left[
 e & f \\
 h & i
 \end{array}
-\right)\right] - 
+\right]\right) - 
 b\det\left(\left[
 \begin{array}{}
 d & f \\
@@ -82,3 +82,4 @@ $M_{ ji } \equiv$ a determinant of the matrix of order $n - 1$ , formed for $A$ 
 
 link:
 
+[[Matrix]]
