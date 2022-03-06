@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< master
     "id": "ccf0e914bcda8438",
     "type": "split",
     "children": [
@@ -9,12 +10,27 @@
         "state": {
           "type": "empty",
           "state": {}
+=======
+    "id": "1a39ae1e8a0ad77a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c130147b27d2f3ac",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/Casting Processes.md",
+            "mode": "preview"
+          }
+>>>>>>> origin/master
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master
     "id": "68c244497e369024",
     "type": "mobile-drawer",
     "children": [
@@ -38,6 +54,37 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+    "id": "fb71a95a838000c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "nrf24l01",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
         }
       }
@@ -45,6 +92,7 @@
     "currentTab": 0
   },
   "right": {
+<<<<<<< master
     "id": "91eb52532cbf3594",
     "type": "mobile-drawer",
     "children": [
@@ -69,4 +117,81 @@
   },
   "active": "be3977a0360de61a",
   "lastOpenFiles": []
+=======
+    "id": "2b98f3b73718d425",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "機械製造/Casting Processes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "機械製造/Casting Processes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "機械製造/Casting Processes.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c130147b27d2f3ac",
+  "lastOpenFiles": [
+    "機械製造/Casting Processes.md",
+    "機械製造/Materials Processing.md",
+    "電工學/Kirchhoff's Law.md",
+    "Main Kanban.md",
+    "python/numpy.md",
+    "TDK target.md",
+    "2022-03-05 出遊分錢.md",
+    "conflict-files-obsidian-git.md",
+    "電工學/Resistive Circuit.md",
+    "電工學/Resistine Element.md"
+  ]
+>>>>>>> origin/master
 }

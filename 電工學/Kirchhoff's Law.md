@@ -165,12 +165,28 @@ $$e_1 = \frac{ 960 }{ 168 }$$
 
 $$e_2 = \frac{ 660 }{ 168 }$$
 
+## Thevenin/Norton-Equivalent-Circuit Analysis
+
+1. Perform two of these:
+	1. Determine the open-circuit voltage $V_t = v_{ oc }$
+	2. Determine the short-circuit current $I_n = i_{ sc }$
+	3. Zero the independent sources and find the Thevenin resistance $R_t$ looking back into the terminals. Do not zero dependent sources
+2. Use the equation $V_t = R_t I_n$ to compute the remaining value
+3. The Thevenin equivalent consists of a voltage source $V_t$ in series with $R_t$
+4. The Norton equivalent consists of a current source $I_n$ in parallel with $R_t$
+
+## Superposition Principle
+
+1. For each source, zero other sources and calculate current or voltage ($i_n$ or $v_n$)
+2. Add them together ($i_T = \sum_{ n } i_n$)
+
 ---
 
 參考資料:
 
 電工學上課 2022-02-17
 電工學上課 2022-02-24
+電工學上課 2022-03-03
 
 ---
 
