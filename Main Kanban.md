@@ -10,7 +10,6 @@ kanban-plugin: basic
 
 ## TDK
 
-- [ ] [莫煩 numpy 教學](https://mofanpy.com/tutorials/data-manipulation/numpy/)
 - [ ] [莫煩 tensorflow 教學](https://mofanpy.com/tutorials/machine-learning/tensorflow/)
 - [ ] [莫煩 pytorch 教學](https://mofanpy.com/tutorials/machine-learning/torch/)
 - [ ] [python & opencv](https://youtu.be/oXlwWbU8l2o)
@@ -59,16 +58,18 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 工程數學 7.5
-- [ ] 工程數學 7.6
 - [ ] 資料結構
+- [ ] [莫煩 numpy 教學](https://mofanpy.com/tutorials/data-manipulation/numpy/)
 - [ ] 動力學 13-96, 13-105 @{2022-03-10}
 - [ ] 環安訓練結束 @{2022-03-15}
+- [ ] 澆水 @{2022-03-15}
 
 
 ## Done
 
 **Complete**
+- [x] 工程數學 7.6
+- [x] 工程數學 7.5
 
 
 ***
