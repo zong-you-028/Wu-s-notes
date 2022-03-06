@@ -7,9 +7,10 @@
         "id": "c130147b27d2f3ac",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "機械製造/Casting Processes.md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "機械製造/Casting Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "機械製造/Casting Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "機械製造/Casting Processes.md"
               }
             }
           },
@@ -118,15 +119,15 @@
   },
   "active": "c130147b27d2f3ac",
   "lastOpenFiles": [
+    "機械製造/Casting Processes.md",
+    "機械製造/Materials Processing.md",
+    "電工學/Kirchhoff's Law.md",
     "Main Kanban.md",
     "python/numpy.md",
     "TDK target.md",
     "2022-03-05 出遊分錢.md",
     "conflict-files-obsidian-git.md",
     "電工學/Resistive Circuit.md",
-    "電工學/Resistine Element.md",
-    "電工學/Kirchhoff's Law.md",
-    "電工學/Circuit Analysis.md",
-    "電控/arduino/nRF24L01.md"
+    "電工學/Resistine Element.md"
   ]
 }
