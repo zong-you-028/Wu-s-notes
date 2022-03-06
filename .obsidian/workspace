@@ -1,38 +1,25 @@
 {
   "main": {
-    "id": "80631c75a7b5e000",
+    "id": "ccf0e914bcda8438",
     "type": "split",
     "children": [
       {
-<<<<<<< master
-        "id": "774d475a8fdd3157",
-=======
-        "id": "2ca163ce55be6548",
->>>>>>> origin/master
+        "id": "be3977a0360de61a",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-<<<<<<< master
-            "file": "電控/stm32/ioc file.md",
-            "mode": "source",
-            "source": false
-=======
-            "file": "Main Kanban.md"
->>>>>>> origin/master
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< master
-    "id": "5668959cc33d2455",
+    "id": "68c244497e369024",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "b0cf971523deda45",
+        "id": "dfe357b591917788",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -40,7 +27,7 @@
         }
       },
       {
-        "id": "330c86ce10e2a43d",
+        "id": "9e9da42fe537796c",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -51,56 +38,22 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-=======
-    "id": "fb71a95a838000c0",
-    "type": "split",
-    "children": [
-      {
-        "id": "43308c1ede1b488c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0a18862bcffd7fb",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "a208f910fff84cf3",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "matrix",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
->>>>>>> origin/master
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-<<<<<<< master
-    "id": "653d0d8ed567056a",
+    "id": "91eb52532cbf3594",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "aafcd5bf4ccbb32b",
+        "id": "b662654fd704221d",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "電控/stm32/ioc file.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,84 +67,6 @@
     ],
     "currentTab": 0
   },
-  "active": "774d475a8fdd3157",
-  "lastOpenFiles": [
-    "電控/stm32/ioc file.md"
-=======
-    "id": "2b98f3b73718d425",
-    "type": "split",
-    "children": [
-      {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Main Kanban.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Main Kanban.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Main Kanban.md"
-              }
-            }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "active": "2ca163ce55be6548",
-  "lastOpenFiles": [
-    "Main Kanban.md",
-    "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/System of Equation.md",
-    "工程數學/Linear Algebra/Row Reduction.md",
-    "工程數學/Linear Algebra/Subspace.md",
-    "工程數學/Linear Algebra/Rank.md",
-    "工程數學/Linear Algebra/Determinant.md",
-    "工程數學/Linear Algebra/Basic Arrays.md",
-    "工程數學/Linear Algebra/Augmented Matrix.md",
-    "動力學/極座標.md"
->>>>>>> origin/master
-  ]
+  "active": "be3977a0360de61a",
+  "lastOpenFiles": []
 }
