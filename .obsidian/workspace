@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-03-05 出遊分錢.md",
-            "mode": "source",
+            "file": "工程數學/Linear Algebra/Determinant.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2022-03-05 出遊分錢.md",
+            "file": "工程數學/Linear Algebra/Determinant.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,6 +74,7 @@
   },
   "active": "be3977a0360de61a",
   "lastOpenFiles": [
+    "工程數學/Linear Algebra/Determinant.md",
     "2022-03-05 出遊分錢.md"
   ]
 }
