@@ -106,6 +106,136 @@ $$A = [a_{ ji }] \ \rightarrow \ A^T = [a_{ ij }]$$
 - $(cA)^T = cA^T$
 - $(AB)^T = B^T A^T$
 
+## Inverse of Matrix
+
+$$[ A \vert I ] \overset{ \text{ row operation } }{ \implies } [ I \vert A^{ -1 } ]$$
+
+### e.g.
+
+$$
+A = 
+\left[ 
+\begin{array}{}
+-1 & 1 & 2 \\
+2 & -1 & 1 \\
+-1 & 1 & 3
+\end{array}
+\right]
+$$
+
+$$
+[A\vert I] = 
+\left[
+	\begin{array}{}
+		-1 & 1 & 2 \\
+		2 & -1 & 1 \\
+		-1 & 1 & 3
+	\end{array}
+\right.
+\left\vert
+	\begin{array}{}
+		1 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 1
+	\end{array}
+\right]
+$$
+
+$$
+=
+\left[
+	\begin{array}{}
+		-1 & 1 & 2 \\
+		0 & 1 & 5 \\
+		0 & 0 & 1
+	\end{array}
+\right.
+\left\vert
+	\begin{array}{}
+		1 & 0 & 0 \\
+		2 & 1 & 0 \\
+		-1 & 0 & 1
+	\end{array}
+\right]
+$$
+
+$$
+=
+\left[
+	\begin{array}{}
+		-1 & 1 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 1
+	\end{array}
+\right.
+\left\vert
+	\begin{array}{}
+		3 & 0 & -2 \\
+		7 & 1 & -5 \\
+		-1 & 0 & 1
+	\end{array}
+\right]
+$$
+
+$$
+=
+\left[
+	\begin{array}{}
+		-1 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 1
+	\end{array}
+\right.
+\left\vert
+	\begin{array}{}
+		-4 & -1 & 3 \\
+		7 & 1 & -5 \\
+		-1 & 0 & 1
+	\end{array}
+\right]
+$$
+
+$$
+=
+\left[
+	\begin{array}{}
+		1 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 1
+	\end{array}
+\right.
+\left\vert
+	\begin{array}{}
+		4 & 1 & -3 \\
+		7 & 1 & -5 \\
+		-1 & 0 & 1
+	\end{array}
+\right]
+$$
+
+$$
+\implies
+A^{ -1 } = 
+\left[
+	\begin{array}{}
+		4 & 1 & -3 \\
+		7 & 1 & -5 \\
+		-1 & 0 & 1
+	\end{array}
+\right]
+$$
+
+### Rules
+
+1. $A$ must be square
+2. Even $A$ is square, $A^{ -1 }$ might not exist ($A$ is singular)
+If $A$ exist, $A$ is non-singular
+3. Product properties
+	1. $(AC)^{ -1 } = C^{ -1 }A^{ -1 }$
+	2. $AB = 0$ does not mean $A = 0$ or $B = 0$
+	3. $AC = AD$ does not mean $C = D$ (even if $A \neq 0$)
+4. $\det(AB) = \det(A) \times \det(B)$
+
 # Others
 
 - Symmetric

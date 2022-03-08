@@ -193,3 +193,4 @@ $$e_2 = \frac{ 660 }{ 168 }$$
 link:
 
 [[Cramer's Rule]]
+[[Thevenin Circuit]]

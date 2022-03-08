@@ -1,80 +1,125 @@
 {
   "main": {
-    "id": "ccf0e914bcda8438",
+    "id": "1a39ae1e8a0ad77a",
     "type": "split",
     "children": [
       {
-        "id": "be3977a0360de61a",
+        "id": "987c55cea116e889",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Linear Algebra/Determinant.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "68c244497e369024",
-    "type": "mobile-drawer",
+    "id": "fb71a95a838000c0",
+    "type": "split",
     "children": [
       {
-        "id": "dfe357b591917788",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "9e9da42fe537796c",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "nrf",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "91eb52532cbf3594",
-    "type": "mobile-drawer",
+    "id": "2b98f3b73718d425",
+    "type": "split",
     "children": [
       {
-        "id": "b662654fd704221d",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "工程數學/Linear Algebra/Determinant.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        }
+        ],
+        "currentTab": 2
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "be3977a0360de61a",
+  "active": "987c55cea116e889",
   "lastOpenFiles": [
-    "工程數學/Linear Algebra/Determinant.md",
-    "2022-03-05 出遊分錢.md"
+    "電控/arduino/nRF24L01.md",
+    "動力學/極座標.md",
+    "動力學/切線座標.md",
+    "Main Kanban.md",
+    "工程數學/First Order DE/Table of Differentiation.md",
+    "工程數學/Linear Algebra/Matrix.md",
+    "電工學/Cramer's Rule.md",
+    "工程數學/Linear Algebra/Gauss Elimination.md",
+    "工程數學/Linear Algebra/System of Equation.md",
+    "工程數學/Linear Algebra/Determinant.md"
   ]
 }
