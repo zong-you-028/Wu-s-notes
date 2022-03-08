@@ -10,6 +10,17 @@
           "type": "empty",
           "state": {}
         }
+      },
+      {
+        "id": "718aabd07c3f7b5e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -65,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
@@ -109,8 +124,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "987c55cea116e889",
+  "active": "718aabd07c3f7b5e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "電控/arduino/nRF24L01.md",
     "動力學/極座標.md",
     "動力學/切線座標.md",
@@ -119,7 +135,6 @@
     "工程數學/Linear Algebra/Matrix.md",
     "電工學/Cramer's Rule.md",
     "工程數學/Linear Algebra/Gauss Elimination.md",
-    "工程數學/Linear Algebra/System of Equation.md",
-    "工程數學/Linear Algebra/Determinant.md"
+    "工程數學/Linear Algebra/System of Equation.md"
   ]
 }
