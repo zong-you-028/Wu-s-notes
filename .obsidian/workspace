@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae2e6f33b2ea9420",
+        "id": "1a22314276fdf767",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "AQMD6010BLS.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -52,8 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AQMD6010BLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AQMD6010BLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AQMD6010BLS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -118,9 +110,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ae2e6f33b2ea9420",
+  "active": "1a22314276fdf767",
   "lastOpenFiles": [
-    "AQMD6010BLS.md",
+    "AQMD6010BLS Slide.md",
+    "電控/arduino/AQMD6010BLS.md",
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電控/arduino/nRF24L01.md",
@@ -128,7 +121,6 @@
     "動力學/切線座標.md",
     "工程數學/First Order DE/Table of Differentiation.md",
     "工程數學/Linear Algebra/Matrix.md",
-    "電工學/Cramer's Rule.md",
-    "工程數學/Linear Algebra/Gauss Elimination.md"
+    "電工學/Cramer's Rule.md"
   ]
 }
