@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "987c55cea116e889",
+        "id": "ae2e6f33b2ea9420",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "AQMD6010BLS.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nrf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -51,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "AQMD6010BLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "AQMD6010BLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "AQMD6010BLS.md"
               }
             }
           },
@@ -113,10 +115,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "987c55cea116e889",
+  "active": "ae2e6f33b2ea9420",
   "lastOpenFiles": [
+    "AQMD6010BLS.md",
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電控/arduino/nRF24L01.md",
@@ -125,7 +129,6 @@
     "工程數學/First Order DE/Table of Differentiation.md",
     "工程數學/Linear Algebra/Matrix.md",
     "電工學/Cramer's Rule.md",
-    "工程數學/Linear Algebra/Gauss Elimination.md",
-    "工程數學/Linear Algebra/System of Equation.md"
+    "工程數學/Linear Algebra/Gauss Elimination.md"
   ]
 }
