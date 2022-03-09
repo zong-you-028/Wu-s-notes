@@ -4,11 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "1a22314276fdf767",
+        "id": "fd76be8d3ee2ed9c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -36,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "matrix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
           },
           {
@@ -107,20 +113,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1a22314276fdf767",
+  "active": "fd76be8d3ee2ed9c",
   "lastOpenFiles": [
+    "Main Kanban.md",
+    "工程數學/Higher Order DE/Eigenvalue.md",
+    "工程數學/Linear Algebra/Matrix.md",
+    "動力學/極座標.md",
+    "README.md",
     "AQMD6010BLS Slide.md",
     "電控/arduino/AQMD6010BLS.md",
-    "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電控/arduino/nRF24L01.md",
-    "動力學/極座標.md",
-    "動力學/切線座標.md",
-    "工程數學/First Order DE/Table of Differentiation.md",
-    "工程數學/Linear Algebra/Matrix.md",
-    "電工學/Cramer's Rule.md"
+    "動力學/切線座標.md"
   ]
 }

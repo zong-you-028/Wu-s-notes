@@ -268,6 +268,47 @@ $$
 \right]
 $$
 
+# Transform Vectors
+
+$$\vec{ v }_{ \text{ out } } = A \vec{ v }_{ \text{ in } }$$
+
+- Vectors whose direction is not changed by the transformation $A$ are called [[Eigenvector]] of $A$
+- [[Eigenvalue]] are the multiples by which $A$ changes the eigenvector
+
+## Scaling-Matrix
+
+$$
+A = 
+\left[
+	\begin{array}{}
+		s_x & 0 \\
+		0 & s_y
+	\end{array}
+\right]
+$$
+
+$$
+=
+\left[
+	\begin{array}{}
+	\end{array}
+\right]
+$$
+
+## Rotation-Matrix
+
+$$
+A = 
+\left[
+	\begin{array}{}
+		\cos \theta & -\sin \theta \\
+		\sin \theta & \cos \theta
+	\end{array}
+\right]
+$$
+
+$$\text{ rotate counter clockwise } \theta \degree$$
+
 ---
 
 參考資料:
@@ -278,3 +319,5 @@ $$
 
 link:
 
+[[Eigenvalue]]
+[[Eigenvector]]
