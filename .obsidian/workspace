@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "fd76be8d3ee2ed9c",
+        "id": "efadb33bc925167e",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -115,17 +115,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "fd76be8d3ee2ed9c",
+  "active": "efadb33bc925167e",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "README.md",
+    "2022-03-05 出遊分錢.md",
     "工程數學/Higher Order DE/Eigenvalue.md",
     "工程數學/Linear Algebra/Matrix.md",
     "動力學/極座標.md",
-    "README.md",
     "AQMD6010BLS Slide.md",
     "電控/arduino/AQMD6010BLS.md",
     "conflict-files-obsidian-git.md",
-    "電控/arduino/nRF24L01.md",
-    "動力學/切線座標.md"
+    "電控/arduino/nRF24L01.md"
   ]
 }
