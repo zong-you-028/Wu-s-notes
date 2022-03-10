@@ -62,7 +62,7 @@ $\therefore$ Final form of $1^{ \text{ st } }$ law of Thermodynamics
 $$\underline{ \frac{ dE_{ cv } }{ dt } = \dot{ Q }_{ cv } - \dot{ W }_{ cv } + \sum \dot{ m }_{ i }(h_i + \frac{ v_i^2 }{2} + gz_i) - \sum \dot{ m }_e (h_e + \frac{ 1 }{ 2 }v_e^2 + gz_e) }_{ \# }$$
 
 > [[Heat]]
-> [[Work]]
+> [[Archived/Thermodynamics/Work]]
 
 ## Total [[Enthalpy]] $h_{ tot }$
 

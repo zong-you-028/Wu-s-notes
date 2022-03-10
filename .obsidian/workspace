@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "efadb33bc925167e",
+        "id": "58e48678782231b8",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "電工學/Amplifier.md",
+            "mode": "preview"
           }
         }
       }
@@ -17,70 +18,116 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "405a2ed6f59a6a6f",
-    "type": "mobile-drawer",
+    "id": "fb71a95a838000c0",
+    "type": "split",
     "children": [
       {
-        "id": "a9ae756eeede99a1",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "3db8e8da36d034a7",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "insert",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "matrix",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "ef60faf36467edd8",
-    "type": "mobile-drawer",
+    "id": "2b98f3b73718d425",
+    "type": "split",
     "children": [
       {
-        "id": "f42e7df3218f75e6",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Main Kanban.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "電工學/Amplifier.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769194c49237a63d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "電工學/Amplifier.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541aca282ec79817",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "電工學/Amplifier.md"
+              }
+            }
+          },
+          {
+            "id": "2f9d0fd4da0d1db9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        }
+        ],
+        "currentTab": 2
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "efadb33bc925167e",
+  "active": "58e48678782231b8",
   "lastOpenFiles": [
+    "電工學/Amplifier.md",
+    "動力學/Work.md",
     "Main Kanban.md",
+    "OpenCV.md",
     "README.md",
     "2022-03-05 出遊分錢.md",
     "工程數學/Higher Order DE/Eigenvalue.md",
     "工程數學/Linear Algebra/Matrix.md",
     "動力學/極座標.md",
-    "AQMD6010BLS Slide.md",
-    "電控/arduino/AQMD6010BLS.md",
-    "conflict-files-obsidian-git.md",
-    "電控/arduino/nRF24L01.md"
+    "AQMD6010BLS Slide.md"
   ]
 }

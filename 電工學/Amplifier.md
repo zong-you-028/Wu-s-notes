@@ -51,6 +51,63 @@ $n$: negative (Inverting terminal)
 | Ideal OP amp     | $$\infty$$   | $$0$$          |                    |              |
 | Practical OP amp | $$1M\Omega$$ | $$100 \Omega$$ | $$10^5 \sim 10^6$$ | $$15V$$      | 
 
+# Amplifier Usages
+
+## Non-inverting Amplifier
+
+![[Non-inverting Amplifier.png]]
+
+Assuming that $r_i = \infty$ and $r_0 = 0$ ,
+
+$$1. \quad i_p = i_n = 0$$
+.
+$$2. \quad v_n = \underbrace{ v_{ in } }_{ v_p } - v_d$$
+.
+$$3. \quad v_n = Bv_{ out } = B(Av_d)$$
+$$B = \frac{ R_1 }{ R_F + R_1 } \qquad \text{ voltage divider }$$
+.
+$$2. = 3. \implies v_{ in } - v_d = BAv_d$$
+$$\frac{ v_d }{ v_{ in } } = \frac{ 1 }{ 1 + AB }$$
+$$\frac{ v_0 }{ v_{ in } } = \frac{ A }{ 1 + AB }$$
+
+## Voltage Follower (Unit Gain Buffer)
+
+![[Voltage Follower (Unit Gain Buffer).png]]
+
+## Inverting Amplifier
+
+![[Inverting Amplifier.png]]
+
+Assuming $v_d \simeq 0$, 
+
+$$i_i = \frac{ v_{ in } }{ R_1 }$$
+
+$$v_0 = -i_1 \cdot R_F$$
+
+$$\implies \frac{ v_0 }{ v_{ in } } = \frac{ -R_F }{ R_1 }$$
+
+## Summing Amplifier
+
+![[Summing Amplifier.png]]
+
+$R_F$: Feedback 回授
+
+Assuming 
+$$v_d \simeq 0$$
+$$i_n = 0$$
+.
+$$v_0 = -\left(\frac{ R_F }{ R_1 }v_1 + \frac{ R_F }{ R_2 }v_2\right)$$
+
+## Difference Amplifier
+
+![[Difference Amplifier.png]]
+
+$$1. \quad v_p = v_2 \times \frac{ R_F }{ R_2 + R_F }$$
+
+$$2. \quad \frac{ v_1 - v_n }{ R_1 } = i_1$$
+
+$$\vdots$$
+
 ---
 
 參考資料:
