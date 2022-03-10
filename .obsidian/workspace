@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "58e48678782231b8",
+        "id": "b2f3cb528c504752",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電工學/Amplifier.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電工學/Amplifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電工學/Amplifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "電工學/Amplifier.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,12 +110,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "58e48678782231b8",
+  "active": "b2f3cb528c504752",
   "lastOpenFiles": [
     "電工學/Amplifier.md",
     "動力學/Work.md",
     "Main Kanban.md",
-    "OpenCV.md",
+    "python/OpenCV.md",
     "README.md",
     "2022-03-05 出遊分錢.md",
     "工程數學/Higher Order DE/Eigenvalue.md",
