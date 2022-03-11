@@ -7,9 +7,11 @@
         "id": "efadb33bc925167e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "電控/arduino/nRF24L01.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -34,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "insert",
+            "query": "nrf",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -56,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Main Kanban.md",
+            "file": "電控/arduino/nRF24L01.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -72,6 +74,7 @@
   },
   "active": "efadb33bc925167e",
   "lastOpenFiles": [
+    "電控/arduino/nRF24L01.md",
     "Main Kanban.md",
     "README.md",
     "2022-03-05 出遊分錢.md",
@@ -80,7 +83,6 @@
     "動力學/極座標.md",
     "AQMD6010BLS Slide.md",
     "電控/arduino/AQMD6010BLS.md",
-    "conflict-files-obsidian-git.md",
-    "電控/arduino/nRF24L01.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
