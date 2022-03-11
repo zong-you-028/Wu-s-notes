@@ -13,6 +13,17 @@
             "mode": "preview"
           }
         }
+      },
+      {
+        "id": "2ada7af790cc788d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -69,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電控/arduino/nRF24L01.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電控/arduino/nRF24L01.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電控/arduino/nRF24L01.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -118,8 +129,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5a46b827c5446313",
+  "active": "2ada7af790cc788d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "電控/arduino/nRF24L01.md",
     "Main Kanban.md",
     "電工學/Power Transfer.md",
@@ -128,7 +140,6 @@
     "電工學/Cramer's Rule.md",
     "電工學/Circuit Analysis.md",
     "電工學/Amplifier.md",
-    "python/OpenCV.md",
-    "Untitled.md"
+    "python/OpenCV.md"
   ]
 }
