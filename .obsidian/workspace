@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Power Transfer.md",
+            "file": "電工學/Kirchhoff's Law.md",
             "mode": "preview",
             "source": false
           }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "電工學/Power Transfer.md",
+            "file": "電工學/Kirchhoff's Law.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,6 +74,7 @@
   },
   "active": "efadb33bc925167e",
   "lastOpenFiles": [
+    "電工學/Kirchhoff's Law.md",
     "電工學/Power Transfer.md",
     "電控/arduino/nRF24L01.md",
     "Main Kanban.md",
@@ -82,7 +83,6 @@
     "工程數學/Higher Order DE/Eigenvalue.md",
     "工程數學/Linear Algebra/Matrix.md",
     "動力學/極座標.md",
-    "AQMD6010BLS Slide.md",
-    "電控/arduino/AQMD6010BLS.md"
+    "AQMD6010BLS Slide.md"
   ]
 }
