@@ -12,17 +12,6 @@
             "file": "Main Kanban.md"
           }
         }
-      },
-      {
-        "id": "cd91084102284b63",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -86,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Main Kanban.md"
               }
             }
           }
@@ -126,12 +115,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cd91084102284b63",
+  "active": "14348d3b38066a5d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Main Kanban.md",
-    "README.md",
     "電控/arduino/PS2X_lib.h.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "電工學/Kirchhoff's Law.md",
     "電工學/Cramer's Rule.md",
     "電工學/Circuit Analysis.md",
