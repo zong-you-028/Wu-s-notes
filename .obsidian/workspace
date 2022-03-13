@@ -12,6 +12,17 @@
             "file": "Main Kanban.md"
           }
         }
+      },
+      {
+        "id": "cd91084102284b63",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -75,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -104,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -115,8 +126,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "14348d3b38066a5d",
+  "active": "cd91084102284b63",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Main Kanban.md",
     "README.md",
     "電控/arduino/PS2X_lib.h.md",
@@ -125,7 +137,6 @@
     "電工學/Circuit Analysis.md",
     "電工學/Amplifier.md",
     "電工學/Power Transfer.md",
-    "電控/arduino/nRF24L01.md",
-    "2022-03-05 出遊分錢.md"
+    "電控/arduino/nRF24L01.md"
   ]
 }
