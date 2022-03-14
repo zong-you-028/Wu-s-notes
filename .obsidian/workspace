@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
             "mode": "preview",
             "source": false
           }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,6 +74,7 @@
   },
   "active": "efadb33bc925167e",
   "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Fourier Series.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
     "工程數學/Linear Algebra/Matrix.md",
     "電工學/Kirchhoff's Law.md",
@@ -82,7 +83,6 @@
     "Main Kanban.md",
     "README.md",
     "2022-03-05 出遊分錢.md",
-    "工程數學/Higher Order DE/Eigenvalue.md",
-    "動力學/極座標.md"
+    "工程數學/Higher Order DE/Eigenvalue.md"
   ]
 }
