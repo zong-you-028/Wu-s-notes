@@ -4,14 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "efadb33bc925167e",
+        "id": "14348d3b38066a5d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Algebra/Matrix.md",
-            "mode": "preview",
-            "source": false
+            "file": "電控/arduino/AQMD6010BLS.md",
+            "mode": "preview"
           }
         }
       }
@@ -19,70 +18,116 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "405a2ed6f59a6a6f",
-    "type": "mobile-drawer",
+    "id": "d78309d6c9c6be7f",
+    "type": "split",
     "children": [
       {
-        "id": "a9ae756eeede99a1",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "3db8e8da36d034a7",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Skew ",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "88204b37304c4a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d174e9f132ca6927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "55c83ce158d03dbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "aq",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
-    "currentTab": 1
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "ef60faf36467edd8",
-    "type": "mobile-drawer",
+    "id": "f4e408fb0f04a12b",
+    "type": "split",
     "children": [
       {
-        "id": "f42e7df3218f75e6",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "工程數學/Linear Algebra/Matrix.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ecbff55651476b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1838da437cad3e40",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "463e52693050aac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "電控/arduino/AQMD6010BLS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f30f09bb5eea926a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "電控/arduino/AQMD6010BLS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26db12797d56d725",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "電控/arduino/AQMD6010BLS.md"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "efadb33bc925167e",
+  "active": "14348d3b38066a5d",
   "lastOpenFiles": [
-    "工程數學/Linear Algebra/Matrix.md",
-    "電工學/Kirchhoff's Law.md",
-    "電工學/Power Transfer.md",
-    "電控/arduino/nRF24L01.md",
+    "電控/arduino/AQMD6010BLS.md",
     "Main Kanban.md",
+    "電控/arduino/PS2X_lib.h.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
-    "2022-03-05 出遊分錢.md",
-    "工程數學/Higher Order DE/Eigenvalue.md",
-    "動力學/極座標.md",
-    "AQMD6010BLS Slide.md"
+    "電工學/Kirchhoff's Law.md",
+    "電工學/Cramer's Rule.md",
+    "電工學/Circuit Analysis.md",
+    "電工學/Amplifier.md",
+    "電工學/Power Transfer.md"
   ]
 }
