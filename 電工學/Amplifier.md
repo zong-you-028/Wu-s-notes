@@ -6,7 +6,23 @@
 
 $$\underbrace{ y(t) }_{ \text{ Output } } = \underbrace{ A }_{ \text{ Gain (fixed) } } \underbrace{ x(t) }_{ \text{ Input } }$$
 
-## Practical Amplifier
+## Voltage Gain
+
+$$v_o(t) = A_v v_i(t)$$
+
+$A_v$: Voltage Gain
+
+## Current Gain
+
+$$A_i = \frac{ i_o }{ i_i } = \frac{ v_o / R_L }{ v_i / R_i } = A_v \frac{ R_i }{ R_L }$$
+
+## Power Gain
+
+$$G = \frac{ P_o }{ P_i } = \frac{ V_o I_o }{ V_i I_i } = A_v A_i = (A_v)^2 \frac{ R_i }{ R_L }$$
+
+## Practical and Ideal Amplifiers
+
+### Practical Amplifier
 
 ![[Practical Amplifier.png]]
 
@@ -15,21 +31,21 @@ $$y(t) = \underbrace{ A(x, t, T) }_{ \text{ Nonlinear } } \cdot (x(t) + x_{ \tex
 $t$: time
 $T$: temperature
 
-## Ideal Voltage Amplifier
+### Ideal Voltage Amplifier
 
 ![[Ideal Voltage Amplifier.png]]
 
 $A$: Voltage Gain
 
-## Ideal Current Amplifier
+### Ideal Current Amplifier
 
 ![[Ideal Current Amplifier.png]]
 
-## Practical Current Amplifier
+### Practical Current Amplifier
 
 ![[Practical Current Amp.png]]
 
-## Voltage Controlled Current Source
+### Voltage Controlled Current Source
 
 ![[Voltage Controlled Current Source.png]]
 
