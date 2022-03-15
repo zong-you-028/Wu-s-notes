@@ -209,7 +209,106 @@ find [[Eigenvector]]s $\vec{ n }$ (principal stresses)
 
 Using eigenvectors to find equilibrium (limit state)
 
+$$A\vec{ x } = \vec{ x } = \underbrace{ 1 }_{ \text{ eigenvalue } } \cdot \underbrace{ \vec{ x } }_{ \text{ eigenvector } }$$
 
+$$
+\left[
+	\begin{array}{}
+		0.7 - 1 & 0.1 & 0 \\
+		0.2 & 0.9 - 1 & 0.2 \\
+		0.1 & 0 & 0.8 - 1
+	\end{array}
+\right] = 0
+$$
+
+$$
+\implies 
+\left[
+	\begin{array}{}
+		-0.3 & 0.1 & 0 \\
+		0.2 & -0.1 & 0.2 \\
+		0.1 & 0 & -0.2
+	\end{array}
+\right] = 0
+$$
+
+$$
+\overset{ \text{ Gauss Elimination } }{ \implies }
+\left[
+	\begin{array}{}
+		-\frac{ 3 }{ 10 } & \frac{ 1 }{ 10 } & 0 \\
+		0 & -\frac{ 1 }{ 30 } & \frac{ 1 }{ 5 } \\
+		0 & 0 & 0
+	\end{array}
+\right\vert
+\left.
+	\begin{array}{}
+		0 \\
+		0 \\
+		0
+	\end{array}
+\right]
+$$
+
+$$
+\vec{ x }_{ \text{ limit } } = 
+\underbrace{
+\left[
+	\begin{array}{}
+		2 \\
+		6 \\
+		1
+	\end{array}
+\right]
+}_{ \text{ eventual distribution of frogs } }
+$$
+
+# Properties of Eigenvalue Problems
+
+## Multiplicity
+
+1. Repeated eigenvalue (e.g. $\lambda_{ 1, 2 } = 3$), the number of times reapeated is ==Algebraic Multiplicity== ($M_\lambda$) of $\lambda$
+2. For an eigenvalue $x$, number of linearly independent [[Eigenvector]] that correspond to $\lambda$ is called the geometric multiplicity of $\lambda$ ($m_\lambda$)
+3. $m_\lambda \leq M_\lambda$
+4. $\Delta_\lambda = M_\lambda - m_\lambda$ is called the defect of $\lambda$
+
+## Eigenspace
+
+If $\vec{ w }$ and $\vec{ x }$ are eigenvectors of $A$ corresponding the same eigenvalue $\lambda$, then:
+
+- $\vec{ z } = \vec{ w } + \vec{ x }$ is also and [[Eigenvector]]
+- $\vec{ y } = k\vec{ x }$ is also an [[Eigenvector]]
+- eigenvectors of the same eigenvalue $\lambda$, along with the zero vector $\vec{ 0 }$ forms and eigenspace
+
+## Normalization
+
+Only direction is important for and eigenvector, magnitude doesn't matter
+
+$$\vec{ x } = \left[ \begin{array}{} 1 \\ 2 \end{array} \right] \overset{ \text{ normalize } }{ = } \left[ \begin{array}{} \frac{ 1 }{ \sqrt{ 5 } } \\ \frac{ 2 }{ \sqrt{ 5 } } \end{array} \right]$$
+
+$$\vert\vert \vec{ x } \vert\vert = \sqrt{ 1^2 + 2^2 } = \sqrt{ 5 }$$
+
+## Transpose
+
+$A^T$ has same eigenvalue as $A$
+
+==But== eigenvectors may be different
+
+## Extra
+
+$$A = R + S$$
+
+$A$: Any real square matrix
+$R$: Symmetric matrix 
+$S$: Skew symmetric matrix
+
+$$R = \frac{ 1 }{ 2 }(A + A^T)$$
+$$S = \frac{ 1 }{ 2 }(A - A^T)$$
+$$A = \frac{ 1 }{ 2 }(A + A^T) + \frac{ 1 }{ 2 }(A - A^T)$$
+$$ = R + S$$
+
+1. Eigenvalue of $R$ is real
+2. Eigenvalue of $S$ is pure imaginary
 
 ---
 
@@ -224,3 +323,4 @@ link:
 
 [[Matrices]]
 [[Normal Stress]]
+[[Gauss Elimination]]

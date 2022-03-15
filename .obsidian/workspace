@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "工程數學/Higher Order DE/Eigenvalue.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -110,12 +110,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "295312cf6251bbb4",
   "lastOpenFiles": [
