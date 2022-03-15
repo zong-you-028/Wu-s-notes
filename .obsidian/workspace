@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "電控/arduino/AQMD6010BLS.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",

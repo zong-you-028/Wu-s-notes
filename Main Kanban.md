@@ -8,13 +8,6 @@ kanban-plugin: basic
 
 
 
-## TDK
-
-- [ ] [莫煩 tensorflow 教學](https://mofanpy.com/tutorials/machine-learning/tensorflow/)
-- [ ] [莫煩 pytorch 教學](https://mofanpy.com/tutorials/machine-learning/torch/)
-- [ ] [python & opencv](https://youtu.be/oXlwWbU8l2o)
-
-
 ## 工程數學 TODO
 
 - [ ] 微分方程OCW 27
@@ -63,18 +56,25 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 總集會 @{2022-03-14}
-- [ ] 環安訓練結束 @{2022-03-15}
 - [ ] 澆水 @{2022-03-15}
 - [ ] 5.5.2 @{2022-03-16}
 - [ ] 動力學 14.1 ~ 14.4 <br>(寫到Ex14.4)@{2022-03-17}
 - [ ] 軟體組 meeting @{2022-03-17}
+- [ ] 電工學 Ch10 5題 @{2022-03-17}
+- [ ] 動力學 14.4 ~ 14.5 五題 @{2022-03-17}
+- [ ] 環安訓練考試 @{2022-03-18}
 - [ ] 撰寫辨識字母code @{2022-03-21}
+- [ ] 電工學 Ch10 5題 @{2022-03-21}
+- [ ] 總集會 @{2022-03-21}
+- [ ] 工程數學 midterm 1 @{2022-03-21}
+- [ ] 工程數學 project 1 @{2022-04-04}
 
 
 ## Done
 
 **Complete**
+- [x] 總集會 @{2022-03-14}
+- [x] 環安訓練結束 @{2022-03-15}
 
 
 ***
