@@ -20,6 +20,12 @@ $$A_i = \frac{ i_o }{ i_i } = \frac{ v_o / R_L }{ v_i / R_i } = A_v \frac{ R_i }
 
 $$G = \frac{ P_o }{ P_i } = \frac{ V_o I_o }{ V_i I_i } = A_v A_i = (A_v)^2 \frac{ R_i }{ R_L }$$
 
+## Cascaded Amplifiers
+
+當多個 Amplifier 串接在一起
+
+$$A_v = A_{ v1 } A_{ v2 }$$
+
 ## Practical and Ideal Amplifiers
 
 ### Practical Amplifier

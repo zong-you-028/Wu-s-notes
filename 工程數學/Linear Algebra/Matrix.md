@@ -268,6 +268,10 @@ $$
 \right]
 $$
 
+- [[Orthogonal Matrix]]
+
+$$A^T = A^{ -1 }$$
+
 # Transform Vectors
 
 $$\vec{ v }_{ \text{ out } } = A \vec{ v }_{ \text{ in } }$$
