@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0c498865d89f77d8",
+        "id": "0bf607372a7976f5",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "matrix",
+                "query": "stm32",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,11 +113,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "0c498865d89f77d8",
+  "active": "0bf607372a7976f5",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "電控/stm32/PS2 (DS2).md",
     "工程數學/Orthogonal Matrix.md",
     "工程數學/Linear Algebra/Matrix.md",
     "工程數學/Linear Algebra/Determinant.md",
@@ -125,7 +127,6 @@
     "工程數學/Higher Order DE/Eigenvector.md",
     "電工學/Amplifier.md",
     "動力學/切線座標.md",
-    "動力學/曲率半徑.md",
-    "工程數學/Higher Order DE/Eigenvalue.md"
+    "動力學/曲率半徑.md"
   ]
 }
