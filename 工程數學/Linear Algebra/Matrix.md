@@ -287,13 +287,7 @@ A =
 \right]
 $$
 
-$$
-=
-\left[
-	\begin{array}{}
-	\end{array}
-\right]
-$$
+
 
 ## Rotation-Matrix
 

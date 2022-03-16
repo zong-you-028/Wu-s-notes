@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "file": "工程數學/Linear Algebra/Matrix.md",
             "mode": "preview",
             "source": false
           }
@@ -36,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "orthogonal",
+            "query": "Rotation matrix",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "file": "工程數學/Linear Algebra/Matrix.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,9 +74,9 @@
   },
   "active": "efadb33bc925167e",
   "lastOpenFiles": [
+    "工程數學/Linear Algebra/Matrix.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/Linear Algebra/Matrix.md",
     "電工學/Kirchhoff's Law.md",
     "電工學/Power Transfer.md",
     "電控/arduino/nRF24L01.md",
