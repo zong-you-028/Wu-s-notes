@@ -7,8 +7,11 @@
         "id": "b3207d3b063e6e43",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "電控/電路/TDK2021電路圖.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tesseract",
+                "query": "電路圖",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "電控/電路/TDK2021電路圖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "電控/電路/TDK2021電路圖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "電控/電路/TDK2021電路圖.md"
+              }
             }
           }
         ],
@@ -112,15 +120,15 @@
   },
   "active": "b3207d3b063e6e43",
   "lastOpenFiles": [
+    "電控/電路/TDK2021電路圖.md",
+    "iTron會議紀錄/2021-09-01 iTron TDK 討論.md",
+    "iTron會議紀錄/2021-07-26 iTron TDK討論.md",
+    "iTron會議紀錄/2021-10-14 TDK 工作周報第二階段.md",
+    "iTron會議紀錄/2021-08-07 iTron TDK 討論.md",
+    "電控/stm32/PS2 (DS2).md",
     "Error.md",
     "python/Tensorflow.md",
     "Tesseract.md",
-    "Main Kanban.md",
-    "電控/stm32/PS2 (DS2).md",
-    "工程數學/Orthogonal Matrix.md",
-    "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/Determinant.md",
-    "工程數學/Orthogonal Functions/Orthogonal.md",
-    "工程數學/Higher Order DE/Eigenvector.md"
+    "Main Kanban.md"
   ]
 }
