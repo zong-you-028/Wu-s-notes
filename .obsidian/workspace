@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8b95461b97c8c1c3",
+        "id": "b3207d3b063e6e43",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -110,8 +110,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8b95461b97c8c1c3",
+  "active": "b3207d3b063e6e43",
   "lastOpenFiles": [
+    "Error.md",
     "python/Tensorflow.md",
     "Tesseract.md",
     "Main Kanban.md",
@@ -120,7 +121,6 @@
     "工程數學/Linear Algebra/Matrix.md",
     "工程數學/Linear Algebra/Determinant.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
-    "工程數學/Higher Order DE/Eigenvector.md",
-    "電工學/Amplifier.md"
+    "工程數學/Higher Order DE/Eigenvector.md"
   ]
 }
