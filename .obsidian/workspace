@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0bf607372a7976f5",
+        "id": "8b95461b97c8c1c3",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -38,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stm32",
+                "query": "tesseract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Main Kanban.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -116,8 +110,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0bf607372a7976f5",
+  "active": "8b95461b97c8c1c3",
   "lastOpenFiles": [
+    "python/Tensorflow.md",
+    "Tesseract.md",
     "Main Kanban.md",
     "電控/stm32/PS2 (DS2).md",
     "工程數學/Orthogonal Matrix.md",
@@ -125,8 +121,6 @@
     "工程數學/Linear Algebra/Determinant.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
     "工程數學/Higher Order DE/Eigenvector.md",
-    "電工學/Amplifier.md",
-    "動力學/切線座標.md",
-    "動力學/曲率半徑.md"
+    "電工學/Amplifier.md"
   ]
 }
