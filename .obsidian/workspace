@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/arduino/AQMD6010BLS.md",
+            "file": "Archived/Car/Ackerman Steering.md",
             "mode": "preview",
             "source": false
           }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "電控/arduino/AQMD6010BLS.md",
+            "file": "Archived/Car/Ackerman Steering.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,6 +74,7 @@
   },
   "active": "b3207d3b063e6e43",
   "lastOpenFiles": [
+    "Archived/Car/Ackerman Steering.md",
     "電控/arduino/AQMD6010BLS.md",
     "Error.md",
     "python/Tensorflow.md",
@@ -82,7 +83,6 @@
     "電控/stm32/PS2 (DS2).md",
     "工程數學/Orthogonal Matrix.md",
     "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/Determinant.md",
-    "工程數學/Orthogonal Functions/Orthogonal.md"
+    "工程數學/Linear Algebra/Determinant.md"
   ]
 }
