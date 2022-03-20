@@ -77,6 +77,14 @@ $$v_{ after } = \frac{ Q_1 }{ C_1 } = \frac{ c_1 }{ c_1 + c_2 }v_1$$
 
 $$E_{ after } = \frac{ 1 }{ 2 }(c_1 + c_2)\left( \frac{ c_1 }{ c_1 + c_2 }v_1 \right)^2 = \frac{ 1 }{ 2 }\frac{ c_1^2 }{ c_1 + c_2 }v_1^2$$
 
+## OpAmp Circuit
+
+![[OpAmp Circuit.png]]
+
+$$v_{ out } = \frac{ 1 }{ C }\int(\frac{ v_{ in } }{ R })dt$$
+
+$$v_{ out } = \frac{ 1 }{ RC }\int v_{ in }dt$$
+
 ---
 
 參考資料:
@@ -87,3 +95,4 @@ $$E_{ after } = \frac{ 1 }{ 2 }(c_1 + c_2)\left( \frac{ c_1 }{ c_1 + c_2 }v_1 \r
 
 link:
 
+[[Amplifier]]

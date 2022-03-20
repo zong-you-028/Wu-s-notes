@@ -64,7 +64,7 @@ $$\lambda_1 = 8, \quad \lambda_2 = 2$$
 
 $\lambda > 1$ means stretching
 
-eigenvector
+[[Eigenvector]]
 
 for $\lambda = 8$
 
@@ -268,7 +268,7 @@ $$
 ## Multiplicity
 
 1. Repeated eigenvalue (e.g. $\lambda_{ 1, 2 } = 3$), the number of times reapeated is ==Algebraic Multiplicity== ($M_\lambda$) of $\lambda$
-2. For an eigenvalue $x$, number of linearly independent [[Eigenvector]] that correspond to $\lambda$ is called the geometric multiplicity of $\lambda$ ($m_\lambda$)
+2. For an eigenvalue $x$, number of linearly independent [[Eigenvector]] that correspond to $\lambda$ is called the ==geometric multiplicity== of $\lambda$ ($m_\lambda$)
 3. $m_\lambda \leq M_\lambda$
 4. $\Delta_\lambda = M_\lambda - m_\lambda$ is called the defect of $\lambda$
 
@@ -276,9 +276,9 @@ $$
 
 If $\vec{ w }$ and $\vec{ x }$ are eigenvectors of $A$ corresponding the same eigenvalue $\lambda$, then:
 
-- $\vec{ z } = \vec{ w } + \vec{ x }$ is also and [[Eigenvector]]
+- $\vec{ z } = \vec{ w } + \vec{ x }$ is also an [[Eigenvector]]
 - $\vec{ y } = k\vec{ x }$ is also an [[Eigenvector]]
-- eigenvectors of the same eigenvalue $\lambda$, along with the zero vector $\vec{ 0 }$ forms and eigenspace
+- eigenvectors of the same eigenvalue $\lambda$, along with the zero vector $\vec{ 0 }$ forms an eigenspace
 
 ## Normalization
 

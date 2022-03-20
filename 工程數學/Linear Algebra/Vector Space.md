@@ -13,9 +13,10 @@ Vector Space is made from:
 
 參考資料:
 
-工程數學 2022-02-23
+工程數學
 
 ---
 
 link:
 
+[[Subspace]]
