@@ -106,7 +106,9 @@ $$A = [a_{ ji }] \ \rightarrow \ A^T = [a_{ ij }]$$
 - $(cA)^T = cA^T$
 - $(AB)^T = B^T A^T$
 
-## Inverse of Matrix
+## [[Inverse of Matrix]]
+
+Use Gauss-Jordan Elimination
 
 $$[ A \vert I ] \overset{ \text{ row operation } }{ \implies } [ I \vert A^{ -1 } ]$$
 
@@ -259,6 +261,7 @@ a & 0 & 0 \\
 - Identity Matrix
 
 $$
+I = 
 \left[
 \begin{array}{}
 1 & 0 & 0 \\
@@ -271,6 +274,9 @@ $$
 - [[Orthogonal Matrix]]
 
 $$A^T = A^{ -1 }$$
+
+> 也可以用這個條件判斷是否為 Orthogonal Matrix
+> $$\det(A) = 1 \text{ or } -1$$
 
 # Transform Vectors
 
@@ -319,3 +325,4 @@ link:
 
 [[Eigenvalue]]
 [[Eigenvector]]
+[[Augmented Matrix]]

@@ -4,11 +4,21 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master
         "id": "b0630339ff61f988",
         "type": "leaf",
         "state": {
           "type": "empty",
           "state": {}
+=======
+        "id": "0fed62b477b9d842",
+        "type": "leaf",
+        "state": {
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
+>>>>>>> origin/master
         }
       }
     ],
@@ -19,6 +29,7 @@
     "type": "mobile-drawer",
     "children": [
       {
+<<<<<<< master
         "id": "d6b19a1f0f66d186",
         "type": "leaf",
         "state": {
@@ -38,6 +49,33 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+        "id": "88204b37304c4a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d174e9f132ca6927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "55c83ce158d03dbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
         }
       }
@@ -49,6 +87,7 @@
     "type": "mobile-drawer",
     "children": [
       {
+<<<<<<< master
         "id": "12d96588c7fb398a",
         "type": "leaf",
         "state": {
@@ -61,10 +100,62 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
+=======
+        "id": "ecbff55651476b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1838da437cad3e40",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "463e52693050aac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f30f09bb5eea926a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26db12797d56d725",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
+>>>>>>> origin/master
           }
         }
       }
     ],
+<<<<<<< master
     "currentTab": 0
   },
   "active": "b0630339ff61f988",
@@ -74,10 +165,22 @@
     "電工學/Amplifier.md",
     "動力學/衝量與衝量.md",
     "動力學/Work.md",
+=======
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "0fed62b477b9d842",
+  "lastOpenFiles": [
+>>>>>>> origin/master
     "Main Kanban.md",
-    "工程數學/Linear Algebra/Orthogonal Matrix.md",
-    "工程數學/Orthogonal Functions.md",
-    "電控/電路/TDK2021電路圖.md",
-    "iTron會議紀錄/2021-09-01 iTron TDK 討論.md"
+    "README.md",
+    "工程數學/Linear Algebra/Matrix.md",
+    "工程數學/Linear Algebra/Basic Arrays.md",
+    "工程數學/Higher Order DE/Eigenvector.md",
+    "工程數學/Higher Order DE/Eigenvalue.md",
+    "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
+    "工程數學/Linear Algebra/Gauss Elimination.md",
+    "工程數學/Linear Algebra/Determinant.md",
+    "工程數學/Linear Algebra/Augmented Matrix.md"
   ]
 }
