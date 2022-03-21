@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0fed62b477b9d842",
+        "id": "6b44939c5ae84703",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "五百字心得.md",
-            "mode": "source"
+            "file": "Main Kanban.md"
           }
         }
       }
@@ -76,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "五百字心得.md",
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "五百字心得.md",
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "五百字心得.md"
+                "file": "Main Kanban.md"
               }
             }
           }
@@ -116,10 +115,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0fed62b477b9d842",
+  "active": "6b44939c5ae84703",
   "lastOpenFiles": [
-    "五百字心得.md",
     "Main Kanban.md",
+    "五百字心得.md",
     "README.md",
     "工程數學/Linear Algebra/Matrix.md",
     "工程數學/Linear Algebra/Basic Arrays.md",
