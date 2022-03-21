@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Laplace/Laplace Transform.md",
+            "file": "工程數學/Orthogonal Functions/Integral Transform Method.md",
             "mode": "preview",
             "source": false
           }
@@ -46,7 +46,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "5986c39192271534",
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工程數學/Laplace/Laplace Transform.md",
+            "file": "工程數學/Orthogonal Functions/Integral Transform Method.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,15 +73,15 @@
   },
   "active": "b0630339ff61f988",
   "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Integral Transform Method.md",
+    "工程數學/Orthogonal Functions.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
     "工程數學/Laplace/Laplace Transform.md",
     "電工學/Capacitor.md",
     "conflict-files-obsidian-git.md",
     "電工學/Amplifier.md",
     "動力學/衝量與衝量.md",
     "動力學/Work.md",
-    "Main Kanban.md",
-    "工程數學/Linear Algebra/Orthogonal Matrix.md",
-    "工程數學/Orthogonal Functions.md",
-    "電控/電路/TDK2021電路圖.md"
+    "Main Kanban.md"
   ]
 }
