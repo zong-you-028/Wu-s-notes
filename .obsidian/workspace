@@ -7,10 +7,8 @@
         "id": "b0630339ff61f988",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -56,7 +54,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Main Kanban.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -71,11 +68,11 @@
   },
   "active": "b0630339ff61f988",
   "lastOpenFiles": [
+    "工程數學/Laplace/Laplace Transform.md",
     "Main Kanban.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/Laplace/Laplace Transform.md",
     "電工學/Capacitor.md",
     "conflict-files-obsidian-git.md",
     "電工學/Amplifier.md",
