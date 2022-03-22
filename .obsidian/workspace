@@ -4,51 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "b0630339ff61f988",
+        "id": "6b44939c5ae84703",
         "type": "leaf",
         "state": {
+<<<<<<< master
           "type": "graph",
           "state": {}
+=======
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
+>>>>>>> origin/master
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ddbf9890582d55f",
-    "type": "mobile-drawer",
+    "id": "d78309d6c9c6be7f",
+    "type": "split",
     "children": [
       {
-        "id": "d6b19a1f0f66d186",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "9ba5771eb798532e",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Laplace",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "88204b37304c4a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d174e9f132ca6927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "55c83ce158d03dbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "5986c39192271534",
-    "type": "mobile-drawer",
+    "id": "f4e408fb0f04a12b",
+    "type": "split",
     "children": [
       {
+<<<<<<< master
         "id": "12d96588c7fb398a",
         "type": "leaf",
         "state": {
@@ -61,13 +76,68 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
+=======
+        "id": "ecbff55651476b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1838da437cad3e40",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "463e52693050aac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f30f09bb5eea926a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26db12797d56d725",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
+>>>>>>> origin/master
           }
-        }
+        ],
+        "currentTab": 3
       }
-    ]
+    ],
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "b0630339ff61f988",
+  "active": "6b44939c5ae84703",
   "lastOpenFiles": [
+<<<<<<< master
     "工程數學/Laplace/Laplace Transform.md",
     "Main Kanban.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
@@ -78,5 +148,17 @@
     "電工學/Amplifier.md",
     "動力學/衝量與衝量.md",
     "動力學/Work.md"
+=======
+    "Main Kanban.md",
+    "五百字心得.md",
+    "README.md",
+    "工程數學/Linear Algebra/Matrix.md",
+    "工程數學/Linear Algebra/Basic Arrays.md",
+    "工程數學/Higher Order DE/Eigenvector.md",
+    "工程數學/Higher Order DE/Eigenvalue.md",
+    "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
+    "工程數學/Linear Algebra/Gauss Elimination.md",
+    "工程數學/Linear Algebra/Determinant.md"
+>>>>>>> origin/master
   ]
 }
