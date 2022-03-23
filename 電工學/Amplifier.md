@@ -124,11 +124,9 @@ $$v_0 = -\left(\frac{ R_F }{ R_1 }v_1 + \frac{ R_F }{ R_2 }v_2\right)$$
 
 ![[Difference Amplifier.png]]
 
-$$1. \quad v_p = v_2 \times \frac{ R_F }{ R_2 + R_F }$$
+if $r_1 = r_2$
 
-$$2. \quad \frac{ v_1 - v_n }{ R_1 } = i_1$$
-
-$$\vdots$$
+$$v_o = \frac{ R_F }{ R_1 }(v_2 - v_1)$$
 
 ---
 
