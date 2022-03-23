@@ -27,6 +27,16 @@ $$\implies v_L = L\frac{ di }{ dt }$$
 
 $$L = \frac{ N^2\mu A }{ l }$$
 
+# Properties
+
+$$v_L = L\frac{ di_L }{ dt }$$
+
+## Energy Storage
+
+$$E = \int Pdt = \int i_L v_L dt$$
+
+$$ = \int_0^t i_L \cdot L \frac{ di_L }{ \bcancel{ dt } } \bcancel{ dt }$$
+
 ---
 
 參考資料:
