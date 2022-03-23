@@ -102,7 +102,7 @@ $$\frac{ v_0 }{ v_{ in } } = \frac{ A }{ 1 + AB }$$
 
 Assuming $v_d \simeq 0$, 
 
-$$i_i = \frac{ v_{ in } }{ R_1 }$$
+$$i_1 = \frac{ v_{ in } }{ R_1 }$$
 
 $$v_0 = -i_1 \cdot R_F$$
 

@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Inductor.md",
-            "mode": "source"
+            "file": "電工學/RLC Circuit.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -52,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 214.00556182861328
   },
   "right": {
     "id": "f4e408fb0f04a12b",
@@ -63,20 +64,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1838da437cad3e40",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "463e52693050aac5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電工學/Inductor.md",
+                "file": "電工學/RLC Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電工學/Inductor.md",
+                "file": "電工學/RLC Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,12 +98,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電工學/Inductor.md"
+                "file": "電工學/RLC Circuit.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -119,15 +112,15 @@
   },
   "active": "a4b8e1b1a1108080",
   "lastOpenFiles": [
+    "電工學/RLC Circuit.md",
     "電工學/Inductor.md",
-    "電工學/Amplifier.md",
     "Main Kanban.md",
+    "電工學/Kirchhoff's Law.md",
+    "電工學/Amplifier.md",
     "README.md",
     "五百字心得.md",
     "課表.md",
     "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/Basic Arrays.md",
-    "工程數學/Higher Order DE/Eigenvector.md",
-    "工程數學/Higher Order DE/Eigenvalue.md"
+    "工程數學/Linear Algebra/Basic Arrays.md"
   ]
 }

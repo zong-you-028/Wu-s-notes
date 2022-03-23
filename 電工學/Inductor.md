@@ -35,7 +35,17 @@ $$v_L = L\frac{ di_L }{ dt }$$
 
 $$E = \int Pdt = \int i_L v_L dt$$
 
-$$ = \int_0^t i_L \cdot L \frac{ di_L }{ \bcancel{ dt } } \bcancel{ dt }$$
+$$ = \int_0^t i_L \cdot L \frac{ di_L }{ \cancel{ dt } } \cancel{ dt }$$
+
+$$ = \frac{ 1 }{ 2 } L i_L^2 \qquad , i_L = i_L(t)$$
+
+## Series Connection
+
+$$L = L_1 + L_2$$
+
+## Parallel Connection
+
+$$L = \frac{ L_1 L_2 }{ L_1 + L_2 }$$
 
 ---
 
