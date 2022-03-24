@@ -7,8 +7,10 @@
         "id": "a4b8e1b1a1108080",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -54,6 +56,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Main Kanban.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -69,15 +72,15 @@
   },
   "active": "a4b8e1b1a1108080",
   "lastOpenFiles": [
+    "Main Kanban.md",
+    "電控/stm32/STM32 命名方法.md",
     "電工學/Inductor.md",
     "電工學/Amplifier.md",
-    "Main Kanban.md",
     "README.md",
     "電工學/RLC Circuit.md",
     "電工學/Kirchhoff's Law.md",
     "五百字心得.md",
     "課表.md",
-    "工程數學/Linear Algebra/Matrix.md",
-    "工程數學/Linear Algebra/Basic Arrays.md"
+    "工程數學/Linear Algebra/Matrix.md"
   ]
 }
