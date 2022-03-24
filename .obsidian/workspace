@@ -19,96 +19,58 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d78309d6c9c6be7f",
-    "type": "split",
+    "id": "cf2eae33ede20a63",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "88204b37304c4a59",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d174e9f132ca6927",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "55c83ce158d03dbd",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "cbea706852c3c010",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "ccfa8b294bb38d69",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 238.5036334991455
+    "currentTab": 0
   },
   "right": {
-    "id": "f4e408fb0f04a12b",
-    "type": "split",
+    "id": "8199426fd591864c",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "ecbff55651476b5e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "463e52693050aac5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "電工學/Inductor.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f30f09bb5eea926a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "電工學/Inductor.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "26db12797d56d725",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "電工學/Inductor.md"
-              }
-            }
+        "id": "96fa5c2cc367e2c0",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "電工學/Inductor.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ],
-        "currentTab": 2
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "a4b8e1b1a1108080",
   "lastOpenFiles": [
