@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a4b8e1b1a1108080",
+        "id": "0e2e6052b25b328f",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -17,70 +17,108 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cf2eae33ede20a63",
-    "type": "mobile-drawer",
+    "id": "d78309d6c9c6be7f",
+    "type": "split",
     "children": [
       {
-        "id": "cbea706852c3c010",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "ccfa8b294bb38d69",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "88204b37304c4a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d174e9f132ca6927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "55c83ce158d03dbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Fourier",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 238.5036334991455
   },
   "right": {
-    "id": "8199426fd591864c",
-    "type": "mobile-drawer",
+    "id": "f4e408fb0f04a12b",
+    "type": "split",
     "children": [
       {
-        "id": "96fa5c2cc367e2c0",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Main Kanban.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ecbff55651476b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "463e52693050aac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f30f09bb5eea926a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26db12797d56d725",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 2
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "a4b8e1b1a1108080",
+  "active": "0e2e6052b25b328f",
   "lastOpenFiles": [
     "Main Kanban.md",
-    "電控/stm32/STM32 命名方法.md",
-    "電工學/Inductor.md",
-    "電工學/Amplifier.md",
-    "README.md",
+    "電工學/AC Circuit.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
+    "電工學/Resistive Circuit.md",
+    "電工學/Arc/Resistine Element.md",
     "電工學/RLC Circuit.md",
-    "電工學/Kirchhoff's Law.md",
-    "五百字心得.md",
-    "課表.md",
-    "工程數學/Linear Algebra/Matrix.md"
+    "工程數學/Orthogonal Functions/Fourier Transform.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "動力學/Impact.md",
+    "課表.md"
   ]
 }
