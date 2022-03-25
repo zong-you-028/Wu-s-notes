@@ -51,7 +51,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5036334991455
+    "width": 238.5036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "f4e408fb0f04a12b",
@@ -111,6 +112,7 @@
   "active": "0e2e6052b25b328f",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "conflict-files-obsidian-git.md",
     "電工學/AC Circuit.md",
     "工程數學/Laplace/Inverse Laplace Transform.md",
     "電工學/Resistive Circuit.md",
@@ -118,7 +120,6 @@
     "電工學/RLC Circuit.md",
     "工程數學/Orthogonal Functions/Fourier Transform.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
-    "動力學/Impact.md",
-    "課表.md"
+    "動力學/Impact.md"
   ]
 }
