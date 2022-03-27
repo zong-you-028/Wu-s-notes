@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Fourier",
+                "query": "python time",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -51,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5036334991455,
-    "collapsed": true
+    "width": 238.5036334991455
   },
   "right": {
     "id": "f4e408fb0f04a12b",
@@ -112,14 +111,14 @@
   "active": "0e2e6052b25b328f",
   "lastOpenFiles": [
     "Main Kanban.md",
-    "conflict-files-obsidian-git.md",
-    "電工學/AC Circuit.md",
-    "工程數學/Laplace/Inverse Laplace Transform.md",
-    "電工學/Resistive Circuit.md",
-    "電工學/Arc/Resistine Element.md",
-    "電工學/RLC Circuit.md",
-    "工程數學/Orthogonal Functions/Fourier Transform.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "動力學/Impact.md"
+    "python/time/time.time().md",
+    "python/time/time.strptime().md",
+    "python/time/time.strftime().md",
+    "python/time/time.sleep().md",
+    "python/time/time.mktime().md",
+    "python/time/time.localtime().md",
+    "python/time/time.gmtime().md",
+    "python/time/time.ctime().md",
+    "python/time/time.asctime().md"
   ]
 }
