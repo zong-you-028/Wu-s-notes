@@ -7,9 +7,11 @@
         "id": "0e2e6052b25b328f",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -34,7 +36,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Vector",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -56,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Main Kanban.md",
+            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -72,6 +74,8 @@
   },
   "active": "0e2e6052b25b328f",
   "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Orthogonal.md",
+    "工程數學/Orthogonal Functions.md",
     "Main Kanban.md",
     "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
     "課表.md",
@@ -79,8 +83,6 @@
     "工程數學/Laplace Transform 解法.md",
     "工程數學/Laplace/Convolution.md",
     "python/time/time.time().md",
-    "python/time/time.strptime().md",
-    "python/time/time.strftime().md",
-    "python/time/time.sleep().md"
+    "python/time/time.strptime().md"
   ]
 }
