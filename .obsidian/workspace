@@ -7,11 +7,9 @@
         "id": "0e2e6052b25b328f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
-            "mode": "preview",
-            "source": false
+            "file": "Main Kanban.md"
           }
         }
       }
@@ -58,7 +56,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
+            "file": "Main Kanban.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,9 +72,9 @@
   },
   "active": "0e2e6052b25b328f",
   "lastOpenFiles": [
+    "Main Kanban.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
     "工程數學/Orthogonal Functions.md",
-    "Main Kanban.md",
     "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
     "課表.md",
     "工程數學/Laplace/Laplace Transform.md",
