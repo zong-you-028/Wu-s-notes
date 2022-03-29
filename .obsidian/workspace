@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "392f3cea1239a452",
+        "id": "604efdc75b896891",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -49,8 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5036334991455,
-    "collapsed": true
+    "width": 238.5036334991455
   },
   "right": {
     "id": "f4e408fb0f04a12b",
@@ -102,9 +101,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "392f3cea1239a452",
+  "active": "604efdc75b896891",
   "lastOpenFiles": [
-    "Vector.md",
+    "工程數學/Linear Algebra/Vector.md",
+    "工程數學/Linear Algebra/Matrix.md",
     "Main Kanban.md",
     "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
     "電工學/Circuit Analysis/AC Circuit.md",
@@ -112,7 +112,6 @@
     "電工學/Circuit Analysis/RLC Circuit.md",
     "電工學/Circuit Analysis/Power Transfer.md",
     "電工學/Circuit Analysis/Ohm's Law.md",
-    "電工學/Circuit Analysis/Kirchhoff's Law.md",
-    "電工學/Circuit Analysis/Cramer's Rule.md"
+    "電工學/Circuit Analysis/Kirchhoff's Law.md"
   ]
 }
