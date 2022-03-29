@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "604efdc75b896891",
+        "id": "adf937dd7b448c24",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
+      },
+      {
+        "id": "c3ed496bb03b7da5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Laplace/Laplace Transform.md",
+            "mode": "source"
+          }
+        },
+        "group": "6363150efa06d4c7"
+      },
+      {
+        "id": "395ea579aff6b7ad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Laplace/Laplace Transform.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6363150efa06d4c7"
       }
     ],
     "direction": "vertical"
@@ -36,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cauchy",
+                "query": "moment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工程數學/Laplace/Laplace Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "工程數學/Laplace/Laplace Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "工程數學/Laplace/Laplace Transform.md"
+              }
             }
           }
         ]
@@ -101,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "604efdc75b896891",
+  "active": "395ea579aff6b7ad",
   "lastOpenFiles": [
-    "工程數學/Linear Algebra/Vector.md",
-    "工程數學/Linear Algebra/Matrix.md",
+    "工程數學/Laplace/Laplace Transform.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
     "Main Kanban.md",
-    "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "電工學/Circuit Analysis/Resistive Circuit.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Circuit Analysis/Power Transfer.md",
-    "電工學/Circuit Analysis/Ohm's Law.md",
-    "電工學/Circuit Analysis/Kirchhoff's Law.md"
+    "動力學/動量.md",
+    "動力學/Moment.md",
+    "動力學/Angular Momentum.md",
+    "動力學/切線座標.md",
+    "動力學/動量與衝量.md",
+    "動力學/Impact.md",
+    "精密測量/精密製造.md"
   ]
 }
