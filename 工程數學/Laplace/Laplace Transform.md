@@ -24,7 +24,7 @@ Laplace Transform 是一種 [[Integral Transform]]
 | $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ | [[#mathcal L t frac 1 s 2\| link (t)]] | 
 | $$\exp(at)$$  | $$\frac{1}{s - a}$$      |                                        |
 | $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |                                        |
-| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  |                                        |
+| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  | see [[Table of Integration]]                                       |
 | $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                                        |
 | $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                                        |
 
