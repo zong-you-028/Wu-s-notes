@@ -4,85 +4,115 @@
     "type": "split",
     "children": [
       {
-        "id": "0e2e6052b25b328f",
+        "id": "392f3cea1239a452",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "72428a943ce3d9e1",
-    "type": "mobile-drawer",
+    "id": "d78309d6c9c6be7f",
+    "type": "split",
     "children": [
       {
-        "id": "18c3732559bf8ef2",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "96f100bcdced3ac3",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "88204b37304c4a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d174e9f132ca6927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "55c83ce158d03dbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "cauchy",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 238.5036334991455,
+    "collapsed": true
   },
   "right": {
-    "id": "b65e0028acf15fde",
-    "type": "mobile-drawer",
+    "id": "f4e408fb0f04a12b",
+    "type": "split",
     "children": [
       {
-        "id": "90adb558016846c5",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "工程數學/Orthogonal Functions/Orthogonal.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "ecbff55651476b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "463e52693050aac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f30f09bb5eea926a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26db12797d56d725",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "0e2e6052b25b328f",
+  "active": "392f3cea1239a452",
   "lastOpenFiles": [
-    "工程數學/Orthogonal Functions/Orthogonal.md",
-    "工程數學/Orthogonal Functions.md",
+    "Vector.md",
     "Main Kanban.md",
     "工程數學/Linear Algebra/Matrix vs Array vs Vector.md",
-    "課表.md",
-    "工程數學/Laplace/Laplace Transform.md",
-    "工程數學/Laplace Transform 解法.md",
-    "工程數學/Laplace/Convolution.md",
-    "python/time/time.time().md",
-    "python/time/time.strptime().md"
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "電工學/Circuit Analysis/Resistive Circuit.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
+    "電工學/Circuit Analysis/Ohm's Law.md",
+    "電工學/Circuit Analysis/Kirchhoff's Law.md",
+    "電工學/Circuit Analysis/Cramer's Rule.md"
   ]
 }

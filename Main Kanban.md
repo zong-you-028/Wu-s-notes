@@ -6,6 +6,8 @@ kanban-plugin: basic
 
 ## TODO
 
+- [ ] 排 4/6 平均
+- [ ] 機械製造期中 @{2022-04-12}
 
 
 ## 工程數學 TODO

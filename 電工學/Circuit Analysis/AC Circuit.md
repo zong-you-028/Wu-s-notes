@@ -22,6 +22,36 @@ $$I_L = \frac{ A_1 \cdot 1 }{ s } + \frac{ A_2 (s + \sigma) }{ (s + \sigma)^2 + 
 
 $$A_1 = 24\text{mA}$$
 
+# Steady State Analysis
+
+$$i_{ \theta, p } = I_{ imax }\vert G(j\omega) \vert \sin(\omega t + \theta_i + \angle G(j\omega))$$
+
+$p$: particular solution
+
+![[AC steady state analysis.png]]
+
+$$V_i = V_{ imax } \cdot \angle \theta_{ vi }$$
+
+$$I = \vert I(\omega) \vert \angle I(\omega)$$
+
+$$Z = \vert Z(\omega) \vert \angle Z(\omega)$$
+
+## Example
+
+![[Example of AC circuit analysis.png]]
+
+經過 [[Laplace Transform]]
+
+![[Example of AC circuit analysis after Laplace Transform.png]]
+
+$$I_1 = \frac{ 60 }{ 80 + j140 - j400 \vert\vert 800 }$$
+
+> $$-j400\vert\vert 800 = \frac{ j320k }{ 800 - j400 }$$
+> $$ = \frac{ j320k(800 + j400) }{ 800k }$$
+> $$ = -160 + j320$$
+
+$$ = \frac{ 60 }{ 240 - j180 } = 0.2 \angle 37 \degree$$
+
 ---
 
 參考資料:
