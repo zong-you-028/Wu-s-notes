@@ -18,6 +18,8 @@ $$\sum M_O = \dot{ H }_{ O }$$
 
 $\sum M_O$: [[Moment]] 的和 ($\sum M_O = r \times m\dot{ v }$)
 
+因此我們可以用上面這條式子來把角動量的式子列出來
+
 ---
 
 參考資料:
