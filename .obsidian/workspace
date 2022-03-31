@@ -7,9 +7,10 @@
         "id": "3e31c97766132500",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "電控/arduino/Serial.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "serial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -47,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "電控/arduino/Serial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "電控/arduino/Serial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "電控/arduino/Serial.md"
               }
             }
           }
@@ -109,15 +111,15 @@
   },
   "active": "3e31c97766132500",
   "lastOpenFiles": [
+    "電控/arduino/Serial.md",
+    "電控/arduino/Serial options.md",
     "Main Kanban.md",
+    "課表.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
     "電工學/Circuit Analysis/Circuit Analysis.md",
     "電工學/Circuit Analysis/AC Circuit.md",
     "機械製造/機械製造期中考前筆記.md",
     "機械製造/Measurement.md",
-    "機械製造/Materials Processing.md",
-    "機械製造/Casting Process.md",
-    "動力學/Fluid Stream.md",
-    "工程數學/Linear Algebra/Curves.md"
+    "機械製造/Materials Processing.md"
   ]
 }
