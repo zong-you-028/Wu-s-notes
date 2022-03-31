@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "6f5232df898f85eb",
+        "id": "c2b43019bbc2c051",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "動力學/Angular Momentum.md",
+            "file": "五百字心得.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "動力學/Angular Momentum.md",
+                "file": "五百字心得.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "動力學/Angular Momentum.md",
+                "file": "五百字心得.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "動力學/Angular Momentum.md"
+                "file": "五百字心得.md"
               }
             }
           }
@@ -108,17 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6f5232df898f85eb",
+  "active": "c2b43019bbc2c051",
   "lastOpenFiles": [
+    "五百字心得.md",
+    "課表.md",
+    "Main Kanban.md",
+    "README.md",
     "動力學/Angular Momentum.md",
     "動力學/Moment.md",
-    "Main Kanban.md",
     "動力學/Impact.md",
     "conflict-files-obsidian-git.md",
     "電工學/Arc/Amplifier.md",
-    "工程數學/First Order DE/Table of Integration.md",
-    "工程數學/Laplace/Dirac Delta Function.md",
-    "工程數學/Laplace/Laplace Transform.md",
-    "工程數學/Projects/Math Application Project 1.md"
+    "工程數學/First Order DE/Table of Integration.md"
   ]
 }
