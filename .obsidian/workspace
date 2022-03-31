@@ -4,85 +4,135 @@
     "type": "split",
     "children": [
       {
-        "id": "a075ea409292b70d",
+        "id": "33f81fde3cdedd41",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "動力學/Angular Momentum.md",
-            "mode": "preview",
-            "source": false
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "6f6142da5fab79e5"
+      },
+      {
+        "id": "c2e2d52194cf4cef",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6f6142da5fab79e5"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ee60c8069cf4e9d",
-    "type": "mobile-drawer",
+    "id": "ee3d5feeaa24b1d7",
+    "type": "split",
     "children": [
       {
-        "id": "10028634ee99dc48",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "2c1e3869d2b82295",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "39297fb01adc9999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d32546d79517b2c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd852c9c609b15ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "7e75091590894741",
-    "type": "mobile-drawer",
+    "id": "6006a196d404ffe0",
+    "type": "split",
     "children": [
       {
-        "id": "8dd702553acb871e",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "動力學/Angular Momentum.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "c9690387a98118b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb76d92ed5435ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "547a9b4620c7b43d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "827233188ff93c27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "電工學/Circuit Analysis/RLC Circuit.md"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 2
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "a075ea409292b70d",
+  "active": "33f81fde3cdedd41",
   "lastOpenFiles": [
-    "動力學/Angular Momentum.md",
-    "能量守恆.md",
-    "Main Kanban.md",
-    "課表.md",
-    "conflict-files-obsidian-git.md",
-    "電工學/Arc/Amplifier.md",
-    "工程數學/First Order DE/Table of Integration.md",
-    "工程數學/Laplace/Dirac Delta Function.md",
-    "工程數學/Laplace/Laplace Transform.md",
-    "工程數學/Projects/Math Application Project 1.md"
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Circuit Analysis.md",
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Measurement.md",
+    "機械製造/Materials Processing.md",
+    "機械製造/Casting Process.md",
+    "動力學/Fluid Stream.md",
+    "工程數學/Linear Algebra/Curves.md",
+    "工程數學/Linear Algebra/Vector.md"
   ]
 }
