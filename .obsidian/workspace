@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3e31c97766132500",
+        "id": "1545834783ba3ac7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電控/arduino/Serial.md",
+            "file": "動力學/Acceleration.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "serial",
+                "query": "acceleration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電控/arduino/Serial.md",
+                "file": "動力學/Acceleration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電控/arduino/Serial.md",
+                "file": "動力學/Acceleration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電控/arduino/Serial.md"
+                "file": "動力學/Acceleration.md"
               }
             }
           }
@@ -109,17 +108,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3e31c97766132500",
+  "active": "1545834783ba3ac7",
   "lastOpenFiles": [
-    "電控/arduino/Serial.md",
-    "電控/arduino/Serial options.md",
-    "Main Kanban.md",
-    "課表.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Circuit Analysis/Circuit Analysis.md",
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/Measurement.md",
-    "機械製造/Materials Processing.md"
+    "動力學/Acceleration.md",
+    "動力學/Angular Momentum.md",
+    "動力學/Fluid Stream.md",
+    "動力學/Moment.md",
+    "動力學/Impact.md",
+    "動力學/切線座標.md",
+    "動力學/動量.md",
+    "動力學/動量與衝量.md",
+    "動力學/曲率半徑.md",
+    "動力學/極座標.md"
   ]
 }
