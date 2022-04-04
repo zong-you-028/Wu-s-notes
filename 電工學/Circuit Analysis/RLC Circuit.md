@@ -252,7 +252,56 @@ $$I_L(t) = I_{ max }A\frac{ e^{ j(\omega t + \theta) } - e^{ -j(\omega t + \thet
 [[Euler Formula]]
 $$ = I_{ max } A \cdot \sin(\omega t + \theta)$$
 
+# 交流電
 
+![[RLC circuit 交流電.png]]
+
+$$\vec{ I }_{ 1 } = 0.2 \angle 37 \degree$$
+
+$$i_1 = 0.2\sin(\underbrace{ 1000 }_{ \omega }t + 27 \degree)$$
+.
+$$I_2 = \frac{ -j400 }{ -j400 + 800 }\cdot I_1$$
+
+$$ = \frac{ 400 \angle -90\degree }{ \sqrt{ 5 } \times 400 \angle -26\degree } \cdot 0.2 \angle 37\degree$$
+
+$$ = 0.09\angle -27\degree$$
+.
+$$I_3 = \frac{ 800 }{ -j400 + 800 } I_1$$
+
+$$ = 0.18 \angle 63\degree$$
+
+## Phasor Diagram
+
+The current plot of previous AC steady state result can be plotted in phasor plot to show the validity of KCL and KVL
+
+## Instantaneous Power and Average Power
+
+![[Instantaneous Power and Average Power.png]]
+
+$$V_i = \vert V_i \vert\angle 0\degree$$
+
+$$I_1 = I_i = 0.2 \angle 37\degree$$
+
+Power factor: $V$ & $I$ 的角度差異 $\cos\theta_z$
+
+$$Z(\omega) = \frac{ V(\omega) }{ I(\omega) } = \frac{ V }{ I }\angle\theta_z$$
+
+Instant Power:
+
+$$P(t) = v(t) \cdot i(t)$$
+
+> $$v(t) = V\cos(\omega t +\theta_v) \qquad (V < \theta_v)$$
+> $$i(t) = I\sin(\omega t + \theta_i) \qquad (I < \theta_i)$$
+
+$$ = \frac{ V \cdot I }{ 2 }
+\left(
+\cos(\theta_v - \theta_i) +
+\cos(2\omega t + \theta_v + \theta_i)
+\right)$$
+
+Average Pow:
+
+$$P_{ avg } = \frac{ VI }{ 2 }\cos\theta_z$$
 
 ---
 

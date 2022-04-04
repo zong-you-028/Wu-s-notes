@@ -133,6 +133,16 @@ c_3 =
 \right\vert
 $$
 
+# Triple Product
+
+$$V = (\vec{ a }\vec{ b }\vec{ c }) = \vec{ a } \cdot (\vec{ b } \times \vec{ c })$$
+
+$$ = (\vec{ a } \times \vec{ b })\cdot \vec{ c }$$
+
+$$ = \text{ scalar }$$
+
+可以求出三個向量張出的體積
+
 ---
 
 參考資料:

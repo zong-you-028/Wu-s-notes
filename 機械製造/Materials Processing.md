@@ -3,7 +3,7 @@
 ---
 
 分為五大基本種類
-1. [[Casting Processes]]
+1. [[Casting Process]]
 2. Material Removal Process
 	傳統上這被稱為 machining ，而現在 Material Removal 包含了更多 chemical, physical, thermal processes
 3. Deformation Processes
