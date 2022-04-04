@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "動力學/Angular Momentum.md",
+            "file": "課表.md",
             "mode": "preview",
             "source": false
           }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "動力學/Angular Momentum.md",
+            "file": "課表.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -74,10 +74,10 @@
   },
   "active": "a075ea409292b70d",
   "lastOpenFiles": [
+    "課表.md",
+    "Main Kanban.md",
     "動力學/Angular Momentum.md",
     "能量守恆.md",
-    "Main Kanban.md",
-    "課表.md",
     "conflict-files-obsidian-git.md",
     "電工學/Arc/Amplifier.md",
     "工程數學/First Order DE/Table of Integration.md",
