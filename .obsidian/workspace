@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1545834783ba3ac7",
+        "id": "354b521983f4e6d5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "動力學/極座標.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "動力學/極座標.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "動力學/極座標.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "動力學/極座標.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -108,7 +101,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1545834783ba3ac7",
+  "active": "354b521983f4e6d5",
   "lastOpenFiles": [
     "動力學/極座標.md",
     "動力學/Acceleration.md",
