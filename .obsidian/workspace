@@ -4,25 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "354b521983f4e6d5",
+        "id": "ad631787b651420a",
         "type": "leaf",
         "state": {
-<<<<<<< HEAD
-          "type": "empty",
-          "state": {}
-=======
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-<<<<<<< master
-            "file": "課表.md",
-            "mode": "preview",
-            "source": false
-=======
-            "file": "動力學/極座標.md",
-            "mode": "preview"
->>>>>>> origin/master
+            "file": "Main Kanban.md"
           }
->>>>>>> 56429e4947ea37b79393545cb41c30eafeb8f08b
         }
       }
     ],
@@ -70,21 +58,6 @@
     "type": "split",
     "children": [
       {
-<<<<<<< master
-        "id": "8dd702553acb871e",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "課表.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-=======
         "id": "c9690387a98118b3",
         "type": "tabs",
         "children": [
@@ -94,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,41 +95,30 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
->>>>>>> origin/master
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "354b521983f4e6d5",
+  "active": "ad631787b651420a",
   "lastOpenFiles": [
-<<<<<<< master
-    "課表.md",
     "Main Kanban.md",
-    "動力學/Angular Momentum.md",
-    "能量守恆.md",
-    "conflict-files-obsidian-git.md",
-    "電工學/Arc/Amplifier.md",
-    "工程數學/First Order DE/Table of Integration.md",
-    "工程數學/Laplace/Dirac Delta Function.md",
-    "工程數學/Laplace/Laplace Transform.md",
-    "工程數學/Projects/Math Application Project 1.md"
-=======
-    "動力學/極座標.md",
-    "動力學/Acceleration.md",
-    "動力學/曲率半徑.md",
-    "動力學/Angular Momentum.md",
     "動力學/Fluid Stream.md",
-    "動力學/Moment.md",
-    "動力學/Impact.md",
     "動力學/切線座標.md",
     "動力學/動量.md",
-    "動力學/動量與衝量.md"
->>>>>>> origin/master
+    "動力學/動量與衝量.md",
+    "動力學/曲率半徑.md",
+    "動力學/極座標.md",
+    "動力學/Angular Momentum.md",
+    "動力學/Impact.md",
+    "動力學/Moment.md"
   ]
 }
