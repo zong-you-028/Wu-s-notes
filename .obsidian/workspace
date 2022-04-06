@@ -4,13 +4,25 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master
         "id": "a075ea409292b70d",
         "type": "leaf",
         "state": {
           "type": "kanban",
+=======
+        "id": "354b521983f4e6d5",
+        "type": "leaf",
+        "state": {
+<<<<<<< HEAD
+          "type": "empty",
+          "state": {}
+=======
+          "type": "markdown",
+>>>>>>> origin/master
           "state": {
             "file": "Main Kanban.md"
           }
+>>>>>>> 56429e4947ea37b79393545cb41c30eafeb8f08b
         }
       }
     ],
@@ -64,13 +76,59 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
+<<<<<<< master
+=======
+=======
+        "id": "c9690387a98118b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb76d92ed5435ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "547a9b4620c7b43d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "827233188ff93c27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+>>>>>>> origin/master
+>>>>>>> origin/master
           }
         }
       }
     ],
     "currentTab": 0
   },
+<<<<<<< master
   "active": "a075ea409292b70d",
+=======
+  "active": "354b521983f4e6d5",
+>>>>>>> origin/master
   "lastOpenFiles": [
     "Main Kanban.md",
     "課表.md",
