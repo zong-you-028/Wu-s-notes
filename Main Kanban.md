@@ -52,7 +52,6 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
-- [x] 電工學HW7 @{2022-04-06}
 
 
 ***
@@ -132,6 +131,7 @@ kanban-plugin: basic
 - [x] 6.2.6 @{2022-03-29}
 - [x] 6.2.7 @{2022-03-29}
 - [x] 6.2.8 @{2022-03-30}
+- [x] 電工學HW7 @{2022-04-06}
 
 %% kanban:settings
 ```
