@@ -7,8 +7,22 @@
         "id": "354b521983f4e6d5",
         "type": "leaf",
         "state": {
+<<<<<<< HEAD
           "type": "empty",
           "state": {}
+=======
+          "type": "markdown",
+          "state": {
+<<<<<<< master
+            "file": "課表.md",
+            "mode": "preview",
+            "source": false
+=======
+            "file": "動力學/極座標.md",
+            "mode": "preview"
+>>>>>>> origin/master
+          }
+>>>>>>> 56429e4947ea37b79393545cb41c30eafeb8f08b
         }
       }
     ],
@@ -56,6 +70,21 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master
+        "id": "8dd702553acb871e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "課表.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+=======
         "id": "c9690387a98118b3",
         "type": "tabs",
         "children": [
@@ -93,6 +122,7 @@
               "type": "outline",
               "state": {}
             }
+>>>>>>> origin/master
           }
         ],
         "currentTab": 2
@@ -103,6 +133,18 @@
   },
   "active": "354b521983f4e6d5",
   "lastOpenFiles": [
+<<<<<<< master
+    "課表.md",
+    "Main Kanban.md",
+    "動力學/Angular Momentum.md",
+    "能量守恆.md",
+    "conflict-files-obsidian-git.md",
+    "電工學/Arc/Amplifier.md",
+    "工程數學/First Order DE/Table of Integration.md",
+    "工程數學/Laplace/Dirac Delta Function.md",
+    "工程數學/Laplace/Laplace Transform.md",
+    "工程數學/Projects/Math Application Project 1.md"
+=======
     "動力學/極座標.md",
     "動力學/Acceleration.md",
     "動力學/曲率半徑.md",
@@ -113,5 +155,6 @@
     "動力學/切線座標.md",
     "動力學/動量.md",
     "動力學/動量與衝量.md"
+>>>>>>> origin/master
   ]
 }
