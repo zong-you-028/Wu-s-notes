@@ -29,7 +29,6 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] 動力學 Midterm 1<br>可以帶小抄 @{2022-04-07}
-- [ ] 電工學HW7 @{2022-04-06}
 - [ ] 6.2.9 @{2022-03-30}
 - [ ] 搞懂 Amplifier @{2022-03-29}
 - [ ] 搞懂 RLC Circuit @{2022-03-30}
@@ -53,6 +52,7 @@ kanban-plugin: basic
 ## Done
 
 **Complete**
+- [x] 電工學HW7 @{2022-04-06}
 
 
 ***
