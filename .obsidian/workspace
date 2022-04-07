@@ -7,9 +7,10 @@
         "id": "ad631787b651420a",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "動力學/Impact.md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Impact.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Impact.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "動力學/Impact.md"
               }
             }
           }
@@ -110,15 +111,15 @@
   },
   "active": "ad631787b651420a",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "conflict-files-obsidian-git.md",
-    "動力學/Fluid Stream.md",
-    "動力學/切線座標.md",
-    "動力學/動量.md",
-    "動力學/動量與衝量.md",
+    "動力學/Impact.md",
+    "動力學/Moment.md",
     "動力學/曲率半徑.md",
-    "動力學/極座標.md",
+    "動力學/動量與衝量.md",
+    "動力學/動量.md",
+    "動力學/切線座標.md",
+    "動力學/Fluid Stream.md",
     "動力學/Angular Momentum.md",
-    "動力學/Impact.md"
+    "動力學/Acceleration.md",
+    "動力學/極座標.md"
   ]
 }
