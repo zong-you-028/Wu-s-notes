@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "429c7e59bf3e8a67",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "source"
+          }
+        },
+        "group": "1df2049803f76320"
+      },
+      {
         "id": "ad631787b651420a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "動力學/Fluid Stream.md",
+            "file": "機械製造/機械製造期中考前筆記.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "1df2049803f76320"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "動力學/Fluid Stream.md",
+                "file": "機械製造/機械製造期中考前筆記.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "動力學/Fluid Stream.md",
+                "file": "機械製造/機械製造期中考前筆記.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "動力學/Fluid Stream.md"
+                "file": "機械製造/機械製造期中考前筆記.md"
               }
             }
           }
@@ -109,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad631787b651420a",
+  "active": "429c7e59bf3e8a67",
   "lastOpenFiles": [
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Casting Process.md",
+    "課表.md",
+    "機械製造/Materials Processing.md",
+    "Main Kanban.md",
     "動力學/Fluid Stream.md",
     "動力學/極座標.md",
     "動力學/曲率半徑.md",
     "動力學/動量與衝量.md",
-    "動力學/動量.md",
-    "動力學/切線座標.md",
-    "動力學/Moment.md",
-    "動力學/Impact.md",
-    "動力學/Acceleration.md",
-    "動力學/Angular Momentum.md"
+    "動力學/動量.md"
   ]
 }
