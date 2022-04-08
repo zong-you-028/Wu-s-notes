@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "429c7e59bf3e8a67",
+        "id": "50b0016e47cc413f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "機械製造/機械製造期中考前筆記.md",
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
             "mode": "source"
           }
         },
-        "group": "1df2049803f76320"
+        "group": "2196af3e8da764ff"
       },
       {
-        "id": "ad631787b651420a",
+        "id": "ef1064838a61e64d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "機械製造/機械製造期中考前筆記.md",
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
             "mode": "preview"
           }
         },
-        "group": "1df2049803f76320"
+        "group": "2196af3e8da764ff"
       }
     ],
     "direction": "vertical"
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6006a196d404ffe0",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "機械製造/機械製造期中考前筆記.md",
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "機械製造/機械製造期中考前筆記.md",
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "機械製造/機械製造期中考前筆記.md"
+                "file": "電工學/Circuit Analysis/RLC Circuit.md"
               }
             }
           }
@@ -119,11 +120,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "429c7e59bf3e8a67",
+  "active": "50b0016e47cc413f",
   "lastOpenFiles": [
+    "電工學/Circuit Analysis/RLC Circuit.md",
     "機械製造/機械製造期中考前筆記.md",
     "機械製造/Casting Process.md",
     "課表.md",
@@ -132,7 +133,6 @@
     "動力學/Fluid Stream.md",
     "動力學/極座標.md",
     "動力學/曲率半徑.md",
-    "動力學/動量與衝量.md",
-    "動力學/動量.md"
+    "動力學/動量與衝量.md"
   ]
 }
