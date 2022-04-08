@@ -1,39 +1,29 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "bdd05fd6338636e9",
     "type": "split",
     "children": [
       {
-<<<<<<< master
-        "id": "a075ea409292b70d",
+        "id": "7c0b4e5471c36e31",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-=======
-        "id": "354b521983f4e6d5",
-        "type": "leaf",
-        "state": {
-<<<<<<< HEAD
-          "type": "empty",
-          "state": {}
-=======
           "type": "markdown",
->>>>>>> origin/master
           "state": {
-            "file": "Main Kanban.md"
+            "file": "動力學/極座標.md",
+            "mode": "preview",
+            "source": false
           }
->>>>>>> 56429e4947ea37b79393545cb41c30eafeb8f08b
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ee60c8069cf4e9d",
+    "id": "fefc87f28ba9cdf6",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "10028634ee99dc48",
+        "id": "0ecb12634d22b7ff",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -41,7 +31,7 @@
         }
       },
       {
-        "id": "2c1e3869d2b82295",
+        "id": "d04921ccfdd27eb4",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -59,16 +49,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "7e75091590894741",
+    "id": "705c5377daad320b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "8dd702553acb871e",
+        "id": "c779cc0edd128649",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Main Kanban.md",
+            "file": "動力學/極座標.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -76,69 +66,16 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-<<<<<<< master
-=======
-=======
-        "id": "c9690387a98118b3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cfb76d92ed5435ba",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "547a9b4620c7b43d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "827233188ff93c27",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
->>>>>>> origin/master
->>>>>>> origin/master
           }
         }
       }
     ],
     "currentTab": 0
   },
-<<<<<<< master
-  "active": "a075ea409292b70d",
-=======
-  "active": "354b521983f4e6d5",
->>>>>>> origin/master
+  "active": "7c0b4e5471c36e31",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "課表.md",
-    "動力學/Angular Momentum.md",
-    "能量守恆.md",
-    "conflict-files-obsidian-git.md",
-    "電工學/Arc/Amplifier.md",
-    "工程數學/First Order DE/Table of Integration.md",
-    "工程數學/Laplace/Dirac Delta Function.md",
-    "工程數學/Laplace/Laplace Transform.md",
-    "工程數學/Projects/Math Application Project 1.md"
+    "動力學/極座標.md",
+    "動力學/Moment.md",
+    "Main Kanban.md"
   ]
 }
