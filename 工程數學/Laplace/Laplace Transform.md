@@ -4,7 +4,7 @@
 
 Laplace Transform of $f(t)$
 
-$$F(s) = L\{f(t)\} = \int_0^\infty e^{-st}f(t)dt$$
+$$F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt$$
 
 通常用大寫來代表 transform 的結果，也就是上式的 $F(s)$
 
@@ -28,7 +28,7 @@ Laplace Transform 是一種 [[Integral Transform]]
 | $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                                        |
 | $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                                        |
 
-### $L\{1\} = \frac{1}{s}$
+### $\mathcal{L}\{1\} = \frac{1}{s}$
 
 $$L\{1\} = \int_0^\infty e^{-st}dt$$
 .

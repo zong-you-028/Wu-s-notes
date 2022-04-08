@@ -8,6 +8,12 @@ $$\sum F = \frac{ dm }{ dt }(v_B - v_A)$$
 
 $$\sum M_0 = \frac{ dm }{ dt }(r_B \times v_B - r_A \times v_A)$$
 
+$$\frac{ dm }{ dt } = \rho v A$$
+
+$\rho$: 密度
+$v$: 流速
+$A$: 截面積
+
 ---
 
 參考資料:

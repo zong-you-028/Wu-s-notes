@@ -10,7 +10,7 @@
 
 # Coefficient of Restitution
 
-$$e = \frac{ (v_B)_2 - (v_A)_2 }{ (v_A)_1 - (v_B)_2 }$$
+$$e = \frac{ (v_B)_2 - (v_A)_2 }{ (v_A)_1 - (v_B)_1 }$$
 
 ---
 
