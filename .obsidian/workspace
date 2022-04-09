@@ -1,24 +1,77 @@
 {
   "main": {
+<<<<<<< master
     "id": "acc1080da0d60493",
     "type": "split",
     "children": [
       {
         "id": "b57d64f5129c0541",
+=======
+    "id": "1a39ae1e8a0ad77a",
+    "type": "split",
+    "children": [
+      {
+        "id": "582828c449ad76aa",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< master
             "file": "Archived/Mechanics and Materials/Elastic Fluxtural Formula of Beam Bending.md",
             "mode": "preview",
             "source": false
           }
         }
+=======
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "source"
+          }
+        },
+        "group": "6f668c0480d92f5f"
+      },
+      {
+        "id": "475e2ada530fcc8e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6f668c0480d92f5f"
+      },
+      {
+        "id": "b73514188fe5013e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "source"
+          }
+        },
+        "group": "e36ee3bd633f181a"
+      },
+      {
+        "id": "6d3c3dc1eb19de3a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "preview"
+          }
+        },
+        "group": "e36ee3bd633f181a"
+>>>>>>> origin/master
       }
     ],
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master
     "id": "219a860a9852e70c",
     "type": "mobile-drawer",
     "children": [
@@ -42,6 +95,37 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+    "id": "ee3d5feeaa24b1d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "39297fb01adc9999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d32546d79517b2c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd852c9c609b15ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "deformation",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
         }
       }
@@ -49,6 +133,7 @@
     "currentTab": 0
   },
   "right": {
+<<<<<<< master
     "id": "4c481278615d057b",
     "type": "mobile-drawer",
     "children": [
@@ -66,12 +151,68 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
+=======
+    "id": "6006a196d404ffe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9690387a98118b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb76d92ed5435ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "機械製造/機械製造期中考前筆記.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "547a9b4620c7b43d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "機械製造/機械製造期中考前筆記.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "827233188ff93c27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "機械製造/機械製造期中考前筆記.md"
+              }
+            }
+          },
+          {
+            "id": "51d6eb966f54f8d5",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+>>>>>>> origin/master
           }
         }
       }
     ],
     "currentTab": 0
   },
+<<<<<<< master
   "active": "b57d64f5129c0541",
   "lastOpenFiles": [
     "Archived/Mechanics and Materials/Elastic Fluxtural Formula of Beam Bending.md",
@@ -84,5 +225,19 @@
     "Archived/Mechanics and Materials/Moment Curvature Relationship of Bending.md",
     "Archived/Mechanics and Materials/Non - Uniform Beam Bending.md",
     "Archived/Mechanics and Materials/Pure Beam Bending.md"
+=======
+  "active": "6d3c3dc1eb19de3a",
+  "lastOpenFiles": [
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Casting Process.md",
+    "機械製造/Materials Processing.md",
+    "Archived/Mechanics and Materials/Deflection.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
+    "Main Kanban.md",
+    "課表.md",
+    "動力學/Fluid Stream.md",
+    "動力學/極座標.md"
+>>>>>>> origin/master
   ]
 }

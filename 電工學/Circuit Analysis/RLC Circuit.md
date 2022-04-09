@@ -86,7 +86,7 @@ $$v_c(t) = \mathcal{ L }^{ -1 }\left[ \frac{ 1 }{ s + \frac{ 1 }{ T } } \right] 
 
 $$ = v_{ c0 }e^{ -\frac{ t }{ T } }$$
 
-## Impedance
+## [[Impedance]]
 
 $$Z(s) = \frac{ V(s) }{ I(s) }$$
 
@@ -145,7 +145,7 @@ R(\omega) + jX(\omega)$$
 
 ## 推導過程
 
-Impedance $Z(s)$
+[[Impedance]] $Z(s)$
 (Resistance in $S$-domain)
 
 $$Z(s) = \frac{ 1 }{ \frac{ 1 }{ 1 / sc } + \frac{ 1 }{ R } + \frac{ 1 }{ sL } }$$

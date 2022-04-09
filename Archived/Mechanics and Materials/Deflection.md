@@ -12,7 +12,7 @@ Use Curvature Equation:
 
 $$\frac{ 1 }{ \rho } = \frac{ (\frac{ d^2y }{ dx^2 }) }{ \left[1 + (\frac{ dy }{ dx })^2\right]^{ \frac{ 3 }{ 2 } } }$$
 
-assume small deformations $(\frac{ dy }{ dx })^2 << 1$
+assume small [[Deformation|deformations]] $(\frac{ dy }{ dx })^2 << 1$
 
 $$\implies\frac{ 1 }{ \rho } \approx \frac{ d^2y }{ dx^2 }$$
 
