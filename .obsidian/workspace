@@ -120,6 +120,7 @@
   "active": "05d749543b5b817b",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "conflict-files-obsidian-git.md",
     "電控/電路/easyEDA.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
@@ -127,7 +128,6 @@
     "工程數學/First Order Differential Equation.md",
     "電控/stm32/STM32CubeIDE.md",
     "電控/stm32/STM32 命名方法.md",
-    "電控/stm32/ioc file.md",
-    "電控/電路/GPIO.md"
+    "電控/stm32/ioc file.md"
   ]
 }

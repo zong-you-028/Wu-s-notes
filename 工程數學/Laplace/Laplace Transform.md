@@ -4,7 +4,7 @@
 
 Laplace Transform of $f(t)$
 
-$$F(s) = L\{f(t)\} = \int_0^\infty e^{-st}f(t)dt$$
+$$F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt$$
 
 通常用大寫來代表 transform 的結果，也就是上式的 $F(s)$
 
@@ -18,17 +18,17 @@ Laplace Transform 是一種 [[Integral Transform]]
 
 底下這個東西要背起來
 
-| $$f(t)$$      | $$F(s)$$                 | 算法                            |
-| ------------- | ------------------------ | ------------------------------- |
-| $$1$$         | $$\frac{1}{s}$$          | [[#L 1 frac 1 s \| link (1)]]   |
-| $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ | [[#L t frac 1 s 2 \| link (t)]] |
-| $$\exp(at)$$  | $$\frac{1}{s - a}$$      |                                 |
-| $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |                                 |
-| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  |                                 |
-| $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                                 |
-| $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                                 |
+| $$f(t)$$      | $$F(s)$$                 | 算法                                   |
+| ------------- | ------------------------ | -------------------------------------- |
+| $$1$$         | $$\frac{1}{s}$$          | [[#L 1 frac 1 s \| link (1)]]          |
+| $$t^n$$       | $$\frac{n!}{s^{n + 1}}$$ | [[#mathcal L t frac 1 s 2\| link (t)]] | 
+| $$\exp(at)$$  | $$\frac{1}{s - a}$$      |                                        |
+| $$\sin(kt)$$  | $$\frac{k}{s^2 + k^2}$$  |                                        |
+| $$\cos(kt)$$  | $$\frac{s}{s^2 + k^2}$$  | see [[Table of Integration]]                                       |
+| $$\sinh(kt)$$ | $$\frac{k}{s^2 - k^2}$$  |                                        |
+| $$\cosh(kt)$$ | $$\frac{s}{s^2 - k^2}$$  |                                        |
 
-### $L\{1\} = \frac{1}{s}$
+### $\mathcal{L}\{1\} = \frac{1}{s}$
 
 $$L\{1\} = \int_0^\infty e^{-st}dt$$
 .
@@ -41,12 +41,12 @@ $$= \frac{1}{s}$$
 > 這裡假設 $s > 0$, 所以
 > $$-\frac{e^{-s\cdot \infty}}{s} = 0$$
 
-### $L\{t\} = \frac{1}{s^2}$
+### $\mathcal{ L }\{t\} = \frac{1}{s^2}$
 
-$$L\{t\} = \int_0^\infty te^{-st}dt \qquad 
+$$\mathcal{ L }\{t\} = \int_0^\infty te^{-st}dt \qquad 
 \begin{array}{}
 	u = t & dv = e^{-st}dt \\
-	du = 0 & v = -\frac{e^{-st}}{s}
+	du = dt & v = -\frac{e^{-st}}{s}
 \end{array}$$
 .
 $$= \left. -\frac{te^{-st}}{s} \right\vert_0^\infty + \int_0^\infty\frac{e^{-st}}{s}dt$$
