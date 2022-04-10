@@ -4,16 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "05d749543b5b817b",
+        "id": "926b12b46ebc22cc",
+        "type": "leaf",
+        "state": {
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
+        }
+      },
+      {
+        "id": "83144766f8d003eb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Main Kanban.md",
-            "mode": "source",
-            "source": false
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "8296574bc02d641a"
+      },
+      {
+        "id": "bc52740bdf0e83bf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "preview"
+          }
+        },
+        "group": "8296574bc02d641a"
+      },
+      {
+        "id": "cb555357271bc9c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "source"
+          }
+        },
+        "group": "d5f43d4f33242eae"
+      },
+      {
+        "id": "43ef24368b34da78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "機械製造/機械製造期中考前筆記.md",
+            "mode": "preview"
+          }
+        },
+        "group": "d5f43d4f33242eae"
       }
     ],
     "direction": "vertical"
@@ -53,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2b98f3b73718d425",
@@ -69,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "機械製造/機械製造期中考前筆記.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,44 +128,25 @@
             }
           },
           {
-            "id": "769194c49237a63d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Main Kanban.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "541aca282ec79817",
+            "id": "1ad4b90fb66e8828",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "機械製造/機械製造期中考前筆記.md"
               }
             }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "05d749543b5b817b",
+  "active": "83144766f8d003eb",
   "lastOpenFiles": [
+    "機械製造/機械製造期中考前筆記.md",
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電控/電路/easyEDA.md",
@@ -127,7 +155,6 @@
     "工程數學/Orthogonal Functions/Fourier Series.md",
     "工程數學/First Order Differential Equation.md",
     "電控/stm32/STM32CubeIDE.md",
-    "電控/stm32/STM32 命名方法.md",
-    "電控/stm32/ioc file.md"
+    "電控/stm32/STM32 命名方法.md"
   ]
 }
