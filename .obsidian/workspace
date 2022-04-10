@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3700446842d03dd0",
+        "id": "05d749543b5b817b",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "Main Kanban.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -115,9 +117,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3700446842d03dd0",
+  "active": "05d749543b5b817b",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "電控/電路/easyEDA.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
@@ -125,7 +128,6 @@
     "電控/stm32/STM32CubeIDE.md",
     "電控/stm32/STM32 命名方法.md",
     "電控/stm32/ioc file.md",
-    "電控/電路/GPIO.md",
-    "iTron會議紀錄/2022-01-30 Struct and Class.md"
+    "電控/電路/GPIO.md"
   ]
 }
