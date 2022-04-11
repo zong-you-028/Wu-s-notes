@@ -4,37 +4,26 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "c705a226a35a6f8f",
+        "id": "336458b8d253cdd9",
         "type": "leaf",
         "state": {
           "type": "empty",
           "state": {}
-=======
-        "id": "1c3b9cc715d041da",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "機械製造/Materials Processing.md",
-            "mode": "preview"
-          }
->>>>>>> 9cb4ce1c7b847e68768105e11deee7495017fa3b
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
+    "id": "ee3d5feeaa24b1d7",
     "type": "split",
     "children": [
       {
-        "id": "43308c1ede1b488c",
+        "id": "39297fb01adc9999",
         "type": "tabs",
         "children": [
           {
-            "id": "e0a18862bcffd7fb",
+            "id": "d32546d79517b2c1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -42,12 +31,12 @@
             }
           },
           {
-            "id": "a208f910fff84cf3",
+            "id": "bd852c9c609b15ed",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "die",
+                "query": "acou",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,23 +52,19 @@
     "width": 300
   },
   "right": {
-    "id": "2b98f3b73718d425",
+    "id": "6006a196d404ffe0",
     "type": "split",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
+        "id": "c9690387a98118b3",
         "type": "tabs",
         "children": [
           {
-            "id": "689e38306ca8c5ee",
+            "id": "cfb76d92ed5435ba",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "機械製造/Materials Processing.md",
->>>>>>> 9cb4ce1c7b847e68768105e11deee7495017fa3b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,39 +76,26 @@
             }
           },
           {
-            "id": "1ad4b90fb66e8828",
+            "id": "547a9b4620c7b43d",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-=======
-                "file": "機械製造/Materials Processing.md"
->>>>>>> 9cb4ce1c7b847e68768105e11deee7495017fa3b
-              }
-            }
-          },
-          {
-            "id": "8e15253e67885cae",
-            "type": "leaf",
-            "state": {
-<<<<<<< HEAD
-              "type": "outline",
-              "state": {}
-=======
               "type": "outgoing-link",
               "state": {
-                "file": "機械製造/Materials Processing.md",
-                "linksCollapsed": true,
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
->>>>>>> 9cb4ce1c7b847e68768105e11deee7495017fa3b
             }
           },
           {
-            "id": "eb806f930187caff",
+            "id": "827233188ff93c27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "51d6eb966f54f8d5",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -131,27 +103,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "c705a226a35a6f8f",
-=======
-  "active": "1c3b9cc715d041da",
->>>>>>> 9cb4ce1c7b847e68768105e11deee7495017fa3b
+  "active": "336458b8d253cdd9",
   "lastOpenFiles": [
-    "機械製造/Materials Processing.md",
-    "機械製造/機械製造期中考前筆記.md",
     "機械製造/機械製造期中字卡.md",
-    "Main Kanban.md",
-    "conflict-files-obsidian-git.md",
-    "電控/電路/easyEDA.md",
-    "工程數學/Orthogonal Functions.md",
-    "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/First Order Differential Equation.md"
+    "附件/injection molding with description.png",
+    "附件/injection molding.png",
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Materials Processing.md",
+    "機械製造/Casting Process.md",
+    "Archived/Mechanics and Materials/Deflection.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
+    "Main Kanban.md"
   ]
 }
