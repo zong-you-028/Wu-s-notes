@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "機械製造/機械製造期中考前筆記.md",
-            "mode": "source"
+            "file": "機械製造/Materials Processing.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "die",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "機械製造/機械製造期中考前筆記.md",
+                "file": "機械製造/Materials Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "機械製造/機械製造期中考前筆記.md"
+                "file": "機械製造/Materials Processing.md"
               }
             }
           },
@@ -95,10 +95,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "機械製造/機械製造期中考前筆記.md",
-                "linksCollapsed": false,
+                "file": "機械製造/Materials Processing.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "eb806f930187caff",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
             }
           }
         ],
@@ -106,20 +114,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "1c3b9cc715d041da",
   "lastOpenFiles": [
+    "機械製造/Materials Processing.md",
     "機械製造/機械製造期中考前筆記.md",
+    "機械製造/機械製造期中字卡.md",
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電控/電路/easyEDA.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/First Order Differential Equation.md",
-    "電控/stm32/STM32CubeIDE.md",
-    "電控/stm32/STM32 命名方法.md"
+    "工程數學/First Order Differential Equation.md"
   ]
 }
