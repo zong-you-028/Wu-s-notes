@@ -1,29 +1,54 @@
 {
   "main": {
+<<<<<<< master
     "id": "11878e14a131405d",
     "type": "split",
     "children": [
       {
         "id": "72500e9fc7c67360",
+=======
+    "id": "1a39ae1e8a0ad77a",
+    "type": "split",
+    "children": [
+      {
+        "id": "336458b8d253cdd9",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
+<<<<<<< master-origin
           "type": "markdown",
           "state": {
             "file": "機械製造/Materials Processing.md",
             "mode": "preview",
             "source": false
           }
+<<<<<<< master
+=======
+=======
+          "type": "empty",
+          "state": {}
+>>>>>>> origin/master
+>>>>>>> origin/master
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master
     "id": "ccaf490d4b6032d5",
     "type": "mobile-drawer",
     "children": [
       {
         "id": "ac33784b2269bdcd",
+=======
+    "id": "3ce06204b1af3ea5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+<<<<<<< master-origin
+        "id": "cd9cffed039c2bf2",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -31,7 +56,11 @@
         }
       },
       {
+<<<<<<< master
         "id": "34b55dd23632c56b",
+=======
+        "id": "0f4d5202936d251e",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "search",
@@ -42,6 +71,36 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+<<<<<<< master
+=======
+=======
+        "id": "39297fb01adc9999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d32546d79517b2c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd852c9c609b15ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "acou",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
+>>>>>>> origin/master
           }
         }
       }
@@ -49,11 +108,28 @@
     "currentTab": 0
   },
   "right": {
+<<<<<<< master
     "id": "631c8d23d39858ec",
     "type": "mobile-drawer",
     "children": [
       {
         "id": "fa6b6e5097920148",
+=======
+    "id": "61fe90eaf91a4550",
+    "type": "mobile-drawer",
+    "children": [
+      {
+<<<<<<< master-origin
+        "id": "c86a799e8dbd2af2",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "89164afd26309f2b",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -66,12 +142,63 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
+<<<<<<< master
+=======
+=======
+        "id": "c9690387a98118b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb76d92ed5435ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "547a9b4620c7b43d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "827233188ff93c27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "51d6eb966f54f8d5",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+>>>>>>> origin/master
+>>>>>>> origin/master
           }
         }
       }
     ],
     "currentTab": 0
   },
+<<<<<<< master
   "active": "72500e9fc7c67360",
   "lastOpenFiles": [
     "機械製造/Materials Processing.md",
@@ -84,5 +211,32 @@
     "Archived/Mechanics and Materials/Location of Neutral Axis.md",
     "Archived/Mechanics and Materials/Moment Curvature Relationship of Bending.md",
     "工程數學/Orthogonal Functions/Fourier Series.md"
+=======
+  "active": "336458b8d253cdd9",
+  "lastOpenFiles": [
+<<<<<<< master-origin
+    "機械製造/Materials Processing.md",
+    "機械製造/Casting Process.md",
+    "機械製造/機械製造期中考前筆記.md",
+    "Main Kanban.md",
+    "conflict-files-obsidian-git.md",
+    "動力學/Fluid Stream.md",
+    "動力學/切線座標.md",
+    "動力學/動量.md",
+    "動力學/動量與衝量.md",
+    "動力學/曲率半徑.md"
+=======
+    "機械製造/機械製造期中字卡.md",
+    "附件/injection molding with description.png",
+    "附件/injection molding.png",
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Materials Processing.md",
+    "機械製造/Casting Process.md",
+    "Archived/Mechanics and Materials/Deflection.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
+    "Main Kanban.md"
+>>>>>>> origin/master
+>>>>>>> origin/master
   ]
 }
