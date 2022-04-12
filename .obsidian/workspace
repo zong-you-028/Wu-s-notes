@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ad631787b651420a",
+        "id": "336458b8d253cdd9",
         "type": "leaf",
         "state": {
+<<<<<<< master-origin
           "type": "markdown",
           "state": {
             "file": "機械製造/Materials Processing.md",
             "mode": "preview",
             "source": false
           }
+=======
+          "type": "empty",
+          "state": {}
+>>>>>>> origin/master
         }
       }
     ],
@@ -23,6 +28,7 @@
     "type": "mobile-drawer",
     "children": [
       {
+<<<<<<< master-origin
         "id": "cd9cffed039c2bf2",
         "type": "leaf",
         "state": {
@@ -42,6 +48,33 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+        "id": "39297fb01adc9999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d32546d79517b2c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd852c9c609b15ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "acou",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
         }
       }
@@ -53,6 +86,7 @@
     "type": "mobile-drawer",
     "children": [
       {
+<<<<<<< master-origin
         "id": "c86a799e8dbd2af2",
         "type": "leaf",
         "state": {
@@ -74,14 +108,62 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
+=======
+        "id": "c9690387a98118b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb76d92ed5435ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "547a9b4620c7b43d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "827233188ff93c27",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "51d6eb966f54f8d5",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+>>>>>>> origin/master
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "ad631787b651420a",
+  "active": "336458b8d253cdd9",
   "lastOpenFiles": [
+<<<<<<< master-origin
     "機械製造/Materials Processing.md",
     "機械製造/Casting Process.md",
     "機械製造/機械製造期中考前筆記.md",
@@ -92,5 +174,17 @@
     "動力學/動量.md",
     "動力學/動量與衝量.md",
     "動力學/曲率半徑.md"
+=======
+    "機械製造/機械製造期中字卡.md",
+    "附件/injection molding with description.png",
+    "附件/injection molding.png",
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Materials Processing.md",
+    "機械製造/Casting Process.md",
+    "Archived/Mechanics and Materials/Deflection.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
+    "Main Kanban.md"
+>>>>>>> origin/master
   ]
 }

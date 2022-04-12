@@ -86,7 +86,7 @@ $$v_c(t) = \mathcal{ L }^{ -1 }\left[ \frac{ 1 }{ s + \frac{ 1 }{ T } } \right] 
 
 $$ = v_{ c0 }e^{ -\frac{ t }{ T } }$$
 
-## Impedance
+## [[Impedance]]
 
 $$Z(s) = \frac{ V(s) }{ I(s) }$$
 
@@ -145,7 +145,7 @@ R(\omega) + jX(\omega)$$
 
 ## 推導過程
 
-Impedance $Z(s)$
+[[Impedance]] $Z(s)$
 (Resistance in $S$-domain)
 
 $$Z(s) = \frac{ 1 }{ \frac{ 1 }{ 1 / sc } + \frac{ 1 }{ R } + \frac{ 1 }{ sL } }$$
@@ -302,6 +302,31 @@ $$ = \frac{ V \cdot I }{ 2 }
 Average Pow:
 
 $$P_{ avg } = \frac{ VI }{ 2 }\cos\theta_z$$
+
+# Resonance
+
+A circuit containing both types of Energy Storage elements
+i.e. inductor and capacitor, exhibits a distinct behavior owing to the joint effect at a specific frequency
+
+很像單擺的動能和位能（inductor 的磁場和 capacitor 的電場）有週期性的轉換
+
+![[Resonance.png]]
+
+$$\vec{ I }_{ 1 } = \frac{ R }{ j\omega L \vert\vert \frac{ 1 }{ j\omega C } + R } \cdot I_{ sc }$$
+
+$$j\omega L \vert\vert \frac{ 1 }{ j\omega C } = \frac{ \frac{ L }{ C } }{ j\omega L + \frac{ 1 }{ j\omega C } }$$
+
+$$ = \frac{ \frac{ L }{ C } \cdot j\omega C }{ j\omega L j\omega C + 1 }$$
+
+$$ = \frac{j\omega L}{ -\omega^2 LC + 1 }$$
+
+When $\omega = \frac{ 1 }{ \sqrt{ LC } }$, we have $I_1 = 0$ (open circuit), which is known as the resonant frequency
+
+At this frequency the inductor and the capacitor shuffle energy with each other.
+
+We define the Quality factor of parallel resonant circuit as follows.
+
+$$I_L = QI_{ sc }$$
 
 ---
 

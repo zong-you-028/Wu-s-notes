@@ -6,7 +6,7 @@
 
 What is the $R_2$ in order to obtain the maximum power from the power supply?
 
-# Impedance Matching
+# [[Impedance]] Matching
 
 To prove $R_L = R_eq$
 

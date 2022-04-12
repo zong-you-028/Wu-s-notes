@@ -6,7 +6,7 @@
 1. [[Casting Process]]
 2. Material Removal Process
 	傳統上這被稱為 machining ，而現在 Material Removal 包含了更多 chemical, physical, thermal processes
-3. Deformation Processes
+3. [[Deformation]] Processes
 4. Consolidation Processes
 5. Additive Processes
 
@@ -65,7 +65,7 @@
     <td>Electropolishing</td>
   </tr>
   <tr>
-    <td>Electrodischarge maching</td>
+    <td>Electrodischarge machining</td>
   </tr>
   <tr>
     <td>Water jet</td>
