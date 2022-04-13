@@ -324,9 +324,113 @@ When $\omega = \frac{ 1 }{ \sqrt{ LC } }$, we have $I_1 = 0$ (open circuit), whi
 
 At this frequency the inductor and the capacitor shuffle energy with each other.
 
+## Quality Factor
+
 We define the Quality factor of parallel resonant circuit as follows.
 
 $$I_L = QI_{ sc }$$
+
+$$\underbrace{ Q }_{ \text{ current divider } } = \frac{ R\vert\vert \frac{ 1 }{ j\omega C } }{ (R \vert\vert \frac{ 1 }{ j\omega C }) + j\omega L } = \frac{ R }{ R(1 - \omega^2LC) + j\omega L }$$
+
+$$\text{ since } \omega = \frac{ 1 }{ \sqrt{ LC } } \quad \text{ (resonant frequency) }$$
+
+$$\vert Q\vert = \left\vert \frac{ R }{ j\omega L } \right\vert = \frac{ R }{ \omega L } = R\sqrt{ \frac{ C }{ L } }$$
+
+$Q$ is much larger than one when $R$ is large and $C / L$ is large.
+
+# AC Superposition
+
+![[AC superposition scenario.png]]
+
+Suppress $10V$
+
+![[AC superposition suppressed 10V.png]]
+
+$$I_1 = \frac{ 12\angle 0\degree }{ 2,4k - j1,2k }$$
+
+$$ = 4.47 \angle 63\degree mA$$
+
+Suppress $12V$
+
+![[AC superposition suppressed 12V.png]]
+
+$$I_2 = \frac{ 10\angle 90\degree }{ 2.4k + j8.8k } = 1.1\angle 90\degree - 65\degree$$
+
+$$ = 1.1\angle 25\degree (mA)$$
+.
+$$I = I_1 + I_2$$
+
+$$\implies i(t) = 4.47\sin(10kt + 63\degree) + 1.1\sin(40kt + 25\degree) (mA)$$
+
+When $\omega = \frac{ 1 }{ \sqrt{ LC } } = 12.25krad/s$, the series resonance occurs and the $I$ is in phase with the input voltage.
+
+# Frequency Response
+
+## Signal
+
+> Fourier Expansion:
+> $$v(t) = v_0 + \sum_{ n = 1 }^\infty a_n \cos(\omega_n t) + b_n\sin(\omega_n t)$$
+> $$\omega_n = n\cdot \underbrace{ \omega_0 }_{ \text{ base frequency } }$$
+
+![[frequency response.png]]
+
+## Low Pass Filter
+
+### RC Filter
+
+![[RC filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } \underbrace{ = }_{ \text{ voltage divider } } \frac{ \frac{ 1 }{ j\omega C } }{ R + \frac{ 1 }{ j\omega C } } = \frac{ 1 }{ jRC\omega + 1 }$$
+
+$$ = \underbrace{ \frac{ 1 }{ \sqrt{ 1 + (\omega T)^2 } } }_{ \text{ gain } } \underbrace{ \angle -\tan^{ -1 }\omega T }_{ \text{ phase } } \qquad T = RC$$
+
+![[rc filter diagram.png]]
+
+### LR Filter
+
+![[lr filter schematic diagram.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
+
+## High Pass Filter
+
+### RL Filter
+
+![[rl filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
+
+$$G(\omega) = \frac{ \omega T }{ \sqrt{ 1 + (\omega T)^2 } } \angle90\degree - \tan^{ -1 }\omega T$$
+
+![[high pass filter diagram.png]]
+
+### CR Filter
+
+![[cr filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = RC$$
+
+## Band Pass Filter
+
+### Series
+
+![[band pass filter series.png]]
+
+We need a unit gain buffer to isolate two filters
+
+![[band pass filter series with unit gain buffer.png]]
+
+### Parallel
+
+![[band pass filter parallel.png]]
+
+[[#Low Pass Filter]] 和 [[#High Pass Filter]] 並聯
+
+$$\omega_r = \frac{ 1 }{ \sqrt{ LC } }$$
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \omega^2LC) - j\omega L } = \frac{ K\cdot j \frac{ \omega }{ \omega_l } }{ (1 + j\frac{ \omega }{ \omega_l })(1 + j\frac{ \omega }{ \omega_u }) }$$
+
+![[band pass filter parallel diagram.png]]
 
 ---
 
@@ -339,3 +443,6 @@ $$I_L = QI_{ sc }$$
 link:
 
 [[Inverse Laplace Transform#方法二 Decomposition of Fractions]]
+[[Capacitor]]
+[[Inductor]]
+[[Resistine Element]]
