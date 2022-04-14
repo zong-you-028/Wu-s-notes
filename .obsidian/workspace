@@ -7,8 +7,21 @@
         "id": "a6cb550d540d5609",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
+        }
+      },
+      {
+        "id": "239c8b23fe726c11",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "課表.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
           }
         ],
@@ -103,6 +120,8 @@
   },
   "active": "a6cb550d540d5609",
   "lastOpenFiles": [
+    "Main Kanban.md",
+    "課表.md",
     "Untitled.md",
     "工程數學/Linear Algebra/Field.md",
     "工程數學/Linear Algebra/Curves.md",
@@ -110,8 +129,6 @@
     "動力學/切線座標.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
     "電工學/Arc/Resistine Element.md",
-    "電工學/Arc/Ideal Transformer.md",
-    "機械製造/機械製造期中字卡.md",
-    "附件/injection molding with description.png"
+    "電工學/Arc/Ideal Transformer.md"
   ]
 }
