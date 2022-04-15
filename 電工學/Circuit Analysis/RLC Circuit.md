@@ -324,9 +324,221 @@ When $\omega = \frac{ 1 }{ \sqrt{ LC } }$, we have $I_1 = 0$ (open circuit), whi
 
 At this frequency the inductor and the capacitor shuffle energy with each other.
 
+## Quality Factor
+
 We define the Quality factor of parallel resonant circuit as follows.
 
 $$I_L = QI_{ sc }$$
+
+$$\underbrace{ Q }_{ \text{ current divider } } = \frac{ R\vert\vert \frac{ 1 }{ j\omega C } }{ (R \vert\vert \frac{ 1 }{ j\omega C }) + j\omega L } = \frac{ R }{ R(1 - \omega^2LC) + j\omega L }$$
+
+$$\text{ since } \omega = \frac{ 1 }{ \sqrt{ LC } } \quad \text{ (resonant frequency) }$$
+
+$$\vert Q\vert = \left\vert \frac{ R }{ j\omega L } \right\vert = \frac{ R }{ \omega L } = R\sqrt{ \frac{ C }{ L } }$$
+
+$Q$ is much larger than one when $R$ is large and $C / L$ is large.
+
+# AC Superposition
+
+![[AC superposition scenario.png]]
+
+Suppress $10V$
+
+![[AC superposition suppressed 10V.png]]
+
+$$I_1 = \frac{ 12\angle 0\degree }{ 2,4k - j1,2k }$$
+
+$$ = 4.47 \angle 63\degree mA$$
+
+Suppress $12V$
+
+![[AC superposition suppressed 12V.png]]
+
+$$I_2 = \frac{ 10\angle 90\degree }{ 2.4k + j8.8k } = 1.1\angle 90\degree - 65\degree$$
+
+$$ = 1.1\angle 25\degree (mA)$$
+.
+$$I = I_1 + I_2$$
+
+$$\implies i(t) = 4.47\sin(10kt + 63\degree) + 1.1\sin(40kt + 25\degree) (mA)$$
+
+When $\omega = \frac{ 1 }{ \sqrt{ LC } } = 12.25krad/s$, the series resonance occurs and the $I$ is in phase with the input voltage.
+
+# Frequency Response
+
+## Signal
+
+> Fourier Expansion:
+> $$v(t) = v_0 + \sum_{ n = 1 }^\infty a_n \cos(\omega_n t) + b_n\sin(\omega_n t)$$
+> $$\omega_n = n\cdot \underbrace{ \omega_0 }_{ \text{ base frequency } }$$
+
+![[frequency response.png]]
+
+## Low Pass Filter
+
+### RC Filter
+
+![[RC filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } \underbrace{ = }_{ \text{ voltage divider } } \frac{ \frac{ 1 }{ j\omega C } }{ R + \frac{ 1 }{ j\omega C } } = \frac{ 1 }{ jRC\omega + 1 }$$
+
+$$ = \underbrace{ \frac{ 1 }{ \sqrt{ 1 + (\omega T)^2 } } }_{ \text{ gain } } \underbrace{ \angle -\tan^{ -1 }\omega T }_{ \text{ phase } } \qquad T = RC$$
+
+![[rc filter diagram.png]]
+
+### LR Filter
+
+![[lr filter schematic diagram.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
+
+## High Pass Filter
+
+### RL Filter
+
+![[rl filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
+
+$$G(\omega) = \frac{ \omega T }{ \sqrt{ 1 + (\omega T)^2 } } \angle90\degree - \tan^{ -1 }\omega T$$
+
+![[high pass filter diagram.png]]
+
+### CR Filter
+
+![[cr filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = RC$$
+
+## Band Pass Filter
+
+### Series
+
+![[band pass filter series.png]]
+
+We need a unit gain buffer to isolate two filters
+
+![[band pass filter series with unit gain buffer.png]]
+
+### Parallel
+
+![[band pass filter parallel.png]]
+
+[[#Low Pass Filter]] 和 [[#High Pass Filter]] 並聯
+
+$$\omega_r = \frac{ 1 }{ \sqrt{ LC } }$$
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \omega^2LC) - j\omega L } = \frac{ K\cdot j \frac{ \omega }{ \omega_l } }{ (1 + j\frac{ \omega }{ \omega_l })(1 + j\frac{ \omega }{ \omega_u }) }$$
+
+![[band pass filter parallel diagram.png]]
+
+## Band Rejection Filter
+
+又稱為 Notch Filter，將已知的頻段部份去除
+
+![[band rejection filter.png]]
+
+$$\frac{ v_o }{ v_i } = 
+G_{ BR }(j\omega) = 
+\frac R 
+{ j\omega L \vert\vert \frac 1 { j \omega C } + R }$$
+
+$$G_{ BR }(\omega) = 1 - G_{ BP }(\omega)$$
+
+$$ = 1 - \frac{ K j \frac{ \omega }{ \omega_l } }
+{ (1 + j \frac \omega { \omega_l }) \cdot 
+(1 + j\frac \omega { \omega_u }) }$$
+
+![[diagram band rejection filter and band pass filter.jpg]]
+
+$$B.W.\text{ (bandwidth) } = 
+\frac{ \sqrt{ 1 -  4R^2 \frac{ C }{ L } } }
+{ RC }$$
+
+$$\omega_p \text{ (peak frequency) } = 
+\frac 1 { \sqrt{ LC } }$$
+
+$$\omega_u \text{ (upper frequency) } = 
+\omega_p + \frac{ B.W. }{ 2 }$$
+
+$$\omega_l \text{ (lower frequency) } = 
+\omega_p - \frac{ B.W. }{ 2 }$$
+
+## Operational [[Amplifier]] Filter
+
+![[op amp filter.png]]
+
+$$v_n = \frac{ Z_1 v_{ out } + Z_f v_{ in } }
+{ Z_1 + Z_f }$$
+
+$$\implies \frac{ v_{ out } }{ v_{ in } } = 
+-\frac{ Z_f }{ Z_1 }$$
+
+可以調整 $Z_1$ 和 $Z_f$ 來得到不同種類的 filter
+
+Op amp filter 是一種 "Active Filter"，也就是輸出的電流源和輸入的電流源不同
+
+### Low Pass Filter
+
+$$Z_1 = R$$
+
+$$Z_f = R \vert\vert \frac 1 { j\omega C }$$
+
+$$\implies \frac{ v_o }{ v_i } = 
+\frac{ 
+	-\frac{ 
+		R \cdot \frac{ 1 }{ j\omega C } 
+	}
+	{
+		R + \frac{
+			1
+		}
+		{
+			j\omega C
+		}
+	}
+}
+{ R } = 
+\frac { -1 }{ 1 + j\omega RC }$$
+
+### High Pass Filter
+
+$$Z_1 = R + \frac{ 1 }{ j\omega C }$$
+
+$$Z_f = R$$
+
+$$\implies \frac{ v_o }{ v_i } = 
+-\frac{ j\omega RC }{ j\omega RC + 1 }$$
+
+### Band Pass Filter
+
+$$Z_1 = R_1 + \frac{ 1 }{ j\omega C_1 }$$
+
+$$Z_f = R_2 \vert\vert \frac{ 1 }{ j\omega C_2 } = 
+\frac{ R_2 \cdot \frac{ 1 }{ j\omega C_2 } }
+{ R_2 + \frac{ 1 }{ j\omega C_2 } } = 
+\frac{ R_2 }{ 1 + j\omega R_2 C_2 }$$
+
+![[band pass filter using operational amplifier filter.png]]
+
+$$\implies \frac { v_o }{ v_i } = 
+-\frac{ j\omega R_2C_1 }
+{(j\omega R_1C_1 + 1)(j\omega R_2C_2 + 1)}$$
+
+$$ = -\frac{ 
+	K\cdot j\frac{ \omega }{ \omega_l } 
+}{ 
+	(1 + j\frac{ \omega }{ \omega_l })
+	(1 + j\frac{ \omega }{ \omega_u })
+}$$
+
+$$\implies
+\left\{
+	\begin{array}{}
+		\omega_l = \frac{ 1 }{ R_1 C_1 } \\
+		\omega_u = \frac{ 1 }{ R_2 C_2 }
+	\end{array}
+\right.$$
 
 ---
 
@@ -339,3 +551,6 @@ $$I_L = QI_{ sc }$$
 link:
 
 [[Inverse Laplace Transform#方法二 Decomposition of Fractions]]
+[[Capacitor]]
+[[Inductor]]
+[[Resistine Element]]
