@@ -4,9 +4,13 @@
 
 # Steady Flow
 
-$$\sum F = \frac{ dm }{ dt }(v_B - v_A)$$
+$$\sum F = 
+\frac{ dm }{ dt }(\vec v_B - \vec v_A)$$
 
-$$\sum M_0 = \frac{ dm }{ dt }(r_B \times v_B - r_A \times v_A)$$
+$$\sum M_0 = 
+\frac{ dm }{ dt }
+(\vec r_B \times \vec v_B - 
+\vec r_A \times \vec v_A)$$
 
 $$\frac{ dm }{ dt } = \rho v A$$
 
@@ -24,3 +28,4 @@ $A$: 截面積
 
 link:
 
+[[Angular Momentum]]

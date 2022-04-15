@@ -4,49 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a6cb550d540d5609",
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
-        }
-      },
-      {
-        "id": "239c8b23fe726c11",
+        "id": "852d5cfacb5c8fe6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "課表.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "c4c81588777adc34",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Rigid Body.md",
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
             "mode": "source"
           }
         },
-        "group": "4eaee185ac430134"
+        "group": "738c1feaf8e66624"
       },
       {
-        "id": "15ed809dd7622483",
+        "id": "04394534e3e1f0b4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rigid Body.md",
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
             "mode": "preview"
           }
         },
-        "group": "4eaee185ac430134"
+        "group": "738c1feaf8e66624"
       }
     ],
     "direction": "vertical"
@@ -103,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rigid Body.md",
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,9 +99,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rigid Body.md",
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -132,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rigid Body.md"
+                "file": "電工學/Circuit Analysis/RLC Circuit.md"
               }
             }
           }
@@ -141,19 +120,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "c4c81588777adc34",
+  "active": "852d5cfacb5c8fe6",
   "lastOpenFiles": [
-    "Rigid Body.md",
-    "工程數學/Linear Algebra/Field.md",
-    "課表.md",
-    "Main Kanban.md",
-    "工程數學/Linear Algebra/Curves.md",
-    "動力學/極座標.md",
-    "動力學/切線座標.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Arc/Resistine Element.md",
-    "電工學/Arc/Ideal Transformer.md"
+    "Excalidraw/Drawing 2022-04-15 16.48.47.excalidraw.md",
+    "Main Kanban.md",
+    "機械製造/CNC Process.md",
+    "Mechanical Machining.md",
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/Materials Processing.md",
+    "工程數學/Linear Algebra/Curves.md",
+    "動力學/Fluid Stream.md",
+    "課表.md"
   ]
 }

@@ -111,7 +111,7 @@ $$\vec{ r }(t), \vec{ r }(s)$$
 $$\vec{ v }(t)\equiv \vec{ r }'(t) \neq \vec{ r }'(s)$$Speed:
 $$\vert\vert\vec{ v }(t)\vert\vert = \sqrt{ \vec r' \cdot \vec r' }$$
 
-3. Acceleration:
+3. [[Acceleration]]:
 $$\vec{ a } = \vec a_t + \vec a_n$$
 
 $$\vec a (t) = \frac{ d\vec v }{ dt } = \frac d { dt } \left( \frac{ d\vec r (t) }{ dt } \right)$$

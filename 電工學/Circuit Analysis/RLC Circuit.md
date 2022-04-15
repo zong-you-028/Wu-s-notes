@@ -432,6 +432,114 @@ $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \
 
 ![[band pass filter parallel diagram.png]]
 
+## Band Rejection Filter
+
+又稱為 Notch Filter，將已知的頻段部份去除
+
+![[band rejection filter.png]]
+
+$$\frac{ v_o }{ v_i } = 
+G_{ BR }(j\omega) = 
+\frac R 
+{ j\omega L \vert\vert \frac 1 { j \omega C } + R }$$
+
+$$G_{ BR }(\omega) = 1 - G_{ BP }(\omega)$$
+
+$$ = 1 - \frac{ K j \frac{ \omega }{ \omega_l } }
+{ (1 + j \frac \omega { \omega_l }) \cdot 
+(1 + j\frac \omega { \omega_u }) }$$
+
+![[diagram band rejection filter and band pass filter.jpg]]
+
+$$B.W.\text{ (bandwidth) } = 
+\frac{ \sqrt{ 1 -  4R^2 \frac{ C }{ L } } }
+{ RC }$$
+
+$$\omega_p \text{ (peak frequency) } = 
+\frac 1 { \sqrt{ LC } }$$
+
+$$\omega_u \text{ (upper frequency) } = 
+\omega_p + \frac{ B.W. }{ 2 }$$
+
+$$\omega_l \text{ (lower frequency) } = 
+\omega_p - \frac{ B.W. }{ 2 }$$
+
+## Operational [[Amplifier]] Filter
+
+![[op amp filter.png]]
+
+$$v_n = \frac{ Z_1 v_{ out } + Z_f v_{ in } }
+{ Z_1 + Z_f }$$
+
+$$\implies \frac{ v_{ out } }{ v_{ in } } = 
+-\frac{ Z_f }{ Z_1 }$$
+
+可以調整 $Z_1$ 和 $Z_f$ 來得到不同種類的 filter
+
+Op amp filter 是一種 "Active Filter"，也就是輸出的電流源和輸入的電流源不同
+
+### Low Pass Filter
+
+$$Z_1 = R$$
+
+$$Z_f = R \vert\vert \frac 1 { j\omega C }$$
+
+$$\implies \frac{ v_o }{ v_i } = 
+\frac{ 
+	-\frac{ 
+		R \cdot \frac{ 1 }{ j\omega C } 
+	}
+	{
+		R + \frac{
+			1
+		}
+		{
+			j\omega C
+		}
+	}
+}
+{ R } = 
+\frac { -1 }{ 1 + j\omega RC }$$
+
+### High Pass Filter
+
+$$Z_1 = R + \frac{ 1 }{ j\omega C }$$
+
+$$Z_f = R$$
+
+$$\implies \frac{ v_o }{ v_i } = 
+-\frac{ j\omega RC }{ j\omega RC + 1 }$$
+
+### Band Pass Filter
+
+$$Z_1 = R_1 + \frac{ 1 }{ j\omega C_1 }$$
+
+$$Z_f = R_2 \vert\vert \frac{ 1 }{ j\omega C_2 } = 
+\frac{ R_2 \cdot \frac{ 1 }{ j\omega C_2 } }
+{ R_2 + \frac{ 1 }{ j\omega C_2 } } = 
+\frac{ R_2 }{ 1 + j\omega R_2 C_2 }$$
+
+![[band pass filter using operational amplifier filter.png]]
+
+$$\implies \frac { v_o }{ v_i } = 
+-\frac{ j\omega R_2C_1 }
+{(j\omega R_1C_1 + 1)(j\omega R_2C_2 + 1)}$$
+
+$$ = -\frac{ 
+	K\cdot j\frac{ \omega }{ \omega_l } 
+}{ 
+	(1 + j\frac{ \omega }{ \omega_l })
+	(1 + j\frac{ \omega }{ \omega_u })
+}$$
+
+$$\implies
+\left\{
+	\begin{array}{}
+		\omega_l = \frac{ 1 }{ R_1 C_1 } \\
+		\omega_u = \frac{ 1 }{ R_2 C_2 }
+	\end{array}
+\right.$$
+
 ---
 
 參考資料:
