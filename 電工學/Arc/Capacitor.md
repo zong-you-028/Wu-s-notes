@@ -6,33 +6,77 @@ Dielectric Constant $\epsilon$
 
 $$\epsilon = \underbrace{ \epsilon_0 }_{ \text{ air } } \cdot \underbrace{ \epsilon_r }_{ \text{ relativity } }$$
 
-![[Capacitor.png]]
-
-$$v_c = \frac{ Q }{ C }$$
-
 $C$: 電容 Capacitance (Unit: Faraday)
 
 $$C = \epsilon\frac{ A }{ d }$$
 
 # Properties
 
-## 電壓
+## Stored Charge in Terms of Voltage
 
-$$v_c = \frac{ Q }{ C }$$
+In an ideal capacitor, the stored charge $q$ is proportional to the voltage berween the plates:
 
-$$ = \frac{ 1 }{ C }\int i_c dt$$
+$$q = Cv$$
 
-## 電流
 
-$$i_c = C \frac{ dv_c }{ dt }$$
+## Current in Terms of Voltage
 
-## 能量儲存
+Current is the time rate of flow of charge
 
-$$E = \int Pdt$$
+$$i = \frac{ dq }{ dt } = \frac d { dt }(Cv)$$
 
-$$ = \int i_c v_c dt$$
+$$\implies \underline{ 
+	i = C\frac{ dv }{ dt } 
+}_{ \# }$$
 
-$$ = \frac{ 1 }{ 2 }C v_c^2$$
+## Voltage in Terms of Current
+
+$$q(t) = \int_{ t_0 }^t i(t)dt + q(t_0)$$
+
+$$\implies Cv(t) = 
+\int_{ t_0 }^t i(t)dt + q(t_0)$$
+
+$$\implies v(t) = 
+\frac 1 C \int_{ t_0 }^t i(t)dt + 
+\frac{ q(t_0) }{ C }$$
+
+$$\implies 
+\underline{
+	v(t) = 
+	\frac 1 C \int_{ t_0 }^t i(t)dt + 
+	v(t_0)
+}_{ \# }$$
+
+## Stored Energy
+
+$$p(t) = v(t)i(t)$$
+
+> use [[#Current in Terms of Voltage]]
+> $$i = C \frac{ dv }{ dt }$$
+
+$$\implies p(t) = Cv \frac{ dv }{ dt }$$
+
+$$w(t) = \int_{ t_0 }^t p(t)dt$$
+
+$$\implies w(t) = 
+\int_{ t_0 }^t Cv \frac{ dv }{ dt }dt$$
+
+$$\implies w(t) = \int_0^{ v(t) } Cvdv$$
+
+$$\implies \underline{ 
+	w(t) = \frac 1 2 C v^2(t)
+}_{ \# }$$
+
+> [[#Stored Charge in Terms of Voltage]]:
+> $$q = Cv$$
+
+$$\implies \underline{ 
+	w(t) = \frac 1 2 v(t)q(t)
+}_{ \# }$$
+
+$$\implies \underline{ 
+	w(t) = \frac{ q^2(t) }{ 2C } 
+}_{ \# }$$
 
 ## Parallel
 

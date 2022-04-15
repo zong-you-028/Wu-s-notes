@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "852d5cfacb5c8fe6",
+        "id": "6fcf748a0012eabc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Circuit Analysis/RLC Circuit.md",
+            "file": "電工學/Arc/Capacitor.md",
             "mode": "source"
           }
         },
-        "group": "738c1feaf8e66624"
+        "group": "7ec4a054b57c124b"
       },
       {
-        "id": "04394534e3e1f0b4",
+        "id": "a568c22fe6b531fb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Circuit Analysis/RLC Circuit.md",
+            "file": "電工學/Arc/Capacitor.md",
             "mode": "preview"
           }
         },
-        "group": "738c1feaf8e66624"
+        "group": "7ec4a054b57c124b"
       }
     ],
     "direction": "vertical"
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6006a196d404ffe0",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電工學/Circuit Analysis/RLC Circuit.md",
+                "file": "電工學/Arc/Capacitor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電工學/Circuit Analysis/RLC Circuit.md",
+                "file": "電工學/Arc/Capacitor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電工學/Circuit Analysis/RLC Circuit.md"
+                "file": "電工學/Arc/Capacitor.md"
               }
             }
           }
@@ -120,20 +119,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "04394534e3e1f0b4",
+  "active": "a568c22fe6b531fb",
   "lastOpenFiles": [
+    "電工學/Arc/Capacitor.md",
+    "unlinked files output.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
-    "Excalidraw/Drawing 2022-04-15 16.48.47.excalidraw.md",
+    "課表.md",
     "Main Kanban.md",
-    "機械製造/CNC Process.md",
-    "Mechanical Machining.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/Materials Processing.md",
-    "工程數學/Linear Algebra/Curves.md",
-    "動力學/Fluid Stream.md",
-    "課表.md"
+    "電工學/Arc/Amplifier.md",
+    "附件/Practical Current Amp.png",
+    "附件/Voltage Controlled Current Source.png",
+    "電工學/Circuit Analysis/Kirchhoff's Law.md",
+    "電工學/Circuit Analysis/AC Circuit.md"
   ]
 }

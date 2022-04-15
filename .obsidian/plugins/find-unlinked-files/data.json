@@ -6,7 +6,10 @@
   "fileTypesToIgnore": [],
   "linksToIgnore": [],
   "tagsToIgnore": [],
-  "fileTypesToDelete": [],
+  "fileTypesToDelete": [
+    "jpg",
+    "png"
+  ],
   "ignoreFileTypes": true,
   "ignoreDirectories": true,
   "unresolvedLinksOutputFileName": "unresolved links output",

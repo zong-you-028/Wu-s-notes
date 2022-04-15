@@ -44,7 +44,7 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 電工學期中 @{2022-04-21}
+- [ ] 電工學期中 @{2022-04-21}<br>- [x] Ch1<br>- [x] Ch2<br>- [ ] Ch3<br>- [ ] Ch4<br>- [ ] Ch 5<br>- [ ] Ch 6<br>- [ ] Ch10.7 ~ 10<br>- [ ] Ch 13<br>- [ ] Ch14
 - [ ] 撰寫辨識字母code @{2022-03-31}
 
 
