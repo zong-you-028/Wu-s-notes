@@ -1,58 +1,29 @@
 {
   "main": {
-<<<<<<< master
-    "id": "11878e14a131405d",
+    "id": "c368431df890e942",
     "type": "split",
     "children": [
       {
-        "id": "72500e9fc7c67360",
-=======
-    "id": "1a39ae1e8a0ad77a",
-    "type": "split",
-    "children": [
-      {
-        "id": "852d5cfacb5c8fe6",
->>>>>>> origin/master
+        "id": "4084a7fa9d2ed2b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< master
             "file": "課表.md",
             "mode": "preview",
             "source": false
           }
         }
-=======
-            "file": "電工學/Circuit Analysis/RLC Circuit.md",
-            "mode": "source"
-          }
-        },
-        "group": "738c1feaf8e66624"
-      },
-      {
-        "id": "04394534e3e1f0b4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電工學/Circuit Analysis/RLC Circuit.md",
-            "mode": "preview"
-          }
-        },
-        "group": "738c1feaf8e66624"
->>>>>>> origin/master
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< master
-    "id": "ccaf490d4b6032d5",
+    "id": "36a965a497b33278",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ac33784b2269bdcd",
+        "id": "85e8d23915f0939c",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -60,63 +31,29 @@
         }
       },
       {
-        "id": "34b55dd23632c56b",
+        "id": "27e3fdb37aefbe9a",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "Curvature",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-=======
-    "id": "ee3d5feeaa24b1d7",
-    "type": "split",
-    "children": [
-      {
-        "id": "39297fb01adc9999",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d32546d79517b2c1",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "bd852c9c609b15ed",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "acou",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
->>>>>>> origin/master
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "right": {
-<<<<<<< master
-    "id": "631c8d23d39858ec",
+    "id": "328f2391e0163a73",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "fa6b6e5097920148",
+        "id": "e9b18a2f76e3c6a9",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -133,94 +70,19 @@
         }
       },
       {
-        "id": "f7d2a01549de2149",
+        "id": "db60eb97a7e8486d",
         "type": "leaf",
         "state": {
           "type": "review-queue-list-view",
           "state": {}
         }
-=======
-    "id": "6006a196d404ffe0",
-    "type": "split",
-    "children": [
-      {
-        "id": "c9690387a98118b3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cfb76d92ed5435ba",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "電工學/Circuit Analysis/RLC Circuit.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "547a9b4620c7b43d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "電工學/Circuit Analysis/RLC Circuit.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "827233188ff93c27",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "電工學/Circuit Analysis/RLC Circuit.md"
-              }
-            }
-          }
-        ],
-        "currentTab": 2
->>>>>>> origin/master
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-<<<<<<< master
-  "active": "72500e9fc7c67360",
+  "active": "4084a7fa9d2ed2b8",
   "lastOpenFiles": [
     "課表.md",
-    "動力學/Angular Momentum.md",
-    "動力學/動量與衝量.md",
-    "動力學/Impact.md",
-    "動力學/極座標.md",
-    "Main Kanban.md",
-    "機械製造/機械製造期中字卡.md",
-    "機械製造/Materials Processing.md",
-    "機械製造/Casting Process.md",
-    "機械製造/機械製造期中考前筆記.md"
-=======
-  "active": "04394534e3e1f0b4",
-  "lastOpenFiles": [
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "Excalidraw/Drawing 2022-04-15 16.48.47.excalidraw.md",
-    "Main Kanban.md",
-    "機械製造/CNC Process.md",
-    "Mechanical Machining.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/Materials Processing.md",
-    "工程數學/Linear Algebra/Curves.md",
-    "動力學/Fluid Stream.md",
-    "課表.md"
->>>>>>> origin/master
+    "2022-04-15 硬體組.md"
   ]
 }
