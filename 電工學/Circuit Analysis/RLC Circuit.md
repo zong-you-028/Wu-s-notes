@@ -2,39 +2,6 @@
 
 ---
 
-# Resistor
-
-## [[Laplace Transform]]
-
-$$v_R = i\cdot R$$
-
-$$\mathcal{ L }[v_R] = R \mathcal{ L }[i(t)]$$
-
-![[Resistor Laplace Transform.png]]
-
-# Capacitor
-
-## [[Laplace Transform]]
-
-$$i_c = C\frac{ dv_c }{ dt }$$
-
-$$\mathcal{ L }[i_c] = C\cdot \mathcal{ L }[\frac{ dv_c }{ dt }]$$
-
-$$\mathcal{ L }[\frac{ dv_c }{ dt }] = sV_c(s) - v_c(0)$$
-
-![[Capacitor Laplace Transform.png]]
-
-# Inductor
-
-## [[Laplace Transform]]
-
-![[Inductor Laplace Transform.png]]
-
-$$\mathcal{ L }[v_L] = L\mathcal{ L }\left[\frac{ di_L }{ 
-dt }\right]$$
-
-$$v_L = sLI_L - Li_L(0)$$
-
 # RL Circuit
 
 ## [[Differential Equation]]
@@ -96,6 +63,85 @@ $$V(s) = \frac{ 1 }{ sc }I(s) + \underbrace{ \frac{ 1 }{
 s }v(0) }_{ \text{ source } }$$
 
 # RLC Circuit (串連)
+
+## Differential Equation
+
+![[rlc circuit differential equation.png]]
+
+使用 [[Kirchhoff's Law#Kirchhoff Law|KVL]]
+
+$$L\frac{ di(t) }{ dt } + 
+Ri(t) + 
+\frac{ 1 }{ C }\int_0^t i(t)dt + 
+v_C(0) = v_s(t)$$
+
+對 t 微分
+
+$$\implies L \frac{ d^2 i(t) }{ dt^2 } + 
+R \frac{ di(t) }{ dt } + 
+\frac 1 C i(t) = \frac{ dv_s(t) }{ dt }$$
+
+除以 $L$
+
+$$\implies \frac{ d^2 i(t) }{ dt^2 } + 
+\frac R L \frac{ di(t) }{ dt } + 
+\frac 1 { LC } i(t) = 
+\frac 1 L \frac{ dv_s(t) }{ dt }$$
+
+> define damping coefficient as
+> $$\alpha = \frac{ R }{ 2L }$$
+> define undamped resonant frequency as
+> $$\omega_0 = \frac 1 { \sqrt{ LC } }$$
+> define force function
+> $$f(t) = \frac 1 L \frac{ dv_s(t) }{ dt }$$
+
+$$\implies 
+\frac{ d^2i(t) }{ dt^2 } + 
+2 \alpha \frac{ di(t) }{ dt } + 
+\omega_0^2 i(t) = 
+f(t)$$
+
+### Solution of the Differential Equation
+
+我們可以把任何 equation 變成 [[Higher Order DE解法|2nd order differential equation]] ，因此我們來考慮以下等式的解。$x(t)$ 可以是 voltage ，也可以是 current
+
+$$\frac{d^2x(t)}{ dt^2 } + 
+2\alpha \frac{ dx(t) }{ dt } + 
+\omega_0^2x(t) = f(t)$$
+
+$x(t)$ 的解含有 complementary solution 和 particular solution
+
+$$x(t) = x_p(t) + x_c(t)$$
+
+complementary solution 可以用 [[Auxiliary Function]] 來解，產生的下式稱為 characteristic equation
+
+$$s^2 + 2\alpha s + \omega_0^2 = 0$$
+
+並且 damping ratio 的定義如下
+
+$$\zeta = \frac{ \alpha }{ \omega_0 }$$
+
+根據 damping ratio 的值，會有幾種情況：
+
+1. Overdamped case ($\zeta > 1$)
+
+$$x_c(t) = K_1e^{ s_1t } + K_2e^{ s_2t }$$
+
+2. Critically damped
+
+$$x_c(t) = K_1e^{ s_1t } + K_2te^{ s_2t }$$
+
+3. Underdamped
+
+$$x_c(t) = 
+K_1 e^{ -\alpha t }\cos(\omega_n t) + 
+K_2 e^{ -\alpha t }\sin(\omega_n t)$$
+
+在 underdamped 的情況下，我們定義 natural frequency
+
+$$\omega_n = \sqrt{ \omega_0^2 - \alpha^2 }$$
+
+## [[Impedance]]
 
 ![[RLC Circuit Impedance.png]]
 
@@ -269,10 +315,6 @@ $$ = 0.09\angle -27\degree$$
 $$I_3 = \frac{ 800 }{ -j400 + 800 } I_1$$
 
 $$ = 0.18 \angle 63\degree$$
-
-## Phasor Diagram
-
-The current plot of previous AC steady state result can be plotted in phasor plot to show the validity of KCL and KVL
 
 ## Instantaneous Power and Average Power
 
@@ -553,4 +595,5 @@ link:
 [[Inverse Laplace Transform#方法二 Decomposition of Fractions]]
 [[Capacitor]]
 [[Inductor]]
-[[Resistine Element]]
+[[Resistor]]
+[[Differential Equation]]
