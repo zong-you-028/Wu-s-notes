@@ -2,24 +2,14 @@
 
 ---
 
-Dielectric Constant $\epsilon$
-
-$$\epsilon = \underbrace{ \epsilon_0 }_{ \text{ air } } \cdot \underbrace{ \epsilon_r }_{ \text{ relativity } }$$
-
-$C$: 電容 Capacitance (Unit: Faraday)
-
-$$C = \epsilon\frac{ A }{ d }$$
-
-# Properties
-
-## Stored Charge in Terms of Voltage
+# Stored Charge in Terms of Voltage
 
 In an ideal capacitor, the stored charge $q$ is proportional to the voltage berween the plates:
 
 $$q = Cv$$
 
 
-## Current in Terms of Voltage
+# Current in Terms of Voltage
 
 Current is the time rate of flow of charge
 
@@ -29,7 +19,7 @@ $$\implies \underline{
 	i = C\frac{ dv }{ dt } 
 }_{ \# }$$
 
-## Voltage in Terms of Current
+# Voltage in Terms of Current
 
 $$q(t) = \int_{ t_0 }^t i(t)dt + q(t_0)$$
 
@@ -47,7 +37,7 @@ $$\implies
 	v(t_0)
 }_{ \# }$$
 
-## Stored Energy
+# Stored Energy
 
 $$p(t) = v(t)i(t)$$
 
@@ -78,24 +68,72 @@ $$\implies \underline{
 	w(t) = \frac{ q^2(t) }{ 2C } 
 }_{ \# }$$
 
-## Parallel
+# Parallel
 
 ![[Parallel.png]]
 
+> from [[#Current in Terms of Voltage]]
+> $$i = C \frac{ dv }{ dt }$$
+
 $$
-i = C_{ eq }(\frac{ dv }{ dt }) = 
+\left\{
+	\begin{array}{}
+		i_1 = C_1 \frac{ dv }{ dt } \\
+		i_2 = C_2 \frac{ dv }{ dt }
+	\end{array}
+\right.
+$$
+
+$$
+\implies i = C_{ eq }(\frac{ dv }{ dt }) = 
 \underbrace{ C_1 (\frac{ dv }{ dt }) }_{ i_1 } + \underbrace{ C_2(\frac{ dv }{ dt }) }_{ i_2 }
 $$
 
-$$C_{ eq } = C_1 + C_2$$
+$$\implies 
+\underline{ C_{ eq } = C_1 + C_2 }_{ \# }$$
 
-## Series
+# Series
 
 ![[Series.png]]
 
-$$\frac{ \int idt }{ C_{ eq } } = \frac{ \int idt }{ C_1 } + \frac{ \int idt }{ C_2 }$$
+$$q = Cv$$
 
-$$C_{ eq } = \frac{ C_1C_2 }{ C_1 + C_2 }$$
+$$\implies v = \frac q C$$
+.
+$$v = v_1 + v_2$$
+
+$$\implies 
+\frac q { C_{ eq } } = 
+\frac { q_1 }{ C_1 } + \frac{ q_2 }{ C_2 }$$
+
+$$\implies\frac{ \int idt }{ C_{ eq } } = \frac{ \int idt }{ C_1 } + \frac{ \int idt }{ C_2 }$$
+
+$$\implies C_{ eq } = \frac{ C_1C_2 }{ C_1 + C_2 }$$
+
+# Physical Characteristics of Capacitors
+
+Dielectric Constant $\epsilon$
+
+Relative Dielectric Constants for Selected Materials:
+
+| Materials       | $$\epsilon_r$$ |
+| --------------- | -------------- |
+| Air             | $$1.0$$        |
+| Diamond         | $$5.5$$        |
+| Mica            | $$7.0$$        |
+| Polyester       | $$3.4$$        |
+| Quartz          | $$4.3$$        |
+| Silicon dioxide | $$3.9$$        |
+| Water           | $$78.5$$       | 
+
+dielectric constant in vacuum:
+$$\epsilon_0 \cong 8.85 \times 10^{ -12 } \text{ F/m }$$
+
+$$\epsilon = \underbrace{ \epsilon_0 }_{ \text{ vacuum } } \cdot \underbrace{ \epsilon_r }_{ \text{ relativity } }$$
+
+$C$: 電容 Capacitance (Unit: Faraday)
+
+$$C = \epsilon\frac{ A }{ d }$$
 
 # Scenario
 

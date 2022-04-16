@@ -31,6 +31,20 @@ $$L = \frac{ N^2\mu A }{ l }$$
 
 $$v_L = L\frac{ di_L }{ dt }$$
 
+## Current in Terms of Voltage
+
+$$di = \frac 1 L v(t) dt$$
+
+$$\implies\int_{ i(t_0) }^{ i(t) } di = 
+\frac 1 L \int_{ t_0 }^t v(t)dt$$
+
+$$\implies 
+\underline{ 
+	i(t) = 
+	\frac 1 L \int_{ t_0 }^{ t }v(t)dt + 
+	i(t_0) 
+}_{ \# }$$
+
 ## Energy Storage
 
 $$E = \int Pdt = \int i_L v_L dt$$
