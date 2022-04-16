@@ -135,6 +135,16 @@ $C$: 電容 Capacitance (Unit: Faraday)
 
 $$C = \epsilon\frac{ A }{ d }$$
 
+# [[Laplace Transform]]
+
+$$i_c = C\frac{ dv_c }{ dt }$$
+
+$$\mathcal{ L }[i_c] = C\cdot \mathcal{ L }[\frac{ dv_c }{ dt }]$$
+
+$$\mathcal{ L }[\frac{ dv_c }{ dt }] = sV_c(s) - v_c(0)$$
+
+![[Capacitor Laplace Transform.png]]
+
 # Scenario
 
 ## Energy Conservation After Charge Redistribution

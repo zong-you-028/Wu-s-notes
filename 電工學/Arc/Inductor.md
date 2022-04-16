@@ -61,6 +61,15 @@ $$L = L_1 + L_2$$
 
 $$L = \frac{ L_1 L_2 }{ L_1 + L_2 }$$
 
+# [[Laplace Transform]]
+
+![[Inductor Laplace Transform.png]]
+
+$$\mathcal{ L }[v_L] = L\mathcal{ L }\left[\frac{ di_L }{ 
+dt }\right]$$
+
+$$v_L = sLI_L - Li_L(0)$$
+
 ---
 
 參考資料:

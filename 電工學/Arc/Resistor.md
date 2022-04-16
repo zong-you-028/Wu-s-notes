@@ -8,6 +8,14 @@ $$v_e = \underbrace{ \mu_e }_{ \text{ mobility } } \cdot \underbrace{ E }_{ \tex
 
 $$\frac{ v }{ i } = \underbrace{ \frac{ 1 }{ q_e n_e \mu_e } }_{ \text{ resistivity }(\rho) }\frac{ l }{ A }$$
 
+# [[Laplace Transform]]
+
+$$v_R = i\cdot R$$
+
+$$\mathcal{ L }[v_R] = R \mathcal{ L }[i(t)]$$
+
+![[Resistor Laplace Transform.png]]
+
 ---
 
 參考資料:

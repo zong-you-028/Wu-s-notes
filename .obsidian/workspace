@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "67408cb4a095aa8d",
+        "id": "a1cbe5af3a0c231f",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -12,6 +12,30 @@
             "file": "Main Kanban.md"
           }
         }
+      },
+      {
+        "id": "527643a72ecb3aae",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Untitled.md",
+            "mode": "source"
+          }
+        },
+        "group": "827af7e9fc99fd46"
+      },
+      {
+        "id": "2f7c77ae4b7bb2e9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Untitled.md",
+            "mode": "preview"
+          }
+        },
+        "group": "827af7e9fc99fd46"
       }
     ],
     "direction": "vertical"
@@ -51,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6006a196d404ffe0",
@@ -67,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -96,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -105,20 +130,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "67408cb4a095aa8d",
+  "active": "527643a72ecb3aae",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Impedance.md",
+    "Phasor.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Arc/Inductor.md",
+    "電工學/Arc/Resistor.md",
+    "電工學/Arc/Capacitor.md",
     "Main Kanban.md",
     "README.md",
-    "電工學/Arc/Inductor.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "電工學/Arc/Capacitor.md",
-    "conflict-files-obsidian-git.md",
-    "unlinked files output.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "課表.md",
-    "電工學/Arc/Amplifier.md"
+    "機械製造/機械製造期中考前筆記.md"
   ]
 }
