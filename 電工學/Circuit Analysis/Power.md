@@ -44,6 +44,43 @@ $$\theta = \theta_v - \theta_i$$
 $\theta_v$: phase of voltage
 $\theta_i$: phase of current
 
+## Reactive Power
+
+$$Q = V_{ rms }I_{ rms }\sin(\theta)$$
+
+## Apparent Power
+
+$$\text{ apparent power } = 
+V_{ rms }I_{ rms }$$
+
+$$\text{ apparent power }^2 = P^2 + Q^2$$
+
+## Power Triangle
+
+![[Power Triangle.png]]
+
+用來描述 [[#Power Calculations for a General Load|real power]], [[#Reactive Power]], [[#Apparent Power]] 之間的關係
+
+## Additional Power Relationship
+
+### Reactance
+
+$$Z = R + jX$$
+
+其中 $R$ 是 resistance ， $X$ 是 reactance
+
+因此 real power 還可以表示成
+
+$$P = I_{ rms }^2 R$$
+
+$$P = \frac{ V_{ Rrms }^2 }{ R }$$
+
+[[#Reactive Power]] 也可以表示成
+
+$$Q = I^2_{ rms } R$$
+
+$$Q = \frac{ V^2_{ Xrms } }{ X }$$
+
 ---
 
 參考資料:

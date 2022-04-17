@@ -4,38 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8f3c7b18433f810",
+        "id": "9c04131ee13d559e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電工學/Circuit Analysis/Power.md",
-            "mode": "source"
-          }
-        },
-        "group": "55933d6c680b027a"
-      },
-      {
-        "id": "b528e553cd72aca6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電工學/Circuit Analysis/Power.md",
-            "mode": "preview"
-          }
-        },
-        "group": "55933d6c680b027a"
-      },
-      {
-        "id": "bf97af8891c2d0c2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Trigonometric Identity.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -63,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "power factor",
+                "query": "thevenin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電工學/Circuit Analysis/Power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電工學/Circuit Analysis/Power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "電工學/Circuit Analysis/Power.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -133,11 +101,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c8f3c7b18433f810",
+  "active": "9c04131ee13d559e",
   "lastOpenFiles": [
-    "電工學/Circuit Analysis/Power.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
     "Trigonometric Identity.md",
+    "電工學/Circuit Analysis/Power.md",
     "Main Kanban.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
     "電工學/Circuit Analysis/AC Circuit.md",
