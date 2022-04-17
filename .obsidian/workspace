@@ -1,30 +1,40 @@
 {
   "main": {
-<<<<<<< master
-    "id": "c368431df890e942",
+    "id": "04d84af2b586b49e",
     "type": "split",
     "children": [
       {
-        "id": "4084a7fa9d2ed2b8",
-=======
-    "id": "1a39ae1e8a0ad77a",
-    "type": "split",
-    "children": [
-      {
-        "id": "0335a18563195848",
->>>>>>> origin/master
+        "id": "c8f3c7b18433f810",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< master
-            "file": "電工學/Circuit Analysis/RLC Circuit.md",
-            "mode": "preview",
-            "source": false
-=======
-            "file": "4-20 Meeting.md",
+            "file": "電工學/Circuit Analysis/Power.md",
             "mode": "source"
->>>>>>> origin/master
+          }
+        },
+        "group": "55933d6c680b027a"
+      },
+      {
+        "id": "b528e553cd72aca6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "電工學/Circuit Analysis/Power.md",
+            "mode": "preview"
+          }
+        },
+        "group": "55933d6c680b027a"
+      },
+      {
+        "id": "bf97af8891c2d0c2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Trigonometric Identity.md",
+            "mode": "preview"
           }
         }
       }
@@ -32,40 +42,15 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< master
-    "id": "36a965a497b33278",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "85e8d23915f0939c",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "27e3fdb37aefbe9a",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
-=======
-    "id": "ee3d5feeaa24b1d7",
+    "id": "a607bd89f0cc83f1",
     "type": "split",
     "children": [
       {
-        "id": "39297fb01adc9999",
+        "id": "7fb8cc0b4e8a7e60",
         "type": "tabs",
         "children": [
           {
-            "id": "d32546d79517b2c1",
+            "id": "d1ee09110046f65f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,12 +58,12 @@
             }
           },
           {
-            "id": "bd852c9c609b15ed",
+            "id": "1e32b0d652bf85d7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "acou",
+                "query": "power factor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,69 +71,29 @@
                 "sortOrder": "alphabetical"
               }
             }
->>>>>>> origin/master
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.5036334991455
   },
   "right": {
-<<<<<<< master
-    "id": "328f2391e0163a73",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "e9b18a2f76e3c6a9",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "電工學/Circuit Analysis/RLC Circuit.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "db60eb97a7e8486d",
-        "type": "leaf",
-        "state": {
-          "type": "review-queue-list-view",
-          "state": {}
-        }
-      }
-    ],
-    "currentTab": 0
-  },
-  "active": "4084a7fa9d2ed2b8",
-  "lastOpenFiles": [
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Circuit Analysis/Resistive Circuit.md",
-    "電工學/Circuit Analysis/Kirchhoff's Law.md",
-    "課表.md",
-    "2022-04-15 硬體組.md"
-=======
-    "id": "6006a196d404ffe0",
+    "id": "0796b0431447fbc7",
     "type": "split",
     "children": [
       {
-        "id": "c9690387a98118b3",
+        "id": "9b1e3e191f49a50f",
         "type": "tabs",
         "children": [
           {
-            "id": "cfb76d92ed5435ba",
+            "id": "4ab5593a86cf9e51",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4-20 Meeting.md",
+                "file": "電工學/Circuit Analysis/Power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,47 +105,42 @@
             }
           },
           {
-            "id": "547a9b4620c7b43d",
+            "id": "4d552f47faa6305f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4-20 Meeting.md",
+                "file": "電工學/Circuit Analysis/Power.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "827233188ff93c27",
+            "id": "e9d07a825a172914",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "4-20 Meeting.md"
+                "file": "電工學/Circuit Analysis/Power.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "0335a18563195848",
+  "active": "c8f3c7b18433f810",
   "lastOpenFiles": [
-    "4-20 Meeting.md",
-    "Untitled.md",
-    "電工學/Circuit Analysis/Impedance.md",
-    "電工學/Circuit Analysis/Phasor.md",
+    "電工學/Circuit Analysis/Power.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Arc/Inductor.md",
-    "電工學/Arc/Resistor.md",
-    "電工學/Arc/Capacitor.md",
+    "Trigonometric Identity.md",
     "Main Kanban.md",
-    "README.md"
->>>>>>> origin/master
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "4-20 Meeting.md"
   ]
 }
