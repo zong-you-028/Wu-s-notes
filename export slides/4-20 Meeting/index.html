@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			const size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># 4/20 Meeting
+</script></section><section  data-markdown><script type="text/template">
+## 硬體
+</script></section><section  data-markdown><script type="text/template">
+### 場地組
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+1. 場地製作進行
+2. 材料購買
+3. 場地建模
+</script></section><section  data-markdown><script type="text/template">
+#### 未來進度
+
+1. 完成場地
+2. 實際與 3D 建模
+3. 模擬機構作動影片
+</script></section><section  data-markdown><script type="text/template">
+### 機構組
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+1. 詳細草稿與設計完成
+2. 底盤建模
+</script></section><section  data-markdown><script type="text/template">
+#### 未來進度
+
+1. 比賽任務建模
+2. 底盤製作
+3. 比賽任務機構製作
+</script></section><section  data-markdown><script type="text/template">
+### 額外
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+會利用應力分析
+</script></section><section  data-markdown><script type="text/template">
+#### 未來進度
+
+會利用動力學模擬
+</script></section><section  data-markdown><script type="text/template">
+## 軟體
+
+- Lidar 測距
+- 視覺 - 測距
+- 視覺 - 點字
+- 視覺 - 顏色辨識
+- 視覺 - 文字辨識
+- Encoder - 控制馬達
+- 電腦 & 底盤連接
+</script></section><section  data-markdown><script type="text/template">
+### Lidar 測距
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+1. 單方向測距
+2. 丟 distance 到 topic
+</script></section><section  data-markdown><script type="text/template">
+#### 將來規劃
+
+1. 得到機器人的姿態
+2. *(Lidar-slam?)*
+</script></section><section  data-markdown><script type="text/template">
+### 視覺 - 測距
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+完成程式架構
+</script></section><section  data-markdown><script type="text/template">
+#### 將來規劃
+
+1. 修好更新率
+2. 校正問題
+</script></section><section  data-markdown><script type="text/template">
+### 視覺 - 點字
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+1. 完成程式架構
+2. Demo 完成 (準度不錯)
+</script></section><section  data-markdown><script type="text/template">
+#### 將來規劃
+
+包成 ROS 的 Package
+</script></section><section  data-markdown><script type="text/template">
+### 視覺 - 顏色辨識
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+已經完成，且準度達到要求
+</script></section><section  data-markdown><script type="text/template">
+### 視覺 - 文字辨識
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+1. 產生測試資料
+2. 完成第一次訓練
+</script></section><section  data-markdown><script type="text/template">
+#### 將來規劃
+
+提高精準度
+</script></section><section  data-markdown><script type="text/template">
+### Encoder - 控制馬達
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+1. 使用 stm32 讀到 encoder 讀值
+2. 利用 UART 把讀值丟到電腦上
+</script></section><section  data-markdown><script type="text/template">
+#### 將來規劃
+
+1. 馬達的 PID 控制器
+2. 馬達的 PID 參數自動調適
+3. 丟資料到 topic
+</script></section><section  data-markdown><script type="text/template">
+### 電腦 & 底盤連接
+</script></section><section  data-markdown><script type="text/template">
+#### 目前進度
+
+成功連接
+</script></section><section  data-markdown><script type="text/template">
+#### 將來規劃
+
+包成 ROS 的 Package</script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealCustomControls,
+        ],
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

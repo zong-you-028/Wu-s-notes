@@ -1,87 +1,23 @@
 {
   "main": {
-<<<<<<< master
-    "id": "c368431df890e942",
-    "type": "split",
-    "children": [
-      {
-        "id": "4084a7fa9d2ed2b8",
-=======
     "id": "1a39ae1e8a0ad77a",
     "type": "split",
     "children": [
       {
-        "id": "a1cbe5af3a0c231f",
->>>>>>> origin/master
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-<<<<<<< master
-            "file": "課表.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-=======
-            "file": "Main Kanban.md"
-          }
-        }
-      },
-      {
-        "id": "527643a72ecb3aae",
+        "id": "0335a18563195848",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "4-20 Meeting.md",
             "mode": "source"
           }
-        },
-        "group": "827af7e9fc99fd46"
-      },
-      {
-        "id": "2f7c77ae4b7bb2e9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
-            "mode": "preview"
-          }
-        },
-        "group": "827af7e9fc99fd46"
->>>>>>> origin/master
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< master
-    "id": "36a965a497b33278",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "85e8d23915f0939c",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "27e3fdb37aefbe9a",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
-=======
     "id": "ee3d5feeaa24b1d7",
     "type": "split",
     "children": [
@@ -111,51 +47,15 @@
                 "sortOrder": "alphabetical"
               }
             }
->>>>>>> origin/master
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-<<<<<<< master
-    "id": "328f2391e0163a73",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "e9b18a2f76e3c6a9",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "課表.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "db60eb97a7e8486d",
-        "type": "leaf",
-        "state": {
-          "type": "review-queue-list-view",
-          "state": {}
-        }
-      }
-    ],
-    "currentTab": 0
-  },
-  "active": "4084a7fa9d2ed2b8",
-  "lastOpenFiles": [
-    "課表.md",
-    "2022-04-15 硬體組.md"
-=======
     "id": "6006a196d404ffe0",
     "type": "split",
     "children": [
@@ -169,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "4-20 Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "4-20 Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -198,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "4-20 Meeting.md"
               }
             }
           }
@@ -207,20 +107,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "527643a72ecb3aae",
+  "active": "0335a18563195848",
   "lastOpenFiles": [
+    "4-20 Meeting.md",
     "Untitled.md",
-    "Impedance.md",
-    "Phasor.md",
+    "電工學/Circuit Analysis/Impedance.md",
+    "電工學/Circuit Analysis/Phasor.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
     "電工學/Arc/Inductor.md",
     "電工學/Arc/Resistor.md",
     "電工學/Arc/Capacitor.md",
     "Main Kanban.md",
-    "README.md",
-    "機械製造/機械製造期中考前筆記.md"
->>>>>>> origin/master
+    "README.md"
   ]
 }
