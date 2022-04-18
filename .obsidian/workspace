@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "41edb371d99ace80",
+    "id": "04d84af2b586b49e",
     "type": "split",
     "children": [
       {
-        "id": "ad77d26d59ba64f2",
+        "id": "911d27f53570d14d",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -15,72 +15,101 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5e80cf38470d912d",
-    "type": "mobile-drawer",
+    "id": "a607bd89f0cc83f1",
+    "type": "split",
     "children": [
       {
-        "id": "fce901ba3a83f848",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "4c05e4362301af13",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "7fb8cc0b4e8a7e60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1ee09110046f65f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e32b0d652bf85d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "thevenin",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 273.5036334991455
   },
   "right": {
-    "id": "323a581fe7999eeb",
-    "type": "mobile-drawer",
+    "id": "0796b0431447fbc7",
+    "type": "split",
     "children": [
       {
-        "id": "b49d2d32bc43a7c0",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "9b1e3e191f49a50f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ab5593a86cf9e51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d552f47faa6305f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e9d07a825a172914",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "67be52b87eb26fcd",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "ad77d26d59ba64f2",
+  "active": "911d27f53570d14d",
   "lastOpenFiles": [
-    "4-20 Meeting.md",
-    "工程數學/Linear Algebra/Field.md"
+    "Archived/math/Trigonometric Identity.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Power Transfer.md",
+    "電工學/Circuit Analysis/Power.md",
+    "Main Kanban.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "4-20 Meeting.md"
   ]
 }
