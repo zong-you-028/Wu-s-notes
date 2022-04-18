@@ -232,7 +232,7 @@ $$TdS = dU + PdV$$
 
 $$\implies \underline{ \delta W_{ irrev } = PdV - T\delta S_{ gen } }_\#$$
 
-$T\delta S_{ gen }$: lost work, lost opportunity to extrace work
+$T\delta S_{ gen }$: lost [[work]], lost opportunity to extrace [[work]]
 
 For irreversible process
 

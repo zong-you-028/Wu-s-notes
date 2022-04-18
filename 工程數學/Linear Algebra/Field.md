@@ -34,7 +34,7 @@ $$\nabla = \frac{ \partial }{ \partial x } \hat i +
 \frac{ \partial }{ \partial y } \hat j + 
 \frac{ \partial }{ \partial z } \hat k$$
 
-Gradient turns a scalar field into a vector field.
+Gradient turns a scalar field into a [[vector]] field.
 
 ### Directional Derivative
 
@@ -48,16 +48,16 @@ $$ = \frac{ \partial^2 f }{ \partial x^2 } +
 \frac{ \partial^2 f }{ \partial y^2 } + 
 \frac{ \partial^2 f }{ \partial z^2 }$$
 
-## Vector Field
+## [[Vector]] Field
 
-Vector Field 的微分包含兩種
+[[Vector]] Field 的微分包含兩種
 
 - [[#Divergence]]: 用來看流進與流出的量的差
 - [[#Curl]]: 用來看漩渦的方向
 
 ### Divergence
 
-Let the vector field be: $\vec v(x, y, z)$
+Let the [[vector]] field be: $\vec v(x, y, z)$
 
 $$div\vec v = \nabla \cdot \vec v = 
 \left[
@@ -77,7 +77,7 @@ $$ = \frac{ \partial v_1 }{ \partial x } +
 > - $div$: $\nabla \cdot \vec v$: $\text{ vector } \rightarrow \text{ scalar }$
 > - $grad$: $\nabla f$: $\text{ scalar } \rightarrow \text{ scalar }$
 
-#### For Control Volume Analysis
+#### For [[Control Volume]] Analysis
 
 - left-right
 
