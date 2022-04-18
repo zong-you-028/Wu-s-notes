@@ -416,7 +416,7 @@ When $\omega = \frac{ 1 }{ \sqrt{ LC } } = 12.25krad/s$, the series resonance oc
 
 ![[frequency response.png]]
 
-## Low Pass Filter
+## [[Low Pass Filter]]
 
 ### RC Filter
 
@@ -434,7 +434,7 @@ $$ = \underbrace{ \frac{ 1 }{ \sqrt{ 1 + (\omega T)^2 } } }_{ \text{ gain } } \u
 
 $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
 
-## High Pass Filter
+## [[High Pass Filter]]
 
 ### RL Filter
 
@@ -452,7 +452,7 @@ $$G(\omega) = \frac{ \omega T }{ \sqrt{ 1 + (\omega T)^2 } } \angle90\degree - \
 
 $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = RC$$
 
-## Band Pass Filter
+## [[Band Pass Filter]]
 
 ### Series
 
@@ -474,7 +474,7 @@ $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \
 
 ![[band pass filter parallel diagram.png]]
 
-## Band Rejection Filter
+## [[Band Rejection Filter]]
 
 又稱為 Notch Filter，將已知的頻段部份去除
 
@@ -520,7 +520,7 @@ $$\implies \frac{ v_{ out } }{ v_{ in } } =
 
 Op amp filter 是一種 "Active Filter"，也就是輸出的電流源和輸入的電流源不同
 
-### Low Pass Filter
+### [[Low Pass Filter]]
 
 $$Z_1 = R$$
 
@@ -543,7 +543,7 @@ $$\implies \frac{ v_o }{ v_i } =
 { R } = 
 \frac { -1 }{ 1 + j\omega RC }$$
 
-### High Pass Filter
+### [[High Pass Filter]]
 
 $$Z_1 = R + \frac{ 1 }{ j\omega C }$$
 
@@ -552,7 +552,7 @@ $$Z_f = R$$
 $$\implies \frac{ v_o }{ v_i } = 
 -\frac{ j\omega RC }{ j\omega RC + 1 }$$
 
-### Band Pass Filter
+### [[Band Pass Filter]]
 
 $$Z_1 = R_1 + \frac{ 1 }{ j\omega C_1 }$$
 

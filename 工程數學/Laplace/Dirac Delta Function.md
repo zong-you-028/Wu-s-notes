@@ -2,7 +2,7 @@
 
 ---
 
-# Unit Impulse
+# Unit [[Impulse]]
 
 $$
 \delta_a(t - t_0) = 
@@ -20,7 +20,7 @@ $$
 
 # Dirac Delta Function
 
-> 也稱為 Delta Function, Impulse Function, 或 Unit Impulse Function
+> 也稱為 Delta Function, [[Impulse]] Function, 或 Unit [[Impulse]] Function
 
 $$\delta(t - t_0) = \lim_{ a \rightarrow 0 } \delta_a( t - t_0 )$$
 

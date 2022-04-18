@@ -4,7 +4,7 @@
 
 噴嘴和升壓器
 
-- will not do any work $\dot{ W }_{ cv } = 0$
+- will not do any [[work]] $\dot{ W }_{ cv } = 0$
 - little or no heat transfer $\dot{ Q }_{ cv } = 0$
 - $\Delta PE \approx 0$, $\Delta KE \neq 0$
 - only enthapy and kinetic energy

@@ -554,3 +554,4 @@ input.task-list-item-checkbox:checked
     fill: var(--dark3) !important;
 }
 
+img { display:block; margin-left: auto; margin-right: auto; }

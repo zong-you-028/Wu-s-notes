@@ -5,14 +5,14 @@
 $$Q - W = U$$
 
 $Q$: heat
-$W$: work
+$W$: [[work]]
 $U$: internal energy
 
 $$W \equiv F \Delta x = P \Delta V$$
 
-Boundary must move to yield work.
+Boundary must move to yield [[work]].
 
-\* moving boundary work is a path function
+\* moving boundary [[work]] is a path function
 
 > Content:
 > [[Boundary Work for Isothermal]]
