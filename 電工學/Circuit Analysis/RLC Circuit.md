@@ -324,7 +324,7 @@ $$V_i = \vert V_i \vert\angle 0\degree$$
 
 $$I_1 = I_i = 0.2 \angle 37\degree$$
 
-Power factor: $V$ & $I$ 的角度差異 $\cos\theta_z$
+[[Power#Power Factor|Power factor]]: $V$ & $I$ 的角度差異 $\cos\theta_z$
 
 $$Z(\omega) = \frac{ V(\omega) }{ I(\omega) } = \frac{ V }{ I }\angle\theta_z$$
 
