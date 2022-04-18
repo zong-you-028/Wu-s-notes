@@ -7,8 +7,12 @@
         "id": "ad77d26d59ba64f2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -54,6 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -70,6 +75,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -80,7 +86,8 @@
   },
   "active": "ad77d26d59ba64f2",
   "lastOpenFiles": [
-    "4-20 Meeting.md",
-    "工程數學/Linear Algebra/Field.md"
+    "工程數學/Linear Algebra/Field.md",
+    "Main Kanban.md",
+    "4-20 Meeting.md"
   ]
 }
