@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "911d27f53570d14d",
+        "id": "cd653d56df82d716",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -101,15 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "911d27f53570d14d",
+  "active": "cd653d56df82d716",
   "lastOpenFiles": [
+    "機械製造/2022-04-18 機械製造 RGO作業.md",
+    "Main Kanban.md",
+    "README.md",
+    "課表.md",
+    "4-20 Meeting.md",
     "Archived/math/Trigonometric Identity.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
     "電工學/Circuit Analysis/Power Transfer.md",
     "電工學/Circuit Analysis/Power.md",
-    "Main Kanban.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "4-20 Meeting.md"
+    "工程數學/Orthogonal Functions/Fourier Series.md"
   ]
 }
