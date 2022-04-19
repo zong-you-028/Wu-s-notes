@@ -2,6 +2,8 @@
 
 ---
 
+原子分子運動互相撞擊或振動來回而產生熱能
+
 用 $Q$ 代表
 
 1. transferred by the virtue of temperature difference

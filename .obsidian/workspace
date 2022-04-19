@@ -4,42 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8b57781886d9403c",
+        "id": "aa7228737356754a",
         "type": "leaf",
         "state": {
-<<<<<<< HEAD
-          "type": "empty",
-          "state": {}
-        }
-=======
           "type": "markdown",
           "state": {
-<<<<<<< master
-            "file": "工程數學/Linear Algebra/Field.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-=======
-            "file": "工程數學/Linear Algebra/2D Integral.md",
+            "file": "精密機械測量 期中.md",
             "mode": "source"
           }
-        },
-        "group": "218ed764fb71c903"
-      },
-      {
-        "id": "dcd7e98054a12d03",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Linear Algebra/2D Integral.md",
-            "mode": "preview"
-          }
-        },
-        "group": "218ed764fb71c903"
->>>>>>> origin/master
->>>>>>> c1c6376a5ef8833b464af80381948b17f0c9230e
+        }
       }
     ],
     "direction": "vertical"
@@ -66,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "band pass filter",
+                "query": "heat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,44 +48,19 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 273.5036334991455
+    "width": 273.5036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "0796b0431447fbc7",
     "type": "split",
     "children": [
       {
-<<<<<<< master
-        "id": "b49d2d32bc43a7c0",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "工程數學/Linear Algebra/Field.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "67be52b87eb26fcd",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "工程數學/Linear Algebra/Field.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-=======
         "id": "9b1e3e191f49a50f",
         "type": "tabs",
         "children": [
@@ -122,12 +70,13 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "精密機械測量 期中.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -138,6 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "精密機械測量 期中.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,34 +98,38 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "精密機械測量 期中.md"
+              }
+            }
+          },
+          {
+            "id": "efe4e3f0b8d4b9d6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
               "state": {}
             }
->>>>>>> origin/master
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 292.2156982421875
+    "width": 292.2156982421875,
+    "collapsed": true
   },
-  "active": "8b57781886d9403c",
+  "active": "aa7228737356754a",
   "lastOpenFiles": [
-<<<<<<< master
-    "工程數學/Linear Algebra/Field.md",
+    "精密機械測量 期中.md",
+    "Archived/Thermodynamics/Heat.md",
     "Main Kanban.md",
-    "4-20 Meeting.md"
-=======
+    "動力學/Rigid Body.md",
+    "Relative Motion.md",
+    "動力學/Instantaneous Center.md",
+    "課表.md",
     "工程數學/Linear Algebra/2D Integral.md",
     "工程數學/Linear Algebra/Field.md",
-    "工程數學/Linear Algebra/Line Integral.md",
-    "動力學/Impulse.md",
-    "工程數學/Projects/工程數學(一) Project 3.md",
-    "工程數學/Laplace/Dirac Delta Function.md",
-    "動力學/動量與衝量.md",
-    "課表.md",
-    "機械製造/2022-04-18 機械製造 RGO作業.md",
-    "Archived/Thermodynamics/Work.md"
->>>>>>> origin/master
+    "工程數學/Linear Algebra/Line Integral.md"
   ]
 }
