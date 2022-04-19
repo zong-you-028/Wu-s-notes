@@ -10,7 +10,7 @@ a fluid flowing in a line suddenly encounters a restriction in the flow passage
 
 1. steady state
 2. $\Delta KE = 0$
-3. No work
+3. No [[work]]
 4. $\Delta PE = 0$
 5. no heat transfer
 

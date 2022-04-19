@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master-origin
         "id": "de46a837d1ea8e7f",
         "type": "leaf",
         "state": {
@@ -12,6 +13,14 @@
             "file": "機械製造/機械製造期中字卡.md",
             "mode": "preview",
             "source": false
+=======
+        "id": "1c3b9cc715d041da",
+        "type": "leaf",
+        "state": {
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+>>>>>>> origin/master
           }
         }
       }
@@ -19,6 +28,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master-origin
     "id": "87d77f6d62ae0d6d",
     "type": "mobile-drawer",
     "children": [
@@ -42,13 +52,46 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+    "id": "fb71a95a838000c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "43308c1ede1b488c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0a18862bcffd7fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a208f910fff84cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "die",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
+<<<<<<< master-origin
     "id": "fec1784053ee2a06",
     "type": "mobile-drawer",
     "children": [
@@ -76,12 +119,78 @@
           "type": "review-queue-list-view",
           "state": {}
         }
+=======
+    "id": "2b98f3b73718d425",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca38bfb60928e01e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "689e38306ca8c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ad4b90fb66e8828",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
+          },
+          {
+            "id": "8e15253e67885cae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+>>>>>>> origin/master
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
+<<<<<<< master-origin
   "active": "de46a837d1ea8e7f",
   "lastOpenFiles": [
     "機械製造/機械製造期中字卡.md"
+=======
+  "active": "1c3b9cc715d041da",
+  "lastOpenFiles": [
+    "Main Kanban.md",
+    "機械製造/Materials Processing.md",
+    "機械製造/機械製造期中考前筆記.md",
+    "機械製造/機械製造期中字卡.md",
+    "conflict-files-obsidian-git.md",
+    "電控/電路/easyEDA.md",
+    "工程數學/Orthogonal Functions.md",
+    "工程數學/Orthogonal Functions/Integral Transform Method.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "工程數學/First Order Differential Equation.md"
+>>>>>>> origin/master
   ]
 }

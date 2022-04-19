@@ -311,7 +311,7 @@ $$\text{ transfer function } = \frac{ 1.65 \times 10^7 }{
 
 Transfer function makes the relation between input and output clear.
 
-# Section 4: Impulse Forcing
+# Section 4: [[Impulse]] Forcing
 
 ## 4.2
 

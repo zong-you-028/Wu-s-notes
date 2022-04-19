@@ -2,39 +2,6 @@
 
 ---
 
-# Resistor
-
-## [[Laplace Transform]]
-
-$$v_R = i\cdot R$$
-
-$$\mathcal{ L }[v_R] = R \mathcal{ L }[i(t)]$$
-
-![[Resistor Laplace Transform.png]]
-
-# Capacitor
-
-## [[Laplace Transform]]
-
-$$i_c = C\frac{ dv_c }{ dt }$$
-
-$$\mathcal{ L }[i_c] = C\cdot \mathcal{ L }[\frac{ dv_c }{ dt }]$$
-
-$$\mathcal{ L }[\frac{ dv_c }{ dt }] = sV_c(s) - v_c(0)$$
-
-![[Capacitor Laplace Transform.png]]
-
-# Inductor
-
-## [[Laplace Transform]]
-
-![[Inductor Laplace Transform.png]]
-
-$$\mathcal{ L }[v_L] = L\mathcal{ L }\left[\frac{ di_L }{ 
-dt }\right]$$
-
-$$v_L = sLI_L - Li_L(0)$$
-
 # RL Circuit
 
 ## [[Differential Equation]]
@@ -96,6 +63,85 @@ $$V(s) = \frac{ 1 }{ sc }I(s) + \underbrace{ \frac{ 1 }{
 s }v(0) }_{ \text{ source } }$$
 
 # RLC Circuit (串連)
+
+## Differential Equation
+
+![[rlc circuit differential equation.png]]
+
+使用 [[Kirchhoff's Law#Kirchhoff Law|KVL]]
+
+$$L\frac{ di(t) }{ dt } + 
+Ri(t) + 
+\frac{ 1 }{ C }\int_0^t i(t)dt + 
+v_C(0) = v_s(t)$$
+
+對 t 微分
+
+$$\implies L \frac{ d^2 i(t) }{ dt^2 } + 
+R \frac{ di(t) }{ dt } + 
+\frac 1 C i(t) = \frac{ dv_s(t) }{ dt }$$
+
+除以 $L$
+
+$$\implies \frac{ d^2 i(t) }{ dt^2 } + 
+\frac R L \frac{ di(t) }{ dt } + 
+\frac 1 { LC } i(t) = 
+\frac 1 L \frac{ dv_s(t) }{ dt }$$
+
+> define damping coefficient as
+> $$\alpha = \frac{ R }{ 2L }$$
+> define undamped resonant frequency as
+> $$\omega_0 = \frac 1 { \sqrt{ LC } }$$
+> define force function
+> $$f(t) = \frac 1 L \frac{ dv_s(t) }{ dt }$$
+
+$$\implies 
+\frac{ d^2i(t) }{ dt^2 } + 
+2 \alpha \frac{ di(t) }{ dt } + 
+\omega_0^2 i(t) = 
+f(t)$$
+
+### Solution of the Differential Equation
+
+我們可以把任何 equation 變成 [[Higher Order DE解法|2nd order differential equation]] ，因此我們來考慮以下等式的解。$x(t)$ 可以是 voltage ，也可以是 current
+
+$$\frac{d^2x(t)}{ dt^2 } + 
+2\alpha \frac{ dx(t) }{ dt } + 
+\omega_0^2x(t) = f(t)$$
+
+$x(t)$ 的解含有 complementary solution 和 particular solution
+
+$$x(t) = x_p(t) + x_c(t)$$
+
+complementary solution 可以用 [[Auxiliary Function]] 來解，產生的下式稱為 characteristic equation
+
+$$s^2 + 2\alpha s + \omega_0^2 = 0$$
+
+並且 damping ratio 的定義如下
+
+$$\zeta = \frac{ \alpha }{ \omega_0 }$$
+
+根據 damping ratio 的值，會有幾種情況：
+
+1. Overdamped case ($\zeta > 1$)
+
+$$x_c(t) = K_1e^{ s_1t } + K_2e^{ s_2t }$$
+
+2. Critically damped
+
+$$x_c(t) = K_1e^{ s_1t } + K_2te^{ s_2t }$$
+
+3. Underdamped
+
+$$x_c(t) = 
+K_1 e^{ -\alpha t }\cos(\omega_n t) + 
+K_2 e^{ -\alpha t }\sin(\omega_n t)$$
+
+在 underdamped 的情況下，我們定義 natural frequency
+
+$$\omega_n = \sqrt{ \omega_0^2 - \alpha^2 }$$
+
+## [[Impedance]]
 
 ![[RLC Circuit Impedance.png]]
 
@@ -270,10 +316,6 @@ $$I_3 = \frac{ 800 }{ -j400 + 800 } I_1$$
 
 $$ = 0.18 \angle 63\degree$$
 
-## Phasor Diagram
-
-The current plot of previous AC steady state result can be plotted in phasor plot to show the validity of KCL and KVL
-
 ## Instantaneous Power and Average Power
 
 ![[Instantaneous Power and Average Power.png]]
@@ -282,7 +324,7 @@ $$V_i = \vert V_i \vert\angle 0\degree$$
 
 $$I_1 = I_i = 0.2 \angle 37\degree$$
 
-Power factor: $V$ & $I$ 的角度差異 $\cos\theta_z$
+[[Power#Power Factor|Power factor]]: $V$ & $I$ 的角度差異 $\cos\theta_z$
 
 $$Z(\omega) = \frac{ V(\omega) }{ I(\omega) } = \frac{ V }{ I }\angle\theta_z$$
 
@@ -324,9 +366,221 @@ When $\omega = \frac{ 1 }{ \sqrt{ LC } }$, we have $I_1 = 0$ (open circuit), whi
 
 At this frequency the inductor and the capacitor shuffle energy with each other.
 
+## Quality Factor
+
 We define the Quality factor of parallel resonant circuit as follows.
 
 $$I_L = QI_{ sc }$$
+
+$$\underbrace{ Q }_{ \text{ current divider } } = \frac{ R\vert\vert \frac{ 1 }{ j\omega C } }{ (R \vert\vert \frac{ 1 }{ j\omega C }) + j\omega L } = \frac{ R }{ R(1 - \omega^2LC) + j\omega L }$$
+
+$$\text{ since } \omega = \frac{ 1 }{ \sqrt{ LC } } \quad \text{ (resonant frequency) }$$
+
+$$\vert Q\vert = \left\vert \frac{ R }{ j\omega L } \right\vert = \frac{ R }{ \omega L } = R\sqrt{ \frac{ C }{ L } }$$
+
+$Q$ is much larger than one when $R$ is large and $C / L$ is large.
+
+# AC Superposition
+
+![[AC superposition scenario.png]]
+
+Suppress $10V$
+
+![[AC superposition suppressed 10V.png]]
+
+$$I_1 = \frac{ 12\angle 0\degree }{ 2,4k - j1,2k }$$
+
+$$ = 4.47 \angle 63\degree mA$$
+
+Suppress $12V$
+
+![[AC superposition suppressed 12V.png]]
+
+$$I_2 = \frac{ 10\angle 90\degree }{ 2.4k + j8.8k } = 1.1\angle 90\degree - 65\degree$$
+
+$$ = 1.1\angle 25\degree (mA)$$
+.
+$$I = I_1 + I_2$$
+
+$$\implies i(t) = 4.47\sin(10kt + 63\degree) + 1.1\sin(40kt + 25\degree) (mA)$$
+
+When $\omega = \frac{ 1 }{ \sqrt{ LC } } = 12.25krad/s$, the series resonance occurs and the $I$ is in phase with the input voltage.
+
+# Frequency Response
+
+## Signal
+
+> Fourier Expansion:
+> $$v(t) = v_0 + \sum_{ n = 1 }^\infty a_n \cos(\omega_n t) + b_n\sin(\omega_n t)$$
+> $$\omega_n = n\cdot \underbrace{ \omega_0 }_{ \text{ base frequency } }$$
+
+![[frequency response.png]]
+
+## [[Low Pass Filter]]
+
+### RC Filter
+
+![[RC filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } \underbrace{ = }_{ \text{ voltage divider } } \frac{ \frac{ 1 }{ j\omega C } }{ R + \frac{ 1 }{ j\omega C } } = \frac{ 1 }{ jRC\omega + 1 }$$
+
+$$ = \underbrace{ \frac{ 1 }{ \sqrt{ 1 + (\omega T)^2 } } }_{ \text{ gain } } \underbrace{ \angle -\tan^{ -1 }\omega T }_{ \text{ phase } } \qquad T = RC$$
+
+![[rc filter diagram.png]]
+
+### LR Filter
+
+![[lr filter schematic diagram.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
+
+## [[High Pass Filter]]
+
+### RL Filter
+
+![[rl filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
+
+$$G(\omega) = \frac{ \omega T }{ \sqrt{ 1 + (\omega T)^2 } } \angle90\degree - \tan^{ -1 }\omega T$$
+
+![[high pass filter diagram.png]]
+
+### CR Filter
+
+![[cr filter.png]]
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = RC$$
+
+## [[Band Pass Filter]]
+
+### Series
+
+![[band pass filter series.png]]
+
+We need a unit gain buffer to isolate two filters
+
+![[band pass filter series with unit gain buffer.png]]
+
+### Parallel
+
+![[band pass filter parallel.png]]
+
+[[#Low Pass Filter]] 和 [[#High Pass Filter]] 並聯
+
+$$\omega_r = \frac{ 1 }{ \sqrt{ LC } }$$
+
+$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \omega^2LC) - j\omega L } = \frac{ K\cdot j \frac{ \omega }{ \omega_l } }{ (1 + j\frac{ \omega }{ \omega_l })(1 + j\frac{ \omega }{ \omega_u }) }$$
+
+![[band pass filter parallel diagram.png]]
+
+## [[Band Rejection Filter]]
+
+又稱為 Notch Filter，將已知的頻段部份去除
+
+![[band rejection filter.png]]
+
+$$\frac{ v_o }{ v_i } = 
+G_{ BR }(j\omega) = 
+\frac R 
+{ j\omega L \vert\vert \frac 1 { j \omega C } + R }$$
+
+$$G_{ BR }(\omega) = 1 - G_{ BP }(\omega)$$
+
+$$ = 1 - \frac{ K j \frac{ \omega }{ \omega_l } }
+{ (1 + j \frac \omega { \omega_l }) \cdot 
+(1 + j\frac \omega { \omega_u }) }$$
+
+![[diagram band rejection filter and band pass filter.jpg]]
+
+$$B.W.\text{ (bandwidth) } = 
+\frac{ \sqrt{ 1 -  4R^2 \frac{ C }{ L } } }
+{ RC }$$
+
+$$\omega_p \text{ (peak frequency) } = 
+\frac 1 { \sqrt{ LC } }$$
+
+$$\omega_u \text{ (upper frequency) } = 
+\omega_p + \frac{ B.W. }{ 2 }$$
+
+$$\omega_l \text{ (lower frequency) } = 
+\omega_p - \frac{ B.W. }{ 2 }$$
+
+## Operational [[Amplifier]] Filter
+
+![[op amp filter.png]]
+
+$$v_n = \frac{ Z_1 v_{ out } + Z_f v_{ in } }
+{ Z_1 + Z_f }$$
+
+$$\implies \frac{ v_{ out } }{ v_{ in } } = 
+-\frac{ Z_f }{ Z_1 }$$
+
+可以調整 $Z_1$ 和 $Z_f$ 來得到不同種類的 filter
+
+Op amp filter 是一種 "Active Filter"，也就是輸出的電流源和輸入的電流源不同
+
+### [[Low Pass Filter]]
+
+$$Z_1 = R$$
+
+$$Z_f = R \vert\vert \frac 1 { j\omega C }$$
+
+$$\implies \frac{ v_o }{ v_i } = 
+\frac{ 
+	-\frac{ 
+		R \cdot \frac{ 1 }{ j\omega C } 
+	}
+	{
+		R + \frac{
+			1
+		}
+		{
+			j\omega C
+		}
+	}
+}
+{ R } = 
+\frac { -1 }{ 1 + j\omega RC }$$
+
+### [[High Pass Filter]]
+
+$$Z_1 = R + \frac{ 1 }{ j\omega C }$$
+
+$$Z_f = R$$
+
+$$\implies \frac{ v_o }{ v_i } = 
+-\frac{ j\omega RC }{ j\omega RC + 1 }$$
+
+### [[Band Pass Filter]]
+
+$$Z_1 = R_1 + \frac{ 1 }{ j\omega C_1 }$$
+
+$$Z_f = R_2 \vert\vert \frac{ 1 }{ j\omega C_2 } = 
+\frac{ R_2 \cdot \frac{ 1 }{ j\omega C_2 } }
+{ R_2 + \frac{ 1 }{ j\omega C_2 } } = 
+\frac{ R_2 }{ 1 + j\omega R_2 C_2 }$$
+
+![[band pass filter using operational amplifier filter.png]]
+
+$$\implies \frac { v_o }{ v_i } = 
+-\frac{ j\omega R_2C_1 }
+{(j\omega R_1C_1 + 1)(j\omega R_2C_2 + 1)}$$
+
+$$ = -\frac{ 
+	K\cdot j\frac{ \omega }{ \omega_l } 
+}{ 
+	(1 + j\frac{ \omega }{ \omega_l })
+	(1 + j\frac{ \omega }{ \omega_u })
+}$$
+
+$$\implies
+\left\{
+	\begin{array}{}
+		\omega_l = \frac{ 1 }{ R_1 C_1 } \\
+		\omega_u = \frac{ 1 }{ R_2 C_2 }
+	\end{array}
+\right.$$
 
 ---
 
@@ -339,3 +593,7 @@ $$I_L = QI_{ sc }$$
 link:
 
 [[Inverse Laplace Transform#方法二 Decomposition of Fractions]]
+[[Capacitor]]
+[[Inductor]]
+[[Resistor]]
+[[Differential Equation]]

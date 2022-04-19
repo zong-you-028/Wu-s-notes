@@ -26,7 +26,7 @@ Angular Momentum 可以用 [[Moment]] 來改變
 
 $$(H_O)_1 + \sum\int_{ t_1 }^{ t_2 }M_Odt = (H_O)_{ 2 }$$
 
-上面這條式子也叫做 Principle of Angular Impulse and Momentum
+上面這條式子也叫做 Principle of Angular [[Impulse]] and Momentum
 
 > 可以和 [[動量與衝量]] 的式子做出聯立方程式
 > $$mv_1 + \sum\int_{t_1}^{t_2}Fdt = mv_2$$
