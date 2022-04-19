@@ -7,9 +7,39 @@
         "id": "8b57781886d9403c",
         "type": "leaf",
         "state": {
+<<<<<<< HEAD
           "type": "empty",
           "state": {}
         }
+=======
+          "type": "markdown",
+          "state": {
+<<<<<<< master
+            "file": "工程數學/Linear Algebra/Field.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+=======
+            "file": "工程數學/Linear Algebra/2D Integral.md",
+            "mode": "source"
+          }
+        },
+        "group": "218ed764fb71c903"
+      },
+      {
+        "id": "dcd7e98054a12d03",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Algebra/2D Integral.md",
+            "mode": "preview"
+          }
+        },
+        "group": "218ed764fb71c903"
+>>>>>>> origin/master
+>>>>>>> c1c6376a5ef8833b464af80381948b17f0c9230e
       }
     ],
     "direction": "vertical"
@@ -56,6 +86,33 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master
+        "id": "b49d2d32bc43a7c0",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "67be52b87eb26fcd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+=======
         "id": "9b1e3e191f49a50f",
         "type": "tabs",
         "children": [
@@ -93,6 +150,7 @@
               "type": "outline",
               "state": {}
             }
+>>>>>>> origin/master
           }
         ],
         "currentTab": 1
@@ -103,6 +161,11 @@
   },
   "active": "8b57781886d9403c",
   "lastOpenFiles": [
+<<<<<<< master
+    "工程數學/Linear Algebra/Field.md",
+    "Main Kanban.md",
+    "4-20 Meeting.md"
+=======
     "工程數學/Linear Algebra/2D Integral.md",
     "工程數學/Linear Algebra/Field.md",
     "工程數學/Linear Algebra/Line Integral.md",
@@ -113,5 +176,6 @@
     "課表.md",
     "機械製造/2022-04-18 機械製造 RGO作業.md",
     "Archived/Thermodynamics/Work.md"
+>>>>>>> origin/master
   ]
 }
