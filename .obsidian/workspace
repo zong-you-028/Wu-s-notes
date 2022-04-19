@@ -1,93 +1,64 @@
 {
   "main": {
-    "id": "04d84af2b586b49e",
+    "id": "41edb371d99ace80",
     "type": "split",
     "children": [
       {
-        "id": "454ab0b9e126ac1c",
+        "id": "ad77d26d59ba64f2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< master
-            "file": "工程數學/Linear Algebra/Field.md",
+            "file": "電工學/Arc/Amplifier.md",
             "mode": "preview",
             "source": false
           }
         }
-=======
-            "file": "工程數學/Linear Algebra/2D Integral.md",
-            "mode": "source"
-          }
-        },
-        "group": "218ed764fb71c903"
-      },
-      {
-        "id": "dcd7e98054a12d03",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Linear Algebra/2D Integral.md",
-            "mode": "preview"
-          }
-        },
-        "group": "218ed764fb71c903"
->>>>>>> origin/master
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a607bd89f0cc83f1",
-    "type": "split",
+    "id": "5e80cf38470d912d",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "7fb8cc0b4e8a7e60",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d1ee09110046f65f",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "1e32b0d652bf85d7",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "band pass filter",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "fce901ba3a83f848",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "4c05e4362301af13",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 273.5036334991455,
-    "collapsed": true
+    "currentTab": 0
   },
   "right": {
-    "id": "0796b0431447fbc7",
-    "type": "split",
+    "id": "323a581fe7999eeb",
+    "type": "mobile-drawer",
     "children": [
       {
-<<<<<<< master
         "id": "b49d2d32bc43a7c0",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "工程數學/Linear Algebra/Field.md",
+            "file": "電工學/Arc/Amplifier.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -104,77 +75,21 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "工程數學/Linear Algebra/Field.md",
+            "file": "電工學/Arc/Amplifier.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-=======
-        "id": "9b1e3e191f49a50f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4ab5593a86cf9e51",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "工程數學/Linear Algebra/2D Integral.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "4d552f47faa6305f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "工程數學/Linear Algebra/2D Integral.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "e9d07a825a172914",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "工程數學/Linear Algebra/2D Integral.md"
-              }
-            }
->>>>>>> origin/master
           }
-        ],
-        "currentTab": 1
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 292.2156982421875
+    "currentTab": 0
   },
-  "active": "dcd7e98054a12d03",
+  "active": "ad77d26d59ba64f2",
   "lastOpenFiles": [
-<<<<<<< master
-    "工程數學/Linear Algebra/Field.md",
+    "電工學/Arc/Amplifier.md",
+    "植物日記.md",
     "Main Kanban.md",
-    "4-20 Meeting.md"
-=======
-    "工程數學/Linear Algebra/2D Integral.md",
-    "工程數學/Linear Algebra/Field.md",
-    "工程數學/Linear Algebra/Line Integral.md",
-    "動力學/Impulse.md",
-    "工程數學/Projects/工程數學(一) Project 3.md",
-    "工程數學/Laplace/Dirac Delta Function.md",
-    "動力學/動量與衝量.md",
-    "課表.md",
-    "機械製造/2022-04-18 機械製造 RGO作業.md",
-    "Archived/Thermodynamics/Work.md"
->>>>>>> origin/master
+    "4-20 Meeting.md",
+    "工程數學/Linear Algebra/Field.md"
   ]
 }
