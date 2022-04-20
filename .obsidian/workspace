@@ -7,9 +7,10 @@
         "id": "956bba9484580e0d",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "動力學/Rigid Body.md",
+            "mode": "preview"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "動力學/Rigid Body.md"
               }
             }
           },
@@ -118,15 +119,15 @@
   },
   "active": "956bba9484580e0d",
   "lastOpenFiles": [
+    "動力學/Rigid Body.md",
     "Main Kanban.md",
+    "動力學/HW/ch 16 and ch 16 sol/16-36.png",
+    "課表.md",
     "精密測量/精密機械測量 期中.md",
     "Archived/Thermodynamics/Heat.md",
-    "動力學/Rigid Body.md",
     "Relative Motion.md",
     "動力學/Instantaneous Center.md",
-    "課表.md",
     "工程數學/Linear Algebra/2D Integral.md",
-    "工程數學/Linear Algebra/Field.md",
-    "工程數學/Linear Algebra/Line Integral.md"
+    "工程數學/Linear Algebra/Field.md"
   ]
 }
