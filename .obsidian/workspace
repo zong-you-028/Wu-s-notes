@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aa7228737356754a",
+        "id": "956bba9484580e0d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "精密機械測量 期中.md",
-            "mode": "source"
+            "file": "Main Kanban.md"
           }
         }
       }
@@ -48,13 +47,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 273.5036334991455,
-    "collapsed": true
+    "width": 273.5036334991455
   },
   "right": {
     "id": "0796b0431447fbc7",
@@ -70,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "精密機械測量 期中.md",
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "精密機械測量 期中.md",
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -99,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "精密機械測量 期中.md"
+                "file": "Main Kanban.md"
               }
             }
           },
@@ -119,11 +116,11 @@
     "width": 292.2156982421875,
     "collapsed": true
   },
-  "active": "aa7228737356754a",
+  "active": "956bba9484580e0d",
   "lastOpenFiles": [
-    "精密機械測量 期中.md",
-    "Archived/Thermodynamics/Heat.md",
     "Main Kanban.md",
+    "精密測量/精密機械測量 期中.md",
+    "Archived/Thermodynamics/Heat.md",
     "動力學/Rigid Body.md",
     "Relative Motion.md",
     "動力學/Instantaneous Center.md",
