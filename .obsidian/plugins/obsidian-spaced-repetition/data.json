@@ -33,6 +33,10 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
+<<<<<<< master-origin
+  "buryDate": "2022-04-12",
+=======
   "buryDate": "2022-04-19",
+>>>>>>> origin/master
   "buryList": []
 }

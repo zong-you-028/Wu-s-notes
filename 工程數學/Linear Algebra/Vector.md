@@ -73,7 +73,7 @@ $$c\vec{ a } =
 	\end{array}
 \right]$$
 
-### Cross Product
+### [[Cross Product]]
 
 掐頭去尾插三下
 

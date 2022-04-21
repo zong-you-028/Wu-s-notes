@@ -122,6 +122,14 @@ $$\implies \underline{ { \bf a }_B =
 $$\implies 
 \underline{ { \bf a }_B = 
 { \bf a }_A + 
+\alpha \times { \bf r }_{ B / A } +
+\omega \times (
+	\omega \times  { \bf r }_{ B / A } 
+) }_{ \# }$$
+
+$$\implies 
+\underline{ { \bf a }_B = 
+{ \bf a }_A + 
 \alpha \times { \bf r }_{ B / A } - 
 \omega^2 { \bf r }_{ B / A } }_{ \# }$$
 

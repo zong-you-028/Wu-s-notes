@@ -5,7 +5,7 @@
 # Application
 
 - ODE [[Wronskian]]
-- cross product
+- [[Cross Product]]
 - [[Eigenvalue]]
 - ==solve system of equation== [[Cramer's Rule]]
 
