@@ -7,9 +7,10 @@
         "id": "1c3b9cc715d041da",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "die",
+                "query": "area moment of inertia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md"
               }
             }
           },
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -109,6 +110,7 @@
   },
   "active": "1c3b9cc715d041da",
   "lastOpenFiles": [
+    "Archived/Mechanics and Materials/Area Moment of Inertia.md",
     "Main Kanban.md",
     "機械製造/Materials Processing.md",
     "機械製造/機械製造期中考前筆記.md",
@@ -117,7 +119,6 @@
     "電控/電路/easyEDA.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/First Order Differential Equation.md"
+    "工程數學/Orthogonal Functions/Fourier Series.md"
   ]
 }
