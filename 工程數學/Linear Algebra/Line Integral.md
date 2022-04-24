@@ -17,9 +17,9 @@ Line Integral 有更高的 dimension ，積分相對複雜，如下圖
 
 ![[line integral schematic diagram.png|400]]
 
-## Curve
+## [[Curve]]
 
-先從 Curve 開始定義
+先從 [[Curve]] 開始定義
 
 $$C = \vec r (t)$$
 
@@ -37,7 +37,7 @@ $$ = x(t) \hat i + y(t) \hat j$$
 
 - If $\vec r(a) = \vec r(b) \rightarrow$ closed path
 - If $\vec r(a) \neq \vec r(b) \rightarrow$ open path
-- $C$ is a smooth curve if
+- $C$ is a smooth [[curve]] if
 $$\frac {d\vec r}{ dt } = 
 \vec r' = \text{ tangent }$$
 is unique at all points, and 

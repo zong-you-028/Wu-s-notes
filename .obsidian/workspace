@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "06a1728a9a9834a7",
+        "id": "b942fd6a6cb0b09d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md",
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
             "mode": "preview"
           }
         }
@@ -39,14 +39,10 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "area moment of inertia",
-=======
-                "query": "cross product",
->>>>>>> 0e29556de51176fadc0496c756802a93a0192a92
+                "query": "inverse laplace transform",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -72,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md",
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -89,13 +85,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md"
-=======
-                "file": "Main Kanban.md",
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
->>>>>>> 0e29556de51176fadc0496c756802a93a0192a92
               }
             }
           },
@@ -105,55 +97,28 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Archived/Mechanics and Materials/Area Moment of Inertia.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-=======
-                "file": "Main Kanban.md"
->>>>>>> 0e29556de51176fadc0496c756802a93a0192a92
+                "file": "電工學/Circuit Analysis/RLC Circuit.md"
               }
-            }
-          },
-          {
-            "id": "efe4e3f0b8d4b9d6",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 292.2156982421875,
-    "collapsed": true
+    "width": 292.2156982421875
   },
-  "active": "06a1728a9a9834a7",
+  "active": "b942fd6a6cb0b09d",
   "lastOpenFiles": [
-    "Archived/Mechanics and Materials/Area Moment of Inertia.md",
-    "Main Kanban.md",
-<<<<<<< HEAD
-    "機械製造/Materials Processing.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/機械製造期中字卡.md",
-    "conflict-files-obsidian-git.md",
-    "電控/電路/easyEDA.md",
-    "工程數學/Orthogonal Functions.md",
-    "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md"
-=======
-    "README.md",
-    "動力學/Instantaneous Center.md",
-    "工程數學/Linear Algebra/Cross Product.md",
-    "動力學/Rigid Body.md",
-    "工程數學/Linear Algebra/Vector.md",
-    "工程數學/Linear Algebra/Field.md",
-    "工程數學/Linear Algebra/Determinant.md",
-    "動力學/HW/ch 16 and ch 16 sol/16-36.png",
-    "課表.md"
->>>>>>> 0e29556de51176fadc0496c756802a93a0192a92
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Arc/Amplifier.md",
+    "電工學/Circuit Analysis/Filter.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
+    "工程數學/Laplace/Laplace Transform.md",
+    "電工學/Arc/Inductor.md",
+    "電工學/Arc/Capacitor.md",
+    "工程數學/Laplace/Convolution Theorem.md",
+    "電工學/Circuit Analysis/Low Pass Filter.md",
+    "電工學/Circuit Analysis/High Pass Filter.md"
   ]
 }

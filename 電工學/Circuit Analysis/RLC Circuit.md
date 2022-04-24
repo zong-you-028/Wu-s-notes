@@ -347,24 +347,81 @@ $$P_{ avg } = \frac{ VI }{ 2 }\cos\theta_z$$
 
 # Resonance
 
+## Series
+
+### Resonant Frequency
+
+![[series resonance.png|350]]
+
+$$Z_s(f) = 
+j2\pi fL + R - j\frac{ 1 }{ 2\pi fC }$$
+
+the resonant frequency $f_0$ is defined to be the frequency at which the impedance is purely resistive (the reactance is zero)
+
+$$\implies 2\pi f_0 L = \frac{ 1 }{ 2\pi f_0 C }$$
+
+$$\implies \underline{ 
+	f_0 = \frac{ 1 }{ 2\pi \sqrt{ LC } }
+}_{ \# }$$
+
+### Quality Factor
+
+Quality Factor $Q_s$:
+
+$$\underline{ Q_s = \frac{ 2\pi f_0 L }{ R } }_{ \# }$$
+
+$$\text{ or }$$
+
+$$\underline{ Q_s = \frac{ 1 }{ 2\pi f_0CR } }_{ \# }$$
+
+### Impedance
+
+可以使用 Quality Factor 與 Resonant Frequency 簡化 Impedance
+
+$$\underline{ Z_s(f) = R\left[ 1 + jQ_s\left( \frac{ f }{ f_0 } - \frac{ f_0 }{ f } \right) \right] }_{ \# }$$
+
+## Parallel
+
 A circuit containing both types of Energy Storage elements
 i.e. inductor and capacitor, exhibits a distinct behavior owing to the joint effect at a specific frequency
 
 很像單擺的動能和位能（inductor 的磁場和 capacitor 的電場）有週期性的轉換
 
-![[Resonance.png]]
+![[parallel resonant circuit.png|550]]
 
-$$\vec{ I }_{ 1 } = \frac{ R }{ j\omega L \vert\vert \frac{ 1 }{ j\omega C } + R } \cdot I_{ sc }$$
+### Impedance
 
-$$j\omega L \vert\vert \frac{ 1 }{ j\omega C } = \frac{ \frac{ L }{ C } }{ j\omega L + \frac{ 1 }{ j\omega C } }$$
+The impedance of the parallel resonance circuit is
 
-$$ = \frac{ \frac{ L }{ C } \cdot j\omega C }{ j\omega L j\omega C + 1 }$$
+$$\underline{ Z_p = \frac{ 1 }{ \frac 1 R + j2\pi fC - j\frac 1 {2\pi fL} } }_{ \# }$$
 
-$$ = \frac{j\omega L}{ -\omega^2 LC + 1 }$$
+### Resonant Frequency
 
-When $\omega = \frac{ 1 }{ \sqrt{ LC } }$, we have $I_1 = 0$ (open circuit), which is known as the resonant frequency
+共振頻率發生在 pure resistive circuit ，所以
+
+$$2\pi f_0C = \frac 1 { 2\pi f_0L }$$
+
+$$\implies \underline{ f_0 = \frac 1 { 2\pi\sqrt{ LC } } }_{ \# }$$
 
 At this frequency the inductor and the capacitor shuffle energy with each other.
+
+### Quality Factor
+
+$$\underline{ Q_p = \frac{ R }{ 2\pi f_0L } }_{ \# }$$
+
+注意和 series 的情況差了一個倒數
+
+也可以用 $C$ 表示（用共振頻率公式將 $L$ 替換為 $C$）
+
+$$\implies \underline{ Q_p = 2\pi f_0CR }_{ \# }$$
+
+並且可以用 quality factor 表示其共振頻率
+
+$$\implies \underline{ Z_p = \frac{ R }{ 1 + jQ_p(f / f_0 - f_0 / f) } }_{ \# }$$
+
+### Bandwidth
+
+$$B = \frac{ f_0 }{ Q_p }$$
 
 ## Quality Factor
 
@@ -416,171 +473,9 @@ When $\omega = \frac{ 1 }{ \sqrt{ LC } } = 12.25krad/s$, the series resonance oc
 
 ![[frequency response.png]]
 
-## [[Low Pass Filter]]
+## [[Filter]]
 
-### RC Filter
-
-![[RC filter.png]]
-
-$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } \underbrace{ = }_{ \text{ voltage divider } } \frac{ \frac{ 1 }{ j\omega C } }{ R + \frac{ 1 }{ j\omega C } } = \frac{ 1 }{ jRC\omega + 1 }$$
-
-$$ = \underbrace{ \frac{ 1 }{ \sqrt{ 1 + (\omega T)^2 } } }_{ \text{ gain } } \underbrace{ \angle -\tan^{ -1 }\omega T }_{ \text{ phase } } \qquad T = RC$$
-
-![[rc filter diagram.png]]
-
-### LR Filter
-
-![[lr filter schematic diagram.png]]
-
-$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
-
-## [[High Pass Filter]]
-
-### RL Filter
-
-![[rl filter.png]]
-
-$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
-
-$$G(\omega) = \frac{ \omega T }{ \sqrt{ 1 + (\omega T)^2 } } \angle90\degree - \tan^{ -1 }\omega T$$
-
-![[high pass filter diagram.png]]
-
-### CR Filter
-
-![[cr filter.png]]
-
-$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ j\omega T }{ 1 + j\omega T } \qquad T = RC$$
-
-## [[Band Pass Filter]]
-
-### Series
-
-![[band pass filter series.png]]
-
-We need a unit gain buffer to isolate two filters
-
-![[band pass filter series with unit gain buffer.png]]
-
-### Parallel
-
-![[band pass filter parallel.png]]
-
-[[#Low Pass Filter]] 和 [[#High Pass Filter]] 並聯
-
-$$\omega_r = \frac{ 1 }{ \sqrt{ LC } }$$
-
-$$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \omega^2LC) - j\omega L } = \frac{ K\cdot j \frac{ \omega }{ \omega_l } }{ (1 + j\frac{ \omega }{ \omega_l })(1 + j\frac{ \omega }{ \omega_u }) }$$
-
-![[band pass filter parallel diagram.png]]
-
-## [[Band Rejection Filter]]
-
-又稱為 Notch Filter，將已知的頻段部份去除
-
-![[band rejection filter.png]]
-
-$$\frac{ v_o }{ v_i } = 
-G_{ BR }(j\omega) = 
-\frac R 
-{ j\omega L \vert\vert \frac 1 { j \omega C } + R }$$
-
-$$G_{ BR }(\omega) = 1 - G_{ BP }(\omega)$$
-
-$$ = 1 - \frac{ K j \frac{ \omega }{ \omega_l } }
-{ (1 + j \frac \omega { \omega_l }) \cdot 
-(1 + j\frac \omega { \omega_u }) }$$
-
-![[diagram band rejection filter and band pass filter.jpg]]
-
-$$B.W.\text{ (bandwidth) } = 
-\frac{ \sqrt{ 1 -  4R^2 \frac{ C }{ L } } }
-{ RC }$$
-
-$$\omega_p \text{ (peak frequency) } = 
-\frac 1 { \sqrt{ LC } }$$
-
-$$\omega_u \text{ (upper frequency) } = 
-\omega_p + \frac{ B.W. }{ 2 }$$
-
-$$\omega_l \text{ (lower frequency) } = 
-\omega_p - \frac{ B.W. }{ 2 }$$
-
-## Operational [[Amplifier]] Filter
-
-![[op amp filter.png]]
-
-$$v_n = \frac{ Z_1 v_{ out } + Z_f v_{ in } }
-{ Z_1 + Z_f }$$
-
-$$\implies \frac{ v_{ out } }{ v_{ in } } = 
--\frac{ Z_f }{ Z_1 }$$
-
-可以調整 $Z_1$ 和 $Z_f$ 來得到不同種類的 filter
-
-Op amp filter 是一種 "Active Filter"，也就是輸出的電流源和輸入的電流源不同
-
-### [[Low Pass Filter]]
-
-$$Z_1 = R$$
-
-$$Z_f = R \vert\vert \frac 1 { j\omega C }$$
-
-$$\implies \frac{ v_o }{ v_i } = 
-\frac{ 
-	-\frac{ 
-		R \cdot \frac{ 1 }{ j\omega C } 
-	}
-	{
-		R + \frac{
-			1
-		}
-		{
-			j\omega C
-		}
-	}
-}
-{ R } = 
-\frac { -1 }{ 1 + j\omega RC }$$
-
-### [[High Pass Filter]]
-
-$$Z_1 = R + \frac{ 1 }{ j\omega C }$$
-
-$$Z_f = R$$
-
-$$\implies \frac{ v_o }{ v_i } = 
--\frac{ j\omega RC }{ j\omega RC + 1 }$$
-
-### [[Band Pass Filter]]
-
-$$Z_1 = R_1 + \frac{ 1 }{ j\omega C_1 }$$
-
-$$Z_f = R_2 \vert\vert \frac{ 1 }{ j\omega C_2 } = 
-\frac{ R_2 \cdot \frac{ 1 }{ j\omega C_2 } }
-{ R_2 + \frac{ 1 }{ j\omega C_2 } } = 
-\frac{ R_2 }{ 1 + j\omega R_2 C_2 }$$
-
-![[band pass filter using operational amplifier filter.png]]
-
-$$\implies \frac { v_o }{ v_i } = 
--\frac{ j\omega R_2C_1 }
-{(j\omega R_1C_1 + 1)(j\omega R_2C_2 + 1)}$$
-
-$$ = -\frac{ 
-	K\cdot j\frac{ \omega }{ \omega_l } 
-}{ 
-	(1 + j\frac{ \omega }{ \omega_l })
-	(1 + j\frac{ \omega }{ \omega_u })
-}$$
-
-$$\implies
-\left\{
-	\begin{array}{}
-		\omega_l = \frac{ 1 }{ R_1 C_1 } \\
-		\omega_u = \frac{ 1 }{ R_2 C_2 }
-	\end{array}
-\right.$$
+![[Filter]]
 
 ---
 

@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## TODO
 
+- [ ] 工數9 @{2022-04-20}
 - [ ] [[Semiconductor]] and Diodes 五題 @{2022-04-25}
 - [ ] [[Line Integral]] 五題 @{2022-04-25}
 
@@ -43,16 +44,14 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 動力學小考16 ~ 16.7 @{2022-04-21}
-- [ ] 工數9 @{2022-04-20}
-- [ ] 電工學期中 @{2022-04-25}<br>- [x] Ch1<br>- [x] Ch2<br>- [x] Ch3<br>- [x] Ch4<br>- [ ] Ch 5<br>- [ ] Ch 6<br>- [ ] Ch10.7 ~ 10<br>- [ ] Ch 13<br>- [ ] Ch14
+- [ ] 電工學期中 @{2022-04-25}<br>- [x] Ch1<br>- [x] Ch2<br>- [x] Ch3<br>- [x] Ch4<br>- [x] Ch 5<br>- [x] Ch 6<br>- [x] Ch10.7 ~ 10<br>- [ ] Ch 13<br>- [ ] Ch14
 - [ ] 撰寫辨識字母code @{2022-03-31}
 
 
 ## Done
 
 **Complete**
-- [x] python 期中 @{2022-04-21}
+- [x] 電工學作業8 @{2022-04-22}
 
 
 ***
@@ -140,6 +139,8 @@ kanban-plugin: basic
 - [x] 動力學 4/19 @{2022-04-19}
 - [x] 精密機械測量期中 @{2022-04-20}
 - [x] 下單鏡頭 @{2022-04-19}
+- [x] python 期中 @{2022-04-21}
+- [x] 動力學小考16 ~ 16.7 @{2022-04-21}
 
 %% kanban:settings
 ```

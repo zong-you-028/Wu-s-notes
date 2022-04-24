@@ -10,8 +10,8 @@ $$Q = hA \Delta T = hA( T_s - T_\infty )$$
 - $T_s$: 固體溫度
 - $h$: [[Heat Transfer Coefficient]] 熱對流係數
 和 $k$ ([[Thermal Conductivity]]) 不同，熱對流係數會隨溫度和材質改變，沒有表可以查
-- $A$: Surface Area
-- $T_s$: Surface Temperature
+- $A$: [[Surface]] Area
+- $T_s$: [[Surface]] Temperature
 - $T_{ \infty }$: Ambient Temperature
 
 ---

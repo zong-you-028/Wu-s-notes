@@ -4,7 +4,7 @@
 
 2D Integral 主要是關於
 1. 2D region in 2D space
-2. 2D surface in 3D space
+2. 2D [[Surface]] in 3D space
 
 # 面積求法
 
@@ -38,8 +38,61 @@ $$\oint_C \vec v \cdot d \vec r = 4vL$$
 Evaluate integral across $R$:
 
 $$\implies 
-\oint_C \vec F(\vec r) \cdot d\vec r = 
+\underbrace { 
+	\oint_C \vec F(\vec r) \cdot d\vec r 
+}_{ \text{ 1D integral } } = 
 \underset{ R }{ \int\int }(\nabla \times \vec F) \cdot \hat k dx dy$$
+
+$$ = \underbrace{ 
+	\underset{ R }{ \int\int } \left(
+		\frac{ \partial F_2 }{ \partial x } - 
+		\frac{ \partial F_1 }{ \partial y }
+	\right) dA
+}_{ \text{ 2D integral } }$$
+
+# [[Surface]] Integral
+
+2D [[Surface]] $S$ within 3D space:
+
+![[surface integral.png|300]]
+
+$$
+\vec r(u, v) = 
+\left[
+	\begin{array}{}
+		x(u, v) \\
+		y(u, v) \\
+		z(u, v)
+	\end{array}
+\right]
+$$
+
+> e.g.
+> $(u, v)$ parametric representation of a cylinder in 3D space.
+
+$$\vec r = 
+\left[
+	\begin{array}{}
+		a\cos u \\
+		a\sin u \\
+		v
+	\end{array}
+\right]$$
+
+$$\text{ gives a cylinder with radius } a$$
+
+---
+
+cone:
+
+$$\vec r = 
+\left[
+	\begin{array}{}
+		v\cos u \\
+		v\sin u \\
+		v
+	\end{array}
+\right]$$
 
 ---
 

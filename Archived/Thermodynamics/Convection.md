@@ -3,7 +3,7 @@
 ---
 
 對流
-transfer of heat from a surface to a ==flowing== media
+transfer of heat from a [[Surface]] to a ==flowing== media
 
 ---
 
