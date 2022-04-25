@@ -33,7 +33,7 @@ $m$: mass
 # Heat Transfer Modes
 
 - [[Conduction]]: transfer of heat between molecules
-- [[Convection]]: transfer of heat from a surface to a ==flowing== media
+- [[Convection]]: transfer of heat from a [[Surface]] to a ==flowing== media
 - [[Radiation]]: transfer of heat due to electromagnetic waves
 
 ## Laws of Heat Transfer

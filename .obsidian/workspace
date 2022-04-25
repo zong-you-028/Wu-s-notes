@@ -1,17 +1,30 @@
 {
   "main": {
+<<<<<<< master
     "id": "41edb371d99ace80",
     "type": "split",
     "children": [
       {
         "id": "cf0c88f086220b76",
+=======
+    "id": "04d84af2b586b49e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b942fd6a6cb0b09d",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< master
             "file": "電工學/Arc/Amplifier.md",
             "mode": "preview",
             "source": true
+=======
+            "file": "電工學/Circuit Analysis/RLC Circuit.md",
+            "mode": "preview"
+>>>>>>> origin/master
           }
         }
       }
@@ -19,6 +32,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< master
     "id": "5e80cf38470d912d",
     "type": "mobile-drawer",
     "children": [
@@ -42,10 +56,42 @@
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical"
+=======
+    "id": "a607bd89f0cc83f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fb8cc0b4e8a7e60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1ee09110046f65f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e32b0d652bf85d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "inverse laplace transform",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+>>>>>>> origin/master
           }
-        }
+        ]
       }
     ],
+<<<<<<< master
     "currentTab": 0
   },
   "right": {
@@ -106,5 +152,76 @@
     "工程數學/Linear Algebra/Line Integral.md",
     "Main Kanban.md",
     "植物日記.md"
+=======
+    "direction": "horizontal",
+    "width": 273.5036334991455
+  },
+  "right": {
+    "id": "0796b0431447fbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b1e3e191f49a50f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ab5593a86cf9e51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4d552f47faa6305f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "電工學/Circuit Analysis/RLC Circuit.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e9d07a825a172914",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "電工學/Circuit Analysis/RLC Circuit.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.2156982421875
+  },
+  "active": "b942fd6a6cb0b09d",
+  "lastOpenFiles": [
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Arc/Amplifier.md",
+    "電工學/Circuit Analysis/Filter.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
+    "工程數學/Laplace/Laplace Transform.md",
+    "電工學/Arc/Inductor.md",
+    "電工學/Arc/Capacitor.md",
+    "工程數學/Laplace/Convolution Theorem.md",
+    "電工學/Circuit Analysis/Low Pass Filter.md",
+    "電工學/Circuit Analysis/High Pass Filter.md"
+>>>>>>> origin/master
   ]
 }
