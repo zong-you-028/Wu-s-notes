@@ -46,6 +46,7 @@ kanban-plugin: basic
 
 - [ ] 電工學期中 @{2022-04-25}<br>- [x] Ch1<br>- [x] Ch2<br>- [x] Ch3<br>- [x] Ch4<br>- [x] Ch 5<br>- [x] Ch 6<br>- [x] Ch10.7 ~ 10<br>- [ ] Ch 13<br>- [ ] Ch14
 - [ ] 撰寫辨識字母code @{2022-03-31}
+- [ ] 給博文餐錢（雞排）4/25
 
 
 ## Done
