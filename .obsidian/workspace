@@ -1,40 +1,17 @@
 {
   "main": {
-<<<<<<< master
     "id": "41edb371d99ace80",
     "type": "split",
     "children": [
       {
-        "id": "14133945b4bae9a5",
-=======
-    "id": "8c0a27098e88b677",
-    "type": "split",
-    "children": [
-      {
-<<<<<<< master-origin
-        "id": "de46a837d1ea8e7f",
->>>>>>> origin/master
+        "id": "cf0c88f086220b76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< master
-            "file": "4-20 Meeting.md",
+            "file": "電工學/Arc/Amplifier.md",
             "mode": "preview",
-            "source": false
-=======
-            "file": "機械製造/機械製造期中字卡.md",
-            "mode": "preview",
-            "source": false
-=======
-        "id": "1c3b9cc715d041da",
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
->>>>>>> origin/master
->>>>>>> origin/master
+            "source": true
           }
         }
       }
@@ -42,7 +19,6 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< master
     "id": "5e80cf38470d912d",
     "type": "mobile-drawer",
     "children": [
@@ -60,74 +36,16 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Green",
+            "query": "Amplifier ",
             "matchingCase": false,
             "explainSearch": false,
-            "collapseAll": false,
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical"
-=======
-<<<<<<< master-origin
-    "id": "87d77f6d62ae0d6d",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "5fa1b8c37aa2a4cf",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "967643cfadaf4e81",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
-=======
-    "id": "fb71a95a838000c0",
-    "type": "split",
-    "children": [
-      {
-        "id": "43308c1ede1b488c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e0a18862bcffd7fb",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "a208f910fff84cf3",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "die",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
->>>>>>> origin/master
->>>>>>> origin/master
           }
         }
       }
     ],
-<<<<<<< master
     "currentTab": 0
   },
   "right": {
@@ -136,27 +54,11 @@
     "children": [
       {
         "id": "b49d2d32bc43a7c0",
-=======
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-<<<<<<< master-origin
-    "id": "fec1784053ee2a06",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "60475ede46fb8e7e",
->>>>>>> origin/master
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-<<<<<<< master
-            "file": "4-20 Meeting.md",
-=======
-            "file": "機械製造/機械製造期中字卡.md",
->>>>>>> origin/master
+            "file": "電工學/Arc/Amplifier.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -168,107 +70,41 @@
         }
       },
       {
-        "id": "93e7193a0c1e920a",
+        "id": "67be52b87eb26fcd",
         "type": "leaf",
         "state": {
-<<<<<<< master
           "type": "outgoing-link",
           "state": {
-            "file": "4-20 Meeting.md",
+            "file": "電工學/Arc/Amplifier.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
+      },
+      {
+        "id": "e96f68a1c5d7548c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "電工學/Arc/Amplifier.md"
+          }
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
-  "active": "14133945b4bae9a5",
+  "active": "cf0c88f086220b76",
   "lastOpenFiles": [
+    "電工學/Arc/Amplifier.md",
+    "課表.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
+    "工程數學/Laplace/Laplace Transform.md",
     "4-20 Meeting.md",
     "工程數學/Linear Algebra/2D Integral.md",
+    "精密測量/精密機械測量 期中.md",
     "工程數學/Linear Algebra/Line Integral.md",
     "Main Kanban.md",
-    "電工學/Arc/Amplifier.md",
-    "植物日記.md",
-    "工程數學/Linear Algebra/Field.md"
-=======
-          "type": "review-queue-list-view",
-          "state": {}
-        }
-=======
-    "id": "2b98f3b73718d425",
-    "type": "split",
-    "children": [
-      {
-        "id": "ca38bfb60928e01e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "689e38306ca8c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Main Kanban.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "1ad4b90fb66e8828",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Main Kanban.md"
-              }
-            }
-          },
-          {
-            "id": "8e15253e67885cae",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Main Kanban.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
->>>>>>> origin/master
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-<<<<<<< master-origin
-  "active": "de46a837d1ea8e7f",
-  "lastOpenFiles": [
-    "機械製造/機械製造期中字卡.md"
-=======
-  "active": "1c3b9cc715d041da",
-  "lastOpenFiles": [
-    "Main Kanban.md",
-    "機械製造/Materials Processing.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/機械製造期中字卡.md",
-    "conflict-files-obsidian-git.md",
-    "電控/電路/easyEDA.md",
-    "工程數學/Orthogonal Functions.md",
-    "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/First Order Differential Equation.md"
->>>>>>> origin/master
->>>>>>> origin/master
+    "植物日記.md"
   ]
 }
