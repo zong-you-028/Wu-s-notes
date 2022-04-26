@@ -1,10 +1,21 @@
 {
   "main": {
-    "id": "41edb371d99ace80",
+    "id": "04d84af2b586b49e",
     "type": "split",
     "children": [
       {
-        "id": "cf0c88f086220b76",
+        "id": "b942fd6a6cb0b09d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "動力學/Rigid Body.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "1a37492c5dd6e9bd",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -12,97 +23,125 @@
             "file": "Main Kanban.md"
           }
         }
+      },
+      {
+        "id": "80e20bc020b8f7ff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "課表.md",
+            "mode": "preview"
+          }
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5e80cf38470d912d",
-    "type": "mobile-drawer",
+    "id": "a607bd89f0cc83f1",
+    "type": "split",
     "children": [
       {
-        "id": "fce901ba3a83f848",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "4c05e4362301af13",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Amplifier ",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": true,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "7fb8cc0b4e8a7e60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1ee09110046f65f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e32b0d652bf85d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "radius of gyration",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 273.5036334991455
   },
   "right": {
-    "id": "323a581fe7999eeb",
-    "type": "mobile-drawer",
+    "id": "0796b0431447fbc7",
+    "type": "split",
     "children": [
       {
-        "id": "b49d2d32bc43a7c0",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Main Kanban.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "9b1e3e191f49a50f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ab5593a86cf9e51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main Kanban.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4d552f47faa6305f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e9d07a825a172914",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main Kanban.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "67be52b87eb26fcd",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "Main Kanban.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "e96f68a1c5d7548c",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "Main Kanban.md"
-          }
-        }
+        ],
+        "currentTab": 2
       }
     ],
-    "currentTab": 2
+    "direction": "horizontal",
+    "width": 292.2156982421875,
+    "collapsed": true
   },
-  "active": "cf0c88f086220b76",
+  "active": "1a37492c5dd6e9bd",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "動力學/Rigid Body.md",
     "課表.md",
-    "電工學/Circuit Analysis/Filter.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
     "電工學/Arc/Amplifier.md",
+    "電工學/Circuit Analysis/Filter.md",
     "工程數學/Laplace/Inverse Laplace Transform.md",
     "工程數學/Laplace/Laplace Transform.md",
-    "4-20 Meeting.md",
-    "工程數學/Linear Algebra/2D Integral.md",
-    "精密測量/精密機械測量 期中.md",
-    "工程數學/Linear Algebra/Line Integral.md"
+    "電工學/Arc/Inductor.md",
+    "電工學/Arc/Capacitor.md"
   ]
 }
