@@ -255,6 +255,8 @@ $$
 
 ### Rotation about a Fixed Axis
 
+![[force and acceleration rotation around a fixed axis.png|350]]
+
 $$\left\{
 	\begin{array}{}
 		\sum F_n & = & m(a_G)_n & = & m\omega^2 r_G \\
@@ -263,7 +265,7 @@ $$\left\{
 	\end{array}
 \right.$$
 
-也可以對 $O$ 點取 Moment
+也可以對 $O$ 點取 [[Moment]]
 
 $$\left\{
 	\begin{array}{}
@@ -273,13 +275,13 @@ $$\left\{
 	\end{array}
 \right.$$
 
-### Moment Equation about the Instantaneous Centor
+### [[Moment]] Equation about the Instantaneous Centor
 
-也可以對 Instantaneous Centor 取 Moment
+也可以對 Instantaneous Centor 取 [[Moment]]
 
 $$\underline{ \sum M_{ IC } = I_{ IC } \alpha }_{ \# }$$
 
-# Work and Energy
+# [[Work]] and Energy
 
 ## Kinetic Energy
 
@@ -304,7 +306,60 @@ $$\implies {\bf v}_i \cdot {\bf v}_i = v_i^2$$
 
 $$ = [(v_p)_x - \omega y]^2 + [(v_p)_y + \omega x]^2$$
 
+$$ = (v_p)_x^2 - 2(v_p)_x\omega y + \omega^2y^2 + (v_p)_y^2 + 2(v_p)_y\omega x + \omega^2x^2$$
 
+$$ = v_p^2 - 2(v_p)_x \omega y + 2(v_p)_y\omega x + \omega^2 r^2$$
+
+$$\implies T = \frac 1 2(\int_m dm)v_p^2 - (v_p)_x\omega(\int_mydm) + (v_p)_x\omega(\int_mxdm) + \frac 1 2 \omega^2(\int_m r^2dm)$$
+
+> Since 
+> $$\bar ym = \int ydm$$
+> $$\bar xm = \int xdm$$
+> they represent the location of the body's center of mass $G$ with respect to $P$
+> 
+> $$\int_m r^2dm = I_p$$
+
+As a special case, if $P$ coincides with $G$, $\bar y = \bar x = 0$
+
+$$\implies \underline{ T = \frac 1 2 mv_G^2 + \frac 1 2 I_G \omega^2 }_\#$$
+
+### Rotation about a Fixed Axis
+
+![[kinetic energy rotation about a fixed axis.png|250]]
+
+$$T = \frac 1 2 m v_G^2 + \frac 1 2 I_G \omega^2$$
+
+$$ = \frac 1 2 m r_G^2 \omega^2 + \frac 1 2 I_G \omega^2$$
+
+$$ = \frac 1 2(I_G + mr_G^2)\omega^2$$
+
+$$ = \underline{ \frac 1 2 I_o \omega^2 }_\#$$
+
+### General Plane Motion
+
+$$T = \frac 1 2 m v_G^2 + \frac 1 2 I_G \omega^2$$
+
+$$ = \underline{ \frac 1 2 I_{ IC } \omega^2 }_\#$$
+
+similar to rotation about a fixed axis
+
+## The [[Work]] of a Force
+
+### [[Work]] of a Variable Force
+
+$$\underline{ U_F = \int{ \bf F } \cdot d{\bf r} = \int_s F\cos \theta ds }_\#$$
+
+### The [[Work]] of a Couple [[Moment]]
+
+$$\underline{ U_M = \int_{ \theta_1 }^{ \theta_2 } Md\theta }_\#$$
+
+if ${\bf M}$ has constant magnitude
+
+$$\underline{ U_M = M(\theta_2 - \theta_1) }_\#$$
+
+### Principle of [[Work]] and Energy
+
+$$\underline{ T_1 + \sum U_{ 1 - 2 } = T_2 }_\#$$
 
 ---
 
