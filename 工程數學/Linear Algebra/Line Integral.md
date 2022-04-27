@@ -137,9 +137,9 @@ $$R = \int_a^b \vec F(\vec r(t))dt$$
 $$\int_{ C_1 } F(\vec r_1 (t))dt \neq 
 \int_{ C_2 } F(\vec r_2(t))dt$$
 
-因為路線不一樣， Line Integral 也會不一樣，這稱為 path dependence
+路線不一樣時，通常 Line Integral 也會不一樣。因為 Line Integral 會受到 path 影響，所以稱為 path dependence
 
-但是在什麼情況下會發生 path independence ，也就是
+但是也有特定情況下會發生 path independence ，不同的 path 做 Line Integral 的結果一樣
 
 $$\int_{ C_1 } Fdt = 
 \int_{ C_2 } Fdt ,\qquad 
