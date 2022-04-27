@@ -2,13 +2,13 @@
 
 ---
 
-# Planar Rigid-Body Motion
+# Planar Motion
 
 包含了三種情況
 
 1. [[#Translation]]: 平移
 2. [[#Rotation about a fixed axis]]: 旋轉
-3. [[#General plane motion]]: 邊旋轉邊平移
+3. [[#General plane motion Relative-Motion Analysis|General plane motion]]: 邊旋轉邊平移
 
 最重要的是 3. ，因為它最泛用
 
@@ -176,7 +176,7 @@ $${ \bf a }_B =
 ({ \bf v }_{ B / A })_{ xyz } + 
 ({ \bf a }_{ B / A })_{ xyz }$$
 
-# Force and [[Acceleration]] of Rigid Body
+# Force and [[Acceleration]]
 
 ## Mass [[Moment]] of Inertia
 
@@ -246,11 +246,65 @@ $$
 		\sum F_x & = & m(a_G)_x \\
 		\sum F_y & = & m(a_G)_y \\
 		\sum M_G & = & I_G \alpha \\
+		& \text{ or } \\
 		\sum M_P & = & -\bar ym(a_G)_x & 
 		+ & \bar xm(a_G)_y & + I_G \alpha
 	\end{array}
 \right.
 $$
+
+### Rotation about a Fixed Axis
+
+$$\left\{
+	\begin{array}{}
+		\sum F_n & = & m(a_G)_n & = & m\omega^2 r_G \\
+		\sum F_t & = & m(a_G)_t & = & m \alpha r_G \\
+		\sum M_G & = & I_G \alpha
+	\end{array}
+\right.$$
+
+也可以對 $O$ 點取 Moment
+
+$$\left\{
+	\begin{array}{}
+		\sum F_n & = & m(a_G)_n & = & m\omega^2 r_G \\
+		\sum F_t & = & m(a_G)_t & = & m \alpha r_G \\
+		\sum M_O & = & I_O \alpha
+	\end{array}
+\right.$$
+
+### Moment Equation about the Instantaneous Centor
+
+也可以對 Instantaneous Centor 取 Moment
+
+$$\underline{ \sum M_{ IC } = I_{ IC } \alpha }_{ \# }$$
+
+# Work and Energy
+
+## Kinetic Energy
+
+#TODO : `Figure-18.1`
+
+The kinetic energy of the entire body is 
+
+$$T = \frac 1 2 \int_m dm v_i^2$$
+
+if the body has an angular velocity $\omega$
+
+$${\bf v}_i = {\bf v}_p + {\bf v}_{ i / p }$$
+
+$$ = (v_p)_x \hat i + 
+(v_p)_y \hat j + 
+\omega \hat k \times (x\hat i + y\hat j)$$
+
+$$ = [(v_p)_x - \omega y]\hat i + 
+[(v_p)_y + \omega x]\hat j$$
+
+$$\implies {\bf v}_i \cdot {\bf v}_i = v_i^2$$
+
+$$ = [(v_p)_x - \omega y]^2 + [(v_p)_y + \omega x]^2$$
+
+
 
 ---
 
