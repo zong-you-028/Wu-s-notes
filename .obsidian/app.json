@@ -8,5 +8,6 @@
     "downscalePercent": 80
   },
   "attachmentFolderPath": "附件",
-  "legacyEditor": true
+  "legacyEditor": true,
+  "livePreview": false
 }

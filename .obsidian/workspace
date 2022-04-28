@@ -7,9 +7,10 @@
         "id": "e97e121a8f4a98b4",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "Main Kanban.md",
+            "mode": "source"
           }
         }
       }

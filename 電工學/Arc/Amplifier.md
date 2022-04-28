@@ -199,38 +199,55 @@ $n$: negative (Inverting terminal)
 
 # Amplifier Usages
 
+## Inverting Amplifier
+
+#TODO : `Figure-13.4`
+
+step1. negative feedback is present, $v_x = 0$
+
+step2.
+
+$$\frac{ v_{ in } - v_x }{ R_1 } = 
+\frac{ v_x - v_o }{ R_2 } = i_1 = i_2$$
+
+since $v_x = 0$
+
+$$\implies \underline{ 
+	\frac{ v_o }{ v_{ in } } = 
+	-\frac{ R_2 }{ R_1 }
+}_{ \# }$$
+
 ## Non-inverting Amplifier
 
-![[Non-inverting Amplifier.png]]
+#TODO : `Figure-13.11`
 
-Assuming that $r_i = \infty$ and $r_0 = 0$ ,
+step1. negative feedback is present, $v_i = 0$
 
-$$1. \quad i_p = i_n = 0$$
-.
-$$2. \quad v_n = \underbrace{ v_{ in } }_{ v_p } - v_d$$
-.
-$$3. \quad v_n = Bv_{ out } = B(Av_d)$$
-$$B = \frac{ R_1 }{ R_F + R_1 } \qquad \text{ voltage divider }$$
-.
-$$2. = 3. \implies v_{ in } - v_d = BAv_d$$
-$$\frac{ v_d }{ v_{ in } } = \frac{ 1 }{ 1 + AB }$$
-$$\frac{ v_0 }{ v_{ in } } = \frac{ A }{ 1 + AB }$$
+step2. since $v_i = 0$, $v_{ in } = 1$
+
+step3. 
+
+$$\frac{ v_1 }{ R_1 } = 
+\frac{ v_o - v_1 }{ R_2 }$$
+
+$$\implies \frac{ v_{ in } }{ R_1 } = 
+\frac{ v_o - v_{ in } }{ R_2 }$$
+
+$$\implies v_{ in }R_2 = 
+v_oR_1 - v_{ in } R_1$$
+
+$$\implies v_{ in }(R_2 + R_1) = 
+v_oR_1$$
+
+$$\implies \frac{ v_o }{ v_{ in } } = 
+\frac{ R_1 + R_2 }{ R_1 } = 
+1 + \frac{ R_2 }{ R_1 }$$
 
 ## Voltage Follower (Unit Gain Buffer)
 
-![[Voltage Follower (Unit Gain Buffer).png]]
+#TODO : `Figure-13.12`
 
-## Inverting Amplifier
-
-![[Inverting Amplifier.png]]
-
-Assuming $v_d \simeq 0$, 
-
-$$i_1 = \frac{ v_{ in } }{ R_1 }$$
-
-$$v_0 = -i_1 \cdot R_F$$
-
-$$\implies \frac{ v_0 }{ v_{ in } } = \frac{ -R_F }{ R_1 }$$
+在 [[#Non-inverting Amplifier]] 的結果中， $R_2 = 0$, $R_1 \rightarrow \infty$
 
 ## Summing Amplifier
 
@@ -246,11 +263,102 @@ $$v_0 = -\left(\frac{ R_F }{ R_1 }v_1 + \frac{ R_F }{ R_2 }v_2\right)$$
 
 ## Difference Amplifier
 
-![[Difference Amplifier.png]]
+#TODO : `Figure-13.33`
 
-if $r_1 = r_2$
+step1. negative feedback is present, $v_d = 0$
 
-$$v_o = \frac{ R_F }{ R_1 }(v_2 - v_1)$$
+step2. $v_p = v_n$
+
+$$\implies 
+v_1 \times \frac{ R_4 }{ R_3 + R_4 } = 
+(v_2 - v_o) \times 
+\frac{ R_2 }{ R_1 + R_2 } + 
+v_o$$
+
+$$\implies 
+v_1 \times \frac{ R_4 }{ R_3 + R_4 } = 
+\frac{ R_2 }{ R_1 + R_2 }v_2 + 
+\frac{ R_1 }{ R_1 + R_2 }v_o$$
+
+$$\implies v_o = 
+\left(
+	\frac{ R_4 }{ R_3 + R_4 }v_1 - 
+	\frac{ R_2 }{ R_1 + R_2 }v_2
+\right)\times
+\frac{ R_1 + R_2 }{ R_1 }$$
+
+$$ = \frac{ R_4(R_1 + R_2)v_1 }
+{ R_1(R_3 + R_4) } - 
+\frac{ R_2 }{ R_1 }v_2$$
+
+step3. replace $R_4$ with $R_3, R_1, R_2$
+
+> $$\frac{ R_4 }{ R_3 } = \frac{ R_2 }{ R_1 }$$
+> $$\implies R_4 = \frac{ R_2 }{ R_1 } R_3$$
+
+$$\implies v_o = 
+\frac{ R_2 R_3 }{ R_1 } \times 
+\frac{ (R_1 + R_2)v_1 }{ 
+	R_1\left(
+		R_3 + \frac{ R_2 }{ R_1 }R_3
+	\right) 
+} - \frac{ R_2 }{ R_1 }v_2$$
+
+$$ = 
+\frac{ R_2 }{ R_1 } \times 
+\frac{ (R_1 + R_2)v_1 }
+{ R_1(1 + \frac{ R_2 }{ R_1 }) } - 
+\frac{ R_2 }{ R_1 }v_2$$
+
+$$ = \frac{ R_2 }{ R_1 }(v_1 - v_2)$$
+
+## Integrators
+
+#TODO : `Figure-13.35`
+
+step1. negative feedback is present, $v_n = v_p = 0$
+
+step2.
+
+$$i_{ in } = \frac{ v_{ in } }{ R }$$
+
+step3.
+
+$$v_c = \frac 1 C \int_0^t i_{ in }dt$$
+
+$$ = \frac 1 C \int_0^t \frac{ v_{ in } }{ R }dt$$
+
+$$ = \frac 1 {RC} \int_0^tv_{ in }dt$$
+
+step4.
+
+$$v_o = -v_c$$
+
+$$ = \underline{ 
+	\frac{ -1 }{ RC }\int_0^t v_{ in }dt 
+}_{ \# }$$
+
+## Differentiator
+
+#TODO : `Figure-13.38`
+
+step1. negative feedback is present, $v_n = v_p = 0$
+
+step2. 
+
+$$v_{ in } = \frac 1 C \int_0^t i_{ in }dt$$
+
+$$\implies i_{ in } = C\frac{ dv_{ in } }{ dt }$$
+
+step3.
+
+$$v_R = RC \frac{ dv_{ in } }{ dt }$$
+
+step4.
+
+$$v_o = -v_R = \underline{ 
+	-RC\frac{ v_{ in } }{ dt }
+}_{\#}$$
 
 ---
 

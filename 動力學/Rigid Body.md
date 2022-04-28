@@ -2,13 +2,13 @@
 
 ---
 
-# Planar Rigid-Body Motion
+# Planar Motion
 
 包含了三種情況
 
 1. [[#Translation]]: 平移
 2. [[#Rotation about a fixed axis]]: 旋轉
-3. [[#General plane motion]]: 邊旋轉邊平移
+3. [[#General plane motion Relative-Motion Analysis|General plane motion]]: 邊旋轉邊平移
 
 最重要的是 3. ，因為它最泛用
 
@@ -138,6 +138,228 @@ $\alpha$: 角加速度
 # Instantaneous Centor of Zero Velocity
 
 ![[Instantaneous Center]]
+
+# Translating Coordinate System
+
+Use for analyzing motions of two points on a mechanism which are not located in the same body
+
+> example of translating coordinate system
+> ![[example of translating coordinate system.png|400]]
+> 譬如以上的例子，我們希望分析 $C$ 點與 $O$ 點之間的相對運動，而他們在不同的 body 上。這時我們就可以使用 translating coordinate system ，架設一個會隨著 body 轉動的 coordinate (圖中 $x, y$)。
+
+在以下的結果中，你會發現有點類似[[#General plane motion Relative-Motion Analysis|一般 rigid body]] 的算法，但是在這裡的情況不同，座標軸是會旋轉的。因此底下結果的推導多考慮了座標軸的旋轉（類似[[極座標]]的推導），因此結果也不同。
+
+注意以下的向量皆是使用 $x, y$ 座標軸，而不是 $X, Y$ 座標軸。
+
+## Position 
+
+$$ { \bf r }_B = 
+{ \bf r }_A + { \bf r }_{ B / A }$$
+
+## Velocity
+
+$${ \bf v }_B = 
+{ \bf v }_A + 
+{ \bf \Omega } \times { \bf r }_{ B / A } + 
+({ \bf v }_{ B / A })_{ xyz }$$
+
+## [[Acceleration]]
+
+$${ \bf a }_B = 
+{ \bf a }_A + 
+{ \bf \Omega } \times 
+{ \bf r }_{ B / A } + 
+{\bf\Omega} \times 
+({\bf \Omega } \times 
+{ \bf r }_{ B / A }) +
+2{ \bf \Omega } \times 
+({ \bf v }_{ B / A })_{ xyz } + 
+({ \bf a }_{ B / A })_{ xyz }$$
+
+# Force and [[Acceleration]]
+
+## Mass [[Moment]] of Inertia
+
+根據牛頓定律
+
+$${ \bf F } = m { \bf a }$$
+
+而 [[moment]] 等於
+
+$${ \bf M } = I { \bf \alpha }$$
+
+其中 $I$ 是 mass [[moment]] of inertia，$\alpha$ 是角速度
+
+mass [[moment]] of inertia 的計算相似於 [[Area Moment of Inertia]] ，如下
+
+$$I = \int_m r^2 dm$$
+
+using volume elements $V$
+
+$$I = \int_V r^2 \rho dV$$
+
+$\rho$: 密度
+
+### Common Mass [[Moment]] of Inertia
+
+[List of moment of inertia - wiki](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
+
+| Figure                           | [[Moment]] of Inertia           |
+| -------------------------------- | --------------------------- |
+| ![[rod moment of inertia.png]]   | $$I = \frac 1 { 12 } mL^2$$ |
+| ![[plate moment of inertia.png]] | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$                           |
+
+### Parallel-Axis Theorem
+
+![[parallel axis theorem.png|300]]
+
+$$I_2 = I_1 + md^2$$
+
+$m$: 總質量
+$I_1$: 相對軸 1 的 inertia
+$I_2$: 相對軸 2 的 inertia
+$d$: 軸 1 和軸 2 的距離
+
+### Radius of Gyration
+
+The [[moment]] of inertia of a body about a specified axis can be expressed using the radius of gyration, $k$
+
+$$I = mk^2$$
+
+$$\text{ or }$$
+
+$$k = \sqrt{ \frac{ I }{ m } }$$
+
+## Planar Kinetic Equations of Motion
+
+$$\sum { \bf F } = m { \bf a }_G$$
+
+$$\sum { \bf M }_P = -\bar y m(a_G)_x + 
+\bar x m(a_G)_y + I_G \alpha$$
+
+![[planar kinetic equations of motion.png|350]]
+
+$$
+\implies
+\left\{
+	\begin{array}{}
+		\sum F_x & = & m(a_G)_x \\
+		\sum F_y & = & m(a_G)_y \\
+		\sum M_G & = & I_G \alpha \\
+		& \text{ or } \\
+		\sum M_P & = & -\bar ym(a_G)_x & 
+		+ & \bar xm(a_G)_y & + I_G \alpha
+	\end{array}
+\right.
+$$
+
+### Rotation about a Fixed Axis
+
+![[force and acceleration rotation around a fixed axis.png|350]]
+
+$$\left\{
+	\begin{array}{}
+		\sum F_n & = & m(a_G)_n & = & m\omega^2 r_G \\
+		\sum F_t & = & m(a_G)_t & = & m \alpha r_G \\
+		\sum M_G & = & I_G \alpha
+	\end{array}
+\right.$$
+
+也可以對 $O$ 點取 [[Moment]]
+
+$$\left\{
+	\begin{array}{}
+		\sum F_n & = & m(a_G)_n & = & m\omega^2 r_G \\
+		\sum F_t & = & m(a_G)_t & = & m \alpha r_G \\
+		\sum M_O & = & I_O \alpha
+	\end{array}
+\right.$$
+
+### [[Moment]] Equation about the Instantaneous Centor
+
+也可以對 Instantaneous Centor 取 [[Moment]]
+
+$$\underline{ \sum M_{ IC } = I_{ IC } \alpha }_{ \# }$$
+
+# [[Work]] and Energy
+
+## Kinetic Energy
+
+#TODO : `Figure-18.1`
+
+The kinetic energy of the entire body is 
+
+$$T = \frac 1 2 \int_m dm v_i^2$$
+
+if the body has an angular velocity $\omega$
+
+$${\bf v}_i = {\bf v}_p + {\bf v}_{ i / p }$$
+
+$$ = (v_p)_x \hat i + 
+(v_p)_y \hat j + 
+\omega \hat k \times (x\hat i + y\hat j)$$
+
+$$ = [(v_p)_x - \omega y]\hat i + 
+[(v_p)_y + \omega x]\hat j$$
+
+$$\implies {\bf v}_i \cdot {\bf v}_i = v_i^2$$
+
+$$ = [(v_p)_x - \omega y]^2 + [(v_p)_y + \omega x]^2$$
+
+$$ = (v_p)_x^2 - 2(v_p)_x\omega y + \omega^2y^2 + (v_p)_y^2 + 2(v_p)_y\omega x + \omega^2x^2$$
+
+$$ = v_p^2 - 2(v_p)_x \omega y + 2(v_p)_y\omega x + \omega^2 r^2$$
+
+$$\implies T = \frac 1 2(\int_m dm)v_p^2 - (v_p)_x\omega(\int_mydm) + (v_p)_x\omega(\int_mxdm) + \frac 1 2 \omega^2(\int_m r^2dm)$$
+
+> Since 
+> $$\bar ym = \int ydm$$
+> $$\bar xm = \int xdm$$
+> they represent the location of the body's center of mass $G$ with respect to $P$
+> 
+> $$\int_m r^2dm = I_p$$
+
+As a special case, if $P$ coincides with $G$, $\bar y = \bar x = 0$
+
+$$\implies \underline{ T = \frac 1 2 mv_G^2 + \frac 1 2 I_G \omega^2 }_\#$$
+
+### Rotation about a Fixed Axis
+
+![[kinetic energy rotation about a fixed axis.png|250]]
+
+$$T = \frac 1 2 m v_G^2 + \frac 1 2 I_G \omega^2$$
+
+$$ = \frac 1 2 m r_G^2 \omega^2 + \frac 1 2 I_G \omega^2$$
+
+$$ = \frac 1 2(I_G + mr_G^2)\omega^2$$
+
+$$ = \underline{ \frac 1 2 I_o \omega^2 }_\#$$
+
+### General Plane Motion
+
+$$T = \frac 1 2 m v_G^2 + \frac 1 2 I_G \omega^2$$
+
+$$ = \underline{ \frac 1 2 I_{ IC } \omega^2 }_\#$$
+
+similar to rotation about a fixed axis
+
+## The [[Work]] of a Force
+
+### [[Work]] of a Variable Force
+
+$$\underline{ U_F = \int{ \bf F } \cdot d{\bf r} = \int_s F\cos \theta ds }_\#$$
+
+### The [[Work]] of a Couple [[Moment]]
+
+$$\underline{ U_M = \int_{ \theta_1 }^{ \theta_2 } Md\theta }_\#$$
+
+if ${\bf M}$ has constant magnitude
+
+$$\underline{ U_M = M(\theta_2 - \theta_1) }_\#$$
+
+### Principle of [[Work]] and Energy
+
+$$\underline{ T_1 + \sum U_{ 1 - 2 } = T_2 }_\#$$
 
 ---
 

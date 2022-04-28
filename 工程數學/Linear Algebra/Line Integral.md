@@ -17,9 +17,9 @@ Line Integral 有更高的 dimension ，積分相對複雜，如下圖
 
 ![[line integral schematic diagram.png|400]]
 
-## Curve
+## [[Curve]]
 
-先從 Curve 開始定義
+先從 [[Curve]] 開始定義
 
 $$C = \vec r (t)$$
 
@@ -37,7 +37,7 @@ $$ = x(t) \hat i + y(t) \hat j$$
 
 - If $\vec r(a) = \vec r(b) \rightarrow$ closed path
 - If $\vec r(a) \neq \vec r(b) \rightarrow$ open path
-- $C$ is a smooth curve if
+- $C$ is a smooth [[curve]] if
 $$\frac {d\vec r}{ dt } = 
 \vec r' = \text{ tangent }$$
 is unique at all points, and 
@@ -137,9 +137,9 @@ $$R = \int_a^b \vec F(\vec r(t))dt$$
 $$\int_{ C_1 } F(\vec r_1 (t))dt \neq 
 \int_{ C_2 } F(\vec r_2(t))dt$$
 
-因為路線不一樣， Line Integral 也會不一樣，這稱為 path dependence
+路線不一樣時，通常 Line Integral 也會不一樣。因為 Line Integral 會受到 path 影響，所以稱為 path dependence
 
-但是在什麼情況下會發生 path independence ，也就是
+但是也有特定情況下會發生 path independence ，不同的 path 做 Line Integral 的結果一樣
 
 $$\int_{ C_1 } Fdt = 
 \int_{ C_2 } Fdt ,\qquad 
