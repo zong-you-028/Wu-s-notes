@@ -43,7 +43,6 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] 動力學小考16 ~ 16.7 @{2022-04-21}
 - [ ] 工數9 @{2022-04-20}
 - [ ] 電工學期中 @{2022-04-25}<br>- [x] Ch1<br>- [x] Ch2<br>- [x] Ch3<br>- [x] Ch4<br>- [ ] Ch 5<br>- [ ] Ch 6<br>- [ ] Ch10.7 ~ 10<br>- [ ] Ch 13<br>- [ ] Ch14
 - [ ] 撰寫辨識字母code @{2022-03-31}
@@ -53,6 +52,7 @@ kanban-plugin: basic
 
 **Complete**
 - [x] python 期中 @{2022-04-21}
+- [x] 動力學小考16 ~ 16.7 @{2022-04-21}
 
 
 ***
