@@ -117,7 +117,7 @@ $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } 
 
 ### Second-Order Lowpass Filters
 
-#TODO : `Figure-6.35`
+![[lowpass filter circuits comparison.png]]
 
 ## High Pass Filter
 
@@ -149,7 +149,7 @@ $$\implies
 
 ### Second-Order Highpass Filters
 
-#TODO : `Figure-6.36`
+![[second-order highpass filter.png]]
 
 ## Band Pass Filter
 
@@ -246,7 +246,7 @@ $$\omega_l \text{ (lower frequency) } =
 
 ### Series
 
-#TODO : `Figure-6.38`
+![[series band-reject filter.png]]
 
 ## Operational [[Amplifier]] Filter
 

@@ -285,7 +285,7 @@ $$\underline{ \sum M_{ IC } = I_{ IC } \alpha }_{ \# }$$
 
 ## Kinetic Energy
 
-#TODO : `Figure-18.1`
+![[kinetic energy of rigid body.png|350]]
 
 The kinetic energy of the entire body is 
 

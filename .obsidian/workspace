@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "6718b8269e21c678",
+        "id": "3764eabeded4fa6a",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "工程數學/Linear Algebra/Field.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rigid body",
+                "query": "directional der",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -47,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "工程數學/Linear Algebra/Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "工程數學/Linear Algebra/Field.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -96,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "工程數學/Linear Algebra/Field.md"
               }
             }
           }
@@ -105,19 +107,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.2156982421875
+    "width": 292.2156982421875,
+    "collapsed": true
   },
-  "active": "6718b8269e21c678",
+  "active": "3764eabeded4fa6a",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "動力學/Rigid Body.md",
-    "動力學/HW/ch 18 sol/18-5.png",
-    "動力學/HW/ch 17 sol/17-41.png",
-    "工程數學/Linear Algebra/Triple Integral.md",
+    "工程數學/Linear Algebra/Field.md",
+    "工程數學/Higher Order DE/Eigenvalue.md",
     "工程數學/Linear Algebra/Surface Integral.md",
-    "電工學/Arc/Amplifier.md",
+    "工程數學/Linear Algebra/Curve.md",
+    "電工學/Arc/Diode.md",
+    "動力學/Rigid Body.md",
     "電工學/Circuit Analysis/Filter.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "工程數學/Linear Algebra/Line Integral.md"
+    "電工學/Arc/Amplifier.md",
+    "Main Kanban.md",
+    "電控/linux/root account.md"
   ]
 }
