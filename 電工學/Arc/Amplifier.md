@@ -201,7 +201,7 @@ $n$: negative (Inverting terminal)
 
 ## Inverting Amplifier
 
-#TODO : `Figure-13.4`
+![[Inverting Amplifier.png|450]]
 
 step1. negative feedback is present, $v_x = 0$
 
@@ -219,7 +219,7 @@ $$\implies \underline{
 
 ## Non-inverting Amplifier
 
-#TODO : `Figure-13.11`
+![[non-inverting amplifier.png|450]]
 
 step1. negative feedback is present, $v_i = 0$
 
@@ -245,13 +245,13 @@ $$\implies \frac{ v_o }{ v_{ in } } =
 
 ## Voltage Follower (Unit Gain Buffer)
 
-#TODO : `Figure-13.12`
+![[voltage follower.png|450]]
 
 在 [[#Non-inverting Amplifier]] 的結果中， $R_2 = 0$, $R_1 \rightarrow \infty$
 
 ## Summing Amplifier
 
-![[Summing Amplifier.png]]
+![[Summing Amplifier.png|500]]
 
 $R_F$: Feedback 回授
 
@@ -263,7 +263,7 @@ $$v_0 = -\left(\frac{ R_F }{ R_1 }v_1 + \frac{ R_F }{ R_2 }v_2\right)$$
 
 ## Difference Amplifier
 
-#TODO : `Figure-13.33`
+![[difference amplifier.png|550]]
 
 step1. negative feedback is present, $v_d = 0$
 
@@ -314,7 +314,7 @@ $$ = \frac{ R_2 }{ R_1 }(v_1 - v_2)$$
 
 ## Integrators
 
-#TODO : `Figure-13.35`
+![[integrators.png|500]]
 
 step1. negative feedback is present, $v_n = v_p = 0$
 
@@ -340,7 +340,7 @@ $$ = \underline{
 
 ## Differentiator
 
-#TODO : `Figure-13.38`
+![[differentiator.png|500]]
 
 step1. negative feedback is present, $v_n = v_p = 0$
 

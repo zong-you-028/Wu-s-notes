@@ -75,7 +75,7 @@ $$ = \frac{ \partial v_1 }{ \partial x } +
 
 > [[#Scalar Field|Gradient]] 和 [[#Divergence]] 的比較
 > - $div$: $\nabla \cdot \vec v$: $\text{ vector } \rightarrow \text{ scalar }$
-> - $grad$: $\nabla f$: $\text{ scalar } \rightarrow \text{ scalar }$
+> - $grad$: $\nabla f$: $\text{ scalar } \rightarrow \text{ vector }$
 
 #### For [[Control Volume]] Analysis
 
