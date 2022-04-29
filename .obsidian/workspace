@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e97e121a8f4a98b4",
+        "id": "0e47ba991dfc52f8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Main Kanban.md",
-            "mode": "source"
+            "file": "動力學/Rigid Body.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "動力學/Rigid Body.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,8 +108,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e97e121a8f4a98b4",
+  "active": "0e47ba991dfc52f8",
   "lastOpenFiles": [
+    "動力學/Rigid Body.md",
     "Main Kanban.md",
     "Archived/Mechanics and Materials/Area Moment of Inertia.md",
     "機械製造/Materials Processing.md",
@@ -118,7 +119,6 @@
     "conflict-files-obsidian-git.md",
     "電控/電路/easyEDA.md",
     "工程數學/Orthogonal Functions.md",
-    "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md"
+    "工程數學/Orthogonal Functions/Integral Transform Method.md"
   ]
 }
