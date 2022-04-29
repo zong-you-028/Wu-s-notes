@@ -1,24 +1,16 @@
 {
   "main": {
-    "id": "04d84af2b586b49e",
+    "id": "43ef0f9f7f097174",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "0e47ba991dfc52f8",
-=======
-        "id": "3764eabeded4fa6a",
->>>>>>> dbb86fc7c69effd5eda1998612211cc2664f7e69
+        "id": "82c710729bffc005",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "動力學/Rigid Body.md",
-=======
-            "file": "工程數學/Linear Algebra/Field.md",
->>>>>>> dbb86fc7c69effd5eda1998612211cc2664f7e69
-            "mode": "preview"
+            "file": "專題事項.md",
+            "mode": "source"
           }
         }
       }
@@ -26,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a607bd89f0cc83f1",
+    "id": "0e8355e2c854a906",
     "type": "split",
     "children": [
       {
-        "id": "7fb8cc0b4e8a7e60",
+        "id": "a42ec27bf9d96068",
         "type": "tabs",
         "children": [
           {
-            "id": "d1ee09110046f65f",
+            "id": "7601a71389b7f85b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -42,122 +34,82 @@
             }
           },
           {
-            "id": "1e32b0d652bf85d7",
+            "id": "2545bfbec1a62aca",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "directional der",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 273.5036334991455
+    "width": 300
   },
   "right": {
-    "id": "0796b0431447fbc7",
+    "id": "addbbe8c7208197f",
     "type": "split",
     "children": [
       {
-        "id": "9b1e3e191f49a50f",
+        "id": "260fc48b94661bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "4ab5593a86cf9e51",
+            "id": "94f972cc7504fc88",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "動力學/Rigid Body.md",
-=======
-                "file": "工程數學/Linear Algebra/Field.md",
->>>>>>> dbb86fc7c69effd5eda1998612211cc2664f7e69
+                "file": "專題事項.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4d552f47faa6305f",
+            "id": "8a73b128174b6fcb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "動力學/Rigid Body.md"
-=======
-                "file": "工程數學/Linear Algebra/Field.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
->>>>>>> dbb86fc7c69effd5eda1998612211cc2664f7e69
+                "file": "專題事項.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e9d07a825a172914",
+            "id": "76c4ca3cb52af158",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "動力學/Rigid Body.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-=======
-                "file": "工程數學/Linear Algebra/Field.md"
->>>>>>> dbb86fc7c69effd5eda1998612211cc2664f7e69
+                "file": "專題事項.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 292.2156982421875,
+    "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "0e47ba991dfc52f8",
+  "active": "82c710729bffc005",
   "lastOpenFiles": [
-    "動力學/Rigid Body.md",
-    "Main Kanban.md",
-    "Archived/Mechanics and Materials/Area Moment of Inertia.md",
-    "機械製造/Materials Processing.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/機械製造期中字卡.md",
-    "conflict-files-obsidian-git.md",
-    "電控/電路/easyEDA.md",
-    "工程數學/Orthogonal Functions.md",
-    "工程數學/Orthogonal Functions/Integral Transform Method.md"
-=======
-  "active": "3764eabeded4fa6a",
-  "lastOpenFiles": [
-    "工程數學/Linear Algebra/Field.md",
-    "工程數學/Higher Order DE/Eigenvalue.md",
-    "工程數學/Linear Algebra/Surface Integral.md",
-    "工程數學/Linear Algebra/Curve.md",
-    "電工學/Arc/Diode.md",
-    "動力學/Rigid Body.md",
-    "電工學/Circuit Analysis/Filter.md",
-    "電工學/Arc/Amplifier.md",
-    "Main Kanban.md",
-    "電控/linux/root account.md"
->>>>>>> dbb86fc7c69effd5eda1998612211cc2664f7e69
+    "專題事項.md"
   ]
 }
