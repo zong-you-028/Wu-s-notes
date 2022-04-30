@@ -4,7 +4,7 @@
 
 # 求面積
 
-![[2D Integral]]
+![[Surface Integral]]
 
 # Normal of Surface $S$
 

@@ -115,6 +115,10 @@ $$\implies
 
 $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ 1 }{ 1 + j\omega T } \qquad T = \frac{ L }{ R }$$
 
+### Second-Order Lowpass Filters
+
+![[lowpass filter circuits comparison.png]]
+
 ## High Pass Filter
 
 ### First-Order Highpass Filters
@@ -142,6 +146,10 @@ $$\implies
 		\angle H(f) = 90\degree - \text{arctan}\left( \frac f {f_B} \right)
 	\end{array}
 \right.$$
+
+### Second-Order Highpass Filters
+
+![[second-order highpass filter.png]]
 
 ## Band Pass Filter
 
@@ -204,6 +212,8 @@ $$G(\omega) = \frac{ v_o(\omega) }{ v_i(\omega) } = \frac{ -j\omega L }{ R(1 - \
 
 ## Band Rejection Filter
 
+### LC Parallel
+
 又稱為 Notch Filter，將已知的頻段部份去除
 
 ![[band rejection filter.png|500]]
@@ -233,6 +243,10 @@ $$\omega_u \text{ (upper frequency) } =
 
 $$\omega_l \text{ (lower frequency) } = 
 \omega_p - \frac{ B.W. }{ 2 }$$
+
+### Series
+
+![[series band-reject filter.png]]
 
 ## Operational [[Amplifier]] Filter
 

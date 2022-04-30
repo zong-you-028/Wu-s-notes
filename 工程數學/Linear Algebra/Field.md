@@ -26,7 +26,7 @@ $$
 $$
 
 $$
-= \frac{\partial f}{ \partial x } \hat i + \frac{ \partial f }{ \partial y } \hat j + 
+= \frac{ \partial f }{ \partial x } \hat i + \frac{ \partial f }{ \partial y } \hat j + 
 \frac{ \partial f }{ \partial z } \hat k
 $$
 
@@ -43,6 +43,16 @@ $$D_af = \frac 1 {\vert\vec a \vert}\vec a \cdot \nabla f \quad \leftarrow \text
 ### Laplacian
 
 $$\Delta f = \nabla^2f$$
+
+$$ = \nabla \cdot \nabla f$$
+
+$$ = \left(\frac{ \partial }{ \partial x } \hat i + 
+\frac{ \partial }{ \partial y } \hat j + 
+\frac{ \partial }{ \partial z } \hat k\right)
+\cdot 
+\left(\frac{\partial f}{ \partial x } \hat i + \frac{ \partial f }{ \partial y } \hat j + 
+\frac{ \partial f }{ \partial z } \hat k\right)
+$$
 
 $$ = \frac{ \partial^2 f }{ \partial x^2 } + 
 \frac{ \partial^2 f }{ \partial y^2 } + 
@@ -75,7 +85,7 @@ $$ = \frac{ \partial v_1 }{ \partial x } +
 
 > [[#Scalar Field|Gradient]] 和 [[#Divergence]] 的比較
 > - $div$: $\nabla \cdot \vec v$: $\text{ vector } \rightarrow \text{ scalar }$
-> - $grad$: $\nabla f$: $\text{ scalar } \rightarrow \text{ scalar }$
+> - $grad$: $\nabla f$: $\text{ scalar } \rightarrow \text{ vector }$
 
 #### For [[Control Volume]] Analysis
 
@@ -238,3 +248,4 @@ $$ = 0 + x + 0 = x$$
 link:
 
 [[Cross Product]]
+[[Table of Differentiation]]
