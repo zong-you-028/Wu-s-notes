@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "04d84af2b586b49e",
+    "id": "41edb371d99ace80",
     "type": "split",
     "children": [
       {
-        "id": "7270ac17a17cb7b1",
+        "id": "cf0c88f086220b76",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -13,26 +13,28 @@
             "mode": "source",
             "source": true
           }
-        },
-        "group": "47a48166cec2a2c0"
-      },
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e80cf38470d912d",
+    "type": "mobile-drawer",
+    "children": [
       {
-        "id": "865643db954495fd",
+        "id": "fce901ba3a83f848",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Linear Algebra/Line Integral.md",
-            "mode": "preview"
-          }
-        },
-        "group": "47a48166cec2a2c0"
+          "type": "file-explorer",
+          "state": {}
+        }
       },
       {
-        "id": "7ee6790abdc19494",
+        "id": "4c05e4362301af13",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "search",
           "state": {
             "query": "Path independ",
             "matchingCase": false,
@@ -41,14 +43,20 @@
             "extraContext": false,
             "sortOrder": "alphabetical"
           }
-        },
-        "group": "2afeee46af666cc1"
-      },
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "323a581fe7999eeb",
+    "type": "mobile-drawer",
+    "children": [
       {
-        "id": "239bf68cb1813afe",
+        "id": "b49d2d32bc43a7c0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "backlink",
           "state": {
             "file": "植物日記.md",
             "collapseAll": false,
@@ -59,39 +67,34 @@
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
           }
-        },
-        "group": "2afeee46af666cc1"
+        }
       },
       {
-        "id": "1467499eecf795a3",
+        "id": "67be52b87eb26fcd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "outgoing-link",
           "state": {
             "file": "植物日記.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
-        },
-        "group": "b963f813c6b8f397"
+        }
       },
       {
-        "id": "89cdaa1a843074bc",
+        "id": "e96f68a1c5d7548c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "outline",
           "state": {
             "file": "植物日記.md"
           }
-        ],
-        "currentTab": 2
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 292.2156982421875,
-    "collapsed": true
+    "currentTab": 2
   },
-  "active": "7270ac17a17cb7b1",
+  "active": "cf0c88f086220b76",
   "lastOpenFiles": [
     "植物日記.md",
     "工程數學/Linear Algebra/Field.md",
