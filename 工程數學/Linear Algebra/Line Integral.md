@@ -104,6 +104,41 @@ $$ =
 | ------------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | $$R = \int_a^b f(t)dt$$        | $$R = \int_C \vec F(\vec r)\cdot d\vec r$$ $$ = \int_a^b \vec F(\vec r(t))\cdot \vec r'(t) dt$$ | $$r = \int_Cf(\vec r) \underbrace{ ds }_{ \text{ arc length } }$$ $$ = \int_a^b f(\vec r (t)) \cdot \left\vert \vec r'(t) \right\vert \cdot dt$$ | 
 
+## Example
+
+### Vector Field Line Integral
+
+> Find the value of the line integral when $${\bf F}({\bf r}) = [-y, -xy] = -y\,{\bf i} - xy\,{\bf j}$$ and $C$ is the circular arc in figure from $A$ to $B$
+> ![[example of vector line integral.png|300]]
+
+We may represent $C$ by 
+
+$${\bf r}(t) = [\cos t, \sin t] = \cos t \,{\bf i} + \sin t\,{\bf j}$$
+
+where $0 \leq t \leq \pi / 2$
+
+Then $x(t) = \cos t, y(t) = \sin t$, and 
+
+$${\bf F}({\bf r}(t)) = -y(t){\bf i} - x(t)y(t){\bf j}$$
+
+$$ = [-\sin t, -\cos t\sin t]$$
+
+$$ = -\sin t {\bf i} - \cos t \sin t {\bf j}$$
+.
+$${\bf r}'(t) = [-\sin t, \cos t] = -\sin t {\bf i} + \cos t {\bf j}$$
+.
+$$\int_C {\bf F}({\bf r}) \cdot d{\bf r} = \int_a^b \vec F(\vec r(t))\cdot \vec r'(t) dt$$
+
+$$ = \int_0^{ \pi / 2 }[-\sin t, -\cos t \sin t] \cdot [-\sin t, \cos t] dt$$
+
+$$ = \int_0^{ \pi / 2 }(\sin^2 t - \cos^2 t \sin t)dt$$
+
+$$ = \int_0^{\pi / 2}\frac 1 2 (1 - \cos 2t)dt - \int_1^0 u^2 (-du)$$
+
+$$ = \frac \pi 4 - 0 - \frac 1 3$$
+
+$$\approx 0.4521$$
+
 # Physics in Line Integral
 
 ## [[Work]]

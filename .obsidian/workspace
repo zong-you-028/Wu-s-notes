@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "865643db954495fd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/Linear Algebra/Field.md",
-            "mode": "preview"
-          }
-        },
-        "group": "47a48166cec2a2c0"
-      },
-      {
         "id": "7270ac17a17cb7b1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Linear Algebra/Field.md",
+            "file": "工程數學/Linear Algebra/Line Integral.md",
             "mode": "source"
+          }
+        },
+        "group": "47a48166cec2a2c0"
+      },
+      {
+        "id": "865643db954495fd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Algebra/Line Integral.md",
+            "mode": "preview"
           }
         },
         "group": "47a48166cec2a2c0"
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5036334991455
+    "width": 273.5036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "0796b0431447fbc7",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Linear Algebra/Field.md",
+                "file": "工程數學/Linear Algebra/Line Integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Linear Algebra/Field.md",
+                "file": "工程數學/Linear Algebra/Line Integral.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Linear Algebra/Field.md"
+                "file": "工程數學/Linear Algebra/Line Integral.md"
               }
             }
           }
@@ -124,15 +125,15 @@
   },
   "active": "7270ac17a17cb7b1",
   "lastOpenFiles": [
+    "工程數學/Linear Algebra/Line Integral.md",
     "工程數學/Linear Algebra/Field.md",
+    "工程數學/Linear Algebra/Curve.md",
     "Main Kanban.md",
+    "工程數學/First Order DE/Table of Differentiation.md",
     "工程數學/Higher Order DE/Eigenvalue.md",
     "工程數學/Linear Algebra/Surface Integral.md",
-    "工程數學/Linear Algebra/Curve.md",
     "電工學/Arc/Diode.md",
     "動力學/Rigid Body.md",
-    "電工學/Circuit Analysis/Filter.md",
-    "電工學/Arc/Amplifier.md",
-    "電控/linux/root account.md"
+    "電工學/Circuit Analysis/Filter.md"
   ]
 }
