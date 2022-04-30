@@ -25,6 +25,8 @@ $$\underset{ R }{ \int\int } fdydx =
 
 ![[green's theorem.png]]
 
+當我們嘗試將 vector field 與路徑積分，我們會發現
+
 tank 1:
 
 $$\oint_C \vec v \cdot d\vec r = 4vL$$
@@ -33,15 +35,20 @@ tank 2:
 
 $$\oint_C \vec v \cdot d \vec r = 4vL$$
 
-我們得到一個結論，不管一個 tank 分成幾個小漩渦，積分起來都一樣
+於是我們得到一個結論，不管一個 tank 分成幾個小漩渦，積分起來都一樣
 
 Evaluate integral across $R$:
 
 $$\implies 
 \underbrace { 
 	\oint_C \vec F(\vec r) \cdot d\vec r 
-}_{ \text{ 1D integral } } = 
-\underset{ R }{ \int\int }(\nabla \times \vec F) \cdot \hat k dx dy$$
+}_{ \text{ 1D integral } }
+$$
+
+$$ = \oint_C(F_1 dx + F_2 dy)$$
+
+$$ = \underset{ R }{ \int\int }(\underbrace{ \nabla \times \vec F }_{ \text{ curl } }) \cdot \hat k dx dy
+$$
 
 $$ = \underbrace{ 
 	\underset{ R }{ \int\int } \left(
@@ -49,6 +56,178 @@ $$ = \underbrace{
 		\frac{ \partial F_1 }{ \partial y }
 	\right) dA
 }_{ \text{ 2D integral } }$$
+
+## Prove
+
+### 第一式 = 第二式
+
+> $$\underbrace { 
+>	\oint_C \vec F(\vec r) \cdot d\vec r 
+> }_{ \text{ 1D integral } } = \oint_C(F_1 dx + F_2 dy)$$
+
+因為
+$$ = \oint_C [F_1, F_2] \cdot [dx, dy]$$
+
+### 第三式 = 第四式
+
+> $$\underset{ R }{ \int\int }(\underbrace{ \nabla \times \vec F }_{ \text{ curl } }) \cdot \hat k dx dy = \underbrace{ \underset{ R }{ \int\int } \left(\frac{ \partial F_2 }{ \partial x } - \frac{ \partial F_1 }{ \partial y }\right) dA}_{ \text{ 2D integral } }$$
+
+因為
+$$curl(\vec F) = \nabla \times \vec F$$
+$$ = 
+\left(
+	\frac{ \partial F_3 }{ \partial y } - 
+	\frac{ \partial F_2 }{ \partial z }
+\right)\hat i + 
+\left(
+	\frac{ \partial F_1 }{ \partial z } - 
+	\frac{ \partial F_3 }{ \partial x }
+\right)\hat j + 
+\left(
+	\frac{ \partial F_2 }{ \partial x } - 
+	\frac{ \partial F_1 }{ \partial y }
+\right)\hat k$$
+$$ = \left(
+	\frac{ \partial F_2 }{ \partial x } - 
+	\frac{ \partial F_1 }{ \partial y }
+\right)\hat k$$
+
+### 第二式 = 第四式
+
+> $$\oint_C(F_1 dx + F_2 dy) = \underbrace{ 
+> 	\underset{ R }{ \int\int } \left(
+> 		\frac{ \partial F_2 }{ \partial x } - 
+> 		\frac{ \partial F_1 }{ \partial y }
+> 	\right) dA
+> }_{ \text{ 2D integral } }$$
+
+先從其中一項開始分析
+
+$$\iint_R\frac{\partial F_1}{ \partial y }
+dxdy = 
+\int_a^b\left[
+	\int_{u(x)}^{v(x)}\frac{ \partial F_1 }{ \partial y }dy
+\right]dx$$
+
+$$ = \int_a^b\left[
+	\left.
+		F_1(x, y)
+	\right\vert_{y = u(x)}^{v(x)}
+\right]dx$$
+
+$$ = \int_a^b
+\left[
+	F_1(x, v(x)) - F_1(x, u(x))
+\right]dx$$
+
+$$ = \int_a^bF_1[x, v(x)]dx - 
+\int_a^b F_1[x, u(x)]dx$$
+
+$$ = -\int_b^a F_1[x, v(x)]dx - 
+\int_a^bF_1[x, u(x)]dx$$
+
+$$ = -\int_{C**}F_1(x, y)dx - 
+\int_{C*}F_1(x, y)dx$$
+
+$$ = -\oint_C F_1(x, y)dx$$
+
+similarly
+
+$$\underset R \iint
+\frac{ \partial F_2 }{ \partial x }dxdy = \int_c^d
+\left[
+	\int_{ p(y) }^{ q(y) } \
+	\frac{\partial F_2}{ \partial x }dx
+\right]dy$$
+
+$$ = \int_c^dF_2(q(y), y)dy + \int_d^c F_2(p(y), y)dy$$
+
+$$ = \oint_C F_2(x, y)dy$$
+
+therefore
+
+$$\underset R \iint
+\left(
+	\frac{ \partial F_2 }{ \partial x } - 
+	\frac{ \partial F_1 }{ \partial y }
+\right)dxdy$$
+
+$$ = \oint_C F_2(x, y)dy + \oint_C F_1(x, y)dx$$
+
+$$ = \oint_C(F_1dx + F_2dy)$$
+
+## Application
+
+### Area as a Line Integral Over the Boundary
+
+$$\underline{A = \frac 1 2 \oint_C(xdy - ydx)}_{\#}$$
+
+### Area in Polar Coordinates
+
+$$x = r\cos \theta,\quad y = r\sin\theta$$
+.
+$$dx = \cos\theta dr - r\sin\theta d\theta$$
+$$dy = \sin\theta dr + r\cos \theta d\theta$$
+
+代入 [[#Area of a Plane Region as a Line Integral Over the Boundary]]
+
+$$\underline{A = \frac 1 2 \oint_C r^2 d\theta}_{\#}$$
+
+### Integral of the Normal Derivative
+
+we set
+
+$$F_1 = -\partial w / \partial y$$
+
+$$F_2 = \partial w / \partial x$$
+
+so the green's theorem's left side
+
+$$\underset R \iint
+\left(
+	\frac{ \partial F_2 }{ \partial x } - 
+	\frac{ \partial F_1 }{ \partial y }
+\right)dxdy = \oint_C(F_1dx + F_2dy)$$
+
+$$\implies \underset R \iint
+\left(
+	\frac{ \partial^2 w }{ \partial x^2 } +
+	\frac{ \partial^2 w }{ \partial y^2 }
+\right)dxdy = \oint_C(F_1dx + F_2dy)$$
+
+$$\implies \underset R \iint
+\left(
+	\nabla^2 w
+\right)dxdy = \oint_C(F_1dx + F_2dy)$$
+
+then the right side
+
+$$\implies \underset R \iint
+\left(
+	\nabla^2 w
+\right)dxdy = \oint_C\left(F_1\frac{dx}{ds} + F_2\frac{dy}{ds}\right)ds$$
+
+$$\implies \underset R \iint
+\left(
+	\nabla^2 w
+\right)dxdy = \oint_C\left(-\frac{\partial w}{\partial y}\frac{dx}{ds} + \frac{ \partial w }{ \partial x }\frac{dy}{ds}\right)ds$$
+
+> $$grad(w) \cdot \vec n $$
+> > $$\vec r'(s) = \frac{ d\vec r }{ ds } = [dx / ds, dy / ds]$$
+> > $$\vec n \cdot \vec r'(s) = 0$$ 
+> > so that $\vec n$ is perpendicular to $\vec r'$
+> > $$\vec n = \left[ \frac{ dy }{ ds }, -\frac{ dx }{ ds }\right]$$
+> $$ = 
+> \left[
+>   \frac{ \partial w }{ \partial x }, \frac{ \partial w }{ \partial y }
+> \right]\cdot
+> \left[ 
+>   \frac{ dy }{ ds }, -\frac{ dx }{ ds }
+> \right]$$
+> $$ = \frac{\partial w}{\partial x}\frac{dy}{ds} - \frac{\partial w}{\partial y}\frac{dx}{ds}$$
+
+$$\implies \underline{\underset R \iint \nabla^2 w dx dy = 
+\oint_C \frac{ \partial w }{ \partial n }ds}_{\#}$$
 
 # 2D [[Surface]] in 3D Integral
 
