@@ -28,6 +28,30 @@
         "group": "47a48166cec2a2c0"
       },
       {
+        "id": "7ee6790abdc19494",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
+            "mode": "source"
+          }
+        },
+        "group": "2afeee46af666cc1"
+      },
+      {
+        "id": "239bf68cb1813afe",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Algebra/Field.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2afeee46af666cc1"
+      },
+      {
         "id": "1467499eecf795a3",
         "type": "leaf",
         "state": {
@@ -76,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "trigonometric iden",
+                "query": "green's theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,11 +109,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 273.5036334991455
+    "width": 273.5036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "0796b0431447fbc7",
@@ -150,13 +176,13 @@
   "lastOpenFiles": [
     "工程數學/Linear Algebra/Line Integral.md",
     "工程數學/Linear Algebra/Field.md",
+    "工程數學/Linear Algebra/Surface Integral.md",
     "工程數學/First Order DE/Table of Integration.md",
     "Archived/math/Trigonometric Function.md",
     "工程數學/Linear Algebra/Curve.md",
     "Main Kanban.md",
     "工程數學/First Order DE/Table of Differentiation.md",
     "工程數學/Higher Order DE/Eigenvalue.md",
-    "工程數學/Linear Algebra/Surface Integral.md",
     "電工學/Arc/Diode.md"
   ]
 }

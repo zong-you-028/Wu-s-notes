@@ -195,7 +195,7 @@ $$\text{ If: } \vec F = grad(f) =
 $$\text{ then } \int_C \vec F dt 
 \text{ is path-independent }$$
 
-並且我們稱 scalar field $f$ 為 $\vec F$ 的 potential
+並且我們稱 scalar field $f$ 為 $\vec F$ ==potential==
 
 ## Proof
 
@@ -322,6 +322,131 @@ $$ =
 \right)\hat k$$
 
 $$ = 0$$
+
+## Exactness
+
+當 scalar field $f$ 的 gradient $= \vec F$ ，我們會說 $\vec F d\vec r$ 為 path independent
+
+.
+
+反過來，我們有一個 $\vec F$ ，並且將他對 $\vec r$ 內積
+
+$$\vec F \cdot d \vec r = F_1 dx + F_2 dy + F_3 dz$$
+
+如果我們可以找到一個 scalar field $f$ ，並且 $grad (f) = \vec F$ ，我們會稱 $\vec F$ 為 ==exact==
+
+### Motivation
+
+時常我們需要判斷 $\vec F$ 是否為 path independent ，因此我們需要一個指標來判斷是不是。這個指標就稱為 Exactness
+
+### 如何判斷
+
+我們可以用 $curl \vec F = 0$ 的性質來判斷
+
+$$curl \vec F = \nabla \times \vec F$$
+
+$$ = \left\vert
+	\begin{array}{}
+		\hat i & \hat j & \hat k \\
+		\frac{ \partial }{ \partial x } & \frac{ \partial }{ \partial y } & \frac{ \partial }{ \partial z } \\
+		F_x & F_y & F_z
+	\end{array}
+\right\vert$$
+
+$$ = 
+\left(
+	\frac{ \partial F_z }{ \partial y } - 
+	\frac{ \partial F_y }{ \partial z }
+\right)\hat i + 
+\left(
+	\frac{ \partial F_x }{ \partial z } - 
+	\frac{ \partial F_z }{ \partial x }
+\right)\hat j + 
+\left(
+	\frac{ \partial F_y }{ \partial x } - 
+	\frac{ \partial F_x }{ \partial y }
+\right)\hat k$$
+
+如果 $curl \vec F$ 要等於 $0$
+
+$$
+\underline{
+	\left\{
+		\begin{array}{}
+			\frac{ \partial F_z }{ \partial y } & = & \frac{ \partial F_y }{ \partial z } \\
+			\frac{ \partial F_x }{ \partial z } & = & \frac{ \partial F_z }{ \partial x } \\
+			\frac{ \partial F_y }{ \partial x } & = & \frac{ \partial F_x }{ \partial y }
+		\end{array}
+	\right.
+}_{ \# }
+$$
+
+以上就是判斷條件
+
+### 如何求解 $f$
+
+$$grad(f) = \vec F$$
+
+$$\frac{ \partial f }{ \partial x } \hat i + \frac{ \partial f }{ \partial y } \hat j + 
+\frac{ \partial f }{ \partial z } \hat k = F_x \hat i + 
+F_y \hat j + 
+F_z \hat k$$
+
+因此我們可以使用以下這三條公式
+
+$$f = \int F_x dx$$
+
+$$f = \int F_y dy$$
+
+$$f = \int F_z dz$$
+
+並進行比較得出 $f$
+
+#### Example
+
+> show that the differential form under the integral sign of
+> $$I = \int_C [2xyz^2 dx + (x^2z^2 + z \cos yz)dy + (2x^2yz + y \cos yz)dz]$$
+> is exact, so that we have independence of path in any domain, and find the value of $I$ from $A: (0, 0, 1)$ to $B: (1, \pi / 4, 2)$
+
+step 1. verify exactness
+
+$$
+\begin{array}{}
+	F_x & = & 2xyz^2 \\
+	F_y & = & x^2z^2 & + & z\cos yz \\
+	F_z & = & 2x^2yz & + & y\cos yz
+\end{array}
+$$
+
+use $curl\vec F = 0$, we found out that
+
+$$
+\begin{array}{}
+	\frac{ \partial F_z }{ \partial y } & = & \frac{ \partial F_y }{ \partial z } & = & 2x^2z & + & \cos yz \\
+	\frac{ \partial F_x }{ \partial z } & = & \frac{ \partial F_z }{ \partial x } & = & 4xyz \\
+	\frac{ \partial F_y }{ \partial x } & = & \frac{ \partial F_x }{ \partial y } & = & 2xz^2
+\end{array}
+$$
+
+therefore it is exact
+
+step 2. find $f$
+
+$$
+\begin{array}{}
+	f & = & \int2xyz dx & = & x^2yz^2 &&& + & a(y, z) \\
+	f & = & \int (x^2z^2 + z\cos yz)dy & = & x^2yz^2 & + & \sin yz & + & b(x, z) \\
+	f & = & \int (2x^2yz + y\cos yz)dz & = & x^2yz^2 & + & \sin yz & + & c(x, z) \\
+\end{array}
+$$
+
+through comparison, we get
+
+$$f = x^2 y z^2 + \sin yz$$
+
+step 3. find value $I$
+
+$$f(B) - f(A) = 1 \cdot \frac \pi 4 \cdot 4 + \sin \frac \pi 2 - 0 = \underline{ \pi + 1 }_\#$$
 
 ---
 
