@@ -44,6 +44,16 @@ $$D_af = \frac 1 {\vert\vec a \vert}\vec a \cdot \nabla f \quad \leftarrow \text
 
 $$\Delta f = \nabla^2f$$
 
+$$ = \nabla \cdot \nabla f$$
+
+$$ = \left(\frac{ \partial }{ \partial x } \hat i + 
+\frac{ \partial }{ \partial y } \hat j + 
+\frac{ \partial }{ \partial z } \hat k\right)
+\cdot 
+\left(\frac{\partial f}{ \partial x } \hat i + \frac{ \partial f }{ \partial y } \hat j + 
+\frac{ \partial f }{ \partial z } \hat k\right)
+$$
+
 $$ = \frac{ \partial^2 f }{ \partial x^2 } + 
 \frac{ \partial^2 f }{ \partial y^2 } + 
 \frac{ \partial^2 f }{ \partial z^2 }$$
