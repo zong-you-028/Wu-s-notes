@@ -195,6 +195,8 @@ $$\text{ If: } \vec F = grad(f) =
 $$\text{ then } \int_C \vec F dt 
 \text{ is path-independent }$$
 
+並且我們稱 scalar field $f$ 為 $\vec F$ 的 potential
+
 ## Proof
 
 $$\int_C\vec F \cdot d \vec r = 

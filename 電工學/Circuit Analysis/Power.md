@@ -15,7 +15,7 @@ $$
 \end{array}
 $$
 
-> [[Trigonometric Identity]]:
+> [[Trigonometric Function]]:
 > $$\cos(\alpha \pm \beta) = \cos\alpha\cos\beta\mp\sin\alpha\sin\beta$$
 > $$\implies \cos(\omega t - \theta) = \cos(\theta) \cos(\omega t) + \sin(\theta)\sin(\omega t)$$
 
@@ -23,7 +23,7 @@ $$\implies p(t) =
 V_mI_m\cos(\theta)\cos^2(\omega t) + 
 V_m I_m \sin (\theta)\cos(\omega t)\sin(\omega t)$$
 
-> [[Trigonometric Identity]]:
+> [[Trigonometric Function]]:
 > $$\cos^2(\omega t) = \frac 1 2 + \frac 1 2 \cos(2\omega t)$$
 > $$\cos(\omega t)\sin(\omega t) = \frac 1 2 \sin(2\omega t)$$
 

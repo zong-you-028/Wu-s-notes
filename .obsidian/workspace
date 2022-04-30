@@ -16,17 +16,6 @@
         "group": "47a48166cec2a2c0"
       },
       {
-        "id": "3f7572a5f80d70cd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "工程數學/First Order DE/Table of Integration.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "865643db954495fd",
         "type": "leaf",
         "state": {
@@ -37,6 +26,30 @@
           }
         },
         "group": "47a48166cec2a2c0"
+      },
+      {
+        "id": "1467499eecf795a3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/First Order DE/Table of Integration.md",
+            "mode": "source"
+          }
+        },
+        "group": "b963f813c6b8f397"
+      },
+      {
+        "id": "89cdaa1a843074bc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/First Order DE/Table of Integration.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b963f813c6b8f397"
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table of integration",
+                "query": "trigonometric iden",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -72,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,14 +149,14 @@
   "active": "7270ac17a17cb7b1",
   "lastOpenFiles": [
     "工程數學/Linear Algebra/Line Integral.md",
-    "工程數學/First Order DE/Table of Integration.md",
     "工程數學/Linear Algebra/Field.md",
+    "工程數學/First Order DE/Table of Integration.md",
+    "Archived/math/Trigonometric Function.md",
     "工程數學/Linear Algebra/Curve.md",
     "Main Kanban.md",
     "工程數學/First Order DE/Table of Differentiation.md",
     "工程數學/Higher Order DE/Eigenvalue.md",
     "工程數學/Linear Algebra/Surface Integral.md",
-    "電工學/Arc/Diode.md",
-    "動力學/Rigid Body.md"
+    "電工學/Arc/Diode.md"
   ]
 }
