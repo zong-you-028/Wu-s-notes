@@ -7,6 +7,7 @@
         "id": "5b4970d94ac26d2b",
         "type": "leaf",
         "state": {
+<<<<<<< HEAD
           "type": "empty",
           "state": {}
         }
@@ -93,6 +94,83 @@
               "type": "outline",
               "state": {}
             }
+=======
+          "type": "markdown",
+          "state": {
+            "file": "植物日記.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "47a48166cec2a2c0"
+      },
+      {
+        "id": "865643db954495fd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "工程數學/Linear Algebra/Line Integral.md",
+            "mode": "preview"
+          }
+        },
+        "group": "47a48166cec2a2c0"
+      },
+      {
+        "id": "7ee6790abdc19494",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "query": "Path independ",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        },
+        "group": "2afeee46af666cc1"
+      },
+      {
+        "id": "239bf68cb1813afe",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "植物日記.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        },
+        "group": "2afeee46af666cc1"
+      },
+      {
+        "id": "1467499eecf795a3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "植物日記.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        },
+        "group": "b963f813c6b8f397"
+      },
+      {
+        "id": "89cdaa1a843074bc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "植物日記.md"
+>>>>>>> 16a1dd2a16623af38923659fb96b1db9380963c2
           }
         ],
         "currentTab": 2
@@ -104,15 +182,24 @@
   },
   "active": "5b4970d94ac26d2b",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "工程數學/Linear Algebra/Surface Integral.md",
     "工程數學/Linear Algebra/Field.md",
     "工程數學/Linear Algebra/Line Integral.md",
     "工程數學/First Order DE/Table of Integration.md",
     "Archived/math/Trigonometric Function.md",
     "工程數學/Linear Algebra/Curve.md",
+=======
+    "植物日記.md",
+    "工程數學/Linear Algebra/Field.md",
+    "課表.md",
+    "工程數學/Linear Algebra/Line Integral.md",
+>>>>>>> 16a1dd2a16623af38923659fb96b1db9380963c2
     "Main Kanban.md",
-    "工程數學/First Order DE/Table of Differentiation.md",
-    "工程數學/Higher Order DE/Eigenvalue.md",
-    "電工學/Arc/Diode.md"
+    "電工學/Circuit Analysis/Filter.md",
+    "電工學/Arc/Amplifier.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
+    "工程數學/Laplace/Laplace Transform.md",
+    "4-20 Meeting.md"
   ]
 }
