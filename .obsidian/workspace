@@ -4,9 +4,101 @@
     "type": "split",
     "children": [
       {
+<<<<<<< master
         "id": "cf0c88f086220b76",
+=======
+        "id": "5b4970d94ac26d2b",
+>>>>>>> origin/master
         "type": "leaf",
         "state": {
+<<<<<<< HEAD
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a607bd89f0cc83f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fb8cc0b4e8a7e60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1ee09110046f65f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e32b0d652bf85d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "surface integral",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5036334991455
+  },
+  "right": {
+    "id": "0796b0431447fbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b1e3e191f49a50f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ab5593a86cf9e51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4d552f47faa6305f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e9d07a825a172914",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+=======
           "type": "markdown",
           "state": {
             "file": "植物日記.md",
@@ -88,18 +180,32 @@
           "type": "outline",
           "state": {
             "file": "植物日記.md"
+>>>>>>> 16a1dd2a16623af38923659fb96b1db9380963c2
           }
         }
       }
     ],
     "currentTab": 2
   },
+<<<<<<< master
   "active": "cf0c88f086220b76",
+=======
+  "active": "5b4970d94ac26d2b",
+>>>>>>> origin/master
   "lastOpenFiles": [
+<<<<<<< HEAD
+    "工程數學/Linear Algebra/Surface Integral.md",
+    "工程數學/Linear Algebra/Field.md",
+    "工程數學/Linear Algebra/Line Integral.md",
+    "工程數學/First Order DE/Table of Integration.md",
+    "Archived/math/Trigonometric Function.md",
+    "工程數學/Linear Algebra/Curve.md",
+=======
     "植物日記.md",
     "工程數學/Linear Algebra/Field.md",
     "課表.md",
     "工程數學/Linear Algebra/Line Integral.md",
+>>>>>>> 16a1dd2a16623af38923659fb96b1db9380963c2
     "Main Kanban.md",
     "電工學/Circuit Analysis/Filter.md",
     "電工學/Arc/Amplifier.md",
