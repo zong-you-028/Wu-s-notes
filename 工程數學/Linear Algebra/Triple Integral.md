@@ -21,6 +21,8 @@ $$\underset T \iiint div(\vec F)dV = \underset T \iiint
 	\frac{ \partial F_3 }{ \partial z }
 \right)dxdydz$$
 
+$$\underline{ \underset T \iiint div(\vec F)dV = \underset S \iint \vec F \cdot \hat n dA }_\#$$
+
 # Physics Application
 
 Deriving the [[Heat]] Transfer Equation through Divergence Theorem
