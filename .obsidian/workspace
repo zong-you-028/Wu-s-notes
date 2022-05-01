@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工數練題.md",
-            "mode": "source"
+            "file": "工程數學/Linear Algebra/Line Integral.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "surface integral",
+                "query": "line integral",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工數練題.md",
+                "file": "工程數學/Linear Algebra/Line Integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工數練題.md",
+                "file": "工程數學/Linear Algebra/Line Integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工數練題.md"
+                "file": "工程數學/Linear Algebra/Line Integral.md"
               }
             }
           }
@@ -107,10 +107,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "8bc3eb9628c62156",
   "lastOpenFiles": [
+    "工程數學/Linear Algebra/Line Integral.md",
     "工數練題.md",
     "工程數學/Linear Algebra/Surface Integral.md",
     "工程數學/First Order DE/Hyperbolic Function.md",
