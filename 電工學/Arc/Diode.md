@@ -141,6 +141,26 @@ a portion of an input signal waveform is "clipped" off
 
 ---
 
+也有調整斜率的 clipper circuit，這種 circuit 會在 diode 旁邊串連一個電阻
+
+![[clipper circuit with different slope.png|350]]
+
+如果缺少那個電阻，他就是個普通的 clipper circuit ，但是因為加上了電阻，因此 $v_{in}$ 的一部分會反應在 $v_o$
+
+$$
+\begin{array}{lcl}
+	\text{ when } & v_{ in } > 5\text V & v_o & = & 4.4 + 0.6 + \frac{ 1k\Omega }{ 1k \Omega + 1k\Omega } \times v_{ in } \\
+	\text{ when } & -5\text V < v_{ in } < 5 \text V & v_o  & = & v_{ in } \\
+	\text{ when } & v_{ in } < -5 \text V & v_o & = & -4.4-0.6+\frac{ 1k\Omega }{ 1k\Omega + 1k\Omega } \times v_{ in }
+\end{array}
+$$
+
+他的波形圖如下
+
+![[curve of clipper circuit with modified slope.png]]
+
+---
+
 參考資料:
 
 電工學上課
