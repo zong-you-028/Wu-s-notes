@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "41edb371d99ace80",
+    "id": "43ef0f9f7f097174",
     "type": "split",
     "children": [
       {
@@ -90,7 +90,9 @@
         }
       }
     ],
-    "currentTab": 2
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
   "active": "cf0c88f086220b76",
   "lastOpenFiles": [
