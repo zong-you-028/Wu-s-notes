@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "115f3a20a7a41020",
+    "id": "43ef0f9f7f097174",
     "type": "split",
     "children": [
       {
-        "id": "cfc3ada9ff298572",
+        "id": "7a6e33bd14e0d9e7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程數學/Orthogonal Functions/Fourier Series.md",
+            "file": "電工學/Arc/Diode.md",
             "mode": "preview"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "37a1b00a88737f26",
+    "id": "0e8355e2c854a906",
     "type": "split",
     "children": [
       {
-        "id": "d5ef1bf959fe15bb",
+        "id": "a42ec27bf9d96068",
         "type": "tabs",
         "children": [
           {
-            "id": "044d2b6de46437f7",
+            "id": "7601a71389b7f85b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,42 +34,41 @@
             }
           },
           {
-            "id": "39e7bded6f1c1a0d",
+            "id": "2545bfbec1a62aca",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "orthogonal",
+                "query": "laplacian",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "5c280f16afc5455b",
+    "id": "addbbe8c7208197f",
     "type": "split",
     "children": [
       {
-        "id": "3aaec183b0cd1203",
+        "id": "260fc48b94661bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "6591da256304d640",
+            "id": "94f972cc7504fc88",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程數學/Orthogonal Functions/Fourier Series.md",
+                "file": "電工學/Arc/Diode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,46 +80,41 @@
             }
           },
           {
-            "id": "cbf9958ce48fbfaa",
+            "id": "8a73b128174b6fcb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程數學/Orthogonal Functions/Fourier Series.md",
+                "file": "電工學/Arc/Diode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7d09bee94dc64ea8",
+            "id": "76c4ca3cb52af158",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程數學/Orthogonal Functions/Fourier Series.md"
+                "file": "電工學/Arc/Diode.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "cfc3ada9ff298572",
+  "active": "7a6e33bd14e0d9e7",
   "lastOpenFiles": [
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "工程數學/Orthogonal Functions/Normalize.md",
-    "工程數學/Orthogonal Functions/Orthogonal Series Expansion.md",
-    "工程數學/Linear Algebra/Orthogonal Matrix.md",
-    "工程數學/Orthogonal Functions/Orthogonal Set.md",
-    "工程數學/Linear Algebra/Vector.md",
-    "機械製造/機械製造期中考前筆記.md",
-    "機械製造/機械製造期中字卡.md",
-    "工程數學/Orthogonal Functions/Orthogonal.md",
-    "課表.md"
+    "電工學/Arc/Diode.md",
+    "工程數學/Linear Algebra/Field.md",
+    "工程數學/Linear Algebra/Surface Integral.md",
+    "工程數學/Linear Algebra/Line Integral.md",
+    "工程數學/Linear Algebra/Gauss Elimination.md",
+    "專題事項.md"
   ]
 }
