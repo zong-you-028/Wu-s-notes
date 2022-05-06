@@ -361,6 +361,85 @@ $$\underline{ U_M = M(\theta_2 - \theta_1) }_\#$$
 
 $$\underline{ T_1 + \sum U_{ 1 - 2 } = T_2 }_\#$$
 
+# Linear and Angular Momentum
+
+## Linear Momentum
+
+$${\bf L} = m {\bf v}_G$$
+
+## Angular Momentum
+
+angular momentum of $i$th particle is
+
+$$({\bf M}_P)_i = {\bf r} \times m_i{\bf v}_i$$
+
+using cartesian vectors
+
+$$\implies (H_P)_i \hat k = m_i(x \hat i + y\hat j) \times [(v_P)_x \hat i + (v_P)_y \hat j + \omega \hat k \times(x \hat i + y \hat j)]$$
+
+$$\implies (H_P)_i = -m_iy(v_P)_x + m_i x (v_P)_y + m_i \omega r^2$$
+
+$$\implies H_P = -\left(\int_m ydm\right)(v_P)_x + \left(\int_m xdm\right)(v_P)_y + \left( \int_m r^2dm \right)\omega$$
+
+$$\implies H_P = -\bar y m (v_P)_x + \bar x m(v_P)_y + I_P \omega$$
+
+$$\implies \underline{ H_G = I_G \omega }_\#$$
+
+## Momentum of Motions
+
+### Translation
+
+$$
+\underline{
+	\begin{array}{}
+		L & = & mv_G \\
+		H_G & = & 0
+	\end{array}
+}_\#
+$$
+
+### Rotation About a Fixed Axis
+
+$$
+\underline{
+	\begin{array}{}
+		L & = & mv_G \\
+		H_G & = & I_G \omega
+	\end{array}
+}_\#
+$$
+
+$$\implies \underline{ H_O = I_O \omega }_\#$$
+
+### General Plane Motion
+
+$$
+\underline{
+	\begin{array}{}
+		L & = & mv_G \\
+		H_G & = & I_G \omega
+	\end{array}
+}_\#
+$$
+
+$$\implies \underline{ H_{IC} = I_{ IC }\omega }_\#$$
+
+## Principle of Impulse and Momentum
+
+if motion occurs in the $x-y$ plane:
+
+$$
+\underline{
+	\left\{
+		\begin{array}{}
+			m(v_{ Gx })_1 & + & \sum\int_{ t_1 }^{ t_2 } F_xdt & = & m(v_{ Gx })_2 \\
+			m(v_{ Gy })_1 & + & \sum \int_{ t_1 }^{ t_2 }F_y dt & = & m(v_{ Gy })_2 \\
+			I_G\omega_1 & + & \sum\int_{ t_1 }^{ t_2 }M_G dt & = & I_G \omega_2 
+		\end{array}
+	\right.
+}_\#
+$$
+
 ---
 
 參考資料:
