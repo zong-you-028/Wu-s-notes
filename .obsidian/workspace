@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0e6099cad000f1d6",
+        "id": "dda3fbab6be14ddd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Arc/Diode.md",
-            "mode": "source"
-          }
-        },
-        "group": "58da91d9cfe2b2f2"
-      },
-      {
-        "id": "18dc7c7b0c66ad01",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電工學/Arc/Diode.md",
+            "file": "課表.md",
             "mode": "preview"
           }
-        },
-        "group": "58da91d9cfe2b2f2"
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gyrat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電工學/Arc/Diode.md",
+                "file": "課表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電工學/Arc/Diode.md",
+                "file": "課表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電工學/Arc/Diode.md"
+                "file": "課表.md"
               }
             }
           }
@@ -122,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0e6099cad000f1d6",
+  "active": "dda3fbab6be14ddd",
   "lastOpenFiles": [
+    "課表.md",
+    "README.md",
+    "Main Kanban.md",
+    "動力學/Rigid Body.md",
+    "動力學/切線座標.md",
+    "動力學/HW/ch 18/ch18/18-50.JPG",
     "電工學/Arc/Diode.md",
     "電工學/Circuit Analysis/Filter.md",
     "電工學/Circuit Analysis/Circuit Analysis.md",
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "Main Kanban.md",
-    "課表.md",
-    "植物日記.md",
-    "專題事項.md",
-    "README.md",
-    "機械製造/機械製造實驗一.md"
+    "電工學/Circuit Analysis/AC Circuit.md"
   ]
 }
