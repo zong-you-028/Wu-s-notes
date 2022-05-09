@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d1c111d3e3247bd",
+        "id": "013e374c1e89389b",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -38,10 +36,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cauchy",
+                "query": "half",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -51,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836
+    "width": 307.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -67,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +102,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3d1c111d3e3247bd",
+  "active": "013e374c1e89389b",
   "lastOpenFiles": [
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "工程數學/Orthogonal Functions/Orthogonal Set.md",
+    "工程數學/Orthogonal Functions/Fourier Transform.md",
     "Main Kanban.md",
-    "conflict-files-obsidian-git.md",
-    "各種建築.md",
-    "Obsidian Template/Template.md",
-    "Untitled.md",
-    "現代主義.md",
-    "建築/空間與人.md",
-    "建築/空間.md",
-    "家具.md",
-    "工程數學/Cauchy-Euler Equation.md"
+    "課表.md",
+    "工程數學/Orthogonal Functions.md",
+    "工程數學/Orthogonal Functions/Orthogonal.md",
+    "工程數學/Orthogonal Functions/Complete.md",
+    "電工學/Arc/Diode.md",
+    "動力學/Rigid Body.md"
   ]
 }
