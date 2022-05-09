@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "43ef0f9f7f097174",
+    "id": "41edb371d99ace80",
     "type": "split",
     "children": [
       {
@@ -34,7 +34,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "diode",
+            "query": "spi",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -90,21 +90,19 @@
         }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 2
   },
   "active": "cf0c88f086220b76",
   "lastOpenFiles": [
     "Main Kanban.md",
     "課表.md",
-    "領航杯.md",
+    "植物日記.md",
+    "電控/arduino/nRF24L01.md",
     "電工學/Arc/Diode.md",
+    "領航杯.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
     "工程數學/Laplace/Laplace Transform.md",
     "電工學/Arc/Amplifier.md",
-    "植物日記.md",
-    "工程數學/Linear Algebra/Field.md",
-    "工程數學/Linear Algebra/Line Integral.md"
+    "工程數學/Linear Algebra/Field.md"
   ]
 }
