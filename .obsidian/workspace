@@ -4,35 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8dde863be8b3df5d",
-        "type": "split",
-        "children": [
-          {
-            "id": "fc1a1e65f8b220a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "各種建築.md",
-                "mode": "preview"
-              }
-            },
-            "group": "542156ac4a710c06"
-          },
-          {
-            "id": "f7b57f87f8ba1f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "各種建築.md",
-                "mode": "source"
-              }
-            },
-            "group": "542156ac4a710c06"
-          }
-        ],
-        "direction": "horizontal"
+        "id": "a04f16d77943129a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "各種建築.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "各種建築.md"
-              }
+              "state": {}
             }
           },
           {
@@ -116,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "各種建築.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -129,7 +102,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f7b57f87f8ba1f2d",
+  "active": "a04f16d77943129a",
   "lastOpenFiles": [
     "各種建築.md",
     "Obsidian Template/Template.md",
