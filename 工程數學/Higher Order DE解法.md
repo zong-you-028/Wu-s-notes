@@ -1,20 +1,24 @@
-標籤: #list 
+標籤: #list #工程數學 
 
 General Solution
 - [[Nonhomogeneous Equations]]
 
-> Superpostion Principle
+> [[Superposition Principle]]
 > 可以把解相加
+
+- [[Eigenvalue Solution]]
 
 ![[Second Order ODE cases.png]]
 
 求 complementary function
 - [[Reduction of Order]]
 - [[Auxiliary Function]]
+- [[Cauchy-Euler Equation]]
 
 求 particular solution
 - [[Superposition Approach]]
 - [[Annihilator Approach]]
+- [[Variation of Parameters]]
 
 [[多變數解法]]
 - [[多變數解法]]
@@ -29,3 +33,7 @@ Series Solution
   - [[Bessel's Equation]]
     - [[Gamma Function]]
   - [[Legendre's equation]]
+
+---
+
+[[First Order Differential Equation]]

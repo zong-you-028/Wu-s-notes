@@ -1,9 +1,9 @@
-標籤: #list 
+標籤: #list #工程數學 
 
 > 解法: 
 > 
 > - [[Solution Curves without a Solution]]
-> - [[工程數學/Numerical Method]]
+> - [[Numerical Method]]
 > - [[Separable Variables]]
 > - [[Linear Equations]]
 > - [[Exact Equations]]
@@ -17,7 +17,7 @@
 >   - [[singular point]]
 > - [[#tips]]
 > ---
-> [[Table of Integration]]
+> [[工程數學/First Order DE/Table of Integration]]
 
 ---
 
@@ -41,3 +41,10 @@
 > $$y(x)=5+\frac{\sqrt{\pi}}{2}(erfc(3)-erfc(x))$$
 
 3. when $dy/dx$ is not easy to calculate, try to calculate $dx/dy$
+
+
+---
+
+link:
+
+[[Higher Order DE解法]]

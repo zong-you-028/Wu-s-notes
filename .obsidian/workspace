@@ -49,8 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -104,6 +103,7 @@
   },
   "active": "a04f16d77943129a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "各種建築.md",
     "Obsidian Template/Template.md",
     "Untitled.md",
@@ -112,7 +112,6 @@
     "建築/空間.md",
     "家具.md",
     "工程數學/Cauchy-Euler Equation.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/多變數解法.md"
+    "工程數學/Higher Order DE解法.md"
   ]
 }

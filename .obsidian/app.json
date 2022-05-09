@@ -1,31 +1,13 @@
 {
   "alwaysUpdateLinks": true,
-  "mobileToolbarCommands": [
-    "editor:insert-wikilink",
-    "editor:insert-embed",
-    "editor:insert-tag",
-    "editor:attach-file",
-    "editor:set-heading",
-    "editor:toggle-bold",
-    "editor:toggle-italics",
-    "editor:toggle-strikethrough",
-    "editor:toggle-code",
-    "editor:toggle-blockquote",
-    "editor:insert-link",
-    "editor:toggle-bullet-list",
-    "editor:toggle-numbered-list",
-    "editor:toggle-checklist-status",
-    "editor:indent-list",
-    "editor:unindent-list",
-    "editor:undo",
-    "editor:redo",
-    "editor:toggle-keyboard"
-  ],
   "promptDelete": false,
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
-  }
+    "downscalePercent": 71
+  },
+  "attachmentFolderPath": "附件",
+  "legacyEditor": true,
+  "livePreview": false
 }
