@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "python/bmp.md",
-            "mode": "preview"
+            "file": "Main Kanban.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/bmp.md",
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/bmp.md",
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/bmp.md"
+                "file": "Main Kanban.md"
               }
             }
           }
@@ -110,10 +110,10 @@
   },
   "active": "882f10b7387080f9",
   "lastOpenFiles": [
+    "Main Kanban.md",
     "python/bmp.md",
     "課表.md",
     "動力學/Rigid Body.md",
-    "Main Kanban.md",
     "電工學/Arc/Diode.md",
     "README.md",
     "動力學/切線座標.md",
