@@ -7,8 +7,10 @@
         "id": "013e374c1e89389b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -49,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5107650756836,
-    "collapsed": true
+    "width": 307.5107650756836
   },
   "right": {
     "id": "1e74d9410b234756",
@@ -66,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,10 +106,10 @@
   },
   "active": "013e374c1e89389b",
   "lastOpenFiles": [
+    "Main Kanban.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
     "工程數學/Orthogonal Functions/Orthogonal Set.md",
     "工程數學/Orthogonal Functions/Fourier Transform.md",
-    "Main Kanban.md",
     "課表.md",
     "工程數學/Orthogonal Functions.md",
     "工程數學/Orthogonal Functions/Orthogonal.md",
