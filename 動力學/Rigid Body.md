@@ -71,7 +71,9 @@ $$\vec a = \vec a_t + \vec a_n =
 
 ### Position
 
-$$\vec r_B = \vec r_A + \vec r_{ B / A }$$
+$$\underline{ 
+	\vec r_B = \vec r_A + \vec r_{ B / A }
+}_\#$$
 
 ### Displacement
 
