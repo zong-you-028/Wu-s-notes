@@ -7,8 +7,10 @@
         "id": "663768b6069477b7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -65,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
           }
         ],
@@ -103,13 +109,13 @@
   },
   "active": "663768b6069477b7",
   "lastOpenFiles": [
+    "Main Kanban.md",
     "工程數學/Laplace/Inverse Laplace Transform.md",
     "工程數學/Laplace Transform 解法.md",
     "電工學/Arc/Inductor.md",
     "電工學/Arc/Diode.md",
     "工程數學/Laplace/Laplace Transform.md",
     "電控/arduino/AQMD6010BLS.md",
-    "Main Kanban.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
     "動力學/Rigid Body.md",
     "python/bmp.md"
