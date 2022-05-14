@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "7f079b94d88dd598",
+    "id": "115f3a20a7a41020",
     "type": "split",
     "children": [
       {
-        "id": "667cdc3a0c358d02",
+        "id": "663768b6069477b7",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,90 +19,103 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2c7587aa59fc34ee",
-    "type": "mobile-drawer",
+    "id": "37a1b00a88737f26",
+    "type": "split",
     "children": [
       {
-        "id": "cd8dbb97ecb70415",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "a95b919af9d8c0b0",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "Rigid body",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": true,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "d5ef1bf959fe15bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "044d2b6de46437f7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "39e7bded6f1c1a0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "馬達",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         }
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "445716276df196ce",
-    "type": "mobile-drawer",
+    "id": "5c280f16afc5455b",
+    "type": "split",
     "children": [
       {
-        "id": "f644a9cc18e6ff62",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "去學校要做的事.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "3aaec183b0cd1203",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6591da256304d640",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbf9958ce48fbfaa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d09bee94dc64ea8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "0c97a9104313fa85",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "去學校要做的事.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "0bc914e81cd65dac",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "去學校要做的事.md"
-          }
-        }
+        ],
+        "currentTab": 2
       }
     ],
-    "currentTab": 2
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "667cdc3a0c358d02",
+  "active": "663768b6069477b7",
   "lastOpenFiles": [
-    "去學校要做的事.md",
-    "課表.md",
-    "Main Kanban.md",
-    "動力學/Rigid Body.md",
+    "工程數學/Laplace/Inverse Laplace Transform.md",
+    "工程數學/Laplace Transform 解法.md",
+    "電工學/Arc/Inductor.md",
+    "電工學/Arc/Diode.md",
     "工程數學/Laplace/Laplace Transform.md",
-    "電工學/Arc/Field-Effect Transistors.md",
-    "python/bmp.md",
-    "電工學/Arc/Diode.md"
+    "電控/arduino/AQMD6010BLS.md",
+    "Main Kanban.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "動力學/Rigid Body.md",
+    "python/bmp.md"
   ]
 }
