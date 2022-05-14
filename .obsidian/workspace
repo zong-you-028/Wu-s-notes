@@ -7,9 +7,17 @@
         "id": "663768b6069477b7",
         "type": "leaf",
         "state": {
+<<<<<<< HEAD
           "type": "kanban",
           "state": {
             "file": "Main Kanban.md"
+=======
+          "type": "markdown",
+          "state": {
+            "file": "去學校要做的事.md",
+            "mode": "source",
+            "source": true
+>>>>>>> 166cba16339933555c1d8ebf8f9c4cd5b443433e
           }
         }
       }
@@ -47,7 +55,7 @@
               }
             }
           }
-        ]
+        }
       }
     ],
     "direction": "horizontal",
