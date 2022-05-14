@@ -7,8 +7,11 @@
         "id": "a486475c1a55c6b7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "機器人系統與應用設計實作/機器人系統與應用設計實作時間表.md",
+            "mode": "preview"
+          }
         }
       }
     ],
