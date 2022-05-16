@@ -2,7 +2,9 @@
 
 ---
 
-# Planar Motion
+# 2D Motion
+
+## Planar Motion
 
 包含了三種情況
 
@@ -12,15 +14,15 @@
 
 最重要的是 3. ，因為它最泛用
 
-## Translation
+### Translation
 
 假設 $A, B$ 點為一個 rigid body 上的兩個參考點
 
-### Position
+#### Position
 
 $$r_B = r_A + r_{ B / A }$$
 
-### Velocity
+#### Velocity
 
 $$v_B = v_A + \frac{ d r_{ B / A } }
 { dt }$$
@@ -30,27 +32,27 @@ $$\because dr_{ B / A } / dt = 0 \quad (A, B\text{ 點間沒有相對運動，�
 $$\therefore \underline{
 v_B = v_A }_{ \# }$$
 
-### [[Acceleration]]
+#### [[Acceleration]]
 
 $$a_B = a_A$$
 
-## Rotation about a fixed axis
+### Rotation about a fixed axis
 
-### Angular [[Acceleration]]
+#### Angular [[Acceleration]]
 
 $$\alpha d\theta = \omega d\omega$$
 
 > 跟 [[Acceleration]] 相似:
 > $$ads = vdv$$
 
-### Velocity
+#### Velocity
 
 $$\vec v = \omega \times \vec r_p$$
 
 $\vec v$: rigid body 上一個點 $P$ 的速度
 $\vec r_p$: rigid body 上一個點 $P$ 的位置
 
-### [[Acceleration]]
+#### [[Acceleration]]
 
 $$a_t = \alpha r$$
 
@@ -65,24 +67,24 @@ $$\vec a = \alpha \times \vec r_p + \omega \times (\omega \times \vec r_p)$$
 $$\vec a = \vec a_t + \vec a_n = 
 \alpha \times \vec r - \omega^2 \vec r$$
 
-## General plane motion (Relative-Motion Analysis)
+### General plane motion (Relative-Motion Analysis)
 
 需要使用 Relative-Motion Analysis 分析
 
-### Position
+#### Position
 
 $$\underline{ 
 	\vec r_B = \vec r_A + \vec r_{ B / A }
 }_\#$$
 
-### Displacement
+#### Displacement
 
 $A$ and $B$ undergo displacements $dr_A$ and $dr_B$
 
 $$\implies d\vec r_B = 
 d\vec r_A + d\vec r_{ B / A }$$
 
-### Velocity
+#### Velocity
 
 $$\frac{ d\vec r_B }{ dt } = 
 \frac{ d\vec r_A }{ dt } + 
@@ -98,7 +100,7 @@ $$\implies \underline{ \vec v_B =
 \vec v_A + 
 \omega \times \vec r_{ B / A } }_{ \# }$$
 
-### [[Acceleration]]
+#### [[Acceleration]]
 
 在上面我們知道 velocity 的關係
 
@@ -137,11 +139,11 @@ $$\implies
 
 $\alpha$: 角加速度
 
-# Instantaneous Centor of Zero Velocity
+## Instantaneous Centor of Zero Velocity
 
 ![[Instantaneous Center]]
 
-# Translating Coordinate System
+## Translating Coordinate System
 
 Use for analyzing motions of two points on a mechanism which are not located in the same body
 
@@ -153,19 +155,19 @@ Use for analyzing motions of two points on a mechanism which are not located in 
 
 注意以下的向量皆是使用 $x, y$ 座標軸，而不是 $X, Y$ 座標軸。
 
-## Position 
+### Position 
 
 $$ { \bf r }_B = 
 { \bf r }_A + { \bf r }_{ B / A }$$
 
-## Velocity
+### Velocity
 
 $${ \bf v }_B = 
 { \bf v }_A + 
 { \bf \Omega } \times { \bf r }_{ B / A } + 
 ({ \bf v }_{ B / A })_{ xyz }$$
 
-## [[Acceleration]]
+### [[Acceleration]]
 
 $${ \bf a }_B = 
 { \bf a }_A + 
@@ -178,9 +180,9 @@ $${ \bf a }_B =
 ({ \bf v }_{ B / A })_{ xyz } + 
 ({ \bf a }_{ B / A })_{ xyz }$$
 
-# Force and [[Acceleration]]
+## Force and [[Acceleration]]
 
-## Mass [[Moment]] of Inertia
+### Mass [[Moment]] of Inertia
 
 根據牛頓定律
 
@@ -202,7 +204,7 @@ $$I = \int_V r^2 \rho dV$$
 
 $\rho$: 密度
 
-### Common Mass [[Moment]] of Inertia
+#### Common Mass [[Moment]] of Inertia
 
 [List of moment of inertia - wiki](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 
@@ -211,7 +213,7 @@ $\rho$: 密度
 | ![[rod moment of inertia.png]]   | $$I = \frac 1 { 12 } mL^2$$ |
 | ![[plate moment of inertia.png]] | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$                           |
 
-### Parallel-Axis Theorem
+#### Parallel-Axis Theorem
 
 ![[parallel axis theorem.png|300]]
 
@@ -222,7 +224,7 @@ $I_1$: 相對軸 1 的 inertia
 $I_2$: 相對軸 2 的 inertia
 $d$: 軸 1 和軸 2 的距離
 
-### Radius of Gyration
+#### Radius of Gyration
 
 The [[moment]] of inertia of a body about a specified axis can be expressed using the radius of gyration, $k$
 
@@ -232,7 +234,7 @@ $$\text{ or }$$
 
 $$k = \sqrt{ \frac{ I }{ m } }$$
 
-## Planar Kinetic Equations of Motion
+### Planar Kinetic Equations of Motion
 
 $$\sum { \bf F } = m { \bf a }_G$$
 
@@ -255,7 +257,7 @@ $$
 \right.
 $$
 
-### Rotation about a Fixed Axis
+#### Rotation about a Fixed Axis
 
 ![[force and acceleration rotation around a fixed axis.png|350]]
 
@@ -277,15 +279,15 @@ $$\left\{
 	\end{array}
 \right.$$
 
-### [[Moment]] Equation about the Instantaneous Centor
+#### [[Moment]] Equation about the Instantaneous Centor
 
 也可以對 Instantaneous Centor 取 [[Moment]]
 
 $$\underline{ \sum M_{ IC } = I_{ IC } \alpha }_{ \# }$$
 
-# [[Work]] and Energy
+## [[Work]] and Energy
 
-## Kinetic Energy
+### Kinetic Energy
 
 ![[kinetic energy of rigid body.png|350]]
 
@@ -325,7 +327,7 @@ As a special case, if $P$ coincides with $G$, $\bar y = \bar x = 0$
 
 $$\implies \underline{ T = \frac 1 2 mv_G^2 + \frac 1 2 I_G \omega^2 }_\#$$
 
-### Rotation about a Fixed Axis
+#### Rotation about a Fixed Axis
 
 ![[kinetic energy rotation about a fixed axis.png|250]]
 
@@ -337,7 +339,7 @@ $$ = \frac 1 2(I_G + mr_G^2)\omega^2$$
 
 $$ = \underline{ \frac 1 2 I_o \omega^2 }_\#$$
 
-### General Plane Motion
+#### General Plane Motion
 
 $$T = \frac 1 2 m v_G^2 + \frac 1 2 I_G \omega^2$$
 
@@ -345,13 +347,13 @@ $$ = \underline{ \frac 1 2 I_{ IC } \omega^2 }_\#$$
 
 similar to rotation about a fixed axis
 
-## The [[Work]] of a Force
+### The [[Work]] of a Force
 
-### [[Work]] of a Variable Force
+#### [[Work]] of a Variable Force
 
 $$\underline{ U_F = \int{ \bf F } \cdot d{\bf r} = \int_s F\cos \theta ds }_\#$$
 
-### The [[Work]] of a Couple [[Moment]]
+#### The [[Work]] of a Couple [[Moment]]
 
 $$\underline{ U_M = \int_{ \theta_1 }^{ \theta_2 } Md\theta }_\#$$
 
@@ -359,17 +361,17 @@ if ${\bf M}$ has constant magnitude
 
 $$\underline{ U_M = M(\theta_2 - \theta_1) }_\#$$
 
-### Principle of [[Work]] and Energy
+#### Principle of [[Work]] and Energy
 
 $$\underline{ T_1 + \sum U_{ 1 - 2 } = T_2 }_\#$$
 
-# Linear and Angular Momentum
+## Linear and Angular Momentum
 
-## Linear Momentum
+### Linear Momentum
 
 $${\bf L} = m {\bf v}_G$$
 
-## Angular Momentum
+### Angular Momentum
 
 angular momentum of $i$th particle is
 
@@ -387,9 +389,9 @@ $$\implies H_P = -\bar y m (v_P)_x + \bar x m(v_P)_y + I_P \omega$$
 
 $$\implies \underline{ H_G = I_G \omega }_\#$$
 
-## Momentum of Motions
+### Momentum of Motions
 
-### Translation
+#### Translation
 
 $$
 \underline{
@@ -400,7 +402,7 @@ $$
 }_\#
 $$
 
-### Rotation About a Fixed Axis
+#### Rotation About a Fixed Axis
 
 $$
 \underline{
@@ -413,7 +415,7 @@ $$
 
 $$\implies \underline{ H_O = I_O \omega }_\#$$
 
-### General Plane Motion
+#### General Plane Motion
 
 $$
 \underline{
@@ -426,7 +428,7 @@ $$
 
 $$\implies \underline{ H_{IC} = I_{ IC }\omega }_\#$$
 
-## Principle of Impulse and Momentum
+### Principle of Impulse and Momentum
 
 if motion occurs in the $x-y$ plane:
 
@@ -441,6 +443,76 @@ $$
 	\right.
 }_\#
 $$
+
+# 3D Motion
+
+## Rotation About a Fixed Point
+
+> ### Euler's Theorem
+> two "component" rotations about different axis passing through a point are equivalent to a single resultant rotation about an axis passing through the point
+> 
+> $\implies$ If more than two rotations are applied, they can be combined into pairs, and each pair can be further reduced to combine into one rotation
+
+#### Finite Rotations
+
+If component rotations used in Euler's theorem are finite, it is important that the order in which they are applied be maintained.
+
+![[why finite rotations order matters.png]]
+
+如上圖，如果先轉 $\theta_2$ 再轉 $\theta_1$ 結果會完全不同
+
+#### Infinitesimal Rotations
+
+與 Finite Rotations 相反
+
+When defining the 3D angular motions, only rotations which are infinitesimally small will be considered and they can be classified as vector, so they can be added easilly.
+
+### Velocity for Rotation
+
+$$\vec v = \vec \omega \times \vec r$$
+
+### Acceleration for Rotation
+
+$$\vec a = \vec \alpha \times \vec r + \vec \omega \times ( \vec \omega \times \vec r )$$
+
+## The Time Derivative of a Vector
+
+當在空間中架設一個會隨時間轉動的座標軸 $xyz$ ，並且有一個以此座標軸表示的向量 $\vec A$ ， $\dot { \vec A }$ 會使用接下來的公式算
+
+![[time derivative of a vector.png|300]]
+
+$$\vec A = A_x \hat i + A_y \hat j + A_z \hat k$$
+
+因為 $\hat i, \hat j, \hat k$ 相對於 $xyz$ 座標軸沒有轉動
+
+$$\implies (\dot {\vec A})_{ xyz } = 
+\dot A_x \hat i + 
+\dot A_y \hat j + 
+\dot A_z \hat k$$
+
+但 $\hat i, \hat j, \hat k$ 對 $XYZ$ 有轉動，因此
+
+$$\implies \dot { \vec A } = \dot A_x \hat i +
+\dot A_y \hat j +
+\dot A_z \hat k +
+A_x \dot {\hat i} +
+A_y \dot {\hat j} +
+A_z \dot {\hat k}
+$$
+
+並且 $\dot{ \hat i }, \dot{ \hat j }, \dot{ \hat k }$ 可以用 $\vec \Omega$ 與外積算出
+
+$$
+\left\{
+	\begin{array}{}
+		\dot {\hat i} = \vec \Omega \times \hat i \\
+		\dot {\hat j} = \vec \Omega \times \hat j \\
+		\dot {\hat k} = \vec \Omega \times \hat k 
+	\end{array}
+\right.
+$$
+
+$$\implies \dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A$$
 
 ---
 

@@ -4,22 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "663768b6069477b7",
+        "id": "425b58b8fa77e579",
         "type": "leaf",
         "state": {
-<<<<<<< HEAD
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-=======
           "type": "markdown",
           "state": {
-            "file": "去學校要做的事.md",
-            "mode": "source",
-            "source": true
->>>>>>> 166cba16339933555c1d8ebf8f9c4cd5b443433e
+            "file": "電工學/Arc/Field-Effect Transistors.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "b0bbdcfc69091716"
+      },
+      {
+        "id": "c2ba08e48a5a0404",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "電工學/Arc/Field-Effect Transistors.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b0bbdcfc69091716"
       }
     ],
     "direction": "vertical"
@@ -55,11 +61,12 @@
               }
             }
           }
-        }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5c280f16afc5455b",
@@ -75,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "電工學/Arc/Field-Effect Transistors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "電工學/Arc/Field-Effect Transistors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -104,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "電工學/Arc/Field-Effect Transistors.md"
               }
             }
           }
@@ -115,17 +122,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "663768b6069477b7",
+  "active": "425b58b8fa77e579",
   "lastOpenFiles": [
+    "電工學/Arc/Field-Effect Transistors.md",
     "Main Kanban.md",
+    "動力學/Rigid Body.md",
+    "去學校要做的事.md",
     "工程數學/Laplace/Inverse Laplace Transform.md",
     "工程數學/Laplace Transform 解法.md",
     "電工學/Arc/Inductor.md",
     "電工學/Arc/Diode.md",
     "工程數學/Laplace/Laplace Transform.md",
-    "電控/arduino/AQMD6010BLS.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "動力學/Rigid Body.md",
-    "python/bmp.md"
+    "電控/arduino/AQMD6010BLS.md"
   ]
 }
