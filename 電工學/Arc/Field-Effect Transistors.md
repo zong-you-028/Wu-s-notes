@@ -203,6 +203,218 @@ $$i_D = K(v_{ GS } - V_{ to })^2$$
 
 $$v_{DS} = V_{DD} - (R_D + R_S) i_D$$
 
+# Small-Signal Equivalent Circuits
+
+我們常常會需要計算 Q Point 附近的電壓與電流關係，而在一些特殊情況（訊號很小），電壓與電流距離 Q Point 不遠，而我們可以在這個情況下將 FET 等價於 voltage-controlled current source
+
+因為訊號很小，我們將 $i_D(t)$ 與 $v_{GS}(t)$ 這樣表示
+
+$$i_D(t) = I_{DQ} + i_d(t)$$
+$$v_{GS}(t) = V_{GSQ} + v_{gs}(t)$$
+
+> $i_D(t)$ 、 $I_{DQ}$ 與 $i_d(t)$ 關係如下
+> ![[Illustration of small-signal.png]]
+
+我們使用 saturation region 的公式
+
+> $$i_D = K(v_{ GS } - V_{to})^2$$
+
+$$\implies I_{DQ} + i_d(t) = K[ V_{GSQ} + v_{gs}(t) - V_{to} ]^2$$
+
+平方炸開
+
+$$\implies I_{DQ} + i_d(t) = K(V_{GSQ} - V_{to})^2 + 2K(V_{GSQ} - V_{to})v_{gs}(t) + K v_{gs}^2$$
+
+我們利用 Q point 的 $I_{DQ}$ 代入，並且因為訊號很小，因此省略 $v_{gs}^2$
+
+> Q point 的 $I_{DQ}$ ：
+> $$I_{DQ} = K(V_{GSQ} - V_{to})^2$$
+
+$$\implies i_d(t) = 2K(V_{GSQ} - V_{to})v_{gs}(t)$$
+
+我們定義 transconductance of FET:
+
+$$\underline{g_m = 2K(V_{GSQ} - V_{to})}_\#$$
+
+$$\underline{i_d(t) = g_m v_{gs}(t)}_\#$$
+
+$$\underline{i_g(t) = 0}_\#$$
+
+上面的結果可以得出 Small-signal equivalent circuit 是 voltage controlled current source
+
+![[FET small-signal equivalent circuit.png|400]]
+
+## Transconductance
+
+$$\underline{g_m = 2K(V_{GSQ} - V_{to})}_\#$$
+
+$g_m$ 除了上面的表示方式，還有以下的表示方式：
+
+> 利用 Q point 的特性
+> $$I_{DQ} = K(V_{GSQ} - V_{to})^2$$
+> $$\implies V_{GSQ} - V_{to} = \sqrt{\frac{I_{DQ}}{K}}$$
+
+$$\implies\underline{g_m = 2\sqrt{ KI_{DQ} }}_\#$$
+
+> 利用 $K$ 與 device parameter $KP$ 的關係
+> $$K = \left( \frac W L \right) \frac{ KP }{ 2 }$$
+
+$$\implies g_m = \sqrt{\frac{W}{L} \cdot 2 KP \cdot I_{DQ}}$$
+
+## More Accurate Circuits
+
+The first-order equations we have used to obtain the equivalent circuit for the FET did not account for the effect of $v_{DS}$ on the drain current
+
+If we wish to account for the effect of $v_{DS}$ in the small-signal equivalent circuit, we must add a resistance $r_d$ called the **drain resistance** between drain and source
+
+$$i_d = g_mv_{gs} + \frac{ v_{ds} }{ r_d }$$
+
+![[FET small-signal equivalent circuit that accounts for the dependence of iD on vDS.png|400]]
+
+## Transconductance and Drain Resistance as Partial Derivatives
+
+> from $$i_d = g_mv_{gs} + \frac{v_{ds}}{ r_d }$$
+> 我們得到 $g_m$ 與 $r_d$ 用 partial derivatives 的表示方法
+
+$$\implies
+\left\{
+	\begin{array}{}
+		\underline{g_m = \left.\frac{ \partial i_D }{ \partial v_{GS} }\right\vert_{\text{Q point}}}_\# \\
+		\underline{\left.\frac{1}{r_d} \cong \frac{\partial i_D}{\partial v_{DS}}\right\vert_{\text{Q point}}}_\#
+	\end{array}
+\right.	
+$$
+
+# Common-Source Amplifier
+
+下面的 circuit 稱為 common-source amplifier
+
+![[common-source amplifier.png]]
+
+中間的部份（$R_1, R_2, R_D, R_S$）形成 bias circuit ，左邊為輸入端，右邊為輸出端。
+
+裡面的 capacitor 的 impedance 相對於交流輸入 $v(t)$ 會非常小，可以當作 short circuit
+
+## Small-Signal Equivalent Circuit of Common-Source Amplifier
+
+我們將 FET 視為 small-signal equivalent circuit ，並且將 capacitor short ，得出以下 circuit
+
+![[small-signal equivalent circuit of common-source amplifier.png]]
+
+輸出的電阻 $R_L'$ ：
+
+$$\underline{R_L' = \frac{ 1 }{ \frac{ 1 }{ r_d } + \frac 1 {R_D} + \frac 1 {R_L} }}_\#$$
+
+$v_o$ 與 $v_{gs}$ 的關係：
+
+$$v_o = -(g_mv_{gs})R_L'$$
+
+$v_{in}$ 與 $v_{gs}$ 的關係：
+
+$$v_{in} = v_{gs}$$
+
+由以上兩個式子可以得出 amplitude ：
+
+$$\underline{A_v = \frac{v_o}{v_{in}} = -g_mR_L'}_\#$$
+
+## Input Resistance
+
+$$\underline{R_{in} = \frac{v_{in}}{ i_{in} } = R_G = R_1 \vert\vert R_2}_\#$$
+
+## Output Resistance
+
+我們將 $R_L$ 拔掉，求出 output terminals 的 equivalent resistance
+
+$$\underline{
+	R_o = \frac 1 {\frac{ 1 }{ R_D } + \frac{ 1 }{ r_d }}
+}_\#$$
+
+# Source Follower
+
+![[source follower using fet.png]]
+
+## Small-Signal Equivalent Circuit of Source Follower
+
+我們將 FET 視為 small-signal equivalent circuit ，並且將 capacitor short ，得出以下 circuit
+
+![[small-signal ac equivalent circuit for the source follower.png]]
+
+## Voltage Gain
+
+by parallel combination of $r_d, R_s, R_L$
+
+$$\underline{
+	R_L' = \frac{ 1 }{ \frac{ 1 }{ r_d } + \frac{ 1 }{ R_s } + \frac{ 1 }{ R_L } }
+}_\#$$
+
+the output voltage is given by
+
+$$v_o = g_mv_{gs}R_L'$$
+
+furthermore, we can write the following voltage equation:
+
+$$v_{in} = v_{gs} + v_o$$
+
+將 $v_o$ 代入
+
+$$\implies v_{in} = v_{gs} + g_mv_{gs}R_L'$$
+
+用 $v_o$ 與 $v_in$ 得出 $A_v$
+
+$$\underline{
+	A_v = \frac{ v_o }{ v_{in} } = \frac{ g_mR_L' }{ 1 + g_mR_L' }
+}_\#
+$$
+
+## Input Resistance
+
+$$
+\underline{
+R_{in} = \frac{ v_{in} }{ i_{in} } = 
+R_G = R_1 \vert\vert R_2
+}_\#
+$$
+
+## Output Resistance
+
+$$\underline{R_o = \frac{ v_x }{ i_x } = \frac{ 1 }{ g_m + \frac{ 1 }{ R_S } + \frac{ 1 }{ r_d } }}_\#$$
+
+# CMOS Logic Gates
+
+In **complementary metal-oxide-semiconductor** technology, both NMOS and PMOS transistors are fabricated on the same chip. Using CMOS technology, we may construct the basic building blocks of digital systems, such as NAND gates and NOR gates.
+
+## CMOS Inverter
+
+![[cmos inverter.png]]
+
+| $$V_{in}$$                           | PMOS                                 | NMOS                                 | $$V_{out}$$                |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ | -------------------------- |
+| <font color = "fuchsia">HIGH </font> | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">short</font> | $$0\text{ (LOW) }$$        | 
+| <font color = "fuchsia">LOW </font>  | <font color = "#2A9D8F">short</font> | <font color = "#E76F51">open</font>  | $$V_{DD} \text{ (HIGH) }$$ |
+
+## CMOS NAND Gate
+
+![[two-input cmos nand gate.png]]
+
+| $A$                                 | $B$                                 | $M_1$                                | $M_2$                                | $M_3$                                | $M_4$                                | $V_{out}$                           |
+| ----------------------------------- | ----------------------------------- | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ | ----------------------------------- |
+| <font color = "fuchsia">HIGH</font> | <font color = "fuchsia">HIGH</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "fuchsia">LOW</font>  |
+| <font color = "fuchsia">HIGH</font> | <font color = "fuchsia">LOW</font>  | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "fuchsia">HIGH</font> |
+| <font color = "fuchsia">LOW</font>  | <font color = "fuchsia">HIGH</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">close</font> | <font color = "fuchsia">HIGH</font> |
+| <font color = "fuchsia">LOW</font>  | <font color = "fuchsia">LOW</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "fuchsia">LOW</font>  |
+
+
+## CMOS NOR Gate
+
+![[cmos nor gate.png|400]]
+
+| $A$                                 | $B$                                 | $M_1$                                | $M_2$                                | $M_3$                                | $M_4$                                | $V_{out}$                           |
+| ----------------------------------- | ----------------------------------- | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ | ----------------------------------- |
+| <font color = "fuchsia">HIGH</font> | <font color = "fuchsia">HIGH</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "fuchsia">LOW</font>  |
+| <font color = "fuchsia">HIGH</font> | <font color = "fuchsia">LOW</font>  | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "fuchsia">LOW</font>  |
+| <font color = "fuchsia">LOW</font>  | <font color = "fuchsia">HIGH</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">close</font> | <font color = "fuchsia">LOW</font>  |
+| <font color = "fuchsia">LOW</font>  | <font color = "fuchsia">LOW</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "fuchsia">HIGH</font> | 
+
 ---
 
 參考資料:

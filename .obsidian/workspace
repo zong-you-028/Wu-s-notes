@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "425b58b8fa77e579",
+        "id": "92eb35b70cf40b6f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -13,10 +13,10 @@
             "mode": "source"
           }
         },
-        "group": "b0bbdcfc69091716"
+        "group": "1c5ccf80935569d1"
       },
       {
-        "id": "c2ba08e48a5a0404",
+        "id": "21484fdabb5bab70",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -25,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "b0bbdcfc69091716"
+        "group": "1c5ccf80935569d1"
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "425b58b8fa77e579",
+  "active": "92eb35b70cf40b6f",
   "lastOpenFiles": [
     "電工學/Arc/Field-Effect Transistors.md",
     "Main Kanban.md",
