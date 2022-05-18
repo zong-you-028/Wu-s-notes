@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "84af96ca2953c79d",
+        "id": "b2c60d0c0753a731",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "python/bmp.md",
+            "file": "動力學/Rigid Body.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "laplacian",
+                "query": "rigid body",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/bmp.md",
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/bmp.md",
+                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/bmp.md"
+                "file": "動力學/Rigid Body.md"
               }
             }
           }
@@ -109,14 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "84af96ca2953c79d",
+  "active": "b2c60d0c0753a731",
   "lastOpenFiles": [
-    "python/bmp.md",
-    "電工學/Arc/Diode.md",
-    "工程數學/Linear Algebra/Field.md",
-    "工程數學/Linear Algebra/Surface Integral.md",
-    "工程數學/Linear Algebra/Line Integral.md",
-    "工程數學/Linear Algebra/Gauss Elimination.md",
-    "專題事項.md"
+    "動力學/Rigid Body.md",
+    "工程數學/Laplace/Convolution.md",
+    "工程數學/Orthogonal Functions/Integral Transform Method.md",
+    "工程數學/Orthogonal Functions.md",
+    "工程數學/Laplace Transform 解法.md",
+    "工程數學/Orthogonal Functions/Fourier Series.md",
+    "課表.md",
+    "工程數學/Orthogonal Functions/Fourier Transform.md",
+    "工程數學/First Order Differential Equation.md",
+    "工程數學/Higher Order DE解法.md"
   ]
 }
