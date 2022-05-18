@@ -523,4 +523,3 @@ $$\implies \dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A$$
 ---
 
 link:
-
