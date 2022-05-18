@@ -512,7 +512,64 @@ $$
 \right.
 $$
 
-$$\implies \dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A$$
+$$\implies \underline{\dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A}_\#$$
+
+## General Motion
+
+![[general motion.png]]
+
+The general motion is defined by
+
+$$\vec v_{ B / A } = \omega \times \vec r_{B / A}$$
+
+$$\vec a_{ B / A } = \alpha \times \vec r_{B / A} + \omega \times (\omega \times \vec r_{B / A})$$
+
+The absolute velocity and acceleration of point $B$ can be determined from
+
+$$\underline{ \vec v_B = \vec v_A + \omega \times \vec r_{B / A} }_\#$$
+
+$$\underline{\vec a_B = \vec a_A + \alpha \times \vec r_{B / A} + \omega \times (\omega \times \vec r_{B / A})}_\#$$
+
+## Relative-Motion Analysis Using Translating and Rotating Axes
+
+![[relative motion analysis using translating and rotating axes.png]]
+
+### Position
+
+If the position of "$B$ with respect to $A$" is specified by the relative-position vector $\vec r_{B / A}$, then
+
+$$\underline{
+	\vec r_B = \vec r_A + \vec r_{B / A}
+}_\#$$
+
+### Velocity
+
+The velocity of point $B$ measured from $X, Y, Z$ is
+
+$$\dot {\vec r}_B = \dot {\vec r}_A + \dot{\vec r}_{B / A}$$
+
+$$\dot {\vec r}_{B / A} = (\dot{\vec r}_{B / A})_{xyz} + \Omega \times \vec r_{B / A}$$
+
+$$ = (\vec v_{B / A})_{xyz} + \Omega \times \vec r_{B / A}$$
+
+Here $(\vec v_{B / A})_{xyz}$ is the relative velocity of $B$ with respect to $A$ measured from $x, y, z$. Thus,
+
+$$\underline{\underbrace{\vec v_B = \vec v_A + \Omega \times \vec r_{B / A}}_{\text{ for rigid body }} + \underbrace{(\vec v_{B / A})_{xyz}}_{\text{ not rigid body }}}_\#$$
+
+### Acceleration
+
+The acceleration of point $B$ measured from $X, Y, Z$ is
+
+$$\dot{ \vec v }_B = \dot{\vec v}_A + \dot \Omega \times \vec r_{B / A} + \Omega \times \dot{\vec r}_{B / A} + \frac{d}{dt}(\vec v_{B / A})_{xyz}$$
+
+where
+
+$$\frac{d}{dt}(\vec v_{B / A})_{xyz} = (\dot{\vec v}_{B / A})_{xyz} + \Omega \times (\vec v_{B / A})_{xyz} $$
+$$= (\vec a_{B / A})_{xyz} + \Omega \times (\vec v_{B / A})_{xyz}$$
+
+$(\vec a_{B / A})_{xyz}$ is the relative acceleration of $B$ with respect to $A$ measured from $x, y, z$, thus
+
+$$\underline{\vec a_B = \vec a_A + \dot \Omega \times \vec r_{B / A} + \Omega \times (\Omega \times \vec r_{B / A}) + 2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz}}_\#$$
 
 ---
 
