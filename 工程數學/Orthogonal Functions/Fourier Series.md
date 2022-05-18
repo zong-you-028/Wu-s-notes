@@ -123,18 +123,18 @@ $$ = 0 \qquad (\text{ when } h \neq k )$$
 
 ## Fourier Series
 
-$$f(x) \cong \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
-a_n\cos\frac{ n\pi }{ p }x + b_n\sin\frac{ n\pi }{ p }x \right)$$
+$$\underline{f(x) \cong \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
+a_n\cos\frac{ n\pi }{ p }x + b_n\sin\frac{ n\pi }{ p }x \right)}_\#$$
 
-$$a_0 = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)dx$$
+$$\underline{a_0 = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)dx}_\#$$
 
-$$a_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\cos\frac{ n\pi }{ p }xdx$$
+$$\underline{a_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\cos\frac{ n\pi }{ p }xdx}_\#$$
 
-$$b_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\sin\frac{ n\pi }{ p }xdx$$
+$$\underline{b_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\sin\frac{ n\pi }{ p }xdx}_\#$$
 
 上述的 $f(x)$ 是近似，原因是 [[#Condition for Converge]] , [[#Period Extension]]
 
-### Proof
+### Coefficients
 
 #### Constant Offset Coefficient $a_0$
 
@@ -329,7 +329,10 @@ $$f(x) = \sum_{ n = 1 }^{ \infty } \frac{ 4(-1)^{ n + 1 } }{ n\pi }\sin\frac{ n 
 
 # Half-range Expansion
 
-若 function 只有一邊，如 $f(x) = x^2, \ 0 < x < L$ 只有正的地方有定義
+若 function 只有一邊，如 $f(x) = x^2, \ 0 < x < L$ 只有正的地方有定義，但我們還是想要把它用 fourier series 表示的話可以使用 half-range expansion ，這會假設 $f(x)$ 是一個週期性的函數
+
+> 如果我們沒辦法假設 $f(x)$ 是週期性的函數，就需要其他方法
+> [[Fourier Integral]]
 
 ## (a) in a cosine series
 
@@ -357,7 +360,7 @@ $$a_n = \frac{ 2 }{ L }\int_0^L f(x)\cos\frac{ n\pi }{ L }xdx$$
 
 ## (b) in a sine series
 
-和 [[#a in a cosine series]] 處理方法相似
+和 [[#a in a cosine series]] 處理方法相似，但是假設 $f(x)$ 是 odd function
 
 $$f(x) = \sum_{ n = 1 }^{ \infty }b_n\sin\frac{ n\pi }{ L }x$$
 
@@ -369,7 +372,7 @@ $$b_n = \frac{ 2 }{ L }\int_0^L f(x)\sin\frac{ n\pi }{ L }xdx$$
 
 ## (c) in a fourier series
 
-和 [[#a in a cosine series]] 和 [[#b in a sine series]] 不同的是，週期從 $L$ 改為 $2L$
+和 [[#Trigonometric Functions]] 不同的是，週期從 $L$ 改為 $2L$
 
 [[#Fourier Series|原本的公式]]:
 
