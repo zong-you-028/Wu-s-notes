@@ -159,6 +159,47 @@ $$
 
 ![[curve of clipper circuit with modified slope.png]]
 
+## Clamp Circuit
+
+可以把電壓抬高或降低
+
+### Positive Clamp Circuit
+
+![[Positive Clamp Circuit.png|350]]
+
+$$v_{ out } = v_{ in } + v_{ m }$$
+
+### Negative Clamp Circuit
+
+![[Negative Clamp Circuit.png|350]]
+
+$$v_{ out } = v_{ in } - v_{ m }$$
+
+### Biased Clamp Circuit
+
+為上面的 [[#Positive Clamp Circuit]] 與 [[#Negative Clamp Circuit]] 加上一個 offset 得到的 circuit
+
+那個 offset 可以是電池，也可以是 zener diode
+
+如下是一個 [[#Positive Clamp Circuit]] 加上一個正的 offset
+
+![[biased clamp circuit.png|350]]
+
+要注意只有當 $v_m > v_B$ 時才有機會導通，因此若是 $v_m < v_B$ ， $v_{ out } = v_{ in }$ 
+
+$$
+\begin{array}{l}
+	\text{ when } v_{ in } < v_B & v_{ out } = v_{ in } \\
+	\text{ when } v_{ in } > v_B & v_{ out } = v_{ in } - v_m + v_B
+\end{array}
+$$
+
+---
+
+當然我們並不會使用電池，因此以下是改良版
+
+![[zener diode clamper.png|350]]
+
 ---
 
 參考資料:

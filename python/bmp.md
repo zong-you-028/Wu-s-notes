@@ -167,6 +167,119 @@ if __name__ == '__main__':
     image.save_image("save1.bmp")
 ```
 
+# 完成品
+
+```python
+import struct
+import array
+import numpy as np
+
+# this is the path of bmp picture
+BMP_PATH = "face.bmp"
+
+class bmp:
+
+	def __init__(self, path):
+		# open file of chosen path
+		f = open(path, "rb")
+
+		# ========== header ==========
+
+		# get header buffer
+		bmp_header_b = f.read(0x36)
+
+		# unpack header buffer to tuple
+		bmp_header_tuple = struct.unpack('<2sI2H4I2H6I', bmp_header_b)
+
+		# save as class elements
+		self.tag = bmp_header_tuple[0]
+		self.fileSize = bmp_header_tuple[1]
+		#reserved bmp_header_tuple[2]
+		#reserved bmp_header_tuple[3]
+		self.rgbOffset = bmp_header_tuple[4]
+		self.infoSize = bmp_header_tuple[5]
+		self.width = bmp_header_tuple[6]
+		self.height = bmp_header_tuple[7]
+		self.pane = bmp_header_tuple[8]
+		self.color = bmp_header_tuple[9]
+		self.compress = bmp_header_tuple[10]
+		self.rgbSize = bmp_header_tuple[11]
+		#reserved bmp_header_tuple[12]
+		#reserved bmp_header_tuple[13]
+		#reserved bmp_header_tuple[14]
+		#reserved bmp_header_tuple[15]
+
+		# ========== image ==========
+
+		# read other buffer (rgb data buffer)
+		bmp_rgb_data_b = f.read()
+
+		# convert byte buffer to list
+		list_b = array.array('B', bmp_rgb_data_b).tolist()
+
+		# convert to img list
+		img = np.reshape(list_b, (self.height, self.width, 3)).tolist()
+
+		# save as class elements
+		self.img = img
+
+	def print_bmp_header(self):
+		print("tag      :{}".format(self.tag))
+		print("fileSize :{}".format(self.fileSize))
+		print("rgbOffset:{}".format(self.rgbOffset))
+		print("infoSize :{}".format(self.infoSize))
+		print("width    :{}".format(self.width))
+		print("height   :{}".format(self.height))
+		print("pane     :{}".format(self.pane))
+		print("color    :{}".format(self.color))
+		print("compress :{}".format(self.color))
+		print("rgbSize  :{}".format(self.rgbSize))
+	
+	def convert_color_to_blue(self):
+		np_img = np.array(self.img)
+		np_img[:, :, 0] = 255
+		self.img = np_img.tolist()
+
+	def convert_color_to_green(self):
+		np_img = np.array(self.img)
+		np_img[:, :, 1] = 255
+		self.img = np_img.tolist()
+
+	def convert_color_to_red(self):
+		np_img = np.array(self.img)
+		np_img[:, :, 2] = 255
+		self.img = np_img.tolist()
+
+	def save_image(self, name="save.bmp"):
+		f = open(name, 'wb')
+
+		bmp_header = struct.pack('<2sI2H4I2H6I', self.tag, self.fileSize, 0, 0, self.rgbOffset, self.infoSize, self.width, self.height, self.pane, self.color, self.compress, self.rgbSize, 0, 0, 0, 0)
+
+		#write bmp header
+		f.write(array.array('B', bmp_header).tobytes())
+
+		#write rgb data
+		zeroBytes = self.width * 3 % 4
+		if zeroBytes != 0:
+			zeroBytes = 4 - zeroBytes
+
+		for r in range(self.height):
+			for c in range(self.width):
+				pixel = struct.pack('3B', self.img[r][c][0], self.img[r][c][1], self.img[r][c][2])
+				f.write(pixel)
+
+			for i in range(zeroBytes):
+				f.write(bytes([0x00]))
+
+		#close file
+		f.close()
+
+if __name__ == "__main__":
+	img = bmp(BMP_PATH)
+	img.convert_color_to_blue()
+	img.save_image()
+```
+
 ---
 
 參考資料:
