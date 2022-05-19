@@ -208,10 +208,11 @@ $\rho$: 密度
 
 [List of moment of inertia - wiki](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 
-| Figure                           | [[Moment]] of Inertia           |
-| -------------------------------- | --------------------------- |
-| ![[rod moment of inertia.png]]   | $$I = \frac 1 { 12 } mL^2$$ |
-| ![[plate moment of inertia.png]] | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$                           |
+| Figure                                       | [[Moment]] of Inertia                                   |
+| -------------------------------------------- | ------------------------------------------------------- |
+| ![[rod moment of inertia.png]]               | $$I = \frac 1 { 12 } mL^2$$                             |
+| ![[plate moment of inertia.png]]             | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$ |
+| ![[solid sphere of radius r and mass m.png]] | $$I = \frac 2 5 mr^2$$                                  | 
 
 #### Parallel-Axis Theorem
 
