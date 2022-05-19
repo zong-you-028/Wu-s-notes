@@ -171,7 +171,7 @@ $${ \bf v }_B =
 
 $${ \bf a }_B = 
 { \bf a }_A + 
-{ \bf \Omega } \times 
+\dot{ \bf \Omega } \times 
 { \bf r }_{ B / A } + 
 {\bf\Omega} \times 
 ({\bf \Omega } \times 

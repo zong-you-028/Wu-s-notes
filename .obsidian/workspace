@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8a534f2dae22179a",
+        "id": "fafc4e7fb2e8fb30",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "動力學/Rigid Body.md",
-            "mode": "preview"
-          }
-        },
-        "group": "e74c1d79deb8a736"
-      },
-      {
-        "id": "c2d1f9ebc5572f55",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "動力學/Rigid Body.md",
-            "mode": "source"
-          }
-        },
-        "group": "e74c1d79deb8a736"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -82,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,9 +92,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "動力學/Rigid Body.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -123,9 +103,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c2d1f9ebc5572f55",
+  "active": "fafc4e7fb2e8fb30",
   "lastOpenFiles": [
     "動力學/Rigid Body.md",
+    "動力學/Acceleration.md",
     "動力學/HW/ch 20/2013.JPG",
     "電工學/Arc/Field-Effect Transistors.md",
     "Main Kanban.md",
@@ -133,7 +114,6 @@
     "工程數學/Orthogonal Functions/Fourier Transform.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
     "工程數學/Laplace/Convolution.md",
-    "工程數學/Orthogonal Functions.md",
-    "工程數學/Laplace Transform 解法.md"
+    "工程數學/Orthogonal Functions.md"
   ]
 }
