@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "690276b1258cd33b",
-=======
-        "id": "7efd4a849782f76b",
->>>>>>> 8e24f2c02f5122ebce714cddf2426973083305f2
+        "id": "8a534f2dae22179a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "動力學/Rigid Body.md",
+            "mode": "preview"
+          }
+        },
+        "group": "e74c1d79deb8a736"
+      },
+      {
+        "id": "c2d1f9ebc5572f55",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "動力學/Rigid Body.md",
+            "mode": "source"
+          }
+        },
+        "group": "e74c1d79deb8a736"
       }
     ],
     "direction": "vertical"
@@ -40,11 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "fourier integral",
-=======
                 "query": "fourier transform",
->>>>>>> 8e24f2c02f5122ebce714cddf2426973083305f2
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,11 +99,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "linksCollapsed": true,
-=======
+                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": false,
->>>>>>> 8e24f2c02f5122ebce714cddf2426973083305f2
                 "unlinkedCollapsed": true
               }
             }
@@ -104,41 +110,30 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "動力學/Rigid Body.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "690276b1258cd33b",
+  "active": "c2d1f9ebc5572f55",
   "lastOpenFiles": [
-    "工程數學/Orthogonal Functions/Fourier Integral.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "Fourier Integral.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/Orthogonal Functions.md",
-    "Main Kanban.md",
     "動力學/Rigid Body.md",
+    "動力學/HW/ch 20/2013.JPG",
     "電工學/Arc/Field-Effect Transistors.md",
-    "去學校要做的事.md",
-    "工程數學/Laplace/Inverse Laplace Transform.md"
-=======
-  "active": "7efd4a849782f76b",
-  "lastOpenFiles": [
-    "動力學/Rigid Body.md",
     "Main Kanban.md",
     "Untitled.md",
     "工程數學/Orthogonal Functions/Fourier Transform.md",
     "工程數學/Orthogonal Functions/Integral Transform Method.md",
-    "電工學/Arc/Field-Effect Transistors.md",
     "工程數學/Laplace/Convolution.md",
     "工程數學/Orthogonal Functions.md",
-    "工程數學/Laplace Transform 解法.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md"
->>>>>>> 8e24f2c02f5122ebce714cddf2426973083305f2
+    "工程數學/Laplace Transform 解法.md"
   ]
 }
