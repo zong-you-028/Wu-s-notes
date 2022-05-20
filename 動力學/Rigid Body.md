@@ -171,7 +171,7 @@ $${ \bf v }_B =
 
 $${ \bf a }_B = 
 { \bf a }_A + 
-{ \bf \Omega } \times 
+\dot{ \bf \Omega } \times 
 { \bf r }_{ B / A } + 
 {\bf\Omega} \times 
 ({\bf \Omega } \times 
@@ -208,10 +208,11 @@ $\rho$: 密度
 
 [List of moment of inertia - wiki](https://en.wikipedia.org/wiki/List_of_moments_of_inertia)
 
-| Figure                           | [[Moment]] of Inertia           |
-| -------------------------------- | --------------------------- |
-| ![[rod moment of inertia.png]]   | $$I = \frac 1 { 12 } mL^2$$ |
-| ![[plate moment of inertia.png]] | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$                           |
+| Figure                                       | [[Moment]] of Inertia                                   |
+| -------------------------------------------- | ------------------------------------------------------- |
+| ![[rod moment of inertia.png]]               | $$I = \frac 1 { 12 } mL^2$$                             |
+| ![[plate moment of inertia.png]]             | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$ |
+| ![[solid sphere of radius r and mass m.png]] | $$I = \frac 2 5 mr^2$$                                  | 
 
 #### Parallel-Axis Theorem
 
@@ -477,6 +478,12 @@ $$\vec a = \vec \alpha \times \vec r + \vec \omega \times ( \vec \omega \times \
 
 ## The Time Derivative of a Vector
 
+> 這個常用在計算 angular velocity $\Omega$ 和 angular acceleration $\dot\Omega$
+> $$\Omega = \sum \omega_i$$
+> $$\dot\Omega = \sum \dot\omega_i$$
+> 其中一個 $\dot \omega_i$ 我們會用 time derivative of a vector 的公式求出
+> $$\dot\omega = (\dot\omega)_{xyz} + \underbrace{\Omega}_{\text{ 前面的角速度加總 }} \times \omega$$
+
 當在空間中架設一個會隨時間轉動的座標軸 $xyz$ ，並且有一個以此座標軸表示的向量 $\vec A$ ， $\dot { \vec A }$ 會使用接下來的公式算
 
 ![[time derivative of a vector.png|300]]
@@ -514,7 +521,11 @@ $$
 
 $$\implies \underline{\dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A}_\#$$
 
-## General Motion
+### Example
+
+`TODO: 20.1`
+
+## Rigid Body General Motion
 
 ![[general motion.png]]
 

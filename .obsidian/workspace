@@ -4,11 +4,18 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "25c66aa6ec1a9250",
+=======
+        "id": "fafc4e7fb2e8fb30",
+>>>>>>> e037394252303290a72cd278d20f78ff237459d3
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "動力學/Rigid Body.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +43,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "fourier integral",
+=======
+                "query": "fourier transform",
+>>>>>>> e037394252303290a72cd278d20f78ff237459d3
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,7 +93,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "linksCollapsed": true,
+=======
+                "file": "動力學/Rigid Body.md",
+                "linksCollapsed": false,
+>>>>>>> e037394252303290a72cd278d20f78ff237459d3
                 "unlinkedCollapsed": true
               }
             }
@@ -91,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "動力學/Rigid Body.md"
+              }
             }
           }
         ],
@@ -101,6 +120,7 @@
     "direction": "horizontal",
     "width": 300
   },
+<<<<<<< HEAD
   "active": "25c66aa6ec1a9250",
   "lastOpenFiles": [
     "動力學/Rigid Body.md",
@@ -113,5 +133,19 @@
     "電工學/Arc/Field-Effect Transistors.md",
     "去學校要做的事.md",
     "工程數學/Laplace/Inverse Laplace Transform.md"
+=======
+  "active": "fafc4e7fb2e8fb30",
+  "lastOpenFiles": [
+    "動力學/Rigid Body.md",
+    "動力學/Acceleration.md",
+    "動力學/HW/ch 20/2013.JPG",
+    "電工學/Arc/Field-Effect Transistors.md",
+    "Main Kanban.md",
+    "Untitled.md",
+    "工程數學/Orthogonal Functions/Fourier Transform.md",
+    "工程數學/Orthogonal Functions/Integral Transform Method.md",
+    "工程數學/Laplace/Convolution.md",
+    "工程數學/Orthogonal Functions.md"
+>>>>>>> e037394252303290a72cd278d20f78ff237459d3
   ]
 }
