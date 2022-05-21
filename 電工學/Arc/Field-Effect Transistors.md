@@ -64,7 +64,7 @@ $$K = \left( \frac W L \right) \frac{ KP }{ 2 }$$
 
 當進入了 triode region 並且逐漸加大 drain 與 source 間的電壓 $v_{ DS }$ 大過一定程度就會進入 saturaion region，此時的電流 $i_D$ 不論 $v_{ DS }$ 如何改變都是固定的
 
-$$i_D = K(v_{ GS } - V_{ to })$$
+$$i_D = K(v_{ GS } - V_{ to })^2$$
 
 ![[mosfet operation in saturation region.png]]
 
@@ -83,7 +83,7 @@ $$\implies v_{ GS } - V_{ to } = v_{ DS }$$
 substitude into equation of saturation region
 
 > equation of saturation region
-> $$i_D = K(v_{ GS } - V_{ to })$$
+> $$i_D = K(v_{ GS } - V_{ to })^2$$
 
 $$\implies \underline{ 
 	i_D = Kv^2_{ DS }
