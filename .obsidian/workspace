@@ -7,8 +7,11 @@
         "id": "71bbf1dc2dadee68",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "電工學/Circuit Analysis/AC Circuit.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "電工學/Circuit Analysis/AC Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "電工學/Circuit Analysis/AC Circuit.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "電工學/Circuit Analysis/AC Circuit.md"
+              }
             }
           }
         ],
@@ -103,15 +110,15 @@
   },
   "active": "71bbf1dc2dadee68",
   "lastOpenFiles": [
+    "電工學/Circuit Analysis/AC Circuit.md",
     "電工學/Arc/Field-Effect Transistors.md",
-    "Untitled.md",
     "Main Kanban.md",
     "課表.md",
+    "Untitled.md",
     "動力學/Rigid Body.md",
     "工程數學/Orthogonal Functions/Fourier Integral.md",
     "工程數學/Orthogonal Functions/Fourier Series.md",
     "Fourier Integral.md",
-    "工程數學/Higher Order DE解法.md",
-    "工程數學/Orthogonal Functions.md"
+    "工程數學/Higher Order DE解法.md"
   ]
 }
