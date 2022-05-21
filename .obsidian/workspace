@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "電工學/Circuit Analysis/AC Circuit.md",
+            "file": "電工學/Circuit Analysis/Logic Circuits.md",
+            "mode": "source"
+          }
+        },
+        "group": "0735ccae6ea8b967"
+      },
+      {
+        "id": "1469e6d1a3c6242a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "電工學/Circuit Analysis/Logic Circuits.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "0735ccae6ea8b967"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5c280f16afc5455b",
@@ -68,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電工學/Circuit Analysis/AC Circuit.md",
+                "file": "電工學/Circuit Analysis/Logic Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電工學/Circuit Analysis/AC Circuit.md",
+                "file": "電工學/Circuit Analysis/Logic Circuits.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "電工學/Circuit Analysis/AC Circuit.md"
+                "file": "電工學/Circuit Analysis/Logic Circuits.md"
               }
             }
           }
@@ -110,15 +124,15 @@
   },
   "active": "71bbf1dc2dadee68",
   "lastOpenFiles": [
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "電工學/Arc/Field-Effect Transistors.md",
+    "電工學/Circuit Analysis/Logic Circuits.md",
     "Main Kanban.md",
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Circuit Analysis.md",
+    "電工學/Arc/Field-Effect Transistors.md",
     "課表.md",
-    "Untitled.md",
     "動力學/Rigid Body.md",
     "工程數學/Orthogonal Functions/Fourier Integral.md",
-    "工程數學/Orthogonal Functions/Fourier Series.md",
-    "Fourier Integral.md",
-    "工程數學/Higher Order DE解法.md"
+    "工程數學/Orthogonal Functions/Fourier Series.md"
   ]
 }

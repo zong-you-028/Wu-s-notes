@@ -40,8 +40,6 @@ $$Z = \vert Z(\omega) \vert \angle Z(\omega)$$
 
 ![[Example of AC circuit analysis.png]]
 
-經過 [[Laplace Transform]]
-
 ![[Example of AC circuit analysis after Laplace Transform.png]]
 
 $$I_1 = \frac{ 60 }{ 80 + j140 + (- j400 \vert\vert 800) }$$
