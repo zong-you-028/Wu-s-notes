@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "86abea5da3ee838d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電工學/Arc/Field-Effect Transistors.md",
-            "mode": "source"
-          }
-        },
-        "group": "51c0e9ea768238a2"
-      },
-      {
         "id": "a9ba87bbd4a68f94",
         "type": "leaf",
         "state": {
@@ -24,8 +12,7 @@
             "file": "電工學/Arc/Field-Effect Transistors.md",
             "mode": "preview"
           }
-        },
-        "group": "51c0e9ea768238a2"
+        }
       }
     ],
     "direction": "vertical"
