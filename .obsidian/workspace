@@ -4,15 +4,13 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
         "id": "1690d70f5b5014fb",
-=======
-        "id": "37132953d8f9962e",
->>>>>>> bce72db96a50ba1b14f987b3a9cf7905d4be674f
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -69,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,11 +84,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
-=======
-                "linksCollapsed": true,
->>>>>>> bce72db96a50ba1b14f987b3a9cf7905d4be674f
                 "unlinkedCollapsed": true
               }
             }
@@ -99,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
           }
         ]
@@ -109,23 +107,9 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
   "active": "1690d70f5b5014fb",
   "lastOpenFiles": [
-    "電工學/Arc/Field-Effect Transistors.md"
-=======
-  "active": "37132953d8f9962e",
-  "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "電工學/Circuit Analysis/Logic Circuits.md",
-    "課表.md",
     "Main Kanban.md",
-    "README.md",
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Circuit Analysis/Circuit Analysis.md",
-    "電工學/Arc/Field-Effect Transistors.md",
-    "動力學/Rigid Body.md"
->>>>>>> bce72db96a50ba1b14f987b3a9cf7905d4be674f
+    "電工學/Arc/Field-Effect Transistors.md"
   ]
 }
