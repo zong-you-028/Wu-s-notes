@@ -360,7 +360,185 @@ $$D = \prod M(1, 3, 4, 5)$$
 
 我們可以利用 Karnaugh maps 來化簡運算式
 
+1. 根據輸入端的個數畫一個正方形或長方形
+2. 在旁邊標上輸入端的字母與輸入訊號，輸入訊號使用 gray signal
+3. 將輸出訊號填到格子裡
+4. 用大括號將 $A, B, C, D$ 為 1 的地方括起來
+5. 嘗試用 $A, B, C, D$ 表示運算式
+
 ![[karnaugh maps.png]]
+
+### SOP Example
+
+> A logic circuit has inputs $A, B, C, D$. The output of the circuit is given by
+> $$E = \sum m(1, 3, 4, 5, 7, 10, 12, 13)$$
+> Find the minimum SOP form for $E$
+
+convert the numbers of the minterms to binary numbers
+
+$$
+\begin{array}{}
+	\text{ number } & \text{ binary } \\
+	1 & 0001 \\
+	3 & 0011 \\
+	4 & 0100 \\
+	5 & 0101 \\
+	7 & 0111 \\
+	10 & 1010 \\
+	12 & 1100 \\
+	13 & 1101
+\end{array}
+$$
+
+Construct Karnaugh maps
+
+![[Karnaugh maps SOP example.png|300]]
+
+draw squares on the map and get SOP expression
+
+$$E = \overline A D + B \overline C + A \overline B C \overline D$$
+
+### POS Example
+
+> Find the minimum POS for the logic variable $E$ of last example
+
+draw Karnaugh maps
+
+![[Karnaugh maps for POS example.png|300]]
+
+obtain expression
+
+$$\overline E = ABC + A \overline B D + \overline A C \overline D + \overline B\, \overline C\, \overline D$$
+
+apply De Morgan's laws
+
+$$E = (\overline A + \overline B + \overline C)(\overline A + B + \overline D)(A + \overline C + D)(B + C + D)$$
+
+# Sequential Logic Circuits
+
+Sequencial logic circuits mean that the outputs depend on past as well as present inputs.
+
+We say that such circuits have memory because they "remember" past input values.
+
+Often, the operation of a sequential circuit is synchronized by a clock signal that consists of periodic logic-1 pulses.
+
+## Flip-Flops
+
+### Simple Flip-Flop
+
+可以用兩個 inverter 達成
+
+![[simple flip-flop.png|250]]
+
+$Q$ 與 $\overline Q$ 的關係如下
+
+| $Q$ | $\overline Q$ |
+| --- | ------------- |
+| 1   | 0             |
+| 0   | 1             | 
+
+### SR Flip-Flop
+
+Simple two-inverter circuit is not very useful because no provision exists for controlling its state.
+
+A more useful circuit is the set-reset(SR) flip-flop, consisting of two NOR gates.
+
+![[SR flip-flop.png|300]]
+
+In normal operation, $R$ and $S$ are not allowed to be high at the same time. 
+
+> 如果 $R$ 跟 $S$ 都是 high ， $Q$ 與 $\overline Q$ 會是 low 。但是如果下一瞬間， $R$ 與 $S$ 變成 low ， $Q$ 與 $\overline Q$ 會在 high 與 low 之間一直跳動，因此我們不允許 $R$ 和 $S$ 同時為 high
+> $$\begin{array}{} & R & S & Q & \overline Q \\ & 1 & 1 & 0 & 0 \\ \overset{\text{ change to reset state }}{\implies} & 0 & 0 & 1 & 1 \\ \implies & 0 & 0 & 0 & 0 \\ & & \vdots \end{array}$$
+
+With $R$ and $S$ are both low (reset state) , the SR flip-flop remembers which input ($R$ or $S$) was high most recently.
+
+#### Using an SR Flip-Flop to Debounce a Switch
+
+![[using an sr flip-flop to debounce a switch.png]]
+
+在撥開關時（例如鍵盤），開關會跳動，導致只按一下卻有很多個方波形成。這時如果使用 SR flip-flop ，就可以抵銷這個效果。
+
+### Clocked SR Flip-Flop
+
+Often, it is advantageous to control the point in time that a flip-flop responds to its inputs.
+
+We say that a high clock level enables the inputs to the flip-flop. On the other hand, the low clock level disables the inputs.
+
+![[clocked SR flip-flop.png]]
+
+Sometimes, a clocked SR fip-flop is needed, but it is also necessary to be able to set or clear the flip-flop state independent of the clock.
+
+![[clocked SR flip-flop with asynchronous preset and clear inputs.png]]
+
+### Edge-Triggered D Flip-Flop
+
+We have considered circuits for which the level of the clock signal enables or disables other input signals. On the other hand, edge-triggered circuits respond to their inputs only at a transition in the clock signal.
+
+Positive-edge-triggered circuits respond when the clock signal switches from low to high.
+
+Negative-edge-triggered circuits respond on the transition from high to low.
+
+![[positive-edge-triggered D flip-flop.png]]
+
+### JK Flip-Flop
+
+JK flip-flop has very similar operation to that of an SR fip-flop except that when both $J$ and $K$ are high, the output of the flip-flop toggles on each cycle of the clock. 
+
+> <font face = "roman">switching from high to low on one negative-going clock transition, back to high on the next negative transition, and so on</font>
+
+![[JK flip-flop.png]]
+
+## Register
+
+A register is an array of flip-flops that is used to store or manipulate the bits of a digital word.
+
+### Serial-In Parallel-Out Shift Register
+
+![[serial-in parallel-out shift register.png|400]]
+
+> <font face = "roman">The input data are applied to the input of the first state serially (one bit after another).
+> 
+On the leading edge of the first clock pulse, the first data bit is transferred into the first stage. 
+> 
+On the second clock pulse, the first bit is transferred to the second stage, and the second bit is transferred into the first stage.
+> 
+After four clock pulses, four bits of input data have been transferred into the shift register.
+> 
+Thus, serial data applied to the input are converted to parallel form available at the outputs of the stages of the shift register.</font>
+
+### Parallel-In Serial-Out Shift Register
+
+![[parallel-in serial-out shift register.png]]
+
+> <font face = "roman">First, the register is cleared by applying a high pulse to the clear input.
+> 
+> Parallel data are applied to the $A, B, C, D$ inputs.
+> 
+> Then, a high pulse is applied to the parallel enable (PE) input.
+> 
+> The result is to set each flip-flop for which the corresponding data line is high.
+> 
+> Thus, four parallel bits are loaded into the stages of the register.
+> 
+> Then, application of clock pulses produces the data inserial form at the output of the last stage.</font>
+
+### Counters
+
+Counters are used to count the pulses of an input signal.
+
+![[ripple counter.png]]
+
+> <font face = "roman">With the $J$ and $K$ inputs high, the $Q$-output of the flip-flop toggles on each falling edge of the clock input.
+> 
+> The input pulses to be counted are connected to the clock input of the second stage.
+> 
+> ---
+> 
+> Assume that the flip-flops are initially all in the reset state $Q = 0$.
+> 
+> When the falling edge of the first input pulse occurs, $Q_0$ changes to logic 1.
+> 
+> On the falling edge of the second pulse, $Q_0$ toggles back to logic 0, and the resulting falling input to the second stage causes $Q_1$ to become high.</font>
 
 ---
 
