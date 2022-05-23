@@ -64,7 +64,7 @@ s }v(0) }_{ \text{ source } }$$
 
 # RLC Circuit (串連)
 
-## Differential Equation
+## [[Differential Equation]]
 
 ![[rlc circuit differential equation.png]]
 
@@ -101,7 +101,7 @@ $$\implies
 \omega_0^2 i(t) = 
 f(t)$$
 
-### Solution of the Differential Equation
+### Solution of the [[Differential Equation]]
 
 我們可以把任何 equation 變成 [[Higher Order DE解法|2nd order differential equation]] ，因此我們來考慮以下等式的解。$x(t)$ 可以是 voltage ，也可以是 current
 
@@ -285,7 +285,7 @@ $$I_L(s) = \underbrace{ \frac{ A_1 }{ s - j\omega } + \frac{ \bar{ A }_1 }{ s + 
 1. $A_2$, $\bar{ A }_2$ are associated with the transient response which can die away fast
 2. $A_1 = G(s) \cdot (s - j\omega)\vert_{ s = j\omega }$
 $= \frac{ 1 }{ 2j }G(j\omega)$
-3. Steady state Response
+3. Steady [[state]] Response
 
 $$I_L(t) = \mathcal{ L }^{ -1 }\left\{ \frac{ Ae^{ j\theta } }{ 2j } \cdot \frac{ 1 }{ s - j\omega } + \frac{ Ae^{ -j\theta } }{ 2j } \cdot \frac{ 1 }{ s + j\omega } \right\}$$
 
@@ -316,7 +316,7 @@ $$I_3 = \frac{ 800 }{ -j400 + 800 } I_1$$
 
 $$ = 0.18 \angle 63\degree$$
 
-## Instantaneous Power and Average Power
+## Instantaneous [[Power]] and Average [[Power]]
 
 ![[Instantaneous Power and Average Power.png]]
 
@@ -328,7 +328,7 @@ $$I_1 = I_i = 0.2 \angle 37\degree$$
 
 $$Z(\omega) = \frac{ V(\omega) }{ I(\omega) } = \frac{ V }{ I }\angle\theta_z$$
 
-Instant Power:
+Instant [[Power]]:
 
 $$P(t) = v(t) \cdot i(t)$$
 
@@ -356,7 +356,7 @@ $$P_{ avg } = \frac{ VI }{ 2 }\cos\theta_z$$
 $$Z_s(f) = 
 j2\pi fL + R - j\frac{ 1 }{ 2\pi fC }$$
 
-the resonant frequency $f_0$ is defined to be the frequency at which the impedance is purely resistive (the reactance is zero)
+the resonant frequency $f_0$ is defined to be the frequency at which the [[impedance]] is purely resistive (the reactance is zero)
 
 $$\implies 2\pi f_0 L = \frac{ 1 }{ 2\pi f_0 C }$$
 
@@ -374,36 +374,36 @@ $$\text{ or }$$
 
 $$\underline{ Q_s = \frac{ 1 }{ 2\pi f_0CR } }_{ \# }$$
 
-### Impedance
+### [[Impedance]]
 
-可以使用 Quality Factor 與 Resonant Frequency 簡化 Impedance
+可以使用 Quality Factor 與 Resonant Frequency 簡化 [[Impedance]]
 
 $$\underline{ Z_s(f) = R\left[ 1 + jQ_s\left( \frac{ f }{ f_0 } - \frac{ f_0 }{ f } \right) \right] }_{ \# }$$
 
 ## Parallel
 
 A circuit containing both types of Energy Storage elements
-i.e. inductor and capacitor, exhibits a distinct behavior owing to the joint effect at a specific frequency
+i.e. [[inductor]] and [[capacitor]], exhibits a distinct behavior owing to the joint effect at a specific frequency
 
-很像單擺的動能和位能（inductor 的磁場和 capacitor 的電場）有週期性的轉換
+很像單擺的動能和位能（[[inductor]] 的磁場和 [[capacitor]] 的電場）有週期性的轉換
 
 ![[parallel resonant circuit.png|550]]
 
-### Impedance
+### [[Impedance]]
 
-The impedance of the parallel resonance circuit is
+The [[impedance]] of the parallel resonance circuit is
 
 $$\underline{ Z_p = \frac{ 1 }{ \frac 1 R + j2\pi fC - j\frac 1 {2\pi fL} } }_{ \# }$$
 
 ### Resonant Frequency
 
-共振頻率發生在 pure resistive circuit ，所以
+共振頻率發生在 pure [[resistive circuit]] ，所以
 
 $$2\pi f_0C = \frac 1 { 2\pi f_0L }$$
 
 $$\implies \underline{ f_0 = \frac 1 { 2\pi\sqrt{ LC } } }_{ \# }$$
 
-At this frequency the inductor and the capacitor shuffle energy with each other.
+At this frequency the [[inductor]] and the [[capacitor]] shuffle energy with each other.
 
 ### Quality Factor
 

@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "1690d70f5b5014fb",
+        "id": "f9837ff941ea8e04",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
+            "file": "2022-05-25 報告.md",
+            "mode": "source"
           }
         }
       }
@@ -67,14 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "2022-05-25 報告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -84,9 +85,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "2022-05-25 報告.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "2022-05-25 報告.md"
               }
             }
           }
@@ -107,9 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1690d70f5b5014fb",
+  "active": "f9837ff941ea8e04",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "電工學/Arc/Field-Effect Transistors.md"
+    "2022-05-25 報告.md",
+    "附件/小車.jpg",
+    "unlinked files output.md",
+    "電工學/Circuit Analysis/Resistive Circuit.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電控/arduino/移位暫存器.md",
+    "電控/stm32/ioc file.md",
+    "電控/stm32/PS2 (DS2).md",
+    "電控/stm32/STM32 命名方法.md",
+    "工程數學/Orthogonal Functions/Fourier Integral.md"
   ]
 }
