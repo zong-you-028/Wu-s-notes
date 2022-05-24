@@ -1,15 +1,22 @@
 {
   "main": {
-    "id": "115f3a20a7a41020",
+    "id": "9007ca3d028adc4e",
     "type": "split",
     "children": [
       {
-        "id": "37132953d8f9962e",
+        "id": "f9837ff941ea8e04",
         "type": "leaf",
         "state": {
+<<<<<<< HEAD
           "type": "kanban",
           "state": {
             "file": "Main Kanban.md"
+=======
+          "type": "markdown",
+          "state": {
+            "file": "2022-05-25 報告.md",
+            "mode": "source"
+>>>>>>> bc303a8a023e39fe8499f0c999e5cde240e2a0a4
           }
         }
       }
@@ -17,15 +24,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "37a1b00a88737f26",
+    "id": "c45f70cb13595105",
     "type": "split",
     "children": [
       {
-        "id": "d5ef1bf959fe15bb",
+        "id": "52186550660703ff",
         "type": "tabs",
         "children": [
           {
-            "id": "044d2b6de46437f7",
+            "id": "a16dbfc09ba871f4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -33,15 +40,15 @@
             }
           },
           {
-            "id": "39e7bded6f1c1a0d",
+            "id": "180dd270744303d3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "fourier integral",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -54,70 +61,91 @@
     "width": 300
   },
   "right": {
-    "id": "5c280f16afc5455b",
+    "id": "5f99bf98758f3d5c",
     "type": "split",
     "children": [
       {
-        "id": "3aaec183b0cd1203",
+        "id": "c7bdaeea4a269ad6",
         "type": "tabs",
         "children": [
           {
-            "id": "6591da256304d640",
+            "id": "19f31596631ea98d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Main Kanban.md",
+=======
+                "file": "2022-05-25 報告.md",
+>>>>>>> bc303a8a023e39fe8499f0c999e5cde240e2a0a4
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "cbf9958ce48fbfaa",
+            "id": "5aa4c69e2b79652a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Main Kanban.md",
+=======
+                "file": "2022-05-25 報告.md",
+>>>>>>> bc303a8a023e39fe8499f0c999e5cde240e2a0a4
                 "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "7d09bee94dc64ea8",
+            "id": "7cec58cfafe79443",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Main Kanban.md"
+=======
+                "file": "2022-05-25 報告.md"
+>>>>>>> bc303a8a023e39fe8499f0c999e5cde240e2a0a4
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "37132953d8f9962e",
+  "active": "f9837ff941ea8e04",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電工學/Circuit Analysis/Logic Circuits.md",
     "課表.md",
     "README.md",
     "電工學/Circuit Analysis/AC Circuit.md",
+=======
+    "2022-05-25 報告.md",
+    "附件/小車.jpg",
+    "unlinked files output.md",
+    "電工學/Circuit Analysis/Resistive Circuit.md",
+>>>>>>> bc303a8a023e39fe8499f0c999e5cde240e2a0a4
     "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Circuit Analysis/Circuit Analysis.md",
-    "電工學/Arc/Field-Effect Transistors.md",
-    "動力學/Rigid Body.md"
+    "電控/arduino/移位暫存器.md",
+    "電控/stm32/ioc file.md",
+    "電控/stm32/PS2 (DS2).md",
+    "電控/stm32/STM32 命名方法.md",
+    "工程數學/Orthogonal Functions/Fourier Integral.md"
   ]
 }
