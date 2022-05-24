@@ -1,9 +1,10 @@
 {
   "main": {
-    "id": "9007ca3d028adc4e",
+    "id": "015f9adc640d9552",
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "e401015136255df8",
         "type": "leaf",
         "state": {
@@ -26,20 +27,28 @@
           }
         },
         "group": "fe102c9d4166ca0a"
+=======
+        "id": "2af7dd1172cde1dd",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+>>>>>>> e6c52a702efdc8c2dde1cc4b393c3fe37e8a477c
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c45f70cb13595105",
+    "id": "5ec037437ba192cb",
     "type": "split",
     "children": [
       {
-        "id": "52186550660703ff",
+        "id": "5b128da470b35860",
         "type": "tabs",
         "children": [
           {
-            "id": "a16dbfc09ba871f4",
+            "id": "3ee410e90074264a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +56,12 @@
             }
           },
           {
-            "id": "180dd270744303d3",
+            "id": "e2d37e7dd9bc9f39",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cramer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,50 +77,54 @@
     "width": 300
   },
   "right": {
-    "id": "5f99bf98758f3d5c",
+    "id": "9db20b30f19af70d",
     "type": "split",
     "children": [
       {
-        "id": "c7bdaeea4a269ad6",
+        "id": "975eabe17f9ebfb8",
         "type": "tabs",
         "children": [
           {
-            "id": "19f31596631ea98d",
+            "id": "5b20604813819913",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e76b92bb7d06c46b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-05-25 報告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5aa4c69e2b79652a",
+            "id": "b1a88dd77ab2e0ab",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-05-25 報告.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7cec58cfafe79443",
+            "id": "6f96b2887ca85e06",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2022-05-25 報告.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -121,6 +134,7 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "e401015136255df8",
   "lastOpenFiles": [
     "2022-05-25 報告.md",
@@ -133,5 +147,11 @@
     "電控/arduino/移位暫存器.md",
     "電控/stm32/ioc file.md",
     "電控/stm32/PS2 (DS2).md"
+=======
+  "active": "2af7dd1172cde1dd",
+  "lastOpenFiles": [
+    "電工學/Circuit Analysis/Cramer's Rule.md",
+    "Archived/math/Least Squares Method.md"
+>>>>>>> e6c52a702efdc8c2dde1cc4b393c3fe37e8a477c
   ]
 }
