@@ -32,16 +32,16 @@ $$ = \int ( \frac{ v }{ \nu } )dA$$
 
 # Energy Equation
 
-## flow work
+## flow [[work]]
 
-The work been done by fluid entering or leaving the control volume
+The [[work]] been done by fluid entering or leaving the control volume
 
 $$\dot{ W }_{ i } = P_{ i }\nu_{ i }\dot{ m }_{ i }$$
 $$\dot{ W }_{ e } = P_{ e }\nu_{ e }\dot{ m }_{ e }$$
 
 ## Total Energy Equation
 
-把 Flow Work 加上 energy in the system
+把 Flow [[Work]] 加上 energy in the system
 
 For the energy in the system:
 $$E = U + \frac{ 1 }{ 2 }mv^2 + mgz$$
@@ -62,7 +62,7 @@ $\therefore$ Final form of $1^{ \text{ st } }$ law of Thermodynamics
 $$\underline{ \frac{ dE_{ cv } }{ dt } = \dot{ Q }_{ cv } - \dot{ W }_{ cv } + \sum \dot{ m }_{ i }(h_i + \frac{ v_i^2 }{2} + gz_i) - \sum \dot{ m }_e (h_e + \frac{ 1 }{ 2 }v_e^2 + gz_e) }_{ \# }$$
 
 > [[Heat]]
-> [[Work]]
+> [[Archived/Thermodynamics/Work]]
 
 ## Total [[Enthalpy]] $h_{ tot }$
 

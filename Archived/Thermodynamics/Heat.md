@@ -2,6 +2,8 @@
 
 ---
 
+原子分子運動互相撞擊或振動來回而產生熱能
+
 用 $Q$ 代表
 
 1. transferred by the virtue of temperature difference
@@ -31,7 +33,7 @@ $m$: mass
 # Heat Transfer Modes
 
 - [[Conduction]]: transfer of heat between molecules
-- [[Convection]]: transfer of heat from a surface to a ==flowing== media
+- [[Convection]]: transfer of heat from a [[Surface]] to a ==flowing== media
 - [[Radiation]]: transfer of heat due to electromagnetic waves
 
 ## Laws of Heat Transfer

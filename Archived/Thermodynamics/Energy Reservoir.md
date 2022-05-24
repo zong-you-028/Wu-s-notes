@@ -6,7 +6,7 @@ Relatively large thermal energy capacity
 $\implies$ supply or absorb finite amount of heat without temperature change
 
 1. receives heat from a high temperature source
-2. converts part of this heat to work
+2. converts part of this heat to [[work]]
 3. rejects the remaining heat to a low temperature sink
 - usually operates in a cycle
 

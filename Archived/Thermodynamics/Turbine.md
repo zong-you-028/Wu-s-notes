@@ -6,7 +6,7 @@
 
 a rotary steady-state device
 
-- produce shaft work at the expense of pressure
+- produce shaft [[work]] at the expense of pressure
 
 $$
 \left\{

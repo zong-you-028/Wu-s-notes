@@ -4,7 +4,7 @@
 
 # Heat Engine
 
-A device that produces work through heat transfer.
+A device that produces [[work]] through heat transfer.
 
 ![[Heat Engine.jpg]]
 

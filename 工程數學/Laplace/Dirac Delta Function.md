@@ -2,7 +2,7 @@
 
 ---
 
-# Unit Impulse
+# Unit [[Impulse]]
 
 $$
 \delta_a(t - t_0) = 
@@ -20,7 +20,7 @@ $$
 
 # Dirac Delta Function
 
-> 也稱為 Delta Function, Impulse Function, 或 Unit Impulse Function
+> 也稱為 Delta Function, [[Impulse]] Function, 或 Unit [[Impulse]] Function
 
 $$\delta(t - t_0) = \lim_{ a \rightarrow 0 } \delta_a( t - t_0 )$$
 
@@ -59,15 +59,15 @@ $$\cong f(t_0) \lim_{ a \rightarrow 0 }\int_p^q \delta_a(t - t_0)dt = f(t_0)$$
 
 當 $a$ 很小的時候，$f(t) = f(t_0) \quad \text{ for } t_0 - a \leq t \leq t_0 + a$
 
-### Laplace Transform of $\delta(t - t_0)$
+### [[Laplace Transform]] of $\delta(t - t_0)$
 
-$$L\{ \delta(t - t_0) \} = e^{ -t_0s } \qquad \text{ when } t_0 > 0$$
+$$\mathcal{ L }\{ \delta(t - t_0) \} = e^{ -t_0s } \qquad \text{ when } t_0 > 0$$
 
 Proof:
 
 > 第一種解法:
 > 
-> $$L(u(t - t_0)) = \frac{ e^{ -st_0 } }{ s }$$
+> $$\mathcal{ L }(u(t - t_0)) = \frac{ e^{ -st_0 } }{ s }$$
 > 
 > $$\delta(t - t_0) = u'(t - t_0)$$
 > 

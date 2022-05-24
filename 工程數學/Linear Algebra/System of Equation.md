@@ -51,7 +51,7 @@ b_m
 
 # How to Solve
 
-## Gauss Elimination
+## [[Gauss Elimination]]
 
 e.g.
 
@@ -110,6 +110,7 @@ $$
 $$
 
 Step 3. Row Operation
+[[Row Reduction]]
 
 $$\text{ 目標: } \widetilde{ A } = 
 \left[
@@ -500,8 +501,7 @@ $$rank(A) = rank(\widetilde{ A })$$
 
 參考資料:
 
-工程數學上課 2022-02-21
-工程數學上課 2022-02-23
+工程數學上課
 
 ---
 
@@ -510,3 +510,4 @@ link:
 [[Vector Space]]
 [[Subspace]]
 [[Augmented Matrix]]
+[[Row Reduction]]

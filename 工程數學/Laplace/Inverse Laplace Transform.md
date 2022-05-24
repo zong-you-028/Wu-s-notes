@@ -5,7 +5,7 @@
 [[Laplace Transform]] 反過來算，分成兩個方法
 
 - [[#方法一 One-to-One Relation]]
-- 
+- [[#方法二 Decomposition of Fractions]]
 
 # 方法一: One-to-One Relation
 
@@ -20,6 +20,12 @@
 | $$\frac{s}{s^2 + k^2}$$  | $$\cos(kt)$$       |
 | $$\frac{k}{s^2 - k^2}$$  | $$\sinh(kt)$$      |
 | $$\frac{s}{s^2 - k^2}$$  | $$\cosh(kt)$$      | 
+
+> if $\mathcal{ L }^{ -1 }\{ F(s) \} = f(t)$ then $$\mathcal{ L }^{ -1 }\{F(s - a)\} = e^{ at }f(t)$$
+> Example:
+> $$\mathcal{ L }^{ -1 }\left\{ \frac{ -32 }{ (s + 4)^2 } \right\}$$
+> $$ = e^{ -4t }\mathcal{ L }^{ -1 }\left\{ \frac{ -32 }{ s^2 } \right\}$$
+> $$ = -32te^{ -4t }$$
 
 ## example
 

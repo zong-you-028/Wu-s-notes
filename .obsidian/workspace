@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "1a39ae1e8a0ad77a",
+    "id": "115f3a20a7a41020",
     "type": "split",
     "children": [
       {
-        "id": "07f29e7eb9689052",
+        "id": "4f244b4f40b1f8ce",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -17,15 +17,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb71a95a838000c0",
+    "id": "37a1b00a88737f26",
     "type": "split",
     "children": [
       {
-        "id": "43308c1ede1b488c",
+        "id": "d5ef1bf959fe15bb",
         "type": "tabs",
         "children": [
           {
-            "id": "e0a18862bcffd7fb",
+            "id": "044d2b6de46437f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -33,15 +33,15 @@
             }
           },
           {
-            "id": "a208f910fff84cf3",
+            "id": "39e7bded6f1c1a0d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "differential table",
+                "query": "fourier integral",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -54,15 +54,15 @@
     "width": 300
   },
   "right": {
-    "id": "2b98f3b73718d425",
+    "id": "5c280f16afc5455b",
     "type": "split",
     "children": [
       {
-        "id": "ca38bfb60928e01e",
+        "id": "3aaec183b0cd1203",
         "type": "tabs",
         "children": [
           {
-            "id": "689e38306ca8c5ee",
+            "id": "6591da256304d640",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -79,19 +79,24 @@
             }
           },
           {
-            "id": "769194c49237a63d",
+            "id": "cbf9958ce48fbfaa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "file": "Main Kanban.md",
+<<<<<<< HEAD
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
+=======
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+>>>>>>> c6e3b093b7f198bc0cf6f879af792e6d6cb962ad
               }
             }
           },
           {
-            "id": "541aca282ec79817",
+            "id": "7d09bee94dc64ea8",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -99,25 +104,18 @@
                 "file": "Main Kanban.md"
               }
             }
-          },
-          {
-            "id": "2f9d0fd4da0d1db9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "07f29e7eb9689052",
+  "active": "4f244b4f40b1f8ce",
   "lastOpenFiles": [
     "Main Kanban.md",
+<<<<<<< HEAD
     "動力學/切線座標.md",
     "工程數學/Linear Algebra/Determinant.md",
     "工程數學/First Order DE/Table of Differentiation.md",
@@ -127,5 +125,16 @@
     "工程數學/Higher Order DE/Augmented Matrix Method.md",
     "電工學/Kirchhoff's Law.md",
     "附件/Nodal Voltage Method.png"
+=======
+    "動力學/Rigid Body.md",
+    "conflict-files-obsidian-git.md",
+    "電工學/Circuit Analysis/Logic Circuits.md",
+    "課表.md",
+    "README.md",
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Circuit Analysis.md",
+    "電工學/Arc/Field-Effect Transistors.md"
+>>>>>>> c6e3b093b7f198bc0cf6f879af792e6d6cb962ad
   ]
 }

@@ -19,6 +19,7 @@ General Solution
 - [[Superposition Approach]]
 - [[Annihilator Approach]]
 - [[Variation of Parameters]]
+- [[Fourier Series]]
 
 [[多變數解法]]
 - [[多變數解法]]

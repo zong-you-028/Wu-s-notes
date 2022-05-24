@@ -5,7 +5,7 @@
 # Application
 
 - ODE [[Wronskian]]
-- cross product
+- [[Cross Product]]
 - [[Eigenvalue]]
 - ==solve system of equation== [[Cramer's Rule]]
 
@@ -26,7 +26,7 @@ a\det\left(\left[
 e & f \\
 h & i
 \end{array}
-\right)\right] - 
+\right]\right) - 
 b\det\left(\left[
 \begin{array}{}
 d & f \\
@@ -72,13 +72,38 @@ $$c_{ ji } \equiv (-1)^{ j + 1 }M_{ ji }$$
 
 $M_{ ji } \equiv$ a determinant of the matrix of order $n - 1$ , formed for $A$ by taking at the column and row of entry $a_{ ji }$
 
+## Simplifying
+
+### Rules
+
+> $$A \overset{ \text{ operation } }{ \implies } B$$
+
+1. If operation is switching rows/columns
+$$\implies \det(B) = -\det(A)$$
+2. If operation is row/column operation 
+$$\det(B) = \det(A)$$
+3. If $B = (c \text{ multiplied to one row/column in } A)$ : 
+$$\det(B) = c\det(A)$$
+
+> 外積
+> we have 
+> $$\vec{ v }_1 = [v_{ 11 }, v_{ 12 }, v_{ 13 }]$$
+> $$\vec{ v }_2 = [v_{ 21 }, v_{ 22 }, v_{ 23 }]$$
+> $$\det\left[ \begin{array}{} \hat{ i } & \hat{ j } & \hat{ k } \\ [ & \vec{ v }_1 & ] \\ [ & \vec{ v }_2 & ] \end{array} \right] = \vec{ v }_1 \times \vec{ v }_2 = \vec{ v }_3$$
+> $$\vert\vert \vec{ v }_3 \vert\vert = \vec{ v }_1 , \ \vec{ v }_2 \text{ 張出的平面 }$$
+
+4. $\det(A^T) = \det(A)$
+5. If one row/col is a multiple of another row/col, 
+$$\det(A) = 0$$
+
 ---
 
 參考資料:
 
-工程數學 2022-03-02
+工程數學上課
 
 ---
 
 link:
 
+[[Matrix]]

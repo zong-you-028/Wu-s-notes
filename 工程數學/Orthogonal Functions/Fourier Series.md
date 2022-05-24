@@ -2,22 +2,26 @@
 
 ---
 
-對於 [[Complete]] 且 [[Orthogonal]] 的 $\phi_n(x)$ ，我們可以用以下函數表達
+為了將複雜的 $f(x)$ 表示成容易瞭解的型態，我們會使用 Fourier Series 來表示 $f(x)$
 
-> - [[#Trigonometric Functions]]
-> - [[#Fourier Cosine and Sine Functions]]
-> - [[#Half-range Expansion]]
-> - [[#Solving Particular Solution]]
+要將 $f(x)$ 用 Fourier Series 表示，我們需要 $f(x)$ 是具有週期性的（可以在一些地方未定義，如下圖）
+
+![[function that can be represented by fourier transform.png]]
 
 # Trigonometric Functions
 
+通常我們最常使用 trigonometric function 作為 fourier series 的選擇
+
 $$\{ 1,\  \cos\frac{ \pi }{ p }x,\  \cos \frac{ 2\pi }{ p }x,\  \cos\frac{ 3\pi }{ p }x,\  \dots,\  \sin\frac{ \pi }{ p }x,\  \sin\frac{ 2\pi }{ p }x,\  \sin\frac{ 3\pi }{ p }x,\  \dots \}$$
+
+$$f(x) \cong \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
+a_n\cos\frac{ n\pi }{ p }x + b_n\sin\frac{ n\pi }{ p }x \right)$$
 
 - [[Orthogonal Set]] on the interval of $[-p, \ p]$
 - [[Complete]]
 - 測量頻率的工具
 
-## 證明
+## 證明為 [[Orthogonal Set]]
 
 要證明是否是 [[Orthogonal Set]] ，需要將 $1$, $\cos$, $\sin$ 互相算出為 [[Orthogonal]]
 
@@ -119,16 +123,73 @@ $$ = 0 \qquad (\text{ when } h \neq k )$$
 
 ## Fourier Series
 
-$$f(x) \cong \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
-a_n\cos\frac{ n\pi }{ p }x + b_n\sin\frac{ n\pi }{ p }x \right)$$
+$$\underline{f(x) \cong \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }\left( 
+a_n\cos\frac{ n\pi }{ p }x + b_n\sin\frac{ n\pi }{ p }x \right)}_\#$$
 
-$$a_0 = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)dx$$
+$$\underline{a_0 = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)dx}_\#$$
 
-$$a_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\cos\frac{ n\pi }{ p }xdx$$
+$$\underline{a_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\cos\frac{ n\pi }{ p }xdx}_\#$$
 
-$$b_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\sin\frac{ n\pi }{ p }xdx$$
+$$\underline{b_n = \frac{ 1 }{ p }\int_{ -p }^{ p }f(x)\sin\frac{ n\pi }{ p }xdx}_\#$$
 
 上述的 $f(x)$ 是近似，原因是 [[#Condition for Converge]] , [[#Period Extension]]
+
+### Coefficients
+
+#### Constant Offset Coefficient $a_0$
+
+To filter for $a_0$ in $f(x)$, we can integrate the fourier series
+
+$$\int_{ -\pi }^\pi f(x)dx = \int_{ -\pi }^{ \pi }\left[a_0 + \sum_{ n = 1 }^\infty (a_n \cos nx + b_n \sin nx)\right]dx$$
+
+$$ = a_0\int_{ -\pi }^\pi dx + \sum_{ n = 1 }^{ \infty }
+\left(a_n \int_{ -\pi }^\pi \cos nx dx + 
+b_n \int_{ -\pi }^\pi\sin nx dx\right)$$
+
+$$ = 2\pi a_0 + \underbrace{ 0 + 0 }_{ \text{ since all terms have period of  }2 \pi }$$
+
+$$\therefore a_0 = \frac 1 {2\pi} \int_{ -\pi }^\pi f(x)dx$$
+
+#### Cosine Coefficients $a_1, a_2, \dots, a_n$
+
+we make use of the property of orthogonality
+
+$$\int_{ -\pi }^\pi f(x)\cos mxdx = \int_{ -\pi }^\pi \left[ a_0 + \sum_{ n = 1 }^\infty(a_n \cos nx + b_n \sin nx) \right]\cos mx dx$$
+
+due to orthogonality, all terms where $n \neq m \rightarrow 0$
+
+$$\int_{ -\pi }^\pi f(x)\cos mx dx = \int_{ -\pi }^\pi a_m \cos^2 mx dx$$
+
+$$ = \left[ 
+	\frac 1 2 a_m x + \frac{ 1 }{ 4m } \sin 2mx
+\right]_{x = -\pi}^\pi$$
+
+$$ = a_m \pi$$
+
+$$\therefore a_m = \frac 1 \pi \int_{ -\pi }^\pi f(x)\cos mx dx$$
+
+#### Sine Coefficients $b_1, b_2, \dots, b_n$
+
+we make use of the property of orthogonality
+
+$$\int_{ -\pi }^\pi f(x)\sin mxdx = 
+\int_{ -\pi }^\pi \left[ 
+	a_0 + \sum_{ n = 1 }^\infty(a_n \cos nx + b_n \sin nx) 
+\right]\sin mx dx$$
+
+due to orthogonality, all terms where $n \neq m \rightarrow 0$
+
+$$\int_{ -\pi }^\pi f(x)\sin mx dx = 
+\int_{ -\pi }^\pi a_m \sin^2 mx dx$$
+
+$$ = \left[ 
+	\frac 1 2 b_m x - \frac{ 1 }{ 4m } \sin 2mx
+\right]_{x = -\pi}^\pi$$
+
+$$ = b_m \pi$$
+
+$$\therefore b_m = 
+\frac 1 \pi \int_{ -\pi }^\pi f(x)\sin mx dx$$
 
 ## 頻率與週期
 
@@ -211,8 +272,11 @@ $$\underline{ f_1(x + 2p) = f(x) }_{ \# }$$
 
 # Fourier Cosine and Sine Functions
 
-與 [[#Trigonometric Functions]] 很像，只是限制更多
-$f(x)$ 限制為 even 或 odd
+與 [[#Trigonometric Functions]] 很像，只是限制 $f(x)$ 必須為 odd / even functions ，這樣可以少算 $a_1, a_2, \dots, a_n$ 或 $b_1, b_2, \dots, b_n$ 其中一種
+
+如果 $f(x)$ 是 even function ，就要使用 [[#Fourier Cosine Series]]
+
+如果是 odd function ，就要使用 [[#Fourier Sine Series]]
 
 ## Fourier Cosine Series
 
@@ -265,7 +329,10 @@ $$f(x) = \sum_{ n = 1 }^{ \infty } \frac{ 4(-1)^{ n + 1 } }{ n\pi }\sin\frac{ n 
 
 # Half-range Expansion
 
-若 function 只有一邊，如 $f(x) = x^2, \ 0 < x < L$ 只有正的地方有定義
+若 function 只有一邊，如 $f(x) = x^2, \ 0 < x < L$ 只有正的地方有定義，但我們還是想要把它用 fourier series 表示的話可以使用 half-range expansion ，這會假設 $f(x)$ 是一個週期性的函數
+
+> 如果我們沒辦法假設 $f(x)$ 是週期性的函數，就需要其他方法
+> [[Fourier Integral]]
 
 ## (a) in a cosine series
 
@@ -283,9 +350,9 @@ $$a_n = \frac{ 2 }{ p }\int_0^p f(x)\cos\frac{ n\pi }{ p }xdx$$
 
 $$f(x) = \frac{ a_0 }{ 2 } + \sum_{ n = 1 }^{ \infty }a_n\cos\frac{ n\pi }{ L }x$$
 
-$$a_0 = \frac{ 2 }{ L }\int_0^p f(x)dx$$
+$$a_0 = \frac{ 2 }{ L }\int_0^L f(x)dx$$
 
-$$a_n = \frac{ 2 }{ L }\int_0^p f(x)\cos\frac{ n\pi }{ L }xdx$$
+$$a_n = \frac{ 2 }{ L }\int_0^L f(x)\cos\frac{ n\pi }{ L }xdx$$
 
 1. interval: $[-L, L]$
 2. 所有公式的 $p$ 由 $L$ 取代
@@ -293,7 +360,11 @@ $$a_n = \frac{ 2 }{ L }\int_0^p f(x)\cos\frac{ n\pi }{ L }xdx$$
 
 ## (b) in a sine series
 
-和 [[#a in a cosine series]] 一樣
+和 [[#a in a cosine series]] 處理方法相似，但是假設 $f(x)$ 是 odd function
+
+$$f(x) = \sum_{ n = 1 }^{ \infty }b_n\sin\frac{ n\pi }{ L }x$$
+
+$$b_n = \frac{ 2 }{ L }\int_0^L f(x)\sin\frac{ n\pi }{ L }xdx$$
 
 1. interval: $[-L, L]$
 2. 所有公式的 $p$ 由 $L$ 取代
@@ -301,7 +372,7 @@ $$a_n = \frac{ 2 }{ L }\int_0^p f(x)\cos\frac{ n\pi }{ L }xdx$$
 
 ## (c) in a fourier series
 
-和 [[#a in a cosine series]] 和 [[#b in a sine series]] 不同的是，週期從 $L$ 改為 $2L$
+和 [[#Trigonometric Functions]] 不同的是，週期從 $L$ 改為 $2L$
 
 [[#Fourier Series|原本的公式]]:
 
@@ -347,6 +418,8 @@ $$f(x) = x^2,\qquad 0 < x < L$$
 ![[fourier series half range expansion.png]]
 
 # Solving Particular Solution
+
+我們可以使用 fourier series 來解 [[Differential Equation]] 的 particular solution
 
 $$a_ny^{ (n) }(t) + a_{ n - 1 }y^{ (n - 1) }(t) + \dots + a_1y'(t) + a_0y(t) = f(t)$$
 
