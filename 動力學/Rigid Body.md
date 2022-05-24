@@ -447,9 +447,11 @@ $$
 
 # 3D Motion
 
-## Rotation About a Fixed Point
+## Motion
 
-> ### Euler's Theorem
+### Rotation About a Fixed Point
+
+> #### Euler's Theorem
 > two "component" rotations about different axis passing through a point are equivalent to a single resultant rotation about an axis passing through the point
 > 
 > $\implies$ If more than two rotations are applied, they can be combined into pairs, and each pair can be further reduced to combine into one rotation
@@ -468,15 +470,15 @@ If component rotations used in Euler's theorem are finite, it is important that 
 
 When defining the 3D angular motions, only rotations which are infinitesimally small will be considered and they can be classified as vector, so they can be added easilly.
 
-### Velocity for Rotation
+#### Velocity for Rotation
 
 $$\vec v = \vec \omega \times \vec r$$
 
-### Acceleration for Rotation
+#### Acceleration for Rotation
 
 $$\vec a = \vec \alpha \times \vec r + \vec \omega \times ( \vec \omega \times \vec r )$$
 
-## The Time Derivative of a Vector
+### The Time Derivative of a Vector
 
 > 這個常用在計算 angular velocity $\Omega$ 和 angular acceleration $\dot\Omega$
 > $$\Omega = \sum \omega_i$$
@@ -521,11 +523,11 @@ $$
 
 $$\implies \underline{\dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A}_\#$$
 
-### Example
+#### Example
 
 `TODO: 20.1`
 
-## Rigid Body General Motion
+### Rigid Body General Motion
 
 ![[general motion.png]]
 
@@ -541,11 +543,11 @@ $$\underline{ \vec v_B = \vec v_A + \omega \times \vec r_{B / A} }_\#$$
 
 $$\underline{\vec a_B = \vec a_A + \alpha \times \vec r_{B / A} + \omega \times (\omega \times \vec r_{B / A})}_\#$$
 
-## Relative-Motion Analysis Using Translating and Rotating Axes
+### Relative-Motion Analysis Using Translating and Rotating Axes
 
 ![[relative motion analysis using translating and rotating axes.png]]
 
-### Position
+#### Position
 
 If the position of "$B$ with respect to $A$" is specified by the relative-position vector $\vec r_{B / A}$, then
 
@@ -553,7 +555,7 @@ $$\underline{
 	\vec r_B = \vec r_A + \vec r_{B / A}
 }_\#$$
 
-### Velocity
+#### Velocity
 
 The velocity of point $B$ measured from $X, Y, Z$ is
 
@@ -567,7 +569,7 @@ Here $(\vec v_{B / A})_{xyz}$ is the relative velocity of $B$ with respect to $A
 
 $$\underline{\underbrace{\vec v_B = \vec v_A + \Omega \times \vec r_{B / A}}_{\text{ for rigid body }} + \underbrace{(\vec v_{B / A})_{xyz}}_{\text{ not rigid body }}}_\#$$
 
-### Acceleration
+#### Acceleration
 
 The acceleration of point $B$ measured from $X, Y, Z$ is
 
@@ -581,6 +583,274 @@ $$= (\vec a_{B / A})_{xyz} + \Omega \times (\vec v_{B / A})_{xyz}$$
 $(\vec a_{B / A})_{xyz}$ is the relative acceleration of $B$ with respect to $A$ measured from $x, y, z$, thus
 
 $$\underline{\vec a_B = \vec a_A + \dot \Omega \times \vec r_{B / A} + \Omega \times (\Omega \times \vec r_{B / A}) + 2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz}}_\#$$
+
+## Inertia
+
+### Moment of Inertia
+
+![[moment of inertia.png|300]]
+
+$$
+\underline{
+	\left\{
+		\begin{array}{}
+			I_{xx} & = & \int_m r_x^2dm & = & \int_m(y^2 + z^2)dm \\ \\
+			I_{yy} & = & \int_m r_y^2dm & = & \int_m(x^2 + z^2)dm \\ \\
+			I_{zz} & = & \int_m r_z^2dm & = & \int_m(x^2 + y^2)dm
+		\end{array}
+	\right.
+}_\#
+$$
+
+### Product of Inertia
+
+The product of inertia $dI_{xy}$ for the element is
+
+$$dI_{xy} = xydm$$
+
+where $dI_{yx} = dI_{xy}$
+
+$$
+\underline{
+	\left\{
+		\begin{array}{}
+			I_{xy} & = & I_{yx} & = & \int_m xydm \\ \\
+			I_{yz} & = & I_{zy} & = & \int_m yzdm \\ \\
+			I_{xz} & = & I_{zx} & = & \int_m xzdm
+		\end{array}
+	\right.
+}_\#
+$$
+
+#### 性質
+
+![[product of inertia 性質.png]]
+
+(a) consider the $y-z$ plane of symmetry, 
+
+$$I_{xy} = I_{xz} = 0$$
+
+(b) consider the $x-z$ and $y-z$ being planes of symmetry
+
+$$I_{xy} = I_{yz} = I_{xz} = 0$$
+
+### Parallel Axis and Parallel Plane Theorems
+
+$$
+\underline{
+	\left\{
+		\begin{array}{}
+			I_{xx} & = & (I_{x'x'})_G & + & m(y_G^2 + z_G^2) \\
+			I_{yy} & = & (I_{y'y'})_G & + & m(x_G^2 + z_G^2) \\
+			I_{zz} & = & (I_{z'z'})_G & + & m(x_G^2 + y_G^2) \\
+		\end{array}
+	\right.
+}_\#
+$$
+
+$$
+\underline{
+	\left\{
+		\begin{array}{}
+			I_{xy} & = & (I_{x'y'})_G & + & mx_Gy_G \\
+			I_{yz} & = & (I_{y'z'})_G & + & my_Gz_G \\
+			I_{xz} & = & (I_{x'z'})_G & + & mx_Gz_G \\
+		\end{array}
+	\right.
+}_\#
+$$
+
+### Inertia Tensor
+
+The inertial properties of a body are completely characterized by nine terms and the set of terms can be written as
+
+$$
+\left(
+	\begin{array}{}
+		I_{xx} & -I_{xy} & -I_{xz} \\
+		-I_{yx} & I_{yy} & -I_{yz} \\
+		-I_{zx} & -I_{zy} & I_{zz}
+	\end{array}
+\right)
+$$
+
+### Moment of Inertia About an Arbitrary Axis
+
+![[moment of inertia about an arbitrary axis.png|300]]
+
+$$I_{Oa} = \int b^2dm$$
+
+$$ = \int_m \left\vert
+	\hat u_a \times \vec r
+\right\vert^2 dm$$
+
+$$ = \int_m (\hat u_a \times \vec r) \cdot (\hat u_a \times \vec r)dm$$
+
+Provided
+
+$$\left\{
+	\begin{array}{}
+		\hat u_a & = & u_x \hat i & + & u_y \hat j & + & u_z \hat k \\
+		\vec r & = & x\hat i & + & y\hat j & + & z\hat k
+	\end{array}
+\right.$$
+
+Then 
+
+$$\hat u_a \times \vec r = (u_yz - u_zy) \hat i + (u_zx - u_xz) \hat j + (u_xy - u_yx) \hat k$$
+
+The moment of inertia is
+
+$$I_{Oa} = \int_m\left[
+	(u_yz - u_zy)^2 + (u_zx - u_xz)^2 + (u_xy - u_yx)^2
+\right]dm$$
+
+.
+
+$$ = u_x^2\int_m(y^2 + z^2)dm + u_y^2 \int_m(z^2 + x^2)dm + u_z^2\int_m(x^2 + y^2)dm$$
+
+$$ - 2u_xu_y\int_m xydm - 2u_yu_z\int_m yzdm - 2u_zu_x\int_mzxdm$$
+
+.
+
+$$\implies \underline{
+	I_{Oa} = I_{xx}u_x^2 + I_{yy}u_y^2 + I_{zz}u_z^2 - 2I_{xy}u_xu_y - 2I_{yz}u_yu_z - 2I_{zx}u_zu_x
+}_\#$$
+
+## Angular Momentum
+
+![[angular momentum 3D.png|350]]
+
+If the particle's mass is $m_i$, the angular momentum about point $A$ is 
+
+$$(\vec H_A)_i = \vec \rho_A \times m_i \vec v_i$$
+
+If the body has an angular velocity $\omega$
+
+$$\vec v_i = \vec v_A + \omega \times \vec \rho_A$$
+
+Thus,
+
+$$\implies (\vec H_A)_i = \vec \rho_A \times m_i(\vec v_A + \omega \times \vec \rho_A)$$
+
+$$ = (\vec \rho_A m_i) \times \vec v_A + \vec \rho_A \times (\omega \times \vec\rho_A)m_i$$
+
+Summing all the particles of the body, 
+
+$$\vec H_A = \left(\int\vec\rho_Adm\right) \times \vec v_A + \int_m \vec \rho_A \times (\omega \times \vec \rho_A)dm$$
+
+### About Fixed Point $O$
+
+![[angular momentum about fixed point O.png|350]]
+
+$$\underline{
+	\vec H_O = \int_m \vec\rho_O \times(\omega \times \vec\rho_O)dm
+}_\#$$
+
+### About Center of Mass $G$
+
+![[angular momentum about center of mass G.png|350]]
+
+$$
+\underline{
+	\vec H_G = \int_m \vec\rho_G \times (\omega \times \vec \rho_G)dm
+}_\#
+$$
+
+### About Arbitrary Point $A$
+
+![[angular momentum about arbitrary point A.png|350]]
+
+$$\underline{
+	\vec H_A = \vec \rho_{G / A} \times m \vec v_G + \vec H_G
+}_\#$$
+
+### Rectangular Components of Angular Momentum
+
+Choosing a second set of $x, y, z$ axes having an arbitrary orientation relative to the $X, Y, Z$ axes,
+
+$$\vec H = \int_m \vec \rho \times (\omega \times \vec \rho)dm$$
+
+.
+
+$$\implies H_x \hat i + H_y \hat j + H_z \hat k = $$
+
+$$\int_m(x \hat i + y\hat j + z\hat k)\times \left[
+	(\omega_x \hat i + \omega y \hat j + \omega z \hat k) \times (x \hat i + y \hat j + z \hat k)
+\right]dm$$
+
+.
+
+$$\implies H_x \hat i + H_y \hat j + H_z \hat k = $$
+
+$$\left[
+	\omega_x \int_m(y^2 + z^2)dm - \omega_y\int_mxydm - \omega_z \int_mxzdm
+\right]\hat i +$$
+
+$$\left[
+	-\omega_x \int_mxydm + \omega_y \int_m(x^2 + z^2)dm - \omega_z\int_myzdm
+\right] \hat j +$$
+
+$$\left[
+	-\omega_x \int_mzxdm - \omega_y \int_m yzdm + \omega_z \int_m (x^2 + y^2)dm
+\right]\hat k$$
+
+.
+
+$$\implies
+\underline{
+	\left\{
+		\begin{array}{}
+			H_x & = & I_{xx}\omega_x & - & I_{xy}\omega_y & - & I_{xz} \omega_z \\
+			H_y & = & -I_{yx} \omega_x & + & I_{yy} \omega_y & - & I_{yz}\omega_z \\
+			H_z & = & -I_{zx} \omega_x & - & I_{zy} \omega_y & + & I_{zz}\omega_z 
+		\end{array}
+	\right.
+}_\#
+$$
+
+$$\implies 
+\underline{
+	\left[
+		\begin{array}{}
+			H_x \\
+			H_y \\
+			H_z
+		\end{array}
+	\right] = 
+	\underbrace{
+		\left[
+			\begin{array}{}
+				I_{xx} & -I_{xy} & -I_{xz} \\
+				-I_{yx} & I_{yy} & -I_{yz} \\
+				-I_{zx} & -I_{zy} & I_{zz}
+			\end{array}
+		\right]
+	}_{\text{ Inertia Tensor }}
+	\left[
+		\begin{array}{}
+			\omega_x \\
+			\omega_y \\
+			\omega_z
+		\end{array}
+	\right]
+}_\#
+$$
+
+如果 product of inertia 是 0
+
+$$
+\implies 
+\underline{
+	\left\{
+		\begin{array}{}
+			H_x & = & I_{xx}\omega_x \\
+			H_y & = & I_{yy}\omega_y \\
+			H_z & = & I_{zz}\omega_z
+		\end{array}
+	\right.
+}_\#
+$$
 
 ---
 
