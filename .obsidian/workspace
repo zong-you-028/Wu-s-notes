@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f9837ff941ea8e04",
+        "id": "e401015136255df8",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -12,7 +12,20 @@
             "file": "2022-05-25 報告.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "fe102c9d4166ca0a"
+      },
+      {
+        "id": "4e22bbf77d16bb44",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2022-05-25 報告.md",
+            "mode": "preview"
+          }
+        },
+        "group": "fe102c9d4166ca0a"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5f99bf98758f3d5c",
@@ -108,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f9837ff941ea8e04",
+  "active": "e401015136255df8",
   "lastOpenFiles": [
     "2022-05-25 報告.md",
+    "附件/pid and lidar demo.mp4",
+    "課表.md",
     "附件/小車.jpg",
     "unlinked files output.md",
     "電工學/Circuit Analysis/Resistive Circuit.md",
     "電工學/Circuit Analysis/RLC Circuit.md",
     "電控/arduino/移位暫存器.md",
     "電控/stm32/ioc file.md",
-    "電控/stm32/PS2 (DS2).md",
-    "電控/stm32/STM32 命名方法.md",
-    "工程數學/Orthogonal Functions/Fourier Integral.md"
+    "電控/stm32/PS2 (DS2).md"
   ]
 }
