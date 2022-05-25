@@ -1,157 +1,77 @@
 {
   "main": {
-    "id": "015f9adc640d9552",
+    "id": "79f673d36b7a0dc7",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "e401015136255df8",
+        "id": "2046b9aa2ed04e95",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "2022-05-25 報告.md",
-            "mode": "source"
+            "file": "Main Kanban.md"
           }
-        },
-        "group": "fe102c9d4166ca0a"
-      },
-      {
-        "id": "4e22bbf77d16bb44",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2022-05-25 報告.md",
-            "mode": "preview"
-          }
-        },
-        "group": "fe102c9d4166ca0a"
-=======
-        "id": "2af7dd1172cde1dd",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
->>>>>>> e6c52a702efdc8c2dde1cc4b393c3fe37e8a477c
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ec037437ba192cb",
-    "type": "split",
+    "id": "7c9bc61600a73bd2",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "5b128da470b35860",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3ee410e90074264a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "e2d37e7dd9bc9f39",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "cramer",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "e84466155cc5708a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "f018d49ed1ee726d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "9db20b30f19af70d",
-    "type": "split",
+    "id": "cc5dccb34466a29f",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "975eabe17f9ebfb8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5b20604813819913",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "e76b92bb7d06c46b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b1a88dd77ab2e0ab",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "6f96b2887ca85e06",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
+        "id": "feac94215e85fd79",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Main Kanban.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
-<<<<<<< HEAD
-  "active": "e401015136255df8",
+  "active": "2046b9aa2ed04e95",
   "lastOpenFiles": [
-    "2022-05-25 報告.md",
-    "附件/pid and lidar demo.mp4",
-    "課表.md",
-    "附件/小車.jpg",
-    "unlinked files output.md",
-    "電工學/Circuit Analysis/Resistive Circuit.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "電控/arduino/移位暫存器.md",
-    "電控/stm32/ioc file.md",
-    "電控/stm32/PS2 (DS2).md"
-=======
-  "active": "2af7dd1172cde1dd",
-  "lastOpenFiles": [
-    "電工學/Circuit Analysis/Cramer's Rule.md",
-    "Archived/math/Least Squares Method.md"
->>>>>>> e6c52a702efdc8c2dde1cc4b393c3fe37e8a477c
+    "Main Kanban.md"
   ]
 }
