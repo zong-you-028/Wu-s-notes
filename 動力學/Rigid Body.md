@@ -852,6 +852,62 @@ $$
 }_\#
 $$
 
+### Principle of Impulse and Momentum
+
+$$\underline{
+	m(\vec v_G)_1 + \sum \int_{t_1}^{t_2}\vec Fdt = m(\vec v_G)_2
+}_\#$$
+
+$$\underline{
+	(\vec H_O)_1 + \sum \int_{t_1}^{t_2} \vec M_O dt = (\vec H_O)_2
+}_\#$$
+
+## Kinetic Energy
+
+`TODO: Fig 21-8`
+
+The kinetic energy of $i$th particle:
+
+$$T_i = \frac 1 2 m_i v_i^2 = \frac 1 2 m_i (\vec v_i \cdot \vec v_i)$$
+
+provided the velocity of arbitrary point $A$ is known, we have
+
+$$\vec v_i = \vec v_A + \omega \times \vec \rho_A$$
+
+the kinetic energy of the particle can be written as
+
+$$T_i = \frac 1 2 m_i (\vec v_A + \omega \times \vec \rho_A)\cdot (\vec v_A + \omega \times \vec \rho_A)$$
+
+$$ = \frac 1 2 (\vec v_A \cdot \vec v_A)m_i + \vec v_A \cdot (\omega \times \vec \rho_A)m_i + \frac 1 2 (\omega \times \vec \rho_A)\cdot (\omega \times \vec \rho_A)m_i$$
+
+summing the kinetic energies of the body
+
+$$T = \frac 1 2 m (\vec v_A \cdot \vec v_A) + \vec v_A \cdot (\omega \times \int_m \rho_A dm) + \frac 1 2 \int_m (\omega \times \rho_A)\cdot (\omega \times \rho_A)dm$$
+
+the last term on the right can be re-written as
+
+$$T = \frac 1 2 m(\vec v_A \cdot \vec v_A) + \vec v_A \cdot (\omega \times \int_m \rho_Adm) + \frac 1 2 \omega \cdot \int_m \rho_A \times (\omega \times \rho_A)dm$$
+
+### Fixed Point $O$
+
+$$T = \frac 1 2 \omega \cdot H_O$$
+
+$$\implies \underline{
+	T = \frac 1 2 I_x \omega_x^2 + \frac 1 2 I_y \omega_y^2 + \frac 1 2 I_z \omega_z^2
+}_\#$$
+
+### Center of Mass $G$
+
+$$T = \frac 1 2 mv_G^2 + \frac 1 2 \omega \cdot \vec H_G$$
+
+$$\implies \underline{
+	T = \frac 1 2 mv_G^2 + \frac 1 2 I_x \omega_x^2 + \frac 1 2 I_y \omega_y^2 + \frac 1 2 I_z \omega_z^2
+}_\#$$
+
+### Principle of Work and Energy
+
+$$\underline{T_1 + \sum U_{1-2} = T_2}_\#$$
+
 ---
 
 參考資料:

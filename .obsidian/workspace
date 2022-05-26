@@ -1,29 +1,32 @@
 {
   "main": {
-    "id": "015f9adc640d9552",
+    "id": "115f3a20a7a41020",
     "type": "split",
     "children": [
       {
-        "id": "2af7dd1172cde1dd",
+        "id": "bfabf3268bc32891",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Untitled.md",
+            "mode": "source"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ec037437ba192cb",
+    "id": "37a1b00a88737f26",
     "type": "split",
     "children": [
       {
-        "id": "5b128da470b35860",
+        "id": "d5ef1bf959fe15bb",
         "type": "tabs",
         "children": [
           {
-            "id": "3ee410e90074264a",
+            "id": "044d2b6de46437f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,15 +34,15 @@
             }
           },
           {
-            "id": "e2d37e7dd9bc9f39",
+            "id": "39e7bded6f1c1a0d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "cramer",
+                "query": "fourier integral",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -52,27 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "9db20b30f19af70d",
+    "id": "5c280f16afc5455b",
     "type": "split",
     "children": [
       {
-        "id": "975eabe17f9ebfb8",
+        "id": "3aaec183b0cd1203",
         "type": "tabs",
         "children": [
           {
-            "id": "5b20604813819913",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "e76b92bb7d06c46b",
+            "id": "6591da256304d640",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,34 +80,46 @@
             }
           },
           {
-            "id": "b1a88dd77ab2e0ab",
+            "id": "cbf9958ce48fbfaa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": false,
+                "file": "Untitled.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6f96b2887ca85e06",
+            "id": "7d09bee94dc64ea8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "2af7dd1172cde1dd",
+  "active": "bfabf3268bc32891",
   "lastOpenFiles": [
-    "電工學/Circuit Analysis/Cramer's Rule.md",
-    "Archived/math/Least Squares Method.md"
+    "Untitled.md",
+    "動力學/Rigid Body.md",
+    "Main Kanban.md",
+    "conflict-files-obsidian-git.md",
+    "電工學/Circuit Analysis/Logic Circuits.md",
+    "課表.md",
+    "README.md",
+    "電工學/Circuit Analysis/AC Circuit.md",
+    "電工學/Circuit Analysis/RLC Circuit.md",
+    "電工學/Circuit Analysis/Circuit Analysis.md"
   ]
 }
