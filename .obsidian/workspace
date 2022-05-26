@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bfabf3268bc32891",
+        "id": "b139b8bbe42a3cb5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "YDLiDAR X4.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "9d8e3231b0f58628",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "chmod.md",
+            "file": "電控/linux/Hector Slam.md",
             "mode": "source"
           }
         }
@@ -63,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5c280f16afc5455b",
@@ -80,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chmod.md",
+                "file": "電控/linux/Hector Slam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chmod.md",
+                "file": "電控/linux/Hector Slam.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chmod.md"
+                "file": "電控/linux/Hector Slam.md"
               }
             }
           }
@@ -121,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9d8e3231b0f58628",
+  "active": "b139b8bbe42a3cb5",
   "lastOpenFiles": [
-    "chmod.md",
-    "YDLiDAR X4.md",
+    "電控/linux/Hector Slam.md",
+    "電控/linux/YDLiDAR X4.md",
+    "電控/linux/chmod.md",
     "動力學/Rigid Body.md",
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
     "電工學/Circuit Analysis/Logic Circuits.md",
     "課表.md",
     "README.md",
-    "電工學/Circuit Analysis/AC Circuit.md",
-    "電工學/Circuit Analysis/RLC Circuit.md"
+    "電工學/Circuit Analysis/AC Circuit.md"
   ]
 }

@@ -121,7 +121,41 @@ $ echo $ROS_PACKAGE_PATH
 
 `/home/tony/ydlidar_ws/src:/opt/ros/melodic/share`
 
+5. 設定 serial port
 
+```bash
+$ chmod 777 src/ydlidar_ros_driver/startup/* 
+$ sudo sh src/ydlidar_ros_driver/startup/initenv.sh
+```
+
+6. Run ros driver with roslaunch
+
+```bash
+$ roslaunch ydlidar_ros_driver X4.launch
+```
+
+7. RVIZ view scan results
+
+```bash
+$ roslaunch ydlidar_ros_driver lidar_view.launch
+```
+
+> 注意，記得改 launch file 裡面的檔名
+> ![[launch file of ydlidar x4.png]]
+> 譬如本篇的 lidar 是 X4 ，要把圖中的地方改成 `X4.launch`
+
+> 這裡觀看結果會使用到 `rviz` ，如果沒裝過要記得裝
+> ```bash
+> $ sudo apt-get install ros-noetic-rviz
+> ```
+> 上面的 noetic 可以改成自己裝的 ros 版本
+
+### 更改參數
+
+如果需要更改如掃描角度等的參數，可以在 `X4.launch` 裡面找到
+
+更多資訊：
+[ydlidar configuration - github](https://github.com/YDLIDAR/ydlidar_ros_driver#configure-ydlidar_ros_driver-internalparameter)
 
 ---
 
