@@ -1,44 +1,31 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "2569ce92d87ed92f",
+    "id": "5be94597e38fd67f",
     "type": "split",
     "children": [
       {
-        "id": "1fa920c6614557bc",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-=======
-    "id": "79f673d36b7a0dc7",
-    "type": "split",
-    "children": [
-      {
-        "id": "2046b9aa2ed04e95",
+        "id": "3b58b631a367deb6",
         "type": "leaf",
         "state": {
           "type": "kanban",
           "state": {
             "file": "Main Kanban.md"
           }
->>>>>>> cc356f1117281ce46183d1efe78a2af60c12ecb7
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "6b3fd97c257df3cc",
+    "id": "c9b1cca99142b2f8",
     "type": "split",
     "children": [
       {
-        "id": "c273461c12260814",
+        "id": "7135c367b5d9712b",
         "type": "tabs",
         "children": [
           {
-            "id": "7509ff3d897e5219",
+            "id": "e47024d969a60b32",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +33,7 @@
             }
           },
           {
-            "id": "baab9d83bdf5f572",
+            "id": "9f02edf3a96bd7ce",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,52 +46,28 @@
                 "sortOrder": "alphabetical"
               }
             }
-=======
-    "id": "7c9bc61600a73bd2",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "e84466155cc5708a",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "f018d49ed1ee726d",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
->>>>>>> cc356f1117281ce46183d1efe78a2af60c12ecb7
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-<<<<<<< HEAD
-    "id": "96ab44a5bfd95ff7",
+    "id": "ac69e6573121b81d",
     "type": "split",
     "children": [
       {
-        "id": "df9420c02203ec3b",
+        "id": "141550f716ea8ef8",
         "type": "tabs",
         "children": [
           {
-            "id": "6b415f9e6cfb0674",
+            "id": "9ba1c23d2cb28a5a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,56 +79,38 @@
             }
           },
           {
-            "id": "0bd4ac00a2040d16",
+            "id": "ed55f60b1360094d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8c2dd0d4b09ac953",
+            "id": "c4c838a2cefe4bf0",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
-=======
-    "id": "cc5dccb34466a29f",
-    "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "feac94215e85fd79",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Main Kanban.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
->>>>>>> cc356f1117281ce46183d1efe78a2af60c12ecb7
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "1fa920c6614557bc",
+  "active": "3b58b631a367deb6",
   "lastOpenFiles": [
-    "2022-05-25 報告.md"
-=======
-  "active": "2046b9aa2ed04e95",
-  "lastOpenFiles": [
-    "Main Kanban.md"
->>>>>>> cc356f1117281ce46183d1efe78a2af60c12ecb7
+    "Main Kanban.md",
+    "課表.md",
+    "動力學/Rigid Body.md"
   ]
 }
