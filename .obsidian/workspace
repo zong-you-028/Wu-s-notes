@@ -1,6 +1,5 @@
 {
   "main": {
-<<<<<<< HEAD
     "id": "115f3a20a7a41020",
     "type": "split",
     "children": [
@@ -10,20 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "YDLiDAR X4.md",
             "mode": "source"
-=======
-    "id": "5be94597e38fd67f",
-    "type": "split",
-    "children": [
+          }
+        }
+      },
       {
-        "id": "3b58b631a367deb6",
+        "id": "9d8e3231b0f58628",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Main Kanban.md"
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
+            "file": "chmod.md",
+            "mode": "source"
           }
         }
       }
@@ -31,7 +29,6 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
     "id": "37a1b00a88737f26",
     "type": "split",
     "children": [
@@ -41,17 +38,6 @@
         "children": [
           {
             "id": "044d2b6de46437f7",
-=======
-    "id": "c9b1cca99142b2f8",
-    "type": "split",
-    "children": [
-      {
-        "id": "7135c367b5d9712b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e47024d969a60b32",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,20 +45,12 @@
             }
           },
           {
-<<<<<<< HEAD
             "id": "39e7bded6f1c1a0d",
-=======
-            "id": "9f02edf3a96bd7ce",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
                 "query": "fourier integral",
-=======
-                "query": "",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,10 +63,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-<<<<<<< HEAD
     "id": "5c280f16afc5455b",
     "type": "split",
     "children": [
@@ -98,26 +76,11 @@
         "children": [
           {
             "id": "6591da256304d640",
-=======
-    "id": "ac69e6573121b81d",
-    "type": "split",
-    "children": [
-      {
-        "id": "141550f716ea8ef8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9ba1c23d2cb28a5a",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Untitled.md",
-=======
-                "file": "Main Kanban.md",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
+                "file": "chmod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,41 +92,24 @@
             }
           },
           {
-<<<<<<< HEAD
             "id": "cbf9958ce48fbfaa",
-=======
-            "id": "ed55f60b1360094d",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Untitled.md",
+                "file": "chmod.md",
                 "linksCollapsed": true,
-=======
-                "file": "Main Kanban.md",
-                "linksCollapsed": false,
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-<<<<<<< HEAD
             "id": "7d09bee94dc64ea8",
-=======
-            "id": "c4c838a2cefe4bf0",
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Untitled.md"
-=======
-                "file": "Main Kanban.md"
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
+                "file": "chmod.md"
               }
             }
           }
@@ -175,10 +121,10 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "bfabf3268bc32891",
+  "active": "9d8e3231b0f58628",
   "lastOpenFiles": [
-    "Untitled.md",
+    "chmod.md",
+    "YDLiDAR X4.md",
     "動力學/Rigid Body.md",
     "Main Kanban.md",
     "conflict-files-obsidian-git.md",
@@ -186,14 +132,6 @@
     "課表.md",
     "README.md",
     "電工學/Circuit Analysis/AC Circuit.md",
-    "電工學/Circuit Analysis/RLC Circuit.md",
-    "電工學/Circuit Analysis/Circuit Analysis.md"
-=======
-  "active": "3b58b631a367deb6",
-  "lastOpenFiles": [
-    "Main Kanban.md",
-    "課表.md",
-    "動力學/Rigid Body.md"
->>>>>>> 0a606a786ba339567de8c95c83e4d5f3e8e5b525
+    "電工學/Circuit Analysis/RLC Circuit.md"
   ]
 }
