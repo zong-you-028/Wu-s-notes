@@ -4,11 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3fcaa3b1d86befbd",
+        "id": "a42185fb41eac354",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Main Kanban.md"
+          }
         }
       }
     ],
@@ -65,6 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +84,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Main Kanban.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Main Kanban.md"
+              }
             }
           }
         ],
@@ -102,17 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3fcaa3b1d86befbd",
+  "active": "a42185fb41eac354",
   "lastOpenFiles": [
+    "Main Kanban.md",
+    "課表.md",
+    "2022-05-25 報告.md",
     "conflict-files-obsidian-git.md",
     "電控/linux/YDLiDAR X4.md",
     "電控/linux/Hector Slam.md",
     "電控/linux/chmod.md",
     "動力學/Rigid Body.md",
-    "Main Kanban.md",
     "電工學/Circuit Analysis/Logic Circuits.md",
-    "課表.md",
-    "README.md",
-    "電工學/Circuit Analysis/AC Circuit.md"
+    "README.md"
   ]
 }
