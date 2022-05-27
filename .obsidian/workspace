@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b139b8bbe42a3cb5",
+        "id": "3fcaa3b1d86befbd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "電控/linux/Hector Slam.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fourier integral",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "電控/linux/Hector Slam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "電控/linux/Hector Slam.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -96,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "電控/linux/Hector Slam.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -109,10 +102,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b139b8bbe42a3cb5",
+  "active": "3fcaa3b1d86befbd",
   "lastOpenFiles": [
-    "電控/linux/Hector Slam.md",
     "電控/linux/YDLiDAR X4.md",
+    "電控/linux/Hector Slam.md",
     "電控/linux/chmod.md",
     "動力學/Rigid Body.md",
     "Main Kanban.md",
