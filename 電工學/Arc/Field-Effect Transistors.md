@@ -2,9 +2,20 @@
 
 ---
 
-# NMOS and PMOS Transistors
+FET 可以分成兩類
 
-## NMOS Transistors
+- JFET
+- MOSFET
+
+# MOSFET
+
+MOSFET 依照 channel 的極性不同，可以分成 [[#NMOS and PMOS Transistors]]
+
+並且也可以分成 Depletion Type 和 Enhancement Type
+
+## NMOS and PMOS Transistors
+
+### NMOS Transistors
 
 ![[n channel mosfet.png]]
 
@@ -17,11 +28,11 @@ When a sufficiently large (positive) voltage is applied to the gate relative to 
 
 Drain current is controlled by the voltage applied to the gate.
 
-### Circuit Symbol
+#### Circuit Symbol
 
 ![[circuit symbol of nmos transistor.png|250]]
 
-### Operation
+#### Operation
 
 根據給 gate 與 drain 的電壓不同，通過 nmos 的電流可以分成以下三種情況
 
@@ -29,7 +40,7 @@ Drain current is controlled by the voltage applied to the gate.
 - triode region
 - saturation region
 
-#### Cutoff Region
+##### Cutoff Region
 
 當給 gate 的電壓 $v_{ GS }$ 不夠大的時候會發生，這時 drain 和 source 會是斷路狀態
 
@@ -39,7 +50,7 @@ $$\text{ when } v_{ GS } \leq V_{ to } \qquad i_D = 0$$
 
 ![[mosfet operation in cutoff region.png]]
 
-#### Triode Region
+##### Triode Region
 
 當給 gate 的電壓 $v_{ GS }$ 足夠大時 drain 和 source 就會導通，此時如果在 drain 和 source 之間給一個小的電壓 $v_{ DS }$ (必須足夠小)，會開始產生電流通過。
 
@@ -60,7 +71,7 @@ $$K = \left( \frac W L \right) \frac{ KP }{ 2 }$$
 
 ![[mosfet operation in the triode region.png]]
 
-#### Saturation Region
+##### Saturation Region
 
 當進入了 triode region 並且逐漸加大 drain 與 source 間的電壓 $v_{ DS }$ 大過一定程度就會進入 saturaion region，此時的電流 $i_D$ 不論 $v_{ DS }$ 如何改變都是固定的
 
@@ -70,7 +81,7 @@ $$i_D = K(v_{ GS } - V_{ to })^2$$
 
 ![[characteristic curves of nmos.png]]
 
-#### Boundary Between Triode and Saturation Regions
+##### Boundary Between Triode and Saturation Regions
 
 At this boundary, the channel thickness at the drain is zero, which occurs when $v_{ GD } = V_{ to }$
 
@@ -91,7 +102,7 @@ $$\implies \underline{
 
 Notice that the boundary between the triode region and the saturation region is a parabola
 
-#### Equivalent Resistance
+##### Equivalent Resistance
 
 $$R_D = 
 \left.
@@ -108,7 +119,7 @@ $$ = \left.
 
 $$ = \underline{\frac{ 1 }{ 2K(v_{ GS } - v_{ to }) }}_\#$$
 
-## PMOS Transistors
+### PMOS Transistors
 
 MOSFETs can also be constructed by interchanging the $n$ and $p$ regions of $n$-channel devices, resulting in $p$-channel devices.
 
@@ -116,7 +127,7 @@ MOSFETs can also be constructed by interchanging the $n$ and $p$ regions of $n$-
 
 As indicated in the figure, we usually orient the $p$-channel FETs with the source at the top and reference the current out of the drain.
 
-## Summary
+### Summary
 
 |                            | NMOS                                                                                                                                      | PMOS                                                                                                                                      |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -129,7 +140,17 @@ As indicated in the figure, we usually orient the $p$-channel FETs with the sour
 | Saturation region          | $$v_{ GS } \geq V_{ to } \text{ and } v_{ DS } \geq v_{ GS } - V_{ to }$$ $$i_D = K(v_{ GS } - V_{ to })^2$$                              | $$v_{ GS } \leq V_{ to } \text{ and } v_{ DS } \leq v_{ GS } - V_{ to }$$ $$i_D = K(v_{ GS } - V_{ to })^2$$                              |
 | $v_{ DS }$ and $v_{ GS }$  | Normally assume positive values                                                                                                           | Normally assume negative values                                                                                                           | 
 
-# Load-Line Analysis
+## Depletion Type and Enhancement Type
+
+| Depletion Type                                                                                                                                                                                         | Enhancement Type                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| equivalent to "normal close" switch <br> require gate source voltage $v_{gs}$ to switch OFF device                                                                                                     | <ul><li>equivalent to "normal open" switch <li> require gete source voltage $v_{gs}$ to switch ON device </ul>                                                                                    |
+| ![[depletion mode MOSFET.png]]                                                                                                                                                                         | ![[enhance mode MOSFET.png]]                                                                                                                                                                      |
+| <ul><li>base is connected to source terminal <li>continuous thick line between drain and source indicates that it is "depletion type" mosfet <li>the arrow indicates it is p-channel or n-channel</ul> | <ul> <li> base is connected to source terminal <li> break line berween drain and source indicates that it is "enhancement type" mosfet <li>the arrow indicates it is p-channel or n-channel </ul> |
+| ![[voltage and current of depletion mode mosfet.png]]                                                                                                                                                  | ![[voltage and current of enhancement mode mosfet.png]]                                                                                                                                           |
+| ![[depletion structure of n-channel mosfet.png]]                                                                                                                                                       | ![[structure of enhancement mode mosfet.png]]                                                                                                                                                     |
+
+## Load-Line Analysis
 
 ![[load-line analysis.png]]
 
@@ -171,11 +192,11 @@ $$\implies 20 = i_D(t) + v_{ DS }$$
 
 對於 $v_{DS}$ ，高點與中間點相差 $5 \text V$ ，中間點與低點相差 $7 \text V$ ，因此這個 amplifier 做的是非線性的放大。
 
-# Bias Circuits
+## Bias Circuits
 
 上面提到的 Amplifier Circuit 有許多缺點，譬如需要兩個電池、 Q point 不會在中間等問題，並且選擇的元件（如電阻）必須要非常精準，因此有了改良的版本。 bias circuit 容許不是很精準的零件。
 
-## The Fixed- plus Self-Bias Circuit
+### The Fixed- plus Self-Bias Circuit
 
 The fixed- plus self-bias circuit shown in Figure(a) is a good circuit for establishing Q points that are relatively independent of device parameters
 
@@ -187,7 +208,7 @@ $$V_G = V_{ DD } \frac{ R_2 }{ R_1 + R_2 }$$
 
 $$R_G = R_1 \vert \vert R_2$$
 
-對於 (b) 的 loop 寫出 KVL
+對於 (b) 的 loop 寫出 KVL (we assume that voltage drop across $R_G$ is zero since the gate current is extremely small)
 
 $$V_G = v_{ GS } + R_Si_D$$
 
@@ -203,7 +224,7 @@ $$i_D = K(v_{ GS } - V_{ to })^2$$
 
 $$v_{DS} = V_{DD} - (R_D + R_S) i_D$$
 
-# Small-Signal Equivalent Circuits
+## Small-Signal Equivalent Circuits
 
 我們常常會需要計算 Q Point 附近的電壓與電流關係，而在一些特殊情況（訊號很小），電壓與電流距離 Q Point 不遠，而我們可以在這個情況下將 FET 等價於 voltage-controlled current source
 
@@ -244,7 +265,7 @@ $$\underline{i_g(t) = 0}_\#$$
 
 ![[FET small-signal equivalent circuit.png|400]]
 
-## Transconductance
+### Transconductance
 
 $$\underline{g_m = 2K(V_{GSQ} - V_{to})}_\#$$
 
@@ -261,7 +282,7 @@ $$\implies\underline{g_m = 2\sqrt{ KI_{DQ} }}_\#$$
 
 $$\implies g_m = \sqrt{\frac{W}{L} \cdot 2 KP \cdot I_{DQ}}$$
 
-## More Accurate Circuits
+### More Accurate Circuits
 
 The first-order equations we have used to obtain the equivalent circuit for the FET did not account for the effect of $v_{DS}$ on the drain current
 
@@ -271,7 +292,7 @@ $$i_d = g_mv_{gs} + \frac{ v_{ds} }{ r_d }$$
 
 ![[FET small-signal equivalent circuit that accounts for the dependence of iD on vDS.png|400]]
 
-## Transconductance and Drain Resistance as Partial Derivatives
+### Transconductance and Drain Resistance as Partial Derivatives
 
 > from $$i_d = g_mv_{gs} + \frac{v_{ds}}{ r_d }$$
 > 我們得到 $g_m$ 與 $r_d$ 用 partial derivatives 的表示方法
@@ -285,7 +306,7 @@ $$\implies
 \right.	
 $$
 
-# Common-Source Amplifier
+## Common-Source Amplifier
 
 下面的 circuit 稱為 common-source amplifier
 
@@ -295,7 +316,7 @@ $$
 
 裡面的 capacitor 的 impedance 相對於交流輸入 $v(t)$ 會非常小，可以當作 short circuit
 
-## Small-Signal Equivalent Circuit of Common-Source Amplifier
+### Small-Signal Equivalent Circuit of Common-Source Amplifier
 
 我們將 FET 視為 small-signal equivalent circuit ，並且將 capacitor short ，得出以下 circuit
 
@@ -317,11 +338,11 @@ $$v_{in} = v_{gs}$$
 
 $$\underline{A_v = \frac{v_o}{v_{in}} = -g_mR_L'}_\#$$
 
-## Input Resistance
+### Input Resistance
 
 $$\underline{R_{in} = \frac{v_{in}}{ i_{in} } = R_G = R_1 \vert\vert R_2}_\#$$
 
-## Output Resistance
+### Output Resistance
 
 我們將 $R_L$ 拔掉，求出 output terminals 的 equivalent resistance
 
@@ -329,17 +350,17 @@ $$\underline{
 	R_o = \frac 1 {\frac{ 1 }{ R_D } + \frac{ 1 }{ r_d }}
 }_\#$$
 
-# Source Follower
+## Source Follower
 
 ![[source follower using fet.png]]
 
-## Small-Signal Equivalent Circuit of Source Follower
+### Small-Signal Equivalent Circuit of Source Follower
 
 我們將 FET 視為 small-signal equivalent circuit ，並且將 capacitor short ，得出以下 circuit
 
 ![[small-signal ac equivalent circuit for the source follower.png]]
 
-## Voltage Gain
+### Voltage Gain
 
 by parallel combination of $r_d, R_s, R_L$
 
@@ -366,7 +387,7 @@ $$\underline{
 }_\#
 $$
 
-## Input Resistance
+### Input Resistance
 
 $$
 \underline{
@@ -375,15 +396,15 @@ R_G = R_1 \vert\vert R_2
 }_\#
 $$
 
-## Output Resistance
+### Output Resistance
 
 $$\underline{R_o = \frac{ v_x }{ i_x } = \frac{ 1 }{ g_m + \frac{ 1 }{ R_S } + \frac{ 1 }{ r_d } }}_\#$$
 
-# CMOS Logic Gates
+## CMOS Logic Gates
 
 In **complementary metal-oxide-semiconductor** technology, both NMOS and PMOS transistors are fabricated on the same chip. Using CMOS technology, we may construct the basic building blocks of digital systems, such as NAND gates and NOR gates.
 
-## CMOS Inverter
+### CMOS Inverter
 
 ![[cmos inverter.png]]
 
@@ -392,7 +413,7 @@ In **complementary metal-oxide-semiconductor** technology, both NMOS and PMOS tr
 | <font color = "fuchsia">HIGH </font> | <font color = "#E76F51">open</font>  | <font color = "#2A9D8F">short</font> | $$0\text{ (LOW) }$$        | 
 | <font color = "fuchsia">LOW </font>  | <font color = "#2A9D8F">short</font> | <font color = "#E76F51">open</font>  | $$V_{DD} \text{ (HIGH) }$$ |
 
-## CMOS NAND Gate
+### CMOS NAND Gate
 
 ![[two-input cmos nand gate.png]]
 
@@ -404,7 +425,7 @@ In **complementary metal-oxide-semiconductor** technology, both NMOS and PMOS tr
 | <font color = "fuchsia">LOW</font>  | <font color = "fuchsia">LOW</font>  | <font color = "#2A9D8F">close</font> | <font color = "#2A9D8F">close</font> | <font color = "#E76F51">open</font>  | <font color = "#E76F51">open</font>  | <font color = "fuchsia">LOW</font>  |
 
 
-## CMOS NOR Gate
+### CMOS NOR Gate
 
 ![[cmos nor gate.png|400]]
 
@@ -420,6 +441,8 @@ In **complementary metal-oxide-semiconductor** technology, both NMOS and PMOS tr
 參考資料:
 
 課本
+[Introduction to MOSFET - blog](https://www.electronicshub.org/mosfet/)
+[]
 
 ---
 

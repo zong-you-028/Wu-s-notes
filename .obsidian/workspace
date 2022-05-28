@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a42185fb41eac354",
+        "id": "aeca55a7113990d8",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -105,20 +105,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "a42185fb41eac354",
+  "active": "aeca55a7113990d8",
   "lastOpenFiles": [
     "Main Kanban.md",
+    "電工學/Arc/Field-Effect Transistors.md",
+    "附件/structure of enhancement mode mosfet.png",
+    "電工學/Arc/Transistor.md",
     "課表.md",
     "2022-05-25 報告.md",
     "conflict-files-obsidian-git.md",
     "電控/linux/YDLiDAR X4.md",
     "電控/linux/Hector Slam.md",
-    "電控/linux/chmod.md",
-    "動力學/Rigid Body.md",
-    "電工學/Circuit Analysis/Logic Circuits.md",
-    "README.md"
+    "電控/linux/chmod.md"
   ]
 }
