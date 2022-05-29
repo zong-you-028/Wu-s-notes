@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aeca55a7113990d8",
+        "id": "1f7e17b0c3dbf27a",
         "type": "leaf",
         "state": {
-          "type": "kanban",
-          "state": {
-            "file": "Main Kanban.md"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -51,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5c280f16afc5455b",
@@ -67,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +82,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -95,9 +92,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Main Kanban.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -105,19 +100,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "aeca55a7113990d8",
+  "active": "1f7e17b0c3dbf27a",
   "lastOpenFiles": [
-    "Main Kanban.md",
+    "角度量測.md",
+    "精密測量/量測誤差.md",
     "電工學/Arc/Field-Effect Transistors.md",
-    "附件/structure of enhancement mode mosfet.png",
-    "電工學/Arc/Transistor.md",
-    "課表.md",
-    "2022-05-25 報告.md",
-    "conflict-files-obsidian-git.md",
-    "電控/linux/YDLiDAR X4.md",
-    "電控/linux/Hector Slam.md",
-    "電控/linux/chmod.md"
+    "精密測量/雷射干涉儀.md",
+    "精密測量/長度（尺寸）感測器.md",
+    "精密測量/環規、塞規.md",
+    "精密測量/塞規.md",
+    "精密測量/環規.md",
+    "Main Kanban.md",
+    "README.md"
   ]
 }
