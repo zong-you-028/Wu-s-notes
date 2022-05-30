@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "c622f16c47d9f271",
         "type": "leaf",
         "state": {
@@ -12,6 +13,13 @@
             "file": "課表.md",
             "mode": "preview"
           }
+=======
+        "id": "1f7e17b0c3dbf27a",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+>>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
         }
       }
     ],
@@ -52,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ac69e6573121b81d",
@@ -68,7 +77,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "課表.md",
+=======
+>>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,8 +97,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "課表.md",
                 "linksCollapsed": false,
+=======
+                "linksCollapsed": true,
+>>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
                 "unlinkedCollapsed": true
               }
             }
@@ -96,9 +112,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {
                 "file": "課表.md"
               }
+=======
+              "state": {}
+>>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
             }
           }
         ]
@@ -108,6 +128,7 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "c622f16c47d9f271",
   "lastOpenFiles": [
     "課表.md",
@@ -118,5 +139,19 @@
     "動力學/HW/ch 21 sol/2134.png",
     "動力學/HW/ch 21/2134.JPG",
     "動力學/Rigid Body.md"
+=======
+  "active": "1f7e17b0c3dbf27a",
+  "lastOpenFiles": [
+    "角度量測.md",
+    "精密測量/量測誤差.md",
+    "電工學/Arc/Field-Effect Transistors.md",
+    "精密測量/雷射干涉儀.md",
+    "精密測量/長度（尺寸）感測器.md",
+    "精密測量/環規、塞規.md",
+    "精密測量/塞規.md",
+    "精密測量/環規.md",
+    "Main Kanban.md",
+    "README.md"
+>>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
   ]
 }
