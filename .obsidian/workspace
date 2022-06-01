@@ -1,51 +1,32 @@
 {
   "main": {
-    "id": "5be94597e38fd67f",
+    "id": "dab81b30d3527290",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "d1822f5534c27dc8",
+        "id": "4fb135d2f4374450",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "精密測量/量測誤差.md",
+            "file": "動力學/Rigid Body.md",
             "mode": "preview"
           }
-=======
-<<<<<<< HEAD
-        "id": "c622f16c47d9f271",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "課表.md",
-            "mode": "preview"
-          }
-=======
-        "id": "1f7e17b0c3dbf27a",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
->>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
->>>>>>> 70361ca0e32dfe37ba9c58352f05eeb4dab1b87e
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c9b1cca99142b2f8",
+    "id": "4f0ca8deefc5287d",
     "type": "split",
     "children": [
       {
-        "id": "7135c367b5d9712b",
+        "id": "46311005f66b80b5",
         "type": "tabs",
         "children": [
           {
-            "id": "e47024d969a60b32",
+            "id": "94e9c34647b3463e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -53,12 +34,12 @@
             }
           },
           {
-            "id": "9f02edf3a96bd7ce",
+            "id": "e64a0bf4aa648a76",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,27 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "ac69e6573121b81d",
+    "id": "18e3d2e6fd5e1467",
     "type": "split",
     "children": [
       {
-        "id": "141550f716ea8ef8",
+        "id": "c1cbd6981e08489b",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba1c23d2cb28a5a",
+            "id": "07ca4a45f5bae4d1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "精密測量/量測誤差.md",
-=======
-<<<<<<< HEAD
-                "file": "課表.md",
-=======
->>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
->>>>>>> 70361ca0e32dfe37ba9c58352f05eeb4dab1b87e
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,83 +80,37 @@
             }
           },
           {
-            "id": "ed55f60b1360094d",
+            "id": "543ee64056111132",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "精密測量/量測誤差.md",
-=======
-<<<<<<< HEAD
-                "file": "課表.md",
+                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": false,
-=======
->>>>>>> 70361ca0e32dfe37ba9c58352f05eeb4dab1b87e
-                "linksCollapsed": true,
->>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c4c838a2cefe4bf0",
+            "id": "efb770f066dfd7fd",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
               "state": {
-                "file": "精密測量/量測誤差.md"
+                "file": "動力學/Rigid Body.md"
               }
-=======
-<<<<<<< HEAD
-              "state": {
-                "file": "課表.md"
-              }
-=======
-              "state": {}
->>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
->>>>>>> 70361ca0e32dfe37ba9c58352f05eeb4dab1b87e
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-<<<<<<< HEAD
-  "active": "d1822f5534c27dc8",
-=======
-<<<<<<< HEAD
-  "active": "c622f16c47d9f271",
+  "active": "4fb135d2f4374450",
   "lastOpenFiles": [
-    "課表.md",
-    "Main Kanban.md",
-    "電控/linux/YDLiDAR X4.md",
-    "電控/linux/Hector Slam.md",
-    "Untitled.md",
-    "動力學/HW/ch 21 sol/2134.png",
-    "動力學/HW/ch 21/2134.JPG",
-    "動力學/Rigid Body.md"
-=======
-  "active": "1f7e17b0c3dbf27a",
->>>>>>> 70361ca0e32dfe37ba9c58352f05eeb4dab1b87e
-  "lastOpenFiles": [
-    "精密測量/量測誤差.md",
-    "精密測量/雷射干涉儀.md",
-    "精密測量/長度（尺寸）感測器.md",
-    "精密測量/環規、塞規.md",
-    "精密測量/塞規.md",
     "動力學/Rigid Body.md",
-    "動力學/Impulse.md",
-    "Main Kanban.md",
-<<<<<<< HEAD
-    "電控/linux/Hector Slam.md",
-    "電控/linux/YDLiDAR X4.md"
-=======
-    "README.md"
->>>>>>> 37323a55e0ccc0a6690185fb30799626addc3820
->>>>>>> 70361ca0e32dfe37ba9c58352f05eeb4dab1b87e
+    "Main Kanban.md"
   ]
 }

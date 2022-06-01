@@ -621,7 +621,12 @@ $$= (\vec a_{B / A})_{xyz} + \Omega \times (\vec v_{B / A})_{xyz}$$
 
 $(\vec a_{B / A})_{xyz}$ is the relative acceleration of $B$ with respect to $A$ measured from $x, y, z$, thus
 
-$$\underline{\vec a_B = \vec a_A + \dot \Omega \times \vec r_{B / A} + \Omega \times (\Omega \times \vec r_{B / A}) + 2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz}}_\#$$
+$$\underline{\vec a_B = 
+\underbrace{
+	\vec a_A + \dot \Omega \times \vec r_{B / A} + \Omega \times (\Omega \times \vec r_{B / A}) }_{ \text{for rigid body} } + 
+\underbrace{
+	2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz} }_\text{ for relative motion }
+}_\#$$
 
 ## Inertia
 
