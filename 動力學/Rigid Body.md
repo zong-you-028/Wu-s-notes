@@ -212,7 +212,8 @@ $\rho$: 密度
 | -------------------------------------------- | ------------------------------------------------------- |
 | ![[rod moment of inertia.png]]               | $$I = \frac 1 { 12 } mL^2$$                             |
 | ![[plate moment of inertia.png]]             | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$ |
-| ![[solid sphere of radius r and mass m.png]] | $$I = \frac 2 5 mr^2$$                                  | 
+| ![[solid sphere of radius r and mass m.png]] | $$I = \frac 2 5 mr^2$$                                  |
+| ![[thin ring of radius r and mass m.png]]    | $$I_z = mr^2$$ $$I_x = I_y = \frac 1 2 mr^2$$           | 
 
 #### Parallel-Axis Theorem
 
@@ -825,6 +826,10 @@ $$
 $$\underline{
 	\vec H_A = \vec \rho_{G / A} \times m \vec v_G + \vec H_G
 }_\#$$
+
+這個是最重要的，因為通常 point $G$ 的 angular momentum 最好求 (通常會對稱，可以省去計算 [[#Product of Inertia]])
+
+之後只要計算出質心速度就可以求出任意一點的角動量
 
 ### Rectangular Components of Angular Momentum
 

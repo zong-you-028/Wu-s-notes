@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "926474110e14075f",
+        "id": "70028af2bc23d3c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Main Kanban.md",
+            "file": "動力學/Rigid Body.md",
+            "mode": "preview"
+          }
+        },
+        "group": "22b6a7b04b318128"
+      },
+      {
+        "id": "b37e573d81ddd0e0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "動力學/Rigid Body.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "22b6a7b04b318128"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ac69e6573121b81d",
@@ -68,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Rigid Body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Main Kanban.md",
+                "file": "動力學/Rigid Body.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main Kanban.md"
+                "file": "動力學/Rigid Body.md"
               }
             }
           }
@@ -108,17 +122,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "926474110e14075f",
+  "active": "70028af2bc23d3c2",
   "lastOpenFiles": [
-    "Main Kanban.md",
-    "精密測量/角度量測.md",
-    "精密測量/雷射干涉儀.md",
-    "Untitled.md",
-    "電控/arduino/AQMD6010BLS.md",
-    "課表.md",
     "動力學/Rigid Body.md",
-    "電控/linux/YDLiDAR X4.md",
-    "電控/linux/Hector Slam.md",
-    "動力學/HW/ch 21 sol/2134.png"
+    "動力學/Moment.md",
+    "動力學/Instantaneous Center.md",
+    "動力學/Impulse.md",
+    "動力學/Impact.md",
+    "動力學/Fluid Stream.md",
+    "動力學/Angular Momentum.md",
+    "動力學/Acceleration.md",
+    "動力學/極座標.md",
+    "動力學/動量與衝量.md"
   ]
 }
