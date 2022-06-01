@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "1f7e17b0c3dbf27a",
+        "id": "d1822f5534c27dc8",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "精密測量/量測誤差.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -49,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5c280f16afc5455b",
@@ -66,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "精密測量/量測誤差.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "精密測量/量測誤差.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "精密測量/量測誤差.md"
+              }
             }
           }
         ],
@@ -100,20 +106,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1f7e17b0c3dbf27a",
+  "active": "d1822f5534c27dc8",
   "lastOpenFiles": [
-    "角度量測.md",
     "精密測量/量測誤差.md",
-    "電工學/Arc/Field-Effect Transistors.md",
     "精密測量/雷射干涉儀.md",
     "精密測量/長度（尺寸）感測器.md",
     "精密測量/環規、塞規.md",
     "精密測量/塞規.md",
-    "精密測量/環規.md",
+    "動力學/Rigid Body.md",
+    "動力學/Impulse.md",
     "Main Kanban.md",
-    "README.md"
+    "電控/linux/Hector Slam.md",
+    "電控/linux/YDLiDAR X4.md"
   ]
 }
