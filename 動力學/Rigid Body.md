@@ -523,6 +523,19 @@ $$
 
 $$\implies \underline{\dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A}_\#$$
 
+如果使用相對的平面來表示公式
+
+$$\implies \underline{
+	\dot\Omega_2 = 
+	\underbrace{ \dot\Omega_1 }_\text{前一個平面的角加速度} + 
+	\underbrace{ 
+		\underbrace{
+			\dot\Omega_2
+		}_\text{相對前一個平面} +
+		\Omega_1 \times \Omega_2
+	}_\text{這一個平面的角加速度}
+}_\#$$
+
 #### Example
 
 > The disk shown in figure spins about its axle with a constant angular velocity $\omega_s = 3 \text{rad}/\text s$, while the horizontal platform on which the disk is mounted rotates about the vertical axis at a constant rate $\omega_p = 1 \text{rad}/\text s$. Determine the angular acceleration of the disk and the velocity and acceleration of point $A$ on the disk when it is in the position shown.
@@ -608,6 +621,8 @@ Here $(\vec v_{B / A})_{xyz}$ is the relative velocity of $B$ with respect to $A
 
 $$\underline{\underbrace{\vec v_B = \vec v_A + \Omega \times \vec r_{B / A}}_{\text{ for rigid body }} + \underbrace{(\vec v_{B / A})_{xyz}}_{\text{ not rigid body }}}_\#$$
 
+> 點 $B$ 在 $xyz$ 平面上不會動，除非 relative motion
+
 #### Acceleration
 
 The acceleration of point $B$ measured from $X, Y, Z$ is
@@ -627,6 +642,8 @@ $$\underline{\vec a_B =
 \underbrace{
 	2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz} }_\text{ for relative motion }
 }_\#$$
+
+> 點 $B$ 在 $xyz$ 平面上不會動，除非 relative motion
 
 ## Inertia
 

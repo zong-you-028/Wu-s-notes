@@ -12,7 +12,20 @@
             "file": "動力學/Rigid Body.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "844e9c554c29ed6d"
+      },
+      {
+        "id": "cb0ac5ea72d4f093",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "動力學/Rigid Body.md",
+            "mode": "source"
+          }
+        },
+        "group": "844e9c554c29ed6d"
       }
     ],
     "direction": "vertical"
