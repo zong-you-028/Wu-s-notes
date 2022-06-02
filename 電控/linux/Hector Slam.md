@@ -18,7 +18,15 @@ $ sudo apt-get install ros-noetic-hector-slam
 
 # Launch File
 
-裡面包含這些 launch file
+```bash
+$ roslaunch hector_slam_launch tutorial.launch
+```
+
+for [[YDLiDAR X4]]:
+
+```bash
+$ roslaunch ydlidar_ros_driver X4.launch
+```
 
 > 使用前記得更改 `/opt/ros/noetic/share/hector_mapping/launch` 裡面的參數，譬如如果沒有要用到 odometry 的話要改以下參數
 > - `base_frame` 的參數改成 `base_frame`

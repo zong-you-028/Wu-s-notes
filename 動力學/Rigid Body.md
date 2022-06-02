@@ -212,7 +212,8 @@ $\rho$: 密度
 | -------------------------------------------- | ------------------------------------------------------- |
 | ![[rod moment of inertia.png]]               | $$I = \frac 1 { 12 } mL^2$$                             |
 | ![[plate moment of inertia.png]]             | $$I_z = \frac 1 2 mr^2$$ $$I_x = I_y = \frac 1 4 mr^2$$ |
-| ![[solid sphere of radius r and mass m.png]] | $$I = \frac 2 5 mr^2$$                                  | 
+| ![[solid sphere of radius r and mass m.png]] | $$I = \frac 2 5 mr^2$$                                  |
+| ![[thin ring of radius r and mass m.png]]    | $$I_z = mr^2$$ $$I_x = I_y = \frac 1 2 mr^2$$           | 
 
 #### Parallel-Axis Theorem
 
@@ -523,9 +524,61 @@ $$
 
 $$\implies \underline{\dot{ \vec A } = (\dot {\vec A})_{xyz} + \vec \Omega \times \vec A}_\#$$
 
+如果使用相對的平面來表示公式
+
+$$\implies \underline{
+	\dot\Omega_2 = 
+	\underbrace{ \dot\Omega_1 }_\text{前一個平面的角加速度} + 
+	\underbrace{ 
+		\underbrace{
+			\dot\Omega_2
+		}_\text{相對前一個平面} +
+		\Omega_1 \times \Omega_2
+	}_\text{這一個平面的角加速度}
+}_\#$$
+
 #### Example
 
-`TODO: 20.1`
+> The disk shown in figure spins about its axle with a constant angular velocity $\omega_s = 3 \text{rad}/\text s$, while the horizontal platform on which the disk is mounted rotates about the vertical axis at a constant rate $\omega_p = 1 \text{rad}/\text s$. Determine the angular acceleration of the disk and the velocity and acceleration of point $A$ on the disk when it is in the position shown.
+> ![[example of 3d rigid body motion.jpg]]
+
+angular velocity measured from $XYZ$:
+
+$$\omega = \omega_s + \omega_p = 3 \hat j - 1 \hat k \text{ rad/s}$$
+
+the angular acceleration of the disk is 
+
+$$\alpha = \dot \omega = \dot \omega_s + \dot \omega_p$$
+
+therfore we calculate $\dot \omega_s$ and $\dot \omega_p$ using the equation of "time derivative of a vector"
+
+$$\dot \omega_s = (\dot \omega_s)_{xyz} + \omega_p \times \omega_s = 0 + (-1\hat k) \times (3\hat j) = 3\hat i$$
+
+$$\dot \omega_p = 0$$
+
+now we can calculate angular acceleration
+
+$$\alpha = \dot\omega_s + \dot \omega_p = \underline{3\hat i}_\#$$
+
+velocity:
+
+$$\vec v_A = \omega \times \vec r_A$$
+
+$$ = (3\hat j - 1\hat k) \times (1 \hat j + 0.25 \hat k)$$
+
+$$ = \underline{
+	1.75 \hat i \text{ (m/s)}
+}_\#$$
+
+acceleration:
+
+$$\vec a_A = \alpha \times \vec r_A + \omega \times (\omega \times \vec r_A)$$
+
+$$ = (3\hat i) \times (1\hat j + 0.25 \hat k) + (3\hat j - 1 \hat k) \times [(3\hat j - 1 \hat k)\times (1\hat j + 0.25 \hat k)]$$
+
+$$ = \underline{
+	-2.50 \hat j - 2.25 \hat k \ \ (\text{m/s}^2)
+}_\#$$
 
 ### Rigid Body General Motion
 
@@ -569,6 +622,8 @@ Here $(\vec v_{B / A})_{xyz}$ is the relative velocity of $B$ with respect to $A
 
 $$\underline{\underbrace{\vec v_B = \vec v_A + \Omega \times \vec r_{B / A}}_{\text{ for rigid body }} + \underbrace{(\vec v_{B / A})_{xyz}}_{\text{ not rigid body }}}_\#$$
 
+> 點 $B$ 在 $xyz$ 平面上不會動，除非 relative motion
+
 #### Acceleration
 
 The acceleration of point $B$ measured from $X, Y, Z$ is
@@ -582,7 +637,14 @@ $$= (\vec a_{B / A})_{xyz} + \Omega \times (\vec v_{B / A})_{xyz}$$
 
 $(\vec a_{B / A})_{xyz}$ is the relative acceleration of $B$ with respect to $A$ measured from $x, y, z$, thus
 
-$$\underline{\vec a_B = \vec a_A + \dot \Omega \times \vec r_{B / A} + \Omega \times (\Omega \times \vec r_{B / A}) + 2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz}}_\#$$
+$$\underline{\vec a_B = 
+\underbrace{
+	\vec a_A + \dot \Omega \times \vec r_{B / A} + \Omega \times (\Omega \times \vec r_{B / A}) }_{ \text{for rigid body} } + 
+\underbrace{
+	2\Omega \times (\vec v_{B / A})_{xyz} + (\vec a_{B / A})_{xyz} }_\text{ for relative motion }
+}_\#$$
+
+> 點 $B$ 在 $xyz$ 平面上不會動，除非 relative motion
 
 ## Inertia
 
@@ -765,6 +827,10 @@ $$\underline{
 	\vec H_A = \vec \rho_{G / A} \times m \vec v_G + \vec H_G
 }_\#$$
 
+這個是最重要的，因為通常 point $G$ 的 angular momentum 最好求 (通常會對稱，可以省去計算 [[#Product of Inertia]])
+
+之後只要計算出質心速度就可以求出任意一點的角動量
+
 ### Rectangular Components of Angular Momentum
 
 Choosing a second set of $x, y, z$ axes having an arbitrary orientation relative to the $X, Y, Z$ axes,
@@ -864,7 +930,7 @@ $$\underline{
 
 ## Kinetic Energy
 
-`TODO: Fig 21-8`
+![[kinetic energy of rigid body.jpg|350]]
 
 The kinetic energy of $i$th particle:
 
@@ -907,6 +973,140 @@ $$\implies \underline{
 ### Principle of Work and Energy
 
 $$\underline{T_1 + \sum U_{1-2} = T_2}_\#$$
+
+## Equations of Motion
+
+### Translation Motion
+
+$$\sum \vec F = m\vec a_G$$
+
+$$\implies 
+\underline{
+	\left\{
+		\begin{array}{}
+			\sum F_x = m(a_G)_x \\
+			\sum F_y = m(a_G)_y \\
+			\sum F_z = m(a_G)_z
+		\end{array}
+	\right.
+}_\#$$
+
+### Rotational Motion
+
+![[3d rigid body equation of motion rotational motion.jpg|350]]
+
+$$\sum \vec M_O = \dot{\vec H}_O$$
+
+在 $G$ 點也成立
+
+$$\sum \vec M_G = \dot{\vec H}_G$$
+
+If the components are computed about $x, y, z$ axes that are rotating with an angular velocity $\Omega$, which is different from the body's angular velocity $\omega$, then the time derivative must account for the rotation of the $x, y, z$ axes as measured from inertial $X, Y, Z$ axes.
+
+$$\implies \left\{
+	\begin{array}{}
+		\sum \vec M_O = (\dot{\vec H}_O)_{xyz} + \Omega \times \vec H_O \\
+		\sum \vec M_G = (\dot{\vec H}_G)_{xyz} + \Omega \times \vec H_G
+	\end{array}
+\right.$$
+
+If the $x, y, z$ axes are chosen as principal axes of inertia, the products of inertia is zero.
+
+for $\Omega = \omega$, the $x, y, z$ axes is chosen with origin at $G$ and they are fixed in and move with the body.
+
+$$\implies
+\underline{
+	\left\{
+		\begin{array}{}
+			\sum M_x = I_x \dot \omega_x - (I_y - I_z)\omega_y\omega_z \\
+			\sum M_y = I_y \dot \omega_y - (I_z - I_x)\omega_z\omega_x \\
+			\sum M_z = I_z \dot \omega_z - (I_x - I_y)\omega_x\omega_y 
+		\end{array}
+	\right.
+}_\#$$
+
+for $\Omega \neq \omega$, we choose $x, y, z$ axes having an angular velocity $\Omega$ which is different from the angular velocity $\omega$ of the body.
+
+$$
+\implies
+\underline{
+	\left\{
+		\begin{array}{}
+			\sum M_x = I_x \dot\omega_x - I_y \Omega_z \omega_y + I_z \Omega_y \omega_z \\
+			\sum M_y = I_y \dot\omega_y - I_z\Omega_x \omega_z + I_x\Omega_z \omega_x \\
+			\sum M_z = I_z \dot \omega_z - I_x \Omega_y \omega_x + I_y \Omega_x \omega_y
+		\end{array}
+	\right.
+}_\#$$
+
+## Gyroscopic Motion
+
+![[gyroscopic motion.jpg|300]]
+
+Starting with the $X, Y, Z$ and the $x, y, z$ axes in coincidence, the final position of the top can be determined using following three steps.
+
+1. Precession $\dot\phi$: Rotate about $Z$ axis through an angle $\phi$
+![[gyroscopic motion precession.png|300]]
+2. Nutation $\dot\theta$: Rotate about the $x$ axis through an angle $\theta$
+![[gyroscopic motion nutation.jpg|300]]
+3. Spin $\dot\psi$: Rotate about the $z$ axis through an angle $\psi$
+![[gyroscopic motion spin.jpg|300]]
+
+Precession, nutation and spin on one graph:
+
+![[gyroscopic motion precession, nutation and spin.png|350]]
+
+The angular velocity of the body is:
+
+$$\omega = \dot \theta \hat i + (\dot \phi \sin \theta) \hat j + (\dot \phi \cos \theta + \dot \psi)\hat k$$
+
+The angular velocity of the axes is:
+
+$$\Omega = \dot \theta \hat i + (\dot \phi\sin \theta)\hat j + (\dot \phi \cos \theta)\hat k$$
+
+Since $\Omega \neq \omega$, using equations of motion
+
+$$
+\left\{
+	\begin{array}{}
+		\sum M_x & = & I(\ddot\theta - \dot\phi^2\sin\theta\cos\theta) + I_z \dot\phi\sin\theta(\dot\phi\cos\theta + \dot \psi) \\
+		\sum M_y & = & I(\ddot \phi\sin\theta + 2\dot\phi\dot\theta\cos\theta) - I_z\dot\theta(\dot\phi\cos\theta + \dot\psi) \\
+		\sum M_z & = & I_z(\ddot\psi + \ddot\phi\cos\theta - \dot\phi\dot\theta\sin\theta)
+	\end{array}
+\right.
+$$
+
+"Steady precession" occurs when the nutation angle, precession and spin all remains constant
+
+$$\dot\theta = \ddot\theta = 0, \quad \ddot \psi = 0, \quad \ddot\phi = 0$$
+
+$$\underline{
+	\sum M_x = -I\dot\phi^2\sin\theta\cos\theta + I_z\dot\phi\sin\theta(\dot\phi\cos\theta + \dot\psi)
+}_\#$$
+
+$$\sum M_y = 0$$
+
+$$\sum M_z = 0$$
+
+Further simplification,
+
+$$\sum M_x = -I\dot\phi^2\sin\theta\cos\theta + I_z \dot\phi(\sin\theta)\omega_z$$
+
+$$\implies \underline{
+	\sum M_x = \dot\phi\sin\theta(I_z\omega_z - I\dot\phi\cos\theta)
+}_\#$$
+
+Consider the spinning rotor, when $\theta = 90\degree$
+
+![[gyroscopic motion spinning rotor.png]]
+
+$$\sum M_x = I_z\dot\phi \dot\psi$$
+
+$$\implies \underline{\sum M_x = I_z\Omega_y\omega_z}_\#$$
+
+For gyro rotor, of which $\omega_z \gg \Omega_y$
+
+$$\underline{\sum M_x = \Omega_y \times H_O}_\#$$
 
 ---
 
